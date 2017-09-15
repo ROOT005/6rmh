@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:67:"/home/aptx/File/PHP/6rmh/public/../app/index/mobile/cart/index.html";i:1505461400;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:67:"/home/aptx/File/PHP/6rmh/public/../app/index/mobile/cart/index.html";i:1505467819;}*/ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -22,35 +22,31 @@
         <div class="more-info-detail" >
             <?php if(is_array($carts) || $carts instanceof \think\Collection || $carts instanceof \think\Paginator): $i = 0; $__LIST__ = $carts;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?>
                 <div class="cart-goods-record">
-                    <div>
+                    <div class="good-left">
                         <input data-ng-checked="allChecked" data-ng-click="checkCart($event, <?php echo $vo['cart_id']; ?>);" type="checkbox"/>
                         <a href="javascript: void(0);">
                             <img title="<?php echo $vo['sub_name']; ?>" class="cart-goods-pic" src="<?php echo $vo['pic']; ?>"/>
                         </a>
                     </div>
-                    <div class="goods-detail wp_50">
-                        <p title="<?php echo $vo['description']; ?>"><?php echo $vo['name']; ?></p>
-                        <p>
+                    <ul class="goods-detail">
+                        <li class="name-title" title="<?php echo $vo['description']; ?>"><?php echo $vo['name']; ?></li>
+                        <li class="good-info">
                             规格：<?php echo $vo['spec']; ?>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            <a href="javascript: void(0);" class="pull-right">
+                        </li>
+                        <li class="">
+                            ¥ <?php echo $vo['price']; if($vo['promotion'] != ''): ?>
+                            <span class="goods-promotion" >
+                                <?php echo $vo['promotion']; ?>
+                            </span>
+                            <?php endif; ?>        
+                        </li>
+                        <li href="javascript: void(0);">
                                 赠送鱼饵：<?php echo $vo['bait']; ?>个&nbsp;&nbsp;&nbsp;&nbsp;
                                 获得<?php echo $vo['point']; ?>积分
-                            </a>
-                        </p>
-                        <!--<a href="javascript: void(0);">促销活动：</a>-->
-                        <?php if($vo['promotion'] != ''): ?>
-                        <span class="goods-promotion " >
-                            <?php echo $vo['promotion']; ?>
-                        </span>
-                        <?php endif; ?>
-
-                    </div>
-                    <div class=" wp_10">
-                        <span class="font-color-sub_main">¥ <?php echo $vo['price']; ?></span>
-                        
-                    </div>
-                    <div class=" wp_10">
-                        <a class="number-change" href="/index/cart/setInc/id/<?php echo $vo['cart_id']; ?>/num/<?php echo $vo['num']; ?>" title="数量减1">-</a>
+                        </li>
+                    </ul>
+                    <div class="">
+                        <a class="number-change" href="/index/cart/setInc/id/<?php echo $vo['cart_id']; ?>/num/<?php echo $vo['num']; ?>" title="数量减1"></a>
                         <input class="cart-goods-num" name="number" value="<?php echo $vo['num']; ?>"/>
                         <a class="number-change" href="/index/cart/setDec/id/<?php echo $vo['cart_id']; ?>/num/<?php echo $vo['num']; ?>" title="数量加1">+</a>
                     </div>

@@ -21,35 +21,32 @@
         <div class="more-info-detail" >
             <{volist name="carts" id="vo"}>
                 <div class="cart-goods-record">
-                    <div>
+                    <div class="good-left">
                         <input data-ng-checked="allChecked" data-ng-click="checkCart($event, <{$vo.cart_id}>);" type="checkbox"/>
                         <a href="javascript: void(0);">
                             <img title="<{$vo.sub_name}>" class="cart-goods-pic" src="<{$vo.pic}>"/>
                         </a>
                     </div>
-                    <div class="goods-detail wp_50">
-                        <p title="<{$vo.description}>"><{$vo.name}></p>
-                        <p>
+                    <ul class="goods-detail">
+                        <li class="name-title" title="<{$vo.description}>"><{$vo.name}></li>
+                        <li class="good-info">
                             规格：<{$vo.spec}>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            <a href="javascript: void(0);" class="pull-right">
+                        </li>
+                        <li class="">
+                            ¥ <{$vo.price}>
+                            <{if $vo.promotion != ''}>
+                            <span class="goods-promotion" >
+                                <{$vo.promotion}>
+                            </span>
+                            <{/if}>        
+                        </li>
+                        <li href="javascript: void(0);">
                                 赠送鱼饵：<{$vo.bait}>个&nbsp;&nbsp;&nbsp;&nbsp;
                                 获得<{$vo.point}>积分
-                            </a>
-                        </p>
-                        <!--<a href="javascript: void(0);">促销活动：</a>-->
-                        <{if $vo.promotion != ''}>
-                        <span class="goods-promotion " >
-                            <{$vo.promotion}>
-                        </span>
-                        <{/if}>
-
-                    </div>
-                    <div class=" wp_10">
-                        <span class="font-color-sub_main">¥ <{$vo.price}></span>
-                        
-                    </div>
-                    <div class=" wp_10">
-                        <a class="number-change" href="/index/cart/setInc/id/<{$vo.cart_id}>/num/<{$vo.num}>" title="数量减1">-</a>
+                        </li>
+                    </ul>
+                    <div class="">
+                        <a class="number-change" href="/index/cart/setInc/id/<{$vo.cart_id}>/num/<{$vo.num}>" title="数量减1"></a>
                         <input class="cart-goods-num" name="number" value="<{$vo.num}>"/>
                         <a class="number-change" href="/index/cart/setDec/id/<{$vo.cart_id}>/num/<{$vo.num}>" title="数量加1">+</a>
                     </div>

@@ -9587,3 +9587,3228 @@
 [ info ] [ LOG ] INIT File
 
 ---------------------------------------------------------------
+[ 2017-09-15T15:59:25+08:00 ] 127.0.0.4 127.0.0.1 GET /index/cart
+[ log ] www.6er.com/index/cart [运行时间：0.048091s][吞吐率：20.79req/s] [内存消耗：3,469.88kb] [文件加载：55]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cart',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.6er.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.1.1; Nexus 6 Build/LYZ28E) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'referer' => 'http://www.6er.com/index/goods/detail/id/5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en;q=0.8',
+  'cookie' => 'PHPSESSID=80chc2ib1avvv000iidosjjcar8dm9omfhgl6lm01glmeef27ir1; keep_user=think%3A%7B%22id%22%3A%229397Sx1kMEkHRq1Y%252FEWBQ2FRbr%252FulIYQI4E9a5WX%22%2C%22pid%22%3A%226a5fk%252B5VRdnKeek%252Bu%252B%252FhTubAKTEJ78CzPIiwmKrQ%22%2C%22name%22%3A%22bbd5btkwsWuKc3uiOEINLruj8jORnxhabTtV90%252B2E7g%22%2C%22realname%22%3A%2266ba0x3sgDShJ0omL%252B3ZyoLyf2Je39n1CL6kZJM%22%2C%22sex%22%3A%22a5ea7k5ICaM86e43zV1Xvta0FVQNW9XjfBX8jhfE%22%2C%22mobile%22%3A%226b52oum7jIDPjMJRmH4pXNXNqoqN4KnIpHuCtSXxacqCWu3TmECpBQ%22%2C%22qq%22%3A%22067aE6iIANCmAL2d%252FOhvx3Xgb7AwNYvYR7%252FBI0I%22%2C%22email%22%3A%22b7c6JjMQF93s5lVvhUGxKVVCkGgRig%252BJX8CvNzE%22%2C%22point%22%3A%2254f4qtM%252B%252BuCPT3eW%252FEU7a1COe3wUxOl7bwlWqico%22%2C%22headimg%22%3A%22b1d7IaHQegjzYphiAdlGATipM531FUASdniLPT8%22%2C%22id_list%22%3A%22adebjxOX6Lajo0jG2JMtjUh21qbBhgcB1nPf%252BDM%22%2C%22regtime%22%3A%221c81473en0L1DNVUbHy300icCb7CS1uC5qp9YNdf%22%2C%22logintime%22%3A%22b65dm6thGv7g5jVw%252FU5TKaZFlWP0CLMqrfLPkM8%22%2C%22loginip%22%3A%22943aV7kgt8k%252FXk6yWjSE%252BFFEpcTUKfR4NYS3LNg%22%2C%22status%22%3A%224ab8zChAZdgM3NDIaP2oz25aGNlj8DJQ7ynHvSTP%22%2C%22remark%22%3A%22a645POUvCy3YrTSRwmP3071XGjThC4%252B%252FojUOAzU%22%7D',
+)
+[ info ] [ PARAM ] array (
+  '/index/cart' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Cart->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Cart.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/cart/index.html [ array (
+  0 => 'all_cart',
+  1 => 'carts',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-15T15:59:45+08:00 ] 192.168.1.116 192.168.1.115 GET /index/cart
+[ log ] 192.168.1.116:8090/index/cart [运行时间：0.048455s][吞吐率：20.64req/s] [内存消耗：3,469.51kb] [文件加载：55]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cart',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.116:8090',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'x-wap-profile' => 'http://uaprofile.asus.com/uaprof/ASUS-ZE551ML.xml',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.0; ASUS_Z00ADB Build/LRX21V) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0  Mobile Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=1v0mj6miq6k0r0ba7ms9babbtbohulfmdfcr1dcoqdkuvm0hkaq1; keep_user=think%3A%7B%22id%22%3A%22da1624j3R9i%252FX9w62XH4rpZGMUrO%252BvyEOU1Fq3Tl%22%2C%22pid%22%3A%228263yADGnTGNY%252BP78cztWDLrZtVfVLBnueXYVPE1%22%2C%22name%22%3A%22c8d4QJvvGPAXxy%252F9Pf%252BHq7mhxAP%252Ffpt41NkGLTMXLn4%22%2C%22realname%22%3A%22b3033DsYTUbztp9dlxyVn2tgI7ttzCOIeeTb5do%22%2C%22sex%22%3A%22d2cf2ic2%252FJ%252BzKmyzILu2LzQqIL50B%252BKLTAMmmvv5%22%2C%22mobile%22%3A%226dd49Ji%252BP04OhCmDz88r%252BeV43gyHnr1VzPZuKQFdZl4u9FmV9e2TZQ%22%2C%22qq%22%3A%22971ftYWflR9LOsOng3eI4dRGYkyHJZbXvCo4iB4%22%2C%22email%22%3A%22fbacKgwGIGyC%252FL%252Bpnd01zP2h3YuWcT7nr8lTYz0%22%2C%22point%22%3A%228f19ThI71HMVhpkhpfh7NgPa5d24BnGhBmnzvoeH%22%2C%22headimg%22%3A%22b573WI%252FA3%252Ba%252B5ZBdWpKvuMoi32WeeVCOwTFJXNQ%22%2C%22id_list%22%3A%2240d7NE%252FMx%252BCjDZXxUuW80VhrQSaAlJiiyJKB9W8%22%2C%22regtime%22%3A%22b9b4evzGV1h6h%252BGEYQVXliDJ5semmp8ieSQGKZZl%22%2C%22logintime%22%3A%22b247WBXWqUB1b%252Bp1Dw9g73IkXWKV%252FHcdlTcYl7k%22%2C%22loginip%22%3A%22cd0fzPMtyk%252BT6E9CN9yApS0FDjigR6ZjTA9B7%252FU%22%2C%22status%22%3A%221e34cDvCdwgWMjA4MXANI9jrRV2lZab13ioNsrhN%22%2C%22remark%22%3A%226d61OoZ0Ykw6A1kt7ogO8key2KrgumbComQXOC8%22%7D',
+  'x-requested-with' => 'com.asus.browser',
+)
+[ info ] [ PARAM ] array (
+  '/index/cart' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Cart->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Cart.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/cart/index.html [ array (
+  0 => 'all_cart',
+  1 => 'carts',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-15T16:01:56+08:00 ] 127.0.0.4 127.0.0.1 GET /index/cart
+[ log ] www.6er.com/index/cart [运行时间：0.057337s][吞吐率：17.44req/s] [内存消耗：3,469.88kb] [文件加载：55]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cart',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.6er.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.1.1; Nexus 6 Build/LYZ28E) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'referer' => 'http://www.6er.com/index/goods/detail/id/5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en;q=0.8',
+  'cookie' => 'PHPSESSID=80chc2ib1avvv000iidosjjcar8dm9omfhgl6lm01glmeef27ir1; keep_user=think%3A%7B%22id%22%3A%229397Sx1kMEkHRq1Y%252FEWBQ2FRbr%252FulIYQI4E9a5WX%22%2C%22pid%22%3A%226a5fk%252B5VRdnKeek%252Bu%252B%252FhTubAKTEJ78CzPIiwmKrQ%22%2C%22name%22%3A%22bbd5btkwsWuKc3uiOEINLruj8jORnxhabTtV90%252B2E7g%22%2C%22realname%22%3A%2266ba0x3sgDShJ0omL%252B3ZyoLyf2Je39n1CL6kZJM%22%2C%22sex%22%3A%22a5ea7k5ICaM86e43zV1Xvta0FVQNW9XjfBX8jhfE%22%2C%22mobile%22%3A%226b52oum7jIDPjMJRmH4pXNXNqoqN4KnIpHuCtSXxacqCWu3TmECpBQ%22%2C%22qq%22%3A%22067aE6iIANCmAL2d%252FOhvx3Xgb7AwNYvYR7%252FBI0I%22%2C%22email%22%3A%22b7c6JjMQF93s5lVvhUGxKVVCkGgRig%252BJX8CvNzE%22%2C%22point%22%3A%2254f4qtM%252B%252BuCPT3eW%252FEU7a1COe3wUxOl7bwlWqico%22%2C%22headimg%22%3A%22b1d7IaHQegjzYphiAdlGATipM531FUASdniLPT8%22%2C%22id_list%22%3A%22adebjxOX6Lajo0jG2JMtjUh21qbBhgcB1nPf%252BDM%22%2C%22regtime%22%3A%221c81473en0L1DNVUbHy300icCb7CS1uC5qp9YNdf%22%2C%22logintime%22%3A%22b65dm6thGv7g5jVw%252FU5TKaZFlWP0CLMqrfLPkM8%22%2C%22loginip%22%3A%22943aV7kgt8k%252FXk6yWjSE%252BFFEpcTUKfR4NYS3LNg%22%2C%22status%22%3A%224ab8zChAZdgM3NDIaP2oz25aGNlj8DJQ7ynHvSTP%22%2C%22remark%22%3A%22a645POUvCy3YrTSRwmP3071XGjThC4%252B%252FojUOAzU%22%7D',
+)
+[ info ] [ PARAM ] array (
+  '/index/cart' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Cart->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Cart.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/cart/index.html [ array (
+  0 => 'all_cart',
+  1 => 'carts',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-15T16:02:12+08:00 ] 127.0.0.4 127.0.0.1 GET /index/cart
+[ log ] www.6er.com/index/cart [运行时间：0.046947s][吞吐率：21.30req/s] [内存消耗：3,469.88kb] [文件加载：55]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cart',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.6er.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.1.1; Nexus 6 Build/LYZ28E) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'referer' => 'http://www.6er.com/index/goods/detail/id/5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en;q=0.8',
+  'cookie' => 'PHPSESSID=80chc2ib1avvv000iidosjjcar8dm9omfhgl6lm01glmeef27ir1; keep_user=think%3A%7B%22id%22%3A%229397Sx1kMEkHRq1Y%252FEWBQ2FRbr%252FulIYQI4E9a5WX%22%2C%22pid%22%3A%226a5fk%252B5VRdnKeek%252Bu%252B%252FhTubAKTEJ78CzPIiwmKrQ%22%2C%22name%22%3A%22bbd5btkwsWuKc3uiOEINLruj8jORnxhabTtV90%252B2E7g%22%2C%22realname%22%3A%2266ba0x3sgDShJ0omL%252B3ZyoLyf2Je39n1CL6kZJM%22%2C%22sex%22%3A%22a5ea7k5ICaM86e43zV1Xvta0FVQNW9XjfBX8jhfE%22%2C%22mobile%22%3A%226b52oum7jIDPjMJRmH4pXNXNqoqN4KnIpHuCtSXxacqCWu3TmECpBQ%22%2C%22qq%22%3A%22067aE6iIANCmAL2d%252FOhvx3Xgb7AwNYvYR7%252FBI0I%22%2C%22email%22%3A%22b7c6JjMQF93s5lVvhUGxKVVCkGgRig%252BJX8CvNzE%22%2C%22point%22%3A%2254f4qtM%252B%252BuCPT3eW%252FEU7a1COe3wUxOl7bwlWqico%22%2C%22headimg%22%3A%22b1d7IaHQegjzYphiAdlGATipM531FUASdniLPT8%22%2C%22id_list%22%3A%22adebjxOX6Lajo0jG2JMtjUh21qbBhgcB1nPf%252BDM%22%2C%22regtime%22%3A%221c81473en0L1DNVUbHy300icCb7CS1uC5qp9YNdf%22%2C%22logintime%22%3A%22b65dm6thGv7g5jVw%252FU5TKaZFlWP0CLMqrfLPkM8%22%2C%22loginip%22%3A%22943aV7kgt8k%252FXk6yWjSE%252BFFEpcTUKfR4NYS3LNg%22%2C%22status%22%3A%224ab8zChAZdgM3NDIaP2oz25aGNlj8DJQ7ynHvSTP%22%2C%22remark%22%3A%22a645POUvCy3YrTSRwmP3071XGjThC4%252B%252FojUOAzU%22%7D',
+)
+[ info ] [ PARAM ] array (
+  '/index/cart' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Cart->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Cart.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/cart/index.html [ array (
+  0 => 'all_cart',
+  1 => 'carts',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-15T16:02:24+08:00 ] 127.0.0.4 127.0.0.1 GET /index/cart
+[ log ] www.6er.com/index/cart [运行时间：0.046735s][吞吐率：21.40req/s] [内存消耗：3,469.88kb] [文件加载：55]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cart',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.6er.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.1.1; Nexus 6 Build/LYZ28E) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'referer' => 'http://www.6er.com/index/goods/detail/id/5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en;q=0.8',
+  'cookie' => 'PHPSESSID=80chc2ib1avvv000iidosjjcar8dm9omfhgl6lm01glmeef27ir1; keep_user=think%3A%7B%22id%22%3A%229397Sx1kMEkHRq1Y%252FEWBQ2FRbr%252FulIYQI4E9a5WX%22%2C%22pid%22%3A%226a5fk%252B5VRdnKeek%252Bu%252B%252FhTubAKTEJ78CzPIiwmKrQ%22%2C%22name%22%3A%22bbd5btkwsWuKc3uiOEINLruj8jORnxhabTtV90%252B2E7g%22%2C%22realname%22%3A%2266ba0x3sgDShJ0omL%252B3ZyoLyf2Je39n1CL6kZJM%22%2C%22sex%22%3A%22a5ea7k5ICaM86e43zV1Xvta0FVQNW9XjfBX8jhfE%22%2C%22mobile%22%3A%226b52oum7jIDPjMJRmH4pXNXNqoqN4KnIpHuCtSXxacqCWu3TmECpBQ%22%2C%22qq%22%3A%22067aE6iIANCmAL2d%252FOhvx3Xgb7AwNYvYR7%252FBI0I%22%2C%22email%22%3A%22b7c6JjMQF93s5lVvhUGxKVVCkGgRig%252BJX8CvNzE%22%2C%22point%22%3A%2254f4qtM%252B%252BuCPT3eW%252FEU7a1COe3wUxOl7bwlWqico%22%2C%22headimg%22%3A%22b1d7IaHQegjzYphiAdlGATipM531FUASdniLPT8%22%2C%22id_list%22%3A%22adebjxOX6Lajo0jG2JMtjUh21qbBhgcB1nPf%252BDM%22%2C%22regtime%22%3A%221c81473en0L1DNVUbHy300icCb7CS1uC5qp9YNdf%22%2C%22logintime%22%3A%22b65dm6thGv7g5jVw%252FU5TKaZFlWP0CLMqrfLPkM8%22%2C%22loginip%22%3A%22943aV7kgt8k%252FXk6yWjSE%252BFFEpcTUKfR4NYS3LNg%22%2C%22status%22%3A%224ab8zChAZdgM3NDIaP2oz25aGNlj8DJQ7ynHvSTP%22%2C%22remark%22%3A%22a645POUvCy3YrTSRwmP3071XGjThC4%252B%252FojUOAzU%22%7D',
+)
+[ info ] [ PARAM ] array (
+  '/index/cart' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Cart->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Cart.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/cart/index.html [ array (
+  0 => 'all_cart',
+  1 => 'carts',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-15T16:03:50+08:00 ] 127.0.0.4 127.0.0.1 GET /index/cart
+[ log ] www.6er.com/index/cart [运行时间：0.047477s][吞吐率：21.06req/s] [内存消耗：3,469.88kb] [文件加载：55]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cart',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.6er.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.1.1; Nexus 6 Build/LYZ28E) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'referer' => 'http://www.6er.com/index/goods/detail/id/5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en;q=0.8',
+  'cookie' => 'PHPSESSID=80chc2ib1avvv000iidosjjcar8dm9omfhgl6lm01glmeef27ir1; keep_user=think%3A%7B%22id%22%3A%229397Sx1kMEkHRq1Y%252FEWBQ2FRbr%252FulIYQI4E9a5WX%22%2C%22pid%22%3A%226a5fk%252B5VRdnKeek%252Bu%252B%252FhTubAKTEJ78CzPIiwmKrQ%22%2C%22name%22%3A%22bbd5btkwsWuKc3uiOEINLruj8jORnxhabTtV90%252B2E7g%22%2C%22realname%22%3A%2266ba0x3sgDShJ0omL%252B3ZyoLyf2Je39n1CL6kZJM%22%2C%22sex%22%3A%22a5ea7k5ICaM86e43zV1Xvta0FVQNW9XjfBX8jhfE%22%2C%22mobile%22%3A%226b52oum7jIDPjMJRmH4pXNXNqoqN4KnIpHuCtSXxacqCWu3TmECpBQ%22%2C%22qq%22%3A%22067aE6iIANCmAL2d%252FOhvx3Xgb7AwNYvYR7%252FBI0I%22%2C%22email%22%3A%22b7c6JjMQF93s5lVvhUGxKVVCkGgRig%252BJX8CvNzE%22%2C%22point%22%3A%2254f4qtM%252B%252BuCPT3eW%252FEU7a1COe3wUxOl7bwlWqico%22%2C%22headimg%22%3A%22b1d7IaHQegjzYphiAdlGATipM531FUASdniLPT8%22%2C%22id_list%22%3A%22adebjxOX6Lajo0jG2JMtjUh21qbBhgcB1nPf%252BDM%22%2C%22regtime%22%3A%221c81473en0L1DNVUbHy300icCb7CS1uC5qp9YNdf%22%2C%22logintime%22%3A%22b65dm6thGv7g5jVw%252FU5TKaZFlWP0CLMqrfLPkM8%22%2C%22loginip%22%3A%22943aV7kgt8k%252FXk6yWjSE%252BFFEpcTUKfR4NYS3LNg%22%2C%22status%22%3A%224ab8zChAZdgM3NDIaP2oz25aGNlj8DJQ7ynHvSTP%22%2C%22remark%22%3A%22a645POUvCy3YrTSRwmP3071XGjThC4%252B%252FojUOAzU%22%7D',
+)
+[ info ] [ PARAM ] array (
+  '/index/cart' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Cart->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Cart.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/cart/index.html [ array (
+  0 => 'all_cart',
+  1 => 'carts',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-15T16:06:35+08:00 ] 127.0.0.4 127.0.0.1 GET /index/cart
+[ log ] www.6er.com/index/cart [运行时间：0.053742s][吞吐率：18.61req/s] [内存消耗：3,675.12kb] [文件加载：57]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cart',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.6er.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.1.1; Nexus 6 Build/LYZ28E) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'referer' => 'http://www.6er.com/index/goods/detail/id/5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en;q=0.8',
+  'cookie' => 'PHPSESSID=80chc2ib1avvv000iidosjjcar8dm9omfhgl6lm01glmeef27ir1; keep_user=think%3A%7B%22id%22%3A%229397Sx1kMEkHRq1Y%252FEWBQ2FRbr%252FulIYQI4E9a5WX%22%2C%22pid%22%3A%226a5fk%252B5VRdnKeek%252Bu%252B%252FhTubAKTEJ78CzPIiwmKrQ%22%2C%22name%22%3A%22bbd5btkwsWuKc3uiOEINLruj8jORnxhabTtV90%252B2E7g%22%2C%22realname%22%3A%2266ba0x3sgDShJ0omL%252B3ZyoLyf2Je39n1CL6kZJM%22%2C%22sex%22%3A%22a5ea7k5ICaM86e43zV1Xvta0FVQNW9XjfBX8jhfE%22%2C%22mobile%22%3A%226b52oum7jIDPjMJRmH4pXNXNqoqN4KnIpHuCtSXxacqCWu3TmECpBQ%22%2C%22qq%22%3A%22067aE6iIANCmAL2d%252FOhvx3Xgb7AwNYvYR7%252FBI0I%22%2C%22email%22%3A%22b7c6JjMQF93s5lVvhUGxKVVCkGgRig%252BJX8CvNzE%22%2C%22point%22%3A%2254f4qtM%252B%252BuCPT3eW%252FEU7a1COe3wUxOl7bwlWqico%22%2C%22headimg%22%3A%22b1d7IaHQegjzYphiAdlGATipM531FUASdniLPT8%22%2C%22id_list%22%3A%22adebjxOX6Lajo0jG2JMtjUh21qbBhgcB1nPf%252BDM%22%2C%22regtime%22%3A%221c81473en0L1DNVUbHy300icCb7CS1uC5qp9YNdf%22%2C%22logintime%22%3A%22b65dm6thGv7g5jVw%252FU5TKaZFlWP0CLMqrfLPkM8%22%2C%22loginip%22%3A%22943aV7kgt8k%252FXk6yWjSE%252BFFEpcTUKfR4NYS3LNg%22%2C%22status%22%3A%224ab8zChAZdgM3NDIaP2oz25aGNlj8DJQ7ynHvSTP%22%2C%22remark%22%3A%22a645POUvCy3YrTSRwmP3071XGjThC4%252B%252FojUOAzU%22%7D',
+)
+[ info ] [ PARAM ] array (
+  '/index/cart' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Cart->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Cart.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/cart/index.html [ array (
+  0 => 'all_cart',
+  1 => 'carts',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-15T16:09:21+08:00 ] 192.168.1.116 192.168.1.115 GET /index/goods/detail/id/5
+[ log ] 192.168.1.116:8090/index/goods/detail/id/5 [运行时间：0.048923s][吞吐率：20.44req/s] [内存消耗：3,360.48kb] [文件加载：52]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'goods',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.116:8090',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.0; ASUS_Z00ADB Build/LRX21V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/43.0.2357.121 Mobile Safari/537.36 MicroMessenger/6.5.13.1100 NetType/WIFI Language/zh_CN',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=s1qfakcuo9egvjkmofppgaui9h6qnajvvvvjvkif3em33k6gntl0',
+  'x-requested-with' => 'com.tencent.mm',
+)
+[ info ] [ PARAM ] array (
+  '/index/goods/detail/id/5' => '',
+  'id' => '5',
+)
+[ info ] [ RUN ] app\index\controller\Goods->detail[ /home/aptx/File/PHP/6rmh/app/index/controller/Goods.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/goods/detail.html [ array (
+  0 => 'config',
+  1 => 'goods',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-15T16:09:25+08:00 ] 192.168.1.116 192.168.1.115 GET /index/cart
+[ log ] 192.168.1.116:8090/index/cart [运行时间：0.028936s][吞吐率：34.56req/s] [内存消耗：2,299.80kb] [文件加载：44]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cart',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.116:8090',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.0; ASUS_Z00ADB Build/LRX21V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/43.0.2357.121 Mobile Safari/537.36 MicroMessenger/6.5.13.1100 NetType/WIFI Language/zh_CN',
+  'referer' => 'http://192.168.1.116:8090/index/goods/detail/id/5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=s1qfakcuo9egvjkmofppgaui9h6qnajvvvvjvkif3em33k6gntl0',
+  'x-requested-with' => 'com.tencent.mm',
+)
+[ info ] [ PARAM ] array (
+  '/index/cart' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-15T16:09:25+08:00 ] 192.168.1.116 192.168.1.115 GET /index/login/index
+[ log ] 192.168.1.116:8090/index/login/index [运行时间：0.028948s][吞吐率：34.54req/s] [内存消耗：2,239.62kb] [文件加载：42]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.116:8090',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.0; ASUS_Z00ADB Build/LRX21V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/43.0.2357.121 Mobile Safari/537.36 MicroMessenger/6.5.13.1100 NetType/WIFI Language/zh_CN',
+  'referer' => 'http://192.168.1.116:8090/index/goods/detail/id/5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=s1qfakcuo9egvjkmofppgaui9h6qnajvvvvjvkif3em33k6gntl0',
+  'x-requested-with' => 'com.tencent.mm',
+)
+[ info ] [ PARAM ] array (
+  '/index/login/index' => '',
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/login/index.html [ array (
+  0 => 'header',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-15T16:09:26+08:00 ] 192.168.1.116 192.168.1.115 GET /index/goods/detail/id/5
+[ log ] 192.168.1.116:8090/index/goods/detail/id/5 [运行时间：0.047119s][吞吐率：21.22req/s] [内存消耗：3,360.48kb] [文件加载：52]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'goods',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.116:8090',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.0; ASUS_Z00ADB Build/LRX21V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/43.0.2357.121 Mobile Safari/537.36 MicroMessenger/6.5.13.1100 NetType/WIFI Language/zh_CN',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=s1qfakcuo9egvjkmofppgaui9h6qnajvvvvjvkif3em33k6gntl0',
+  'x-requested-with' => 'com.tencent.mm',
+)
+[ info ] [ PARAM ] array (
+  '/index/goods/detail/id/5' => '',
+  'id' => '5',
+)
+[ info ] [ RUN ] app\index\controller\Goods->detail[ /home/aptx/File/PHP/6rmh/app/index/controller/Goods.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/goods/detail.html [ array (
+  0 => 'config',
+  1 => 'goods',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-15T16:09:30+08:00 ] 192.168.1.116 192.168.1.115 GET /index/cart
+[ log ] 192.168.1.116:8090/index/cart [运行时间：0.024073s][吞吐率：41.54req/s] [内存消耗：2,299.80kb] [文件加载：44]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cart',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.116:8090',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.0; ASUS_Z00ADB Build/LRX21V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/43.0.2357.121 Mobile Safari/537.36 MicroMessenger/6.5.13.1100 NetType/WIFI Language/zh_CN',
+  'referer' => 'http://192.168.1.116:8090/index/goods/detail/id/5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=s1qfakcuo9egvjkmofppgaui9h6qnajvvvvjvkif3em33k6gntl0',
+  'x-requested-with' => 'com.tencent.mm',
+)
+[ info ] [ PARAM ] array (
+  '/index/cart' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-15T16:09:30+08:00 ] 192.168.1.116 192.168.1.115 GET /index/login/index
+[ log ] 192.168.1.116:8090/index/login/index [运行时间：0.022528s][吞吐率：44.39req/s] [内存消耗：2,239.62kb] [文件加载：42]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.116:8090',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.0; ASUS_Z00ADB Build/LRX21V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/43.0.2357.121 Mobile Safari/537.36 MicroMessenger/6.5.13.1100 NetType/WIFI Language/zh_CN',
+  'referer' => 'http://192.168.1.116:8090/index/goods/detail/id/5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=s1qfakcuo9egvjkmofppgaui9h6qnajvvvvjvkif3em33k6gntl0',
+  'x-requested-with' => 'com.tencent.mm',
+)
+[ info ] [ PARAM ] array (
+  '/index/login/index' => '',
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/login/index.html [ array (
+  0 => 'header',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-15T16:09:36+08:00 ] 192.168.1.116 192.168.1.115 GET /index/goods/detail/id/5
+[ log ] 192.168.1.116:8090/index/goods/detail/id/5 [运行时间：0.046606s][吞吐率：21.46req/s] [内存消耗：3,360.48kb] [文件加载：52]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'goods',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.116:8090',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.0; ASUS_Z00ADB Build/LRX21V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/43.0.2357.121 Mobile Safari/537.36 MicroMessenger/6.5.13.1100 NetType/WIFI Language/zh_CN',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=s1qfakcuo9egvjkmofppgaui9h6qnajvvvvjvkif3em33k6gntl0',
+  'x-requested-with' => 'com.tencent.mm',
+)
+[ info ] [ PARAM ] array (
+  '/index/goods/detail/id/5' => '',
+  'id' => '5',
+)
+[ info ] [ RUN ] app\index\controller\Goods->detail[ /home/aptx/File/PHP/6rmh/app/index/controller/Goods.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/goods/detail.html [ array (
+  0 => 'config',
+  1 => 'goods',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-15T16:09:41+08:00 ] 192.168.1.116 192.168.1.115 GET /index/cart
+[ log ] 192.168.1.116:8090/index/cart [运行时间：0.054852s][吞吐率：18.23req/s] [内存消耗：3,674.17kb] [文件加载：57]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cart',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.116:8090',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'x-wap-profile' => 'http://uaprofile.asus.com/uaprof/ASUS-ZE551ML.xml',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.0; ASUS_Z00ADB Build/LRX21V) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0  Mobile Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=1v0mj6miq6k0r0ba7ms9babbtbohulfmdfcr1dcoqdkuvm0hkaq1; keep_user=think%3A%7B%22id%22%3A%22da1624j3R9i%252FX9w62XH4rpZGMUrO%252BvyEOU1Fq3Tl%22%2C%22pid%22%3A%228263yADGnTGNY%252BP78cztWDLrZtVfVLBnueXYVPE1%22%2C%22name%22%3A%22c8d4QJvvGPAXxy%252F9Pf%252BHq7mhxAP%252Ffpt41NkGLTMXLn4%22%2C%22realname%22%3A%22b3033DsYTUbztp9dlxyVn2tgI7ttzCOIeeTb5do%22%2C%22sex%22%3A%22d2cf2ic2%252FJ%252BzKmyzILu2LzQqIL50B%252BKLTAMmmvv5%22%2C%22mobile%22%3A%226dd49Ji%252BP04OhCmDz88r%252BeV43gyHnr1VzPZuKQFdZl4u9FmV9e2TZQ%22%2C%22qq%22%3A%22971ftYWflR9LOsOng3eI4dRGYkyHJZbXvCo4iB4%22%2C%22email%22%3A%22fbacKgwGIGyC%252FL%252Bpnd01zP2h3YuWcT7nr8lTYz0%22%2C%22point%22%3A%228f19ThI71HMVhpkhpfh7NgPa5d24BnGhBmnzvoeH%22%2C%22headimg%22%3A%22b573WI%252FA3%252Ba%252B5ZBdWpKvuMoi32WeeVCOwTFJXNQ%22%2C%22id_list%22%3A%2240d7NE%252FMx%252BCjDZXxUuW80VhrQSaAlJiiyJKB9W8%22%2C%22regtime%22%3A%22b9b4evzGV1h6h%252BGEYQVXliDJ5semmp8ieSQGKZZl%22%2C%22logintime%22%3A%22b247WBXWqUB1b%252Bp1Dw9g73IkXWKV%252FHcdlTcYl7k%22%2C%22loginip%22%3A%22cd0fzPMtyk%252BT6E9CN9yApS0FDjigR6ZjTA9B7%252FU%22%2C%22status%22%3A%221e34cDvCdwgWMjA4MXANI9jrRV2lZab13ioNsrhN%22%2C%22remark%22%3A%226d61OoZ0Ykw6A1kt7ogO8key2KrgumbComQXOC8%22%7D',
+  'x-requested-with' => 'com.asus.browser',
+)
+[ info ] [ PARAM ] array (
+  '/index/cart' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Cart->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Cart.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/cart/index.html [ array (
+  0 => 'all_cart',
+  1 => 'carts',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-15T16:12:41+08:00 ] 192.168.1.116 192.168.1.115 GET /index/cart
+[ log ] 192.168.1.116:8090/index/cart [运行时间：0.068282s][吞吐率：14.65req/s] [内存消耗：3,674.41kb] [文件加载：57]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cart',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.116:8090',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'x-wap-profile' => 'http://uaprofile.asus.com/uaprof/ASUS-ZE551ML.xml',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.0; ASUS_Z00ADB Build/LRX21V) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0  Mobile Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=1v0mj6miq6k0r0ba7ms9babbtbohulfmdfcr1dcoqdkuvm0hkaq1; keep_user=think%3A%7B%22id%22%3A%22da1624j3R9i%252FX9w62XH4rpZGMUrO%252BvyEOU1Fq3Tl%22%2C%22pid%22%3A%228263yADGnTGNY%252BP78cztWDLrZtVfVLBnueXYVPE1%22%2C%22name%22%3A%22c8d4QJvvGPAXxy%252F9Pf%252BHq7mhxAP%252Ffpt41NkGLTMXLn4%22%2C%22realname%22%3A%22b3033DsYTUbztp9dlxyVn2tgI7ttzCOIeeTb5do%22%2C%22sex%22%3A%22d2cf2ic2%252FJ%252BzKmyzILu2LzQqIL50B%252BKLTAMmmvv5%22%2C%22mobile%22%3A%226dd49Ji%252BP04OhCmDz88r%252BeV43gyHnr1VzPZuKQFdZl4u9FmV9e2TZQ%22%2C%22qq%22%3A%22971ftYWflR9LOsOng3eI4dRGYkyHJZbXvCo4iB4%22%2C%22email%22%3A%22fbacKgwGIGyC%252FL%252Bpnd01zP2h3YuWcT7nr8lTYz0%22%2C%22point%22%3A%228f19ThI71HMVhpkhpfh7NgPa5d24BnGhBmnzvoeH%22%2C%22headimg%22%3A%22b573WI%252FA3%252Ba%252B5ZBdWpKvuMoi32WeeVCOwTFJXNQ%22%2C%22id_list%22%3A%2240d7NE%252FMx%252BCjDZXxUuW80VhrQSaAlJiiyJKB9W8%22%2C%22regtime%22%3A%22b9b4evzGV1h6h%252BGEYQVXliDJ5semmp8ieSQGKZZl%22%2C%22logintime%22%3A%22b247WBXWqUB1b%252Bp1Dw9g73IkXWKV%252FHcdlTcYl7k%22%2C%22loginip%22%3A%22cd0fzPMtyk%252BT6E9CN9yApS0FDjigR6ZjTA9B7%252FU%22%2C%22status%22%3A%221e34cDvCdwgWMjA4MXANI9jrRV2lZab13ioNsrhN%22%2C%22remark%22%3A%226d61OoZ0Ykw6A1kt7ogO8key2KrgumbComQXOC8%22%7D',
+  'x-requested-with' => 'com.asus.browser',
+)
+[ info ] [ PARAM ] array (
+  '/index/cart' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Cart->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Cart.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/cart/index.html [ array (
+  0 => 'all_cart',
+  1 => 'carts',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-15T16:12:46+08:00 ] 192.168.1.116 192.168.1.115 GET /index/cart
+[ log ] 192.168.1.116:8090/index/cart [运行时间：0.049769s][吞吐率：20.09req/s] [内存消耗：3,469.49kb] [文件加载：55]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cart',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.116:8090',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'x-wap-profile' => 'http://uaprofile.asus.com/uaprof/ASUS-ZE551ML.xml',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.0; ASUS_Z00ADB Build/LRX21V) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0  Mobile Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=1v0mj6miq6k0r0ba7ms9babbtbohulfmdfcr1dcoqdkuvm0hkaq1; keep_user=think%3A%7B%22id%22%3A%22da1624j3R9i%252FX9w62XH4rpZGMUrO%252BvyEOU1Fq3Tl%22%2C%22pid%22%3A%228263yADGnTGNY%252BP78cztWDLrZtVfVLBnueXYVPE1%22%2C%22name%22%3A%22c8d4QJvvGPAXxy%252F9Pf%252BHq7mhxAP%252Ffpt41NkGLTMXLn4%22%2C%22realname%22%3A%22b3033DsYTUbztp9dlxyVn2tgI7ttzCOIeeTb5do%22%2C%22sex%22%3A%22d2cf2ic2%252FJ%252BzKmyzILu2LzQqIL50B%252BKLTAMmmvv5%22%2C%22mobile%22%3A%226dd49Ji%252BP04OhCmDz88r%252BeV43gyHnr1VzPZuKQFdZl4u9FmV9e2TZQ%22%2C%22qq%22%3A%22971ftYWflR9LOsOng3eI4dRGYkyHJZbXvCo4iB4%22%2C%22email%22%3A%22fbacKgwGIGyC%252FL%252Bpnd01zP2h3YuWcT7nr8lTYz0%22%2C%22point%22%3A%228f19ThI71HMVhpkhpfh7NgPa5d24BnGhBmnzvoeH%22%2C%22headimg%22%3A%22b573WI%252FA3%252Ba%252B5ZBdWpKvuMoi32WeeVCOwTFJXNQ%22%2C%22id_list%22%3A%2240d7NE%252FMx%252BCjDZXxUuW80VhrQSaAlJiiyJKB9W8%22%2C%22regtime%22%3A%22b9b4evzGV1h6h%252BGEYQVXliDJ5semmp8ieSQGKZZl%22%2C%22logintime%22%3A%22b247WBXWqUB1b%252Bp1Dw9g73IkXWKV%252FHcdlTcYl7k%22%2C%22loginip%22%3A%22cd0fzPMtyk%252BT6E9CN9yApS0FDjigR6ZjTA9B7%252FU%22%2C%22status%22%3A%221e34cDvCdwgWMjA4MXANI9jrRV2lZab13ioNsrhN%22%2C%22remark%22%3A%226d61OoZ0Ykw6A1kt7ogO8key2KrgumbComQXOC8%22%7D',
+  'x-requested-with' => 'com.asus.browser',
+)
+[ info ] [ PARAM ] array (
+  '/index/cart' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Cart->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Cart.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/cart/index.html [ array (
+  0 => 'all_cart',
+  1 => 'carts',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-15T16:12:54+08:00 ] 192.168.1.116 192.168.1.115 GET /index/cart
+[ log ] 192.168.1.116:8090/index/cart [运行时间：0.044507s][吞吐率：22.47req/s] [内存消耗：3,469.49kb] [文件加载：55]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cart',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.116:8090',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'x-wap-profile' => 'http://uaprofile.asus.com/uaprof/ASUS-ZE551ML.xml',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.0; ASUS_Z00ADB Build/LRX21V) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0  Mobile Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=1v0mj6miq6k0r0ba7ms9babbtbohulfmdfcr1dcoqdkuvm0hkaq1; keep_user=think%3A%7B%22id%22%3A%22da1624j3R9i%252FX9w62XH4rpZGMUrO%252BvyEOU1Fq3Tl%22%2C%22pid%22%3A%228263yADGnTGNY%252BP78cztWDLrZtVfVLBnueXYVPE1%22%2C%22name%22%3A%22c8d4QJvvGPAXxy%252F9Pf%252BHq7mhxAP%252Ffpt41NkGLTMXLn4%22%2C%22realname%22%3A%22b3033DsYTUbztp9dlxyVn2tgI7ttzCOIeeTb5do%22%2C%22sex%22%3A%22d2cf2ic2%252FJ%252BzKmyzILu2LzQqIL50B%252BKLTAMmmvv5%22%2C%22mobile%22%3A%226dd49Ji%252BP04OhCmDz88r%252BeV43gyHnr1VzPZuKQFdZl4u9FmV9e2TZQ%22%2C%22qq%22%3A%22971ftYWflR9LOsOng3eI4dRGYkyHJZbXvCo4iB4%22%2C%22email%22%3A%22fbacKgwGIGyC%252FL%252Bpnd01zP2h3YuWcT7nr8lTYz0%22%2C%22point%22%3A%228f19ThI71HMVhpkhpfh7NgPa5d24BnGhBmnzvoeH%22%2C%22headimg%22%3A%22b573WI%252FA3%252Ba%252B5ZBdWpKvuMoi32WeeVCOwTFJXNQ%22%2C%22id_list%22%3A%2240d7NE%252FMx%252BCjDZXxUuW80VhrQSaAlJiiyJKB9W8%22%2C%22regtime%22%3A%22b9b4evzGV1h6h%252BGEYQVXliDJ5semmp8ieSQGKZZl%22%2C%22logintime%22%3A%22b247WBXWqUB1b%252Bp1Dw9g73IkXWKV%252FHcdlTcYl7k%22%2C%22loginip%22%3A%22cd0fzPMtyk%252BT6E9CN9yApS0FDjigR6ZjTA9B7%252FU%22%2C%22status%22%3A%221e34cDvCdwgWMjA4MXANI9jrRV2lZab13ioNsrhN%22%2C%22remark%22%3A%226d61OoZ0Ykw6A1kt7ogO8key2KrgumbComQXOC8%22%7D',
+  'x-requested-with' => 'com.asus.browser',
+)
+[ info ] [ PARAM ] array (
+  '/index/cart' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Cart->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Cart.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/cart/index.html [ array (
+  0 => 'all_cart',
+  1 => 'carts',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-15T16:23:22+08:00 ] 192.168.1.116 192.168.1.115 GET /index/goods/detail/id/5
+[ log ] 192.168.1.116:8090/index/goods/detail/id/5 [运行时间：0.051059s][吞吐率：19.59req/s] [内存消耗：3,401.04kb] [文件加载：53]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'goods',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.116:8090',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'x-wap-profile' => 'http://uaprofile.asus.com/uaprof/ASUS-ZE551ML.xml',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.0; ASUS_Z00ADB Build/LRX21V) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0  Mobile Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=1v0mj6miq6k0r0ba7ms9babbtbohulfmdfcr1dcoqdkuvm0hkaq1; keep_user=think%3A%7B%22id%22%3A%22da1624j3R9i%252FX9w62XH4rpZGMUrO%252BvyEOU1Fq3Tl%22%2C%22pid%22%3A%228263yADGnTGNY%252BP78cztWDLrZtVfVLBnueXYVPE1%22%2C%22name%22%3A%22c8d4QJvvGPAXxy%252F9Pf%252BHq7mhxAP%252Ffpt41NkGLTMXLn4%22%2C%22realname%22%3A%22b3033DsYTUbztp9dlxyVn2tgI7ttzCOIeeTb5do%22%2C%22sex%22%3A%22d2cf2ic2%252FJ%252BzKmyzILu2LzQqIL50B%252BKLTAMmmvv5%22%2C%22mobile%22%3A%226dd49Ji%252BP04OhCmDz88r%252BeV43gyHnr1VzPZuKQFdZl4u9FmV9e2TZQ%22%2C%22qq%22%3A%22971ftYWflR9LOsOng3eI4dRGYkyHJZbXvCo4iB4%22%2C%22email%22%3A%22fbacKgwGIGyC%252FL%252Bpnd01zP2h3YuWcT7nr8lTYz0%22%2C%22point%22%3A%228f19ThI71HMVhpkhpfh7NgPa5d24BnGhBmnzvoeH%22%2C%22headimg%22%3A%22b573WI%252FA3%252Ba%252B5ZBdWpKvuMoi32WeeVCOwTFJXNQ%22%2C%22id_list%22%3A%2240d7NE%252FMx%252BCjDZXxUuW80VhrQSaAlJiiyJKB9W8%22%2C%22regtime%22%3A%22b9b4evzGV1h6h%252BGEYQVXliDJ5semmp8ieSQGKZZl%22%2C%22logintime%22%3A%22b247WBXWqUB1b%252Bp1Dw9g73IkXWKV%252FHcdlTcYl7k%22%2C%22loginip%22%3A%22cd0fzPMtyk%252BT6E9CN9yApS0FDjigR6ZjTA9B7%252FU%22%2C%22status%22%3A%221e34cDvCdwgWMjA4MXANI9jrRV2lZab13ioNsrhN%22%2C%22remark%22%3A%226d61OoZ0Ykw6A1kt7ogO8key2KrgumbComQXOC8%22%7D',
+  'x-requested-with' => 'com.asus.browser',
+)
+[ info ] [ PARAM ] array (
+  '/index/goods/detail/id/5' => '',
+  'id' => '5',
+)
+[ info ] [ RUN ] app\index\controller\Goods->detail[ /home/aptx/File/PHP/6rmh/app/index/controller/Goods.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/goods/detail.html [ array (
+  0 => 'config',
+  1 => 'goods',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-15T16:23:22+08:00 ] 192.168.1.116 192.168.1.115 GET /index/goods/detail/id/5
+[ log ] 192.168.1.116:8090/index/goods/detail/id/5 [运行时间：0.069365s][吞吐率：14.42req/s] [内存消耗：3,401.04kb] [文件加载：53]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'goods',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.116:8090',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'x-wap-profile' => 'http://uaprofile.asus.com/uaprof/ASUS-ZE551ML.xml',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.0; ASUS_Z00ADB Build/LRX21V) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0  Mobile Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=1v0mj6miq6k0r0ba7ms9babbtbohulfmdfcr1dcoqdkuvm0hkaq1; keep_user=think%3A%7B%22id%22%3A%22da1624j3R9i%252FX9w62XH4rpZGMUrO%252BvyEOU1Fq3Tl%22%2C%22pid%22%3A%228263yADGnTGNY%252BP78cztWDLrZtVfVLBnueXYVPE1%22%2C%22name%22%3A%22c8d4QJvvGPAXxy%252F9Pf%252BHq7mhxAP%252Ffpt41NkGLTMXLn4%22%2C%22realname%22%3A%22b3033DsYTUbztp9dlxyVn2tgI7ttzCOIeeTb5do%22%2C%22sex%22%3A%22d2cf2ic2%252FJ%252BzKmyzILu2LzQqIL50B%252BKLTAMmmvv5%22%2C%22mobile%22%3A%226dd49Ji%252BP04OhCmDz88r%252BeV43gyHnr1VzPZuKQFdZl4u9FmV9e2TZQ%22%2C%22qq%22%3A%22971ftYWflR9LOsOng3eI4dRGYkyHJZbXvCo4iB4%22%2C%22email%22%3A%22fbacKgwGIGyC%252FL%252Bpnd01zP2h3YuWcT7nr8lTYz0%22%2C%22point%22%3A%228f19ThI71HMVhpkhpfh7NgPa5d24BnGhBmnzvoeH%22%2C%22headimg%22%3A%22b573WI%252FA3%252Ba%252B5ZBdWpKvuMoi32WeeVCOwTFJXNQ%22%2C%22id_list%22%3A%2240d7NE%252FMx%252BCjDZXxUuW80VhrQSaAlJiiyJKB9W8%22%2C%22regtime%22%3A%22b9b4evzGV1h6h%252BGEYQVXliDJ5semmp8ieSQGKZZl%22%2C%22logintime%22%3A%22b247WBXWqUB1b%252Bp1Dw9g73IkXWKV%252FHcdlTcYl7k%22%2C%22loginip%22%3A%22cd0fzPMtyk%252BT6E9CN9yApS0FDjigR6ZjTA9B7%252FU%22%2C%22status%22%3A%221e34cDvCdwgWMjA4MXANI9jrRV2lZab13ioNsrhN%22%2C%22remark%22%3A%226d61OoZ0Ykw6A1kt7ogO8key2KrgumbComQXOC8%22%7D',
+  'x-requested-with' => 'com.asus.browser',
+)
+[ info ] [ PARAM ] array (
+  '/index/goods/detail/id/5' => '',
+  'id' => '5',
+)
+[ info ] [ RUN ] app\index\controller\Goods->detail[ /home/aptx/File/PHP/6rmh/app/index/controller/Goods.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/goods/detail.html [ array (
+  0 => 'config',
+  1 => 'goods',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-15T16:23:36+08:00 ] 192.168.1.116 192.168.1.115 GET /index/goods/detail/id/5
+[ log ] 192.168.1.116:8090/index/goods/detail/id/5 [运行时间：0.056350s][吞吐率：17.75req/s] [内存消耗：3,401.14kb] [文件加载：53]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'goods',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.116:8090',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'x-wap-profile' => 'http://uaprofile.asus.com/uaprof/ASUS-ZE551ML.xml',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.0; ASUS_Z00ADB Build/LRX21V) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0  Mobile Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=1v0mj6miq6k0r0ba7ms9babbtbohulfmdfcr1dcoqdkuvm0hkaq1; keep_user=think%3A%7B%22id%22%3A%22da1624j3R9i%252FX9w62XH4rpZGMUrO%252BvyEOU1Fq3Tl%22%2C%22pid%22%3A%228263yADGnTGNY%252BP78cztWDLrZtVfVLBnueXYVPE1%22%2C%22name%22%3A%22c8d4QJvvGPAXxy%252F9Pf%252BHq7mhxAP%252Ffpt41NkGLTMXLn4%22%2C%22realname%22%3A%22b3033DsYTUbztp9dlxyVn2tgI7ttzCOIeeTb5do%22%2C%22sex%22%3A%22d2cf2ic2%252FJ%252BzKmyzILu2LzQqIL50B%252BKLTAMmmvv5%22%2C%22mobile%22%3A%226dd49Ji%252BP04OhCmDz88r%252BeV43gyHnr1VzPZuKQFdZl4u9FmV9e2TZQ%22%2C%22qq%22%3A%22971ftYWflR9LOsOng3eI4dRGYkyHJZbXvCo4iB4%22%2C%22email%22%3A%22fbacKgwGIGyC%252FL%252Bpnd01zP2h3YuWcT7nr8lTYz0%22%2C%22point%22%3A%228f19ThI71HMVhpkhpfh7NgPa5d24BnGhBmnzvoeH%22%2C%22headimg%22%3A%22b573WI%252FA3%252Ba%252B5ZBdWpKvuMoi32WeeVCOwTFJXNQ%22%2C%22id_list%22%3A%2240d7NE%252FMx%252BCjDZXxUuW80VhrQSaAlJiiyJKB9W8%22%2C%22regtime%22%3A%22b9b4evzGV1h6h%252BGEYQVXliDJ5semmp8ieSQGKZZl%22%2C%22logintime%22%3A%22b247WBXWqUB1b%252Bp1Dw9g73IkXWKV%252FHcdlTcYl7k%22%2C%22loginip%22%3A%22cd0fzPMtyk%252BT6E9CN9yApS0FDjigR6ZjTA9B7%252FU%22%2C%22status%22%3A%221e34cDvCdwgWMjA4MXANI9jrRV2lZab13ioNsrhN%22%2C%22remark%22%3A%226d61OoZ0Ykw6A1kt7ogO8key2KrgumbComQXOC8%22%7D',
+  'x-requested-with' => 'com.asus.browser',
+)
+[ info ] [ PARAM ] array (
+  '/index/goods/detail/id/5' => '',
+  'id' => '5',
+)
+[ info ] [ RUN ] app\index\controller\Goods->detail[ /home/aptx/File/PHP/6rmh/app/index/controller/Goods.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/goods/detail.html [ array (
+  0 => 'config',
+  1 => 'goods',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-15T16:25:08+08:00 ] 127.0.0.4 127.0.0.1 GET /index/cart
+[ log ] www.6er.com/index/cart [运行时间：0.050095s][吞吐率：19.96req/s] [内存消耗：3,469.92kb] [文件加载：55]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cart',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.6er.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.1.1; Nexus 6 Build/LYZ28E) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'referer' => 'http://www.6er.com/index/goods/detail/id/5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en;q=0.8',
+  'cookie' => 'PHPSESSID=80chc2ib1avvv000iidosjjcar8dm9omfhgl6lm01glmeef27ir1; keep_user=think%3A%7B%22id%22%3A%229397Sx1kMEkHRq1Y%252FEWBQ2FRbr%252FulIYQI4E9a5WX%22%2C%22pid%22%3A%226a5fk%252B5VRdnKeek%252Bu%252B%252FhTubAKTEJ78CzPIiwmKrQ%22%2C%22name%22%3A%22bbd5btkwsWuKc3uiOEINLruj8jORnxhabTtV90%252B2E7g%22%2C%22realname%22%3A%2266ba0x3sgDShJ0omL%252B3ZyoLyf2Je39n1CL6kZJM%22%2C%22sex%22%3A%22a5ea7k5ICaM86e43zV1Xvta0FVQNW9XjfBX8jhfE%22%2C%22mobile%22%3A%226b52oum7jIDPjMJRmH4pXNXNqoqN4KnIpHuCtSXxacqCWu3TmECpBQ%22%2C%22qq%22%3A%22067aE6iIANCmAL2d%252FOhvx3Xgb7AwNYvYR7%252FBI0I%22%2C%22email%22%3A%22b7c6JjMQF93s5lVvhUGxKVVCkGgRig%252BJX8CvNzE%22%2C%22point%22%3A%2254f4qtM%252B%252BuCPT3eW%252FEU7a1COe3wUxOl7bwlWqico%22%2C%22headimg%22%3A%22b1d7IaHQegjzYphiAdlGATipM531FUASdniLPT8%22%2C%22id_list%22%3A%22adebjxOX6Lajo0jG2JMtjUh21qbBhgcB1nPf%252BDM%22%2C%22regtime%22%3A%221c81473en0L1DNVUbHy300icCb7CS1uC5qp9YNdf%22%2C%22logintime%22%3A%22b65dm6thGv7g5jVw%252FU5TKaZFlWP0CLMqrfLPkM8%22%2C%22loginip%22%3A%22943aV7kgt8k%252FXk6yWjSE%252BFFEpcTUKfR4NYS3LNg%22%2C%22status%22%3A%224ab8zChAZdgM3NDIaP2oz25aGNlj8DJQ7ynHvSTP%22%2C%22remark%22%3A%22a645POUvCy3YrTSRwmP3071XGjThC4%252B%252FojUOAzU%22%7D',
+)
+[ info ] [ PARAM ] array (
+  '/index/cart' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Cart->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Cart.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/cart/index.html [ array (
+  0 => 'all_cart',
+  1 => 'carts',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-15T16:25:51+08:00 ] 127.0.0.4 127.0.0.1 GET /index/cart
+[ log ] www.6er.com/index/cart [运行时间：0.051302s][吞吐率：19.49req/s] [内存消耗：3,469.92kb] [文件加载：55]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cart',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.6er.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.1.1; Nexus 6 Build/LYZ28E) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'referer' => 'http://www.6er.com/index/goods/detail/id/5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en;q=0.8',
+  'cookie' => 'PHPSESSID=80chc2ib1avvv000iidosjjcar8dm9omfhgl6lm01glmeef27ir1; keep_user=think%3A%7B%22id%22%3A%229397Sx1kMEkHRq1Y%252FEWBQ2FRbr%252FulIYQI4E9a5WX%22%2C%22pid%22%3A%226a5fk%252B5VRdnKeek%252Bu%252B%252FhTubAKTEJ78CzPIiwmKrQ%22%2C%22name%22%3A%22bbd5btkwsWuKc3uiOEINLruj8jORnxhabTtV90%252B2E7g%22%2C%22realname%22%3A%2266ba0x3sgDShJ0omL%252B3ZyoLyf2Je39n1CL6kZJM%22%2C%22sex%22%3A%22a5ea7k5ICaM86e43zV1Xvta0FVQNW9XjfBX8jhfE%22%2C%22mobile%22%3A%226b52oum7jIDPjMJRmH4pXNXNqoqN4KnIpHuCtSXxacqCWu3TmECpBQ%22%2C%22qq%22%3A%22067aE6iIANCmAL2d%252FOhvx3Xgb7AwNYvYR7%252FBI0I%22%2C%22email%22%3A%22b7c6JjMQF93s5lVvhUGxKVVCkGgRig%252BJX8CvNzE%22%2C%22point%22%3A%2254f4qtM%252B%252BuCPT3eW%252FEU7a1COe3wUxOl7bwlWqico%22%2C%22headimg%22%3A%22b1d7IaHQegjzYphiAdlGATipM531FUASdniLPT8%22%2C%22id_list%22%3A%22adebjxOX6Lajo0jG2JMtjUh21qbBhgcB1nPf%252BDM%22%2C%22regtime%22%3A%221c81473en0L1DNVUbHy300icCb7CS1uC5qp9YNdf%22%2C%22logintime%22%3A%22b65dm6thGv7g5jVw%252FU5TKaZFlWP0CLMqrfLPkM8%22%2C%22loginip%22%3A%22943aV7kgt8k%252FXk6yWjSE%252BFFEpcTUKfR4NYS3LNg%22%2C%22status%22%3A%224ab8zChAZdgM3NDIaP2oz25aGNlj8DJQ7ynHvSTP%22%2C%22remark%22%3A%22a645POUvCy3YrTSRwmP3071XGjThC4%252B%252FojUOAzU%22%7D',
+)
+[ info ] [ PARAM ] array (
+  '/index/cart' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Cart->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Cart.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/cart/index.html [ array (
+  0 => 'all_cart',
+  1 => 'carts',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-15T16:25:53+08:00 ] 127.0.0.4 127.0.0.1 GET /index/cart
+[ log ] www.6er.com/index/cart [运行时间：0.046183s][吞吐率：21.65req/s] [内存消耗：3,469.92kb] [文件加载：55]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cart',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.6er.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.1.1; Nexus 6 Build/LYZ28E) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'referer' => 'http://www.6er.com/index/goods/detail/id/5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en;q=0.8',
+  'cookie' => 'PHPSESSID=80chc2ib1avvv000iidosjjcar8dm9omfhgl6lm01glmeef27ir1; keep_user=think%3A%7B%22id%22%3A%229397Sx1kMEkHRq1Y%252FEWBQ2FRbr%252FulIYQI4E9a5WX%22%2C%22pid%22%3A%226a5fk%252B5VRdnKeek%252Bu%252B%252FhTubAKTEJ78CzPIiwmKrQ%22%2C%22name%22%3A%22bbd5btkwsWuKc3uiOEINLruj8jORnxhabTtV90%252B2E7g%22%2C%22realname%22%3A%2266ba0x3sgDShJ0omL%252B3ZyoLyf2Je39n1CL6kZJM%22%2C%22sex%22%3A%22a5ea7k5ICaM86e43zV1Xvta0FVQNW9XjfBX8jhfE%22%2C%22mobile%22%3A%226b52oum7jIDPjMJRmH4pXNXNqoqN4KnIpHuCtSXxacqCWu3TmECpBQ%22%2C%22qq%22%3A%22067aE6iIANCmAL2d%252FOhvx3Xgb7AwNYvYR7%252FBI0I%22%2C%22email%22%3A%22b7c6JjMQF93s5lVvhUGxKVVCkGgRig%252BJX8CvNzE%22%2C%22point%22%3A%2254f4qtM%252B%252BuCPT3eW%252FEU7a1COe3wUxOl7bwlWqico%22%2C%22headimg%22%3A%22b1d7IaHQegjzYphiAdlGATipM531FUASdniLPT8%22%2C%22id_list%22%3A%22adebjxOX6Lajo0jG2JMtjUh21qbBhgcB1nPf%252BDM%22%2C%22regtime%22%3A%221c81473en0L1DNVUbHy300icCb7CS1uC5qp9YNdf%22%2C%22logintime%22%3A%22b65dm6thGv7g5jVw%252FU5TKaZFlWP0CLMqrfLPkM8%22%2C%22loginip%22%3A%22943aV7kgt8k%252FXk6yWjSE%252BFFEpcTUKfR4NYS3LNg%22%2C%22status%22%3A%224ab8zChAZdgM3NDIaP2oz25aGNlj8DJQ7ynHvSTP%22%2C%22remark%22%3A%22a645POUvCy3YrTSRwmP3071XGjThC4%252B%252FojUOAzU%22%7D',
+)
+[ info ] [ PARAM ] array (
+  '/index/cart' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Cart->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Cart.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/cart/index.html [ array (
+  0 => 'all_cart',
+  1 => 'carts',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-15T16:27:28+08:00 ] 127.0.0.4 127.0.0.1 GET /index/cart
+[ log ] www.6er.com/index/cart [运行时间：0.053909s][吞吐率：18.55req/s] [内存消耗：3,674.82kb] [文件加载：57]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cart',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.6er.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.1.1; Nexus 6 Build/LYZ28E) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'referer' => 'http://www.6er.com/index/goods/detail/id/5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en;q=0.8',
+  'cookie' => 'PHPSESSID=80chc2ib1avvv000iidosjjcar8dm9omfhgl6lm01glmeef27ir1; keep_user=think%3A%7B%22id%22%3A%229397Sx1kMEkHRq1Y%252FEWBQ2FRbr%252FulIYQI4E9a5WX%22%2C%22pid%22%3A%226a5fk%252B5VRdnKeek%252Bu%252B%252FhTubAKTEJ78CzPIiwmKrQ%22%2C%22name%22%3A%22bbd5btkwsWuKc3uiOEINLruj8jORnxhabTtV90%252B2E7g%22%2C%22realname%22%3A%2266ba0x3sgDShJ0omL%252B3ZyoLyf2Je39n1CL6kZJM%22%2C%22sex%22%3A%22a5ea7k5ICaM86e43zV1Xvta0FVQNW9XjfBX8jhfE%22%2C%22mobile%22%3A%226b52oum7jIDPjMJRmH4pXNXNqoqN4KnIpHuCtSXxacqCWu3TmECpBQ%22%2C%22qq%22%3A%22067aE6iIANCmAL2d%252FOhvx3Xgb7AwNYvYR7%252FBI0I%22%2C%22email%22%3A%22b7c6JjMQF93s5lVvhUGxKVVCkGgRig%252BJX8CvNzE%22%2C%22point%22%3A%2254f4qtM%252B%252BuCPT3eW%252FEU7a1COe3wUxOl7bwlWqico%22%2C%22headimg%22%3A%22b1d7IaHQegjzYphiAdlGATipM531FUASdniLPT8%22%2C%22id_list%22%3A%22adebjxOX6Lajo0jG2JMtjUh21qbBhgcB1nPf%252BDM%22%2C%22regtime%22%3A%221c81473en0L1DNVUbHy300icCb7CS1uC5qp9YNdf%22%2C%22logintime%22%3A%22b65dm6thGv7g5jVw%252FU5TKaZFlWP0CLMqrfLPkM8%22%2C%22loginip%22%3A%22943aV7kgt8k%252FXk6yWjSE%252BFFEpcTUKfR4NYS3LNg%22%2C%22status%22%3A%224ab8zChAZdgM3NDIaP2oz25aGNlj8DJQ7ynHvSTP%22%2C%22remark%22%3A%22a645POUvCy3YrTSRwmP3071XGjThC4%252B%252FojUOAzU%22%7D',
+)
+[ info ] [ PARAM ] array (
+  '/index/cart' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Cart->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Cart.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/cart/index.html [ array (
+  0 => 'all_cart',
+  1 => 'carts',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-15T16:27:30+08:00 ] 127.0.0.4 127.0.0.1 GET /index/cart
+[ log ] www.6er.com/index/cart [运行时间：0.056621s][吞吐率：17.66req/s] [内存消耗：3,469.96kb] [文件加载：55]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cart',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.6er.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.1.1; Nexus 6 Build/LYZ28E) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'referer' => 'http://www.6er.com/index/goods/detail/id/5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en;q=0.8',
+  'cookie' => 'PHPSESSID=80chc2ib1avvv000iidosjjcar8dm9omfhgl6lm01glmeef27ir1; keep_user=think%3A%7B%22id%22%3A%229397Sx1kMEkHRq1Y%252FEWBQ2FRbr%252FulIYQI4E9a5WX%22%2C%22pid%22%3A%226a5fk%252B5VRdnKeek%252Bu%252B%252FhTubAKTEJ78CzPIiwmKrQ%22%2C%22name%22%3A%22bbd5btkwsWuKc3uiOEINLruj8jORnxhabTtV90%252B2E7g%22%2C%22realname%22%3A%2266ba0x3sgDShJ0omL%252B3ZyoLyf2Je39n1CL6kZJM%22%2C%22sex%22%3A%22a5ea7k5ICaM86e43zV1Xvta0FVQNW9XjfBX8jhfE%22%2C%22mobile%22%3A%226b52oum7jIDPjMJRmH4pXNXNqoqN4KnIpHuCtSXxacqCWu3TmECpBQ%22%2C%22qq%22%3A%22067aE6iIANCmAL2d%252FOhvx3Xgb7AwNYvYR7%252FBI0I%22%2C%22email%22%3A%22b7c6JjMQF93s5lVvhUGxKVVCkGgRig%252BJX8CvNzE%22%2C%22point%22%3A%2254f4qtM%252B%252BuCPT3eW%252FEU7a1COe3wUxOl7bwlWqico%22%2C%22headimg%22%3A%22b1d7IaHQegjzYphiAdlGATipM531FUASdniLPT8%22%2C%22id_list%22%3A%22adebjxOX6Lajo0jG2JMtjUh21qbBhgcB1nPf%252BDM%22%2C%22regtime%22%3A%221c81473en0L1DNVUbHy300icCb7CS1uC5qp9YNdf%22%2C%22logintime%22%3A%22b65dm6thGv7g5jVw%252FU5TKaZFlWP0CLMqrfLPkM8%22%2C%22loginip%22%3A%22943aV7kgt8k%252FXk6yWjSE%252BFFEpcTUKfR4NYS3LNg%22%2C%22status%22%3A%224ab8zChAZdgM3NDIaP2oz25aGNlj8DJQ7ynHvSTP%22%2C%22remark%22%3A%22a645POUvCy3YrTSRwmP3071XGjThC4%252B%252FojUOAzU%22%7D',
+)
+[ info ] [ PARAM ] array (
+  '/index/cart' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Cart->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Cart.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/cart/index.html [ array (
+  0 => 'all_cart',
+  1 => 'carts',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-15T16:32:33+08:00 ] 127.0.0.4 127.0.0.1 GET /index/cart
+[ log ] www.6er.com/index/cart [运行时间：0.049301s][吞吐率：20.28req/s] [内存消耗：3,469.96kb] [文件加载：55]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cart',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.6er.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.1.1; Nexus 6 Build/LYZ28E) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'referer' => 'http://www.6er.com/index/goods/detail/id/5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en;q=0.8',
+  'cookie' => 'PHPSESSID=80chc2ib1avvv000iidosjjcar8dm9omfhgl6lm01glmeef27ir1; keep_user=think%3A%7B%22id%22%3A%229397Sx1kMEkHRq1Y%252FEWBQ2FRbr%252FulIYQI4E9a5WX%22%2C%22pid%22%3A%226a5fk%252B5VRdnKeek%252Bu%252B%252FhTubAKTEJ78CzPIiwmKrQ%22%2C%22name%22%3A%22bbd5btkwsWuKc3uiOEINLruj8jORnxhabTtV90%252B2E7g%22%2C%22realname%22%3A%2266ba0x3sgDShJ0omL%252B3ZyoLyf2Je39n1CL6kZJM%22%2C%22sex%22%3A%22a5ea7k5ICaM86e43zV1Xvta0FVQNW9XjfBX8jhfE%22%2C%22mobile%22%3A%226b52oum7jIDPjMJRmH4pXNXNqoqN4KnIpHuCtSXxacqCWu3TmECpBQ%22%2C%22qq%22%3A%22067aE6iIANCmAL2d%252FOhvx3Xgb7AwNYvYR7%252FBI0I%22%2C%22email%22%3A%22b7c6JjMQF93s5lVvhUGxKVVCkGgRig%252BJX8CvNzE%22%2C%22point%22%3A%2254f4qtM%252B%252BuCPT3eW%252FEU7a1COe3wUxOl7bwlWqico%22%2C%22headimg%22%3A%22b1d7IaHQegjzYphiAdlGATipM531FUASdniLPT8%22%2C%22id_list%22%3A%22adebjxOX6Lajo0jG2JMtjUh21qbBhgcB1nPf%252BDM%22%2C%22regtime%22%3A%221c81473en0L1DNVUbHy300icCb7CS1uC5qp9YNdf%22%2C%22logintime%22%3A%22b65dm6thGv7g5jVw%252FU5TKaZFlWP0CLMqrfLPkM8%22%2C%22loginip%22%3A%22943aV7kgt8k%252FXk6yWjSE%252BFFEpcTUKfR4NYS3LNg%22%2C%22status%22%3A%224ab8zChAZdgM3NDIaP2oz25aGNlj8DJQ7ynHvSTP%22%2C%22remark%22%3A%22a645POUvCy3YrTSRwmP3071XGjThC4%252B%252FojUOAzU%22%7D',
+)
+[ info ] [ PARAM ] array (
+  '/index/cart' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Cart->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Cart.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/cart/index.html [ array (
+  0 => 'all_cart',
+  1 => 'carts',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-15T16:32:34+08:00 ] 127.0.0.4 127.0.0.1 GET /index/cart
+[ log ] www.6er.com/index/cart [运行时间：0.050089s][吞吐率：19.96req/s] [内存消耗：3,469.96kb] [文件加载：55]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cart',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.6er.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.1.1; Nexus 6 Build/LYZ28E) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'referer' => 'http://www.6er.com/index/goods/detail/id/5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en;q=0.8',
+  'cookie' => 'PHPSESSID=80chc2ib1avvv000iidosjjcar8dm9omfhgl6lm01glmeef27ir1; keep_user=think%3A%7B%22id%22%3A%229397Sx1kMEkHRq1Y%252FEWBQ2FRbr%252FulIYQI4E9a5WX%22%2C%22pid%22%3A%226a5fk%252B5VRdnKeek%252Bu%252B%252FhTubAKTEJ78CzPIiwmKrQ%22%2C%22name%22%3A%22bbd5btkwsWuKc3uiOEINLruj8jORnxhabTtV90%252B2E7g%22%2C%22realname%22%3A%2266ba0x3sgDShJ0omL%252B3ZyoLyf2Je39n1CL6kZJM%22%2C%22sex%22%3A%22a5ea7k5ICaM86e43zV1Xvta0FVQNW9XjfBX8jhfE%22%2C%22mobile%22%3A%226b52oum7jIDPjMJRmH4pXNXNqoqN4KnIpHuCtSXxacqCWu3TmECpBQ%22%2C%22qq%22%3A%22067aE6iIANCmAL2d%252FOhvx3Xgb7AwNYvYR7%252FBI0I%22%2C%22email%22%3A%22b7c6JjMQF93s5lVvhUGxKVVCkGgRig%252BJX8CvNzE%22%2C%22point%22%3A%2254f4qtM%252B%252BuCPT3eW%252FEU7a1COe3wUxOl7bwlWqico%22%2C%22headimg%22%3A%22b1d7IaHQegjzYphiAdlGATipM531FUASdniLPT8%22%2C%22id_list%22%3A%22adebjxOX6Lajo0jG2JMtjUh21qbBhgcB1nPf%252BDM%22%2C%22regtime%22%3A%221c81473en0L1DNVUbHy300icCb7CS1uC5qp9YNdf%22%2C%22logintime%22%3A%22b65dm6thGv7g5jVw%252FU5TKaZFlWP0CLMqrfLPkM8%22%2C%22loginip%22%3A%22943aV7kgt8k%252FXk6yWjSE%252BFFEpcTUKfR4NYS3LNg%22%2C%22status%22%3A%224ab8zChAZdgM3NDIaP2oz25aGNlj8DJQ7ynHvSTP%22%2C%22remark%22%3A%22a645POUvCy3YrTSRwmP3071XGjThC4%252B%252FojUOAzU%22%7D',
+)
+[ info ] [ PARAM ] array (
+  '/index/cart' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Cart->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Cart.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/cart/index.html [ array (
+  0 => 'all_cart',
+  1 => 'carts',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-15T16:33:03+08:00 ] 127.0.0.4 127.0.0.1 GET /index/cart
+[ log ] www.6er.com/index/cart [运行时间：0.054023s][吞吐率：18.51req/s] [内存消耗：3,469.96kb] [文件加载：55]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cart',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.6er.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.1.1; Nexus 6 Build/LYZ28E) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'referer' => 'http://www.6er.com/index/goods/detail/id/5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en;q=0.8',
+  'cookie' => 'PHPSESSID=80chc2ib1avvv000iidosjjcar8dm9omfhgl6lm01glmeef27ir1; keep_user=think%3A%7B%22id%22%3A%229397Sx1kMEkHRq1Y%252FEWBQ2FRbr%252FulIYQI4E9a5WX%22%2C%22pid%22%3A%226a5fk%252B5VRdnKeek%252Bu%252B%252FhTubAKTEJ78CzPIiwmKrQ%22%2C%22name%22%3A%22bbd5btkwsWuKc3uiOEINLruj8jORnxhabTtV90%252B2E7g%22%2C%22realname%22%3A%2266ba0x3sgDShJ0omL%252B3ZyoLyf2Je39n1CL6kZJM%22%2C%22sex%22%3A%22a5ea7k5ICaM86e43zV1Xvta0FVQNW9XjfBX8jhfE%22%2C%22mobile%22%3A%226b52oum7jIDPjMJRmH4pXNXNqoqN4KnIpHuCtSXxacqCWu3TmECpBQ%22%2C%22qq%22%3A%22067aE6iIANCmAL2d%252FOhvx3Xgb7AwNYvYR7%252FBI0I%22%2C%22email%22%3A%22b7c6JjMQF93s5lVvhUGxKVVCkGgRig%252BJX8CvNzE%22%2C%22point%22%3A%2254f4qtM%252B%252BuCPT3eW%252FEU7a1COe3wUxOl7bwlWqico%22%2C%22headimg%22%3A%22b1d7IaHQegjzYphiAdlGATipM531FUASdniLPT8%22%2C%22id_list%22%3A%22adebjxOX6Lajo0jG2JMtjUh21qbBhgcB1nPf%252BDM%22%2C%22regtime%22%3A%221c81473en0L1DNVUbHy300icCb7CS1uC5qp9YNdf%22%2C%22logintime%22%3A%22b65dm6thGv7g5jVw%252FU5TKaZFlWP0CLMqrfLPkM8%22%2C%22loginip%22%3A%22943aV7kgt8k%252FXk6yWjSE%252BFFEpcTUKfR4NYS3LNg%22%2C%22status%22%3A%224ab8zChAZdgM3NDIaP2oz25aGNlj8DJQ7ynHvSTP%22%2C%22remark%22%3A%22a645POUvCy3YrTSRwmP3071XGjThC4%252B%252FojUOAzU%22%7D',
+)
+[ info ] [ PARAM ] array (
+  '/index/cart' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Cart->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Cart.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/cart/index.html [ array (
+  0 => 'all_cart',
+  1 => 'carts',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-15T16:33:05+08:00 ] 127.0.0.4 127.0.0.1 GET /index/cart
+[ log ] www.6er.com/index/cart [运行时间：0.065271s][吞吐率：15.32req/s] [内存消耗：3,469.96kb] [文件加载：55]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cart',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.6er.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.1.1; Nexus 6 Build/LYZ28E) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'referer' => 'http://www.6er.com/index/goods/detail/id/5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en;q=0.8',
+  'cookie' => 'PHPSESSID=80chc2ib1avvv000iidosjjcar8dm9omfhgl6lm01glmeef27ir1; keep_user=think%3A%7B%22id%22%3A%229397Sx1kMEkHRq1Y%252FEWBQ2FRbr%252FulIYQI4E9a5WX%22%2C%22pid%22%3A%226a5fk%252B5VRdnKeek%252Bu%252B%252FhTubAKTEJ78CzPIiwmKrQ%22%2C%22name%22%3A%22bbd5btkwsWuKc3uiOEINLruj8jORnxhabTtV90%252B2E7g%22%2C%22realname%22%3A%2266ba0x3sgDShJ0omL%252B3ZyoLyf2Je39n1CL6kZJM%22%2C%22sex%22%3A%22a5ea7k5ICaM86e43zV1Xvta0FVQNW9XjfBX8jhfE%22%2C%22mobile%22%3A%226b52oum7jIDPjMJRmH4pXNXNqoqN4KnIpHuCtSXxacqCWu3TmECpBQ%22%2C%22qq%22%3A%22067aE6iIANCmAL2d%252FOhvx3Xgb7AwNYvYR7%252FBI0I%22%2C%22email%22%3A%22b7c6JjMQF93s5lVvhUGxKVVCkGgRig%252BJX8CvNzE%22%2C%22point%22%3A%2254f4qtM%252B%252BuCPT3eW%252FEU7a1COe3wUxOl7bwlWqico%22%2C%22headimg%22%3A%22b1d7IaHQegjzYphiAdlGATipM531FUASdniLPT8%22%2C%22id_list%22%3A%22adebjxOX6Lajo0jG2JMtjUh21qbBhgcB1nPf%252BDM%22%2C%22regtime%22%3A%221c81473en0L1DNVUbHy300icCb7CS1uC5qp9YNdf%22%2C%22logintime%22%3A%22b65dm6thGv7g5jVw%252FU5TKaZFlWP0CLMqrfLPkM8%22%2C%22loginip%22%3A%22943aV7kgt8k%252FXk6yWjSE%252BFFEpcTUKfR4NYS3LNg%22%2C%22status%22%3A%224ab8zChAZdgM3NDIaP2oz25aGNlj8DJQ7ynHvSTP%22%2C%22remark%22%3A%22a645POUvCy3YrTSRwmP3071XGjThC4%252B%252FojUOAzU%22%7D',
+)
+[ info ] [ PARAM ] array (
+  '/index/cart' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Cart->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Cart.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/cart/index.html [ array (
+  0 => 'all_cart',
+  1 => 'carts',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-15T16:33:33+08:00 ] 192.168.1.116 192.168.1.115 GET /index/goods/detail/id/5
+[ log ] 192.168.1.116:8090/index/goods/detail/id/5 [运行时间：0.054119s][吞吐率：18.48req/s] [内存消耗：3,360.48kb] [文件加载：52]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'goods',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.116:8090',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.0; ASUS_Z00ADB Build/LRX21V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/43.0.2357.121 Mobile Safari/537.36 MicroMessenger/6.5.13.1100 NetType/WIFI Language/zh_CN',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=s1qfakcuo9egvjkmofppgaui9h6qnajvvvvjvkif3em33k6gntl0',
+  'x-requested-with' => 'com.tencent.mm',
+)
+[ info ] [ PARAM ] array (
+  '/index/goods/detail/id/5' => '',
+  'id' => '5',
+)
+[ info ] [ RUN ] app\index\controller\Goods->detail[ /home/aptx/File/PHP/6rmh/app/index/controller/Goods.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/goods/detail.html [ array (
+  0 => 'config',
+  1 => 'goods',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-15T16:33:37+08:00 ] 192.168.1.116 192.168.1.115 GET /index/cart
+[ log ] 192.168.1.116:8090/index/cart [运行时间：0.023369s][吞吐率：42.79req/s] [内存消耗：2,299.80kb] [文件加载：44]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cart',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.116:8090',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.0; ASUS_Z00ADB Build/LRX21V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/43.0.2357.121 Mobile Safari/537.36 MicroMessenger/6.5.13.1100 NetType/WIFI Language/zh_CN',
+  'referer' => 'http://192.168.1.116:8090/index/goods/detail/id/5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=s1qfakcuo9egvjkmofppgaui9h6qnajvvvvjvkif3em33k6gntl0',
+  'x-requested-with' => 'com.tencent.mm',
+)
+[ info ] [ PARAM ] array (
+  '/index/cart' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-15T16:33:37+08:00 ] 192.168.1.116 192.168.1.115 GET /index/login/index
+[ log ] 192.168.1.116:8090/index/login/index [运行时间：0.021841s][吞吐率：45.79req/s] [内存消耗：2,239.62kb] [文件加载：42]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.116:8090',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.0; ASUS_Z00ADB Build/LRX21V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/43.0.2357.121 Mobile Safari/537.36 MicroMessenger/6.5.13.1100 NetType/WIFI Language/zh_CN',
+  'referer' => 'http://192.168.1.116:8090/index/goods/detail/id/5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=s1qfakcuo9egvjkmofppgaui9h6qnajvvvvjvkif3em33k6gntl0',
+  'x-requested-with' => 'com.tencent.mm',
+)
+[ info ] [ PARAM ] array (
+  '/index/login/index' => '',
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/login/index.html [ array (
+  0 => 'header',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-15T16:33:54+08:00 ] 192.168.1.116 192.168.1.115 POST /index/login/login
+[ log ] 192.168.1.116:8090/index/login/login [运行时间：0.047516s][吞吐率：21.05req/s] [内存消耗：3,209.86kb] [文件加载：50]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.116:8090',
+  'connection' => 'keep-alive',
+  'content-length' => '46',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'origin' => 'http://192.168.1.116:8090',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.0; ASUS_Z00ADB Build/LRX21V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/43.0.2357.121 Mobile Safari/537.36 MicroMessenger/6.5.13.1100 NetType/WIFI Language/zh_CN',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://192.168.1.116:8090/index/login/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=s1qfakcuo9egvjkmofppgaui9h6qnajvvvvjvkif3em33k6gntl0',
+  'x-requested-with' => 'com.tencent.mm',
+)
+[ info ] [ PARAM ] array (
+  '/index/login/login' => '',
+  'login' => 
+  array (
+    'name' => 'ztf',
+    'password' => '123456',
+  ),
+)
+[ info ] [ RUN ] app\index\controller\Login->login[ /home/aptx/File/PHP/6rmh/app/index/controller/Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-15T16:33:54+08:00 ] 192.168.1.116 192.168.1.115 GET /index/index/index
+[ log ] 192.168.1.116:8090/index/index/index [运行时间：0.037095s][吞吐率：26.96req/s] [内存消耗：3,284.28kb] [文件加载：52]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.116:8090',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.0; ASUS_Z00ADB Build/LRX21V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/43.0.2357.121 Mobile Safari/537.36 MicroMessenger/6.5.13.1100 NetType/WIFI Language/zh_CN',
+  'referer' => 'http://192.168.1.116:8090/index/login/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=s1qfakcuo9egvjkmofppgaui9h6qnajvvvvjvkif3em33k6gntl0; keep_user=think%3A%7B%22id%22%3A%2235b5%252B%252FmOwpR7qMO%252F%252BImpk094Lmt%252B2KDRv2SIraRM%22%2C%22pid%22%3A%220fe1AdpGgBYq0fv0QADssRXg6nHc4RPkUBsEvSxb%22%2C%22name%22%3A%22ce2bMHKNFrJ9jv4Zjp3%252FeLxiJIiGZBo9VA8QLB42WeQ%22%2C%22realname%22%3A%223ecaM%252FbVvgAcgNwNXsBuP9Mme3ATf1d0IbCpnXc%22%2C%22sex%22%3A%2239b7R8GAmEphRAif%252BF9tFDWzEtowZrVcxAk64kuo%22%2C%22mobile%22%3A%229b66vzBsaxd4PuKlmgnEIrnMC5iG1ghcmm02wr%252FlyNCkFVpGuBZEjQ%22%2C%22qq%22%3A%228d238vYhE5%252F3rFAlNK3or9cqdmL1ADsB8vCfeHI%22%2C%22email%22%3A%2236709qlLtOoQaWGEIRAAfScRcaU1NukxXiI4lXk%22%2C%22point%22%3A%228383LIGJ0%252BCWRVWbg9zTkabJhqHTnHlOodxHcpfA%22%2C%22headimg%22%3A%22c2bcZN32GJnMPf4Jc9c4wuuWgBqI0Bd0x4cGjjA%22%2C%22id_list%22%3A%22e0bbZh75H7OkS86cOgDzz7mUhbfdF8rcI0QW4hY%22%2C%22regtime%22%3A%225d186pwcta3%252Fz88ego7WtEHUXxpR43ayFGKjssvh%22%2C%22logintime%22%3A%223655d9lsLy6e3%252BV3ybDUlO4yCoT0HXtJX823LFY%22%2C%22loginip%22%3A%22c81duPZad7gUgHWOoVDkXWLAAVhZACQRdDLbM0Q%22%2C%22status%22%3A%223a7aym5V6JmICK%252FcNXSx53APnS%252BH2UA3YlWnPoGg%22%2C%22remark%22%3A%2289d6%252BnR8N6nMSCqNCwUEpBp15XoiRw%252BpJ%252FaLK4g%22%7D',
+  'x-requested-with' => 'com.tencent.mm',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/index' => '',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/index/special.html [ array (
+  0 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-15T16:33:58+08:00 ] 192.168.1.116 192.168.1.115 GET /index/login/index
+[ log ] 192.168.1.116:8090/index/login/index [运行时间：0.029936s][吞吐率：33.40req/s] [内存消耗：2,267.20kb] [文件加载：43]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.116:8090',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.0; ASUS_Z00ADB Build/LRX21V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/43.0.2357.121 Mobile Safari/537.36 MicroMessenger/6.5.13.1100 NetType/WIFI Language/zh_CN',
+  'referer' => 'http://192.168.1.116:8090/index/goods/detail/id/5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=s1qfakcuo9egvjkmofppgaui9h6qnajvvvvjvkif3em33k6gntl0; keep_user=think%3A%7B%22id%22%3A%2235b5%252B%252FmOwpR7qMO%252F%252BImpk094Lmt%252B2KDRv2SIraRM%22%2C%22pid%22%3A%220fe1AdpGgBYq0fv0QADssRXg6nHc4RPkUBsEvSxb%22%2C%22name%22%3A%22ce2bMHKNFrJ9jv4Zjp3%252FeLxiJIiGZBo9VA8QLB42WeQ%22%2C%22realname%22%3A%223ecaM%252FbVvgAcgNwNXsBuP9Mme3ATf1d0IbCpnXc%22%2C%22sex%22%3A%2239b7R8GAmEphRAif%252BF9tFDWzEtowZrVcxAk64kuo%22%2C%22mobile%22%3A%229b66vzBsaxd4PuKlmgnEIrnMC5iG1ghcmm02wr%252FlyNCkFVpGuBZEjQ%22%2C%22qq%22%3A%228d238vYhE5%252F3rFAlNK3or9cqdmL1ADsB8vCfeHI%22%2C%22email%22%3A%2236709qlLtOoQaWGEIRAAfScRcaU1NukxXiI4lXk%22%2C%22point%22%3A%228383LIGJ0%252BCWRVWbg9zTkabJhqHTnHlOodxHcpfA%22%2C%22headimg%22%3A%22c2bcZN32GJnMPf4Jc9c4wuuWgBqI0Bd0x4cGjjA%22%2C%22id_list%22%3A%22e0bbZh75H7OkS86cOgDzz7mUhbfdF8rcI0QW4hY%22%2C%22regtime%22%3A%225d186pwcta3%252Fz88ego7WtEHUXxpR43ayFGKjssvh%22%2C%22logintime%22%3A%223655d9lsLy6e3%252BV3ybDUlO4yCoT0HXtJX823LFY%22%2C%22loginip%22%3A%22c81duPZad7gUgHWOoVDkXWLAAVhZACQRdDLbM0Q%22%2C%22status%22%3A%223a7aym5V6JmICK%252FcNXSx53APnS%252BH2UA3YlWnPoGg%22%2C%22remark%22%3A%2289d6%252BnR8N6nMSCqNCwUEpBp15XoiRw%252BpJ%252FaLK4g%22%7D',
+  'x-requested-with' => 'com.tencent.mm',
+)
+[ info ] [ PARAM ] array (
+  '/index/login/index' => '',
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-15T16:33:58+08:00 ] 192.168.1.116 192.168.1.115 GET /index/index/index
+[ log ] 192.168.1.116:8090/index/index/index [运行时间：0.041717s][吞吐率：23.97req/s] [内存消耗：3,284.02kb] [文件加载：52]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.116:8090',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.0; ASUS_Z00ADB Build/LRX21V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/43.0.2357.121 Mobile Safari/537.36 MicroMessenger/6.5.13.1100 NetType/WIFI Language/zh_CN',
+  'referer' => 'http://192.168.1.116:8090/index/goods/detail/id/5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=s1qfakcuo9egvjkmofppgaui9h6qnajvvvvjvkif3em33k6gntl0; keep_user=think%3A%7B%22id%22%3A%2235b5%252B%252FmOwpR7qMO%252F%252BImpk094Lmt%252B2KDRv2SIraRM%22%2C%22pid%22%3A%220fe1AdpGgBYq0fv0QADssRXg6nHc4RPkUBsEvSxb%22%2C%22name%22%3A%22ce2bMHKNFrJ9jv4Zjp3%252FeLxiJIiGZBo9VA8QLB42WeQ%22%2C%22realname%22%3A%223ecaM%252FbVvgAcgNwNXsBuP9Mme3ATf1d0IbCpnXc%22%2C%22sex%22%3A%2239b7R8GAmEphRAif%252BF9tFDWzEtowZrVcxAk64kuo%22%2C%22mobile%22%3A%229b66vzBsaxd4PuKlmgnEIrnMC5iG1ghcmm02wr%252FlyNCkFVpGuBZEjQ%22%2C%22qq%22%3A%228d238vYhE5%252F3rFAlNK3or9cqdmL1ADsB8vCfeHI%22%2C%22email%22%3A%2236709qlLtOoQaWGEIRAAfScRcaU1NukxXiI4lXk%22%2C%22point%22%3A%228383LIGJ0%252BCWRVWbg9zTkabJhqHTnHlOodxHcpfA%22%2C%22headimg%22%3A%22c2bcZN32GJnMPf4Jc9c4wuuWgBqI0Bd0x4cGjjA%22%2C%22id_list%22%3A%22e0bbZh75H7OkS86cOgDzz7mUhbfdF8rcI0QW4hY%22%2C%22regtime%22%3A%225d186pwcta3%252Fz88ego7WtEHUXxpR43ayFGKjssvh%22%2C%22logintime%22%3A%223655d9lsLy6e3%252BV3ybDUlO4yCoT0HXtJX823LFY%22%2C%22loginip%22%3A%22c81duPZad7gUgHWOoVDkXWLAAVhZACQRdDLbM0Q%22%2C%22status%22%3A%223a7aym5V6JmICK%252FcNXSx53APnS%252BH2UA3YlWnPoGg%22%2C%22remark%22%3A%2289d6%252BnR8N6nMSCqNCwUEpBp15XoiRw%252BpJ%252FaLK4g%22%7D',
+  'x-requested-with' => 'com.tencent.mm',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/index' => '',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/index/special.html [ array (
+  0 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-15T16:34:00+08:00 ] 192.168.1.116 192.168.1.115 GET /index/goods/detail/id/5
+[ log ] 192.168.1.116:8090/index/goods/detail/id/5 [运行时间：0.054120s][吞吐率：18.48req/s] [内存消耗：3,400.63kb] [文件加载：53]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'goods',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.116:8090',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.0; ASUS_Z00ADB Build/LRX21V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/43.0.2357.121 Mobile Safari/537.36 MicroMessenger/6.5.13.1100 NetType/WIFI Language/zh_CN',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=s1qfakcuo9egvjkmofppgaui9h6qnajvvvvjvkif3em33k6gntl0; keep_user=think%3A%7B%22id%22%3A%2235b5%252B%252FmOwpR7qMO%252F%252BImpk094Lmt%252B2KDRv2SIraRM%22%2C%22pid%22%3A%220fe1AdpGgBYq0fv0QADssRXg6nHc4RPkUBsEvSxb%22%2C%22name%22%3A%22ce2bMHKNFrJ9jv4Zjp3%252FeLxiJIiGZBo9VA8QLB42WeQ%22%2C%22realname%22%3A%223ecaM%252FbVvgAcgNwNXsBuP9Mme3ATf1d0IbCpnXc%22%2C%22sex%22%3A%2239b7R8GAmEphRAif%252BF9tFDWzEtowZrVcxAk64kuo%22%2C%22mobile%22%3A%229b66vzBsaxd4PuKlmgnEIrnMC5iG1ghcmm02wr%252FlyNCkFVpGuBZEjQ%22%2C%22qq%22%3A%228d238vYhE5%252F3rFAlNK3or9cqdmL1ADsB8vCfeHI%22%2C%22email%22%3A%2236709qlLtOoQaWGEIRAAfScRcaU1NukxXiI4lXk%22%2C%22point%22%3A%228383LIGJ0%252BCWRVWbg9zTkabJhqHTnHlOodxHcpfA%22%2C%22headimg%22%3A%22c2bcZN32GJnMPf4Jc9c4wuuWgBqI0Bd0x4cGjjA%22%2C%22id_list%22%3A%22e0bbZh75H7OkS86cOgDzz7mUhbfdF8rcI0QW4hY%22%2C%22regtime%22%3A%225d186pwcta3%252Fz88ego7WtEHUXxpR43ayFGKjssvh%22%2C%22logintime%22%3A%223655d9lsLy6e3%252BV3ybDUlO4yCoT0HXtJX823LFY%22%2C%22loginip%22%3A%22c81duPZad7gUgHWOoVDkXWLAAVhZACQRdDLbM0Q%22%2C%22status%22%3A%223a7aym5V6JmICK%252FcNXSx53APnS%252BH2UA3YlWnPoGg%22%2C%22remark%22%3A%2289d6%252BnR8N6nMSCqNCwUEpBp15XoiRw%252BpJ%252FaLK4g%22%7D',
+  'x-requested-with' => 'com.tencent.mm',
+)
+[ info ] [ PARAM ] array (
+  '/index/goods/detail/id/5' => '',
+  'id' => '5',
+)
+[ info ] [ RUN ] app\index\controller\Goods->detail[ /home/aptx/File/PHP/6rmh/app/index/controller/Goods.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/goods/detail.html [ array (
+  0 => 'config',
+  1 => 'goods',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-15T16:34:04+08:00 ] 192.168.1.116 192.168.1.115 GET /index/cart
+[ log ] 192.168.1.116:8090/index/cart [运行时间：0.053840s][吞吐率：18.57req/s] [内存消耗：3,469.07kb] [文件加载：55]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cart',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.116:8090',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.0; ASUS_Z00ADB Build/LRX21V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/43.0.2357.121 Mobile Safari/537.36 MicroMessenger/6.5.13.1100 NetType/WIFI Language/zh_CN',
+  'referer' => 'http://192.168.1.116:8090/index/goods/detail/id/5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=s1qfakcuo9egvjkmofppgaui9h6qnajvvvvjvkif3em33k6gntl0; keep_user=think%3A%7B%22id%22%3A%2235b5%252B%252FmOwpR7qMO%252F%252BImpk094Lmt%252B2KDRv2SIraRM%22%2C%22pid%22%3A%220fe1AdpGgBYq0fv0QADssRXg6nHc4RPkUBsEvSxb%22%2C%22name%22%3A%22ce2bMHKNFrJ9jv4Zjp3%252FeLxiJIiGZBo9VA8QLB42WeQ%22%2C%22realname%22%3A%223ecaM%252FbVvgAcgNwNXsBuP9Mme3ATf1d0IbCpnXc%22%2C%22sex%22%3A%2239b7R8GAmEphRAif%252BF9tFDWzEtowZrVcxAk64kuo%22%2C%22mobile%22%3A%229b66vzBsaxd4PuKlmgnEIrnMC5iG1ghcmm02wr%252FlyNCkFVpGuBZEjQ%22%2C%22qq%22%3A%228d238vYhE5%252F3rFAlNK3or9cqdmL1ADsB8vCfeHI%22%2C%22email%22%3A%2236709qlLtOoQaWGEIRAAfScRcaU1NukxXiI4lXk%22%2C%22point%22%3A%228383LIGJ0%252BCWRVWbg9zTkabJhqHTnHlOodxHcpfA%22%2C%22headimg%22%3A%22c2bcZN32GJnMPf4Jc9c4wuuWgBqI0Bd0x4cGjjA%22%2C%22id_list%22%3A%22e0bbZh75H7OkS86cOgDzz7mUhbfdF8rcI0QW4hY%22%2C%22regtime%22%3A%225d186pwcta3%252Fz88ego7WtEHUXxpR43ayFGKjssvh%22%2C%22logintime%22%3A%223655d9lsLy6e3%252BV3ybDUlO4yCoT0HXtJX823LFY%22%2C%22loginip%22%3A%22c81duPZad7gUgHWOoVDkXWLAAVhZACQRdDLbM0Q%22%2C%22status%22%3A%223a7aym5V6JmICK%252FcNXSx53APnS%252BH2UA3YlWnPoGg%22%2C%22remark%22%3A%2289d6%252BnR8N6nMSCqNCwUEpBp15XoiRw%252BpJ%252FaLK4g%22%7D',
+  'x-requested-with' => 'com.tencent.mm',
+)
+[ info ] [ PARAM ] array (
+  '/index/cart' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Cart->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Cart.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/cart/index.html [ array (
+  0 => 'all_cart',
+  1 => 'carts',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-15T16:34:43+08:00 ] 192.168.1.116 192.168.1.115 GET /index/cart
+[ log ] 192.168.1.116:8090/index/cart [运行时间：0.047828s][吞吐率：20.91req/s] [内存消耗：3,469.54kb] [文件加载：55]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cart',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.116:8090',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.0; ASUS_Z00ADB Build/LRX21V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/43.0.2357.121 Mobile Safari/537.36 MicroMessenger/6.5.13.1100 NetType/WIFI Language/zh_CN',
+  'referer' => 'http://192.168.1.116:8090/index/goods/detail/id/5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=s1qfakcuo9egvjkmofppgaui9h6qnajvvvvjvkif3em33k6gntl0; keep_user=think%3A%7B%22id%22%3A%2235b5%252B%252FmOwpR7qMO%252F%252BImpk094Lmt%252B2KDRv2SIraRM%22%2C%22pid%22%3A%220fe1AdpGgBYq0fv0QADssRXg6nHc4RPkUBsEvSxb%22%2C%22name%22%3A%22ce2bMHKNFrJ9jv4Zjp3%252FeLxiJIiGZBo9VA8QLB42WeQ%22%2C%22realname%22%3A%223ecaM%252FbVvgAcgNwNXsBuP9Mme3ATf1d0IbCpnXc%22%2C%22sex%22%3A%2239b7R8GAmEphRAif%252BF9tFDWzEtowZrVcxAk64kuo%22%2C%22mobile%22%3A%229b66vzBsaxd4PuKlmgnEIrnMC5iG1ghcmm02wr%252FlyNCkFVpGuBZEjQ%22%2C%22qq%22%3A%228d238vYhE5%252F3rFAlNK3or9cqdmL1ADsB8vCfeHI%22%2C%22email%22%3A%2236709qlLtOoQaWGEIRAAfScRcaU1NukxXiI4lXk%22%2C%22point%22%3A%228383LIGJ0%252BCWRVWbg9zTkabJhqHTnHlOodxHcpfA%22%2C%22headimg%22%3A%22c2bcZN32GJnMPf4Jc9c4wuuWgBqI0Bd0x4cGjjA%22%2C%22id_list%22%3A%22e0bbZh75H7OkS86cOgDzz7mUhbfdF8rcI0QW4hY%22%2C%22regtime%22%3A%225d186pwcta3%252Fz88ego7WtEHUXxpR43ayFGKjssvh%22%2C%22logintime%22%3A%223655d9lsLy6e3%252BV3ybDUlO4yCoT0HXtJX823LFY%22%2C%22loginip%22%3A%22c81duPZad7gUgHWOoVDkXWLAAVhZACQRdDLbM0Q%22%2C%22status%22%3A%223a7aym5V6JmICK%252FcNXSx53APnS%252BH2UA3YlWnPoGg%22%2C%22remark%22%3A%2289d6%252BnR8N6nMSCqNCwUEpBp15XoiRw%252BpJ%252FaLK4g%22%7D',
+  'x-requested-with' => 'com.tencent.mm',
+)
+[ info ] [ PARAM ] array (
+  '/index/cart' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Cart->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Cart.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/cart/index.html [ array (
+  0 => 'all_cart',
+  1 => 'carts',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-15T16:35:23+08:00 ] 127.0.0.4 127.0.0.1 GET /index/cart
+[ log ] www.6er.com/index/cart [运行时间：0.047718s][吞吐率：20.96req/s] [内存消耗：3,469.96kb] [文件加载：55]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cart',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.6er.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.1.1; Nexus 6 Build/LYZ28E) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'referer' => 'http://www.6er.com/index/goods/detail/id/5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en;q=0.8',
+  'cookie' => 'PHPSESSID=80chc2ib1avvv000iidosjjcar8dm9omfhgl6lm01glmeef27ir1; keep_user=think%3A%7B%22id%22%3A%229397Sx1kMEkHRq1Y%252FEWBQ2FRbr%252FulIYQI4E9a5WX%22%2C%22pid%22%3A%226a5fk%252B5VRdnKeek%252Bu%252B%252FhTubAKTEJ78CzPIiwmKrQ%22%2C%22name%22%3A%22bbd5btkwsWuKc3uiOEINLruj8jORnxhabTtV90%252B2E7g%22%2C%22realname%22%3A%2266ba0x3sgDShJ0omL%252B3ZyoLyf2Je39n1CL6kZJM%22%2C%22sex%22%3A%22a5ea7k5ICaM86e43zV1Xvta0FVQNW9XjfBX8jhfE%22%2C%22mobile%22%3A%226b52oum7jIDPjMJRmH4pXNXNqoqN4KnIpHuCtSXxacqCWu3TmECpBQ%22%2C%22qq%22%3A%22067aE6iIANCmAL2d%252FOhvx3Xgb7AwNYvYR7%252FBI0I%22%2C%22email%22%3A%22b7c6JjMQF93s5lVvhUGxKVVCkGgRig%252BJX8CvNzE%22%2C%22point%22%3A%2254f4qtM%252B%252BuCPT3eW%252FEU7a1COe3wUxOl7bwlWqico%22%2C%22headimg%22%3A%22b1d7IaHQegjzYphiAdlGATipM531FUASdniLPT8%22%2C%22id_list%22%3A%22adebjxOX6Lajo0jG2JMtjUh21qbBhgcB1nPf%252BDM%22%2C%22regtime%22%3A%221c81473en0L1DNVUbHy300icCb7CS1uC5qp9YNdf%22%2C%22logintime%22%3A%22b65dm6thGv7g5jVw%252FU5TKaZFlWP0CLMqrfLPkM8%22%2C%22loginip%22%3A%22943aV7kgt8k%252FXk6yWjSE%252BFFEpcTUKfR4NYS3LNg%22%2C%22status%22%3A%224ab8zChAZdgM3NDIaP2oz25aGNlj8DJQ7ynHvSTP%22%2C%22remark%22%3A%22a645POUvCy3YrTSRwmP3071XGjThC4%252B%252FojUOAzU%22%7D',
+)
+[ info ] [ PARAM ] array (
+  '/index/cart' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Cart->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Cart.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/cart/index.html [ array (
+  0 => 'all_cart',
+  1 => 'carts',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-15T16:35:48+08:00 ] 127.0.0.4 127.0.0.1 GET /index/cart
+[ log ] www.6er.com/index/cart [运行时间：0.055166s][吞吐率：18.13req/s] [内存消耗：3,469.96kb] [文件加载：55]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cart',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.6er.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.1.1; Nexus 6 Build/LYZ28E) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'referer' => 'http://www.6er.com/index/goods/detail/id/5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en;q=0.8',
+  'cookie' => 'PHPSESSID=80chc2ib1avvv000iidosjjcar8dm9omfhgl6lm01glmeef27ir1; keep_user=think%3A%7B%22id%22%3A%229397Sx1kMEkHRq1Y%252FEWBQ2FRbr%252FulIYQI4E9a5WX%22%2C%22pid%22%3A%226a5fk%252B5VRdnKeek%252Bu%252B%252FhTubAKTEJ78CzPIiwmKrQ%22%2C%22name%22%3A%22bbd5btkwsWuKc3uiOEINLruj8jORnxhabTtV90%252B2E7g%22%2C%22realname%22%3A%2266ba0x3sgDShJ0omL%252B3ZyoLyf2Je39n1CL6kZJM%22%2C%22sex%22%3A%22a5ea7k5ICaM86e43zV1Xvta0FVQNW9XjfBX8jhfE%22%2C%22mobile%22%3A%226b52oum7jIDPjMJRmH4pXNXNqoqN4KnIpHuCtSXxacqCWu3TmECpBQ%22%2C%22qq%22%3A%22067aE6iIANCmAL2d%252FOhvx3Xgb7AwNYvYR7%252FBI0I%22%2C%22email%22%3A%22b7c6JjMQF93s5lVvhUGxKVVCkGgRig%252BJX8CvNzE%22%2C%22point%22%3A%2254f4qtM%252B%252BuCPT3eW%252FEU7a1COe3wUxOl7bwlWqico%22%2C%22headimg%22%3A%22b1d7IaHQegjzYphiAdlGATipM531FUASdniLPT8%22%2C%22id_list%22%3A%22adebjxOX6Lajo0jG2JMtjUh21qbBhgcB1nPf%252BDM%22%2C%22regtime%22%3A%221c81473en0L1DNVUbHy300icCb7CS1uC5qp9YNdf%22%2C%22logintime%22%3A%22b65dm6thGv7g5jVw%252FU5TKaZFlWP0CLMqrfLPkM8%22%2C%22loginip%22%3A%22943aV7kgt8k%252FXk6yWjSE%252BFFEpcTUKfR4NYS3LNg%22%2C%22status%22%3A%224ab8zChAZdgM3NDIaP2oz25aGNlj8DJQ7ynHvSTP%22%2C%22remark%22%3A%22a645POUvCy3YrTSRwmP3071XGjThC4%252B%252FojUOAzU%22%7D',
+)
+[ info ] [ PARAM ] array (
+  '/index/cart' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Cart->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Cart.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/cart/index.html [ array (
+  0 => 'all_cart',
+  1 => 'carts',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-15T16:36:21+08:00 ] 127.0.0.4 127.0.0.1 GET /index/cart
+[ log ] www.6er.com/index/cart [运行时间：0.053587s][吞吐率：18.66req/s] [内存消耗：3,469.96kb] [文件加载：55]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cart',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.6er.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.1.1; Nexus 6 Build/LYZ28E) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'referer' => 'http://www.6er.com/index/goods/detail/id/5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en;q=0.8',
+  'cookie' => 'PHPSESSID=80chc2ib1avvv000iidosjjcar8dm9omfhgl6lm01glmeef27ir1; keep_user=think%3A%7B%22id%22%3A%229397Sx1kMEkHRq1Y%252FEWBQ2FRbr%252FulIYQI4E9a5WX%22%2C%22pid%22%3A%226a5fk%252B5VRdnKeek%252Bu%252B%252FhTubAKTEJ78CzPIiwmKrQ%22%2C%22name%22%3A%22bbd5btkwsWuKc3uiOEINLruj8jORnxhabTtV90%252B2E7g%22%2C%22realname%22%3A%2266ba0x3sgDShJ0omL%252B3ZyoLyf2Je39n1CL6kZJM%22%2C%22sex%22%3A%22a5ea7k5ICaM86e43zV1Xvta0FVQNW9XjfBX8jhfE%22%2C%22mobile%22%3A%226b52oum7jIDPjMJRmH4pXNXNqoqN4KnIpHuCtSXxacqCWu3TmECpBQ%22%2C%22qq%22%3A%22067aE6iIANCmAL2d%252FOhvx3Xgb7AwNYvYR7%252FBI0I%22%2C%22email%22%3A%22b7c6JjMQF93s5lVvhUGxKVVCkGgRig%252BJX8CvNzE%22%2C%22point%22%3A%2254f4qtM%252B%252BuCPT3eW%252FEU7a1COe3wUxOl7bwlWqico%22%2C%22headimg%22%3A%22b1d7IaHQegjzYphiAdlGATipM531FUASdniLPT8%22%2C%22id_list%22%3A%22adebjxOX6Lajo0jG2JMtjUh21qbBhgcB1nPf%252BDM%22%2C%22regtime%22%3A%221c81473en0L1DNVUbHy300icCb7CS1uC5qp9YNdf%22%2C%22logintime%22%3A%22b65dm6thGv7g5jVw%252FU5TKaZFlWP0CLMqrfLPkM8%22%2C%22loginip%22%3A%22943aV7kgt8k%252FXk6yWjSE%252BFFEpcTUKfR4NYS3LNg%22%2C%22status%22%3A%224ab8zChAZdgM3NDIaP2oz25aGNlj8DJQ7ynHvSTP%22%2C%22remark%22%3A%22a645POUvCy3YrTSRwmP3071XGjThC4%252B%252FojUOAzU%22%7D',
+)
+[ info ] [ PARAM ] array (
+  '/index/cart' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Cart->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Cart.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/cart/index.html [ array (
+  0 => 'all_cart',
+  1 => 'carts',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-15T16:37:40+08:00 ] 127.0.0.4 127.0.0.1 GET /index/cart
+[ log ] www.6er.com/index/cart [运行时间：0.060985s][吞吐率：16.40req/s] [内存消耗：3,674.89kb] [文件加载：57]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cart',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.6er.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.1.1; Nexus 6 Build/LYZ28E) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'referer' => 'http://www.6er.com/index/goods/detail/id/5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en;q=0.8',
+  'cookie' => 'PHPSESSID=80chc2ib1avvv000iidosjjcar8dm9omfhgl6lm01glmeef27ir1; keep_user=think%3A%7B%22id%22%3A%229397Sx1kMEkHRq1Y%252FEWBQ2FRbr%252FulIYQI4E9a5WX%22%2C%22pid%22%3A%226a5fk%252B5VRdnKeek%252Bu%252B%252FhTubAKTEJ78CzPIiwmKrQ%22%2C%22name%22%3A%22bbd5btkwsWuKc3uiOEINLruj8jORnxhabTtV90%252B2E7g%22%2C%22realname%22%3A%2266ba0x3sgDShJ0omL%252B3ZyoLyf2Je39n1CL6kZJM%22%2C%22sex%22%3A%22a5ea7k5ICaM86e43zV1Xvta0FVQNW9XjfBX8jhfE%22%2C%22mobile%22%3A%226b52oum7jIDPjMJRmH4pXNXNqoqN4KnIpHuCtSXxacqCWu3TmECpBQ%22%2C%22qq%22%3A%22067aE6iIANCmAL2d%252FOhvx3Xgb7AwNYvYR7%252FBI0I%22%2C%22email%22%3A%22b7c6JjMQF93s5lVvhUGxKVVCkGgRig%252BJX8CvNzE%22%2C%22point%22%3A%2254f4qtM%252B%252BuCPT3eW%252FEU7a1COe3wUxOl7bwlWqico%22%2C%22headimg%22%3A%22b1d7IaHQegjzYphiAdlGATipM531FUASdniLPT8%22%2C%22id_list%22%3A%22adebjxOX6Lajo0jG2JMtjUh21qbBhgcB1nPf%252BDM%22%2C%22regtime%22%3A%221c81473en0L1DNVUbHy300icCb7CS1uC5qp9YNdf%22%2C%22logintime%22%3A%22b65dm6thGv7g5jVw%252FU5TKaZFlWP0CLMqrfLPkM8%22%2C%22loginip%22%3A%22943aV7kgt8k%252FXk6yWjSE%252BFFEpcTUKfR4NYS3LNg%22%2C%22status%22%3A%224ab8zChAZdgM3NDIaP2oz25aGNlj8DJQ7ynHvSTP%22%2C%22remark%22%3A%22a645POUvCy3YrTSRwmP3071XGjThC4%252B%252FojUOAzU%22%7D',
+)
+[ info ] [ PARAM ] array (
+  '/index/cart' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Cart->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Cart.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/cart/index.html [ array (
+  0 => 'all_cart',
+  1 => 'carts',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-15T16:38:05+08:00 ] 127.0.0.4 127.0.0.1 GET /index/cart
+[ log ] www.6er.com/index/cart [运行时间：0.048964s][吞吐率：20.42req/s] [内存消耗：3,469.95kb] [文件加载：55]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cart',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.6er.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.1.1; Nexus 6 Build/LYZ28E) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'referer' => 'http://www.6er.com/index/goods/detail/id/5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en;q=0.8',
+  'cookie' => 'PHPSESSID=80chc2ib1avvv000iidosjjcar8dm9omfhgl6lm01glmeef27ir1; keep_user=think%3A%7B%22id%22%3A%229397Sx1kMEkHRq1Y%252FEWBQ2FRbr%252FulIYQI4E9a5WX%22%2C%22pid%22%3A%226a5fk%252B5VRdnKeek%252Bu%252B%252FhTubAKTEJ78CzPIiwmKrQ%22%2C%22name%22%3A%22bbd5btkwsWuKc3uiOEINLruj8jORnxhabTtV90%252B2E7g%22%2C%22realname%22%3A%2266ba0x3sgDShJ0omL%252B3ZyoLyf2Je39n1CL6kZJM%22%2C%22sex%22%3A%22a5ea7k5ICaM86e43zV1Xvta0FVQNW9XjfBX8jhfE%22%2C%22mobile%22%3A%226b52oum7jIDPjMJRmH4pXNXNqoqN4KnIpHuCtSXxacqCWu3TmECpBQ%22%2C%22qq%22%3A%22067aE6iIANCmAL2d%252FOhvx3Xgb7AwNYvYR7%252FBI0I%22%2C%22email%22%3A%22b7c6JjMQF93s5lVvhUGxKVVCkGgRig%252BJX8CvNzE%22%2C%22point%22%3A%2254f4qtM%252B%252BuCPT3eW%252FEU7a1COe3wUxOl7bwlWqico%22%2C%22headimg%22%3A%22b1d7IaHQegjzYphiAdlGATipM531FUASdniLPT8%22%2C%22id_list%22%3A%22adebjxOX6Lajo0jG2JMtjUh21qbBhgcB1nPf%252BDM%22%2C%22regtime%22%3A%221c81473en0L1DNVUbHy300icCb7CS1uC5qp9YNdf%22%2C%22logintime%22%3A%22b65dm6thGv7g5jVw%252FU5TKaZFlWP0CLMqrfLPkM8%22%2C%22loginip%22%3A%22943aV7kgt8k%252FXk6yWjSE%252BFFEpcTUKfR4NYS3LNg%22%2C%22status%22%3A%224ab8zChAZdgM3NDIaP2oz25aGNlj8DJQ7ynHvSTP%22%2C%22remark%22%3A%22a645POUvCy3YrTSRwmP3071XGjThC4%252B%252FojUOAzU%22%7D',
+)
+[ info ] [ PARAM ] array (
+  '/index/cart' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Cart->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Cart.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/cart/index.html [ array (
+  0 => 'all_cart',
+  1 => 'carts',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-15T16:38:17+08:00 ] 127.0.0.4 127.0.0.1 GET /index/cart
+[ log ] www.6er.com/index/cart [运行时间：0.053206s][吞吐率：18.79req/s] [内存消耗：3,469.95kb] [文件加载：55]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cart',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.6er.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.1.1; Nexus 6 Build/LYZ28E) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'referer' => 'http://www.6er.com/index/goods/detail/id/5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en;q=0.8',
+  'cookie' => 'PHPSESSID=80chc2ib1avvv000iidosjjcar8dm9omfhgl6lm01glmeef27ir1; keep_user=think%3A%7B%22id%22%3A%229397Sx1kMEkHRq1Y%252FEWBQ2FRbr%252FulIYQI4E9a5WX%22%2C%22pid%22%3A%226a5fk%252B5VRdnKeek%252Bu%252B%252FhTubAKTEJ78CzPIiwmKrQ%22%2C%22name%22%3A%22bbd5btkwsWuKc3uiOEINLruj8jORnxhabTtV90%252B2E7g%22%2C%22realname%22%3A%2266ba0x3sgDShJ0omL%252B3ZyoLyf2Je39n1CL6kZJM%22%2C%22sex%22%3A%22a5ea7k5ICaM86e43zV1Xvta0FVQNW9XjfBX8jhfE%22%2C%22mobile%22%3A%226b52oum7jIDPjMJRmH4pXNXNqoqN4KnIpHuCtSXxacqCWu3TmECpBQ%22%2C%22qq%22%3A%22067aE6iIANCmAL2d%252FOhvx3Xgb7AwNYvYR7%252FBI0I%22%2C%22email%22%3A%22b7c6JjMQF93s5lVvhUGxKVVCkGgRig%252BJX8CvNzE%22%2C%22point%22%3A%2254f4qtM%252B%252BuCPT3eW%252FEU7a1COe3wUxOl7bwlWqico%22%2C%22headimg%22%3A%22b1d7IaHQegjzYphiAdlGATipM531FUASdniLPT8%22%2C%22id_list%22%3A%22adebjxOX6Lajo0jG2JMtjUh21qbBhgcB1nPf%252BDM%22%2C%22regtime%22%3A%221c81473en0L1DNVUbHy300icCb7CS1uC5qp9YNdf%22%2C%22logintime%22%3A%22b65dm6thGv7g5jVw%252FU5TKaZFlWP0CLMqrfLPkM8%22%2C%22loginip%22%3A%22943aV7kgt8k%252FXk6yWjSE%252BFFEpcTUKfR4NYS3LNg%22%2C%22status%22%3A%224ab8zChAZdgM3NDIaP2oz25aGNlj8DJQ7ynHvSTP%22%2C%22remark%22%3A%22a645POUvCy3YrTSRwmP3071XGjThC4%252B%252FojUOAzU%22%7D',
+)
+[ info ] [ PARAM ] array (
+  '/index/cart' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Cart->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Cart.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/cart/index.html [ array (
+  0 => 'all_cart',
+  1 => 'carts',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-15T16:38:38+08:00 ] 127.0.0.4 127.0.0.1 GET /index/cart
+[ log ] www.6er.com/index/cart [运行时间：0.058219s][吞吐率：17.18req/s] [内存消耗：3,469.95kb] [文件加载：55]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cart',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.6er.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.1.1; Nexus 6 Build/LYZ28E) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'referer' => 'http://www.6er.com/index/goods/detail/id/5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en;q=0.8',
+  'cookie' => 'PHPSESSID=80chc2ib1avvv000iidosjjcar8dm9omfhgl6lm01glmeef27ir1; keep_user=think%3A%7B%22id%22%3A%229397Sx1kMEkHRq1Y%252FEWBQ2FRbr%252FulIYQI4E9a5WX%22%2C%22pid%22%3A%226a5fk%252B5VRdnKeek%252Bu%252B%252FhTubAKTEJ78CzPIiwmKrQ%22%2C%22name%22%3A%22bbd5btkwsWuKc3uiOEINLruj8jORnxhabTtV90%252B2E7g%22%2C%22realname%22%3A%2266ba0x3sgDShJ0omL%252B3ZyoLyf2Je39n1CL6kZJM%22%2C%22sex%22%3A%22a5ea7k5ICaM86e43zV1Xvta0FVQNW9XjfBX8jhfE%22%2C%22mobile%22%3A%226b52oum7jIDPjMJRmH4pXNXNqoqN4KnIpHuCtSXxacqCWu3TmECpBQ%22%2C%22qq%22%3A%22067aE6iIANCmAL2d%252FOhvx3Xgb7AwNYvYR7%252FBI0I%22%2C%22email%22%3A%22b7c6JjMQF93s5lVvhUGxKVVCkGgRig%252BJX8CvNzE%22%2C%22point%22%3A%2254f4qtM%252B%252BuCPT3eW%252FEU7a1COe3wUxOl7bwlWqico%22%2C%22headimg%22%3A%22b1d7IaHQegjzYphiAdlGATipM531FUASdniLPT8%22%2C%22id_list%22%3A%22adebjxOX6Lajo0jG2JMtjUh21qbBhgcB1nPf%252BDM%22%2C%22regtime%22%3A%221c81473en0L1DNVUbHy300icCb7CS1uC5qp9YNdf%22%2C%22logintime%22%3A%22b65dm6thGv7g5jVw%252FU5TKaZFlWP0CLMqrfLPkM8%22%2C%22loginip%22%3A%22943aV7kgt8k%252FXk6yWjSE%252BFFEpcTUKfR4NYS3LNg%22%2C%22status%22%3A%224ab8zChAZdgM3NDIaP2oz25aGNlj8DJQ7ynHvSTP%22%2C%22remark%22%3A%22a645POUvCy3YrTSRwmP3071XGjThC4%252B%252FojUOAzU%22%7D',
+)
+[ info ] [ PARAM ] array (
+  '/index/cart' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Cart->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Cart.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/cart/index.html [ array (
+  0 => 'all_cart',
+  1 => 'carts',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-15T16:41:07+08:00 ] 127.0.0.4 127.0.0.1 GET /index/cart
+[ log ] www.6er.com/index/cart [运行时间：0.059229s][吞吐率：16.88req/s] [内存消耗：3,675.02kb] [文件加载：57]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cart',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.6er.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.1.1; Nexus 6 Build/LYZ28E) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'referer' => 'http://www.6er.com/index/goods/detail/id/5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en;q=0.8',
+  'cookie' => 'PHPSESSID=80chc2ib1avvv000iidosjjcar8dm9omfhgl6lm01glmeef27ir1; keep_user=think%3A%7B%22id%22%3A%229397Sx1kMEkHRq1Y%252FEWBQ2FRbr%252FulIYQI4E9a5WX%22%2C%22pid%22%3A%226a5fk%252B5VRdnKeek%252Bu%252B%252FhTubAKTEJ78CzPIiwmKrQ%22%2C%22name%22%3A%22bbd5btkwsWuKc3uiOEINLruj8jORnxhabTtV90%252B2E7g%22%2C%22realname%22%3A%2266ba0x3sgDShJ0omL%252B3ZyoLyf2Je39n1CL6kZJM%22%2C%22sex%22%3A%22a5ea7k5ICaM86e43zV1Xvta0FVQNW9XjfBX8jhfE%22%2C%22mobile%22%3A%226b52oum7jIDPjMJRmH4pXNXNqoqN4KnIpHuCtSXxacqCWu3TmECpBQ%22%2C%22qq%22%3A%22067aE6iIANCmAL2d%252FOhvx3Xgb7AwNYvYR7%252FBI0I%22%2C%22email%22%3A%22b7c6JjMQF93s5lVvhUGxKVVCkGgRig%252BJX8CvNzE%22%2C%22point%22%3A%2254f4qtM%252B%252BuCPT3eW%252FEU7a1COe3wUxOl7bwlWqico%22%2C%22headimg%22%3A%22b1d7IaHQegjzYphiAdlGATipM531FUASdniLPT8%22%2C%22id_list%22%3A%22adebjxOX6Lajo0jG2JMtjUh21qbBhgcB1nPf%252BDM%22%2C%22regtime%22%3A%221c81473en0L1DNVUbHy300icCb7CS1uC5qp9YNdf%22%2C%22logintime%22%3A%22b65dm6thGv7g5jVw%252FU5TKaZFlWP0CLMqrfLPkM8%22%2C%22loginip%22%3A%22943aV7kgt8k%252FXk6yWjSE%252BFFEpcTUKfR4NYS3LNg%22%2C%22status%22%3A%224ab8zChAZdgM3NDIaP2oz25aGNlj8DJQ7ynHvSTP%22%2C%22remark%22%3A%22a645POUvCy3YrTSRwmP3071XGjThC4%252B%252FojUOAzU%22%7D',
+)
+[ info ] [ PARAM ] array (
+  '/index/cart' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Cart->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Cart.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/cart/index.html [ array (
+  0 => 'all_cart',
+  1 => 'carts',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-15T16:41:50+08:00 ] 127.0.0.4 127.0.0.1 GET /index/cart
+[ log ] www.6er.com/index/cart [运行时间：0.056189s][吞吐率：17.80req/s] [内存消耗：3,675.10kb] [文件加载：57]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cart',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.6er.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.1.1; Nexus 6 Build/LYZ28E) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'referer' => 'http://www.6er.com/index/goods/detail/id/5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en;q=0.8',
+  'cookie' => 'PHPSESSID=80chc2ib1avvv000iidosjjcar8dm9omfhgl6lm01glmeef27ir1; keep_user=think%3A%7B%22id%22%3A%229397Sx1kMEkHRq1Y%252FEWBQ2FRbr%252FulIYQI4E9a5WX%22%2C%22pid%22%3A%226a5fk%252B5VRdnKeek%252Bu%252B%252FhTubAKTEJ78CzPIiwmKrQ%22%2C%22name%22%3A%22bbd5btkwsWuKc3uiOEINLruj8jORnxhabTtV90%252B2E7g%22%2C%22realname%22%3A%2266ba0x3sgDShJ0omL%252B3ZyoLyf2Je39n1CL6kZJM%22%2C%22sex%22%3A%22a5ea7k5ICaM86e43zV1Xvta0FVQNW9XjfBX8jhfE%22%2C%22mobile%22%3A%226b52oum7jIDPjMJRmH4pXNXNqoqN4KnIpHuCtSXxacqCWu3TmECpBQ%22%2C%22qq%22%3A%22067aE6iIANCmAL2d%252FOhvx3Xgb7AwNYvYR7%252FBI0I%22%2C%22email%22%3A%22b7c6JjMQF93s5lVvhUGxKVVCkGgRig%252BJX8CvNzE%22%2C%22point%22%3A%2254f4qtM%252B%252BuCPT3eW%252FEU7a1COe3wUxOl7bwlWqico%22%2C%22headimg%22%3A%22b1d7IaHQegjzYphiAdlGATipM531FUASdniLPT8%22%2C%22id_list%22%3A%22adebjxOX6Lajo0jG2JMtjUh21qbBhgcB1nPf%252BDM%22%2C%22regtime%22%3A%221c81473en0L1DNVUbHy300icCb7CS1uC5qp9YNdf%22%2C%22logintime%22%3A%22b65dm6thGv7g5jVw%252FU5TKaZFlWP0CLMqrfLPkM8%22%2C%22loginip%22%3A%22943aV7kgt8k%252FXk6yWjSE%252BFFEpcTUKfR4NYS3LNg%22%2C%22status%22%3A%224ab8zChAZdgM3NDIaP2oz25aGNlj8DJQ7ynHvSTP%22%2C%22remark%22%3A%22a645POUvCy3YrTSRwmP3071XGjThC4%252B%252FojUOAzU%22%7D',
+)
+[ info ] [ PARAM ] array (
+  '/index/cart' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Cart->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Cart.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/cart/index.html [ array (
+  0 => 'all_cart',
+  1 => 'carts',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-15T16:42:18+08:00 ] 127.0.0.4 127.0.0.1 GET /index/cart
+[ log ] www.6er.com/index/cart [运行时间：0.064862s][吞吐率：15.42req/s] [内存消耗：3,469.96kb] [文件加载：55]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cart',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.6er.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.1.1; Nexus 6 Build/LYZ28E) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'referer' => 'http://www.6er.com/index/goods/detail/id/5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en;q=0.8',
+  'cookie' => 'PHPSESSID=80chc2ib1avvv000iidosjjcar8dm9omfhgl6lm01glmeef27ir1; keep_user=think%3A%7B%22id%22%3A%229397Sx1kMEkHRq1Y%252FEWBQ2FRbr%252FulIYQI4E9a5WX%22%2C%22pid%22%3A%226a5fk%252B5VRdnKeek%252Bu%252B%252FhTubAKTEJ78CzPIiwmKrQ%22%2C%22name%22%3A%22bbd5btkwsWuKc3uiOEINLruj8jORnxhabTtV90%252B2E7g%22%2C%22realname%22%3A%2266ba0x3sgDShJ0omL%252B3ZyoLyf2Je39n1CL6kZJM%22%2C%22sex%22%3A%22a5ea7k5ICaM86e43zV1Xvta0FVQNW9XjfBX8jhfE%22%2C%22mobile%22%3A%226b52oum7jIDPjMJRmH4pXNXNqoqN4KnIpHuCtSXxacqCWu3TmECpBQ%22%2C%22qq%22%3A%22067aE6iIANCmAL2d%252FOhvx3Xgb7AwNYvYR7%252FBI0I%22%2C%22email%22%3A%22b7c6JjMQF93s5lVvhUGxKVVCkGgRig%252BJX8CvNzE%22%2C%22point%22%3A%2254f4qtM%252B%252BuCPT3eW%252FEU7a1COe3wUxOl7bwlWqico%22%2C%22headimg%22%3A%22b1d7IaHQegjzYphiAdlGATipM531FUASdniLPT8%22%2C%22id_list%22%3A%22adebjxOX6Lajo0jG2JMtjUh21qbBhgcB1nPf%252BDM%22%2C%22regtime%22%3A%221c81473en0L1DNVUbHy300icCb7CS1uC5qp9YNdf%22%2C%22logintime%22%3A%22b65dm6thGv7g5jVw%252FU5TKaZFlWP0CLMqrfLPkM8%22%2C%22loginip%22%3A%22943aV7kgt8k%252FXk6yWjSE%252BFFEpcTUKfR4NYS3LNg%22%2C%22status%22%3A%224ab8zChAZdgM3NDIaP2oz25aGNlj8DJQ7ynHvSTP%22%2C%22remark%22%3A%22a645POUvCy3YrTSRwmP3071XGjThC4%252B%252FojUOAzU%22%7D',
+)
+[ info ] [ PARAM ] array (
+  '/index/cart' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Cart->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Cart.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/cart/index.html [ array (
+  0 => 'all_cart',
+  1 => 'carts',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-15T16:43:48+08:00 ] 127.0.0.4 127.0.0.1 GET /index/cart
+[ log ] www.6er.com/index/cart [运行时间：0.054194s][吞吐率：18.45req/s] [内存消耗：3,469.96kb] [文件加载：55]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cart',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.6er.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.1.1; Nexus 6 Build/LYZ28E) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'referer' => 'http://www.6er.com/index/goods/detail/id/5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en;q=0.8',
+  'cookie' => 'PHPSESSID=80chc2ib1avvv000iidosjjcar8dm9omfhgl6lm01glmeef27ir1; keep_user=think%3A%7B%22id%22%3A%229397Sx1kMEkHRq1Y%252FEWBQ2FRbr%252FulIYQI4E9a5WX%22%2C%22pid%22%3A%226a5fk%252B5VRdnKeek%252Bu%252B%252FhTubAKTEJ78CzPIiwmKrQ%22%2C%22name%22%3A%22bbd5btkwsWuKc3uiOEINLruj8jORnxhabTtV90%252B2E7g%22%2C%22realname%22%3A%2266ba0x3sgDShJ0omL%252B3ZyoLyf2Je39n1CL6kZJM%22%2C%22sex%22%3A%22a5ea7k5ICaM86e43zV1Xvta0FVQNW9XjfBX8jhfE%22%2C%22mobile%22%3A%226b52oum7jIDPjMJRmH4pXNXNqoqN4KnIpHuCtSXxacqCWu3TmECpBQ%22%2C%22qq%22%3A%22067aE6iIANCmAL2d%252FOhvx3Xgb7AwNYvYR7%252FBI0I%22%2C%22email%22%3A%22b7c6JjMQF93s5lVvhUGxKVVCkGgRig%252BJX8CvNzE%22%2C%22point%22%3A%2254f4qtM%252B%252BuCPT3eW%252FEU7a1COe3wUxOl7bwlWqico%22%2C%22headimg%22%3A%22b1d7IaHQegjzYphiAdlGATipM531FUASdniLPT8%22%2C%22id_list%22%3A%22adebjxOX6Lajo0jG2JMtjUh21qbBhgcB1nPf%252BDM%22%2C%22regtime%22%3A%221c81473en0L1DNVUbHy300icCb7CS1uC5qp9YNdf%22%2C%22logintime%22%3A%22b65dm6thGv7g5jVw%252FU5TKaZFlWP0CLMqrfLPkM8%22%2C%22loginip%22%3A%22943aV7kgt8k%252FXk6yWjSE%252BFFEpcTUKfR4NYS3LNg%22%2C%22status%22%3A%224ab8zChAZdgM3NDIaP2oz25aGNlj8DJQ7ynHvSTP%22%2C%22remark%22%3A%22a645POUvCy3YrTSRwmP3071XGjThC4%252B%252FojUOAzU%22%7D',
+)
+[ info ] [ PARAM ] array (
+  '/index/cart' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Cart->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Cart.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/cart/index.html [ array (
+  0 => 'all_cart',
+  1 => 'carts',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-15T16:43:49+08:00 ] 127.0.0.4 127.0.0.1 GET /index/cart
+[ log ] www.6er.com/index/cart [运行时间：0.046210s][吞吐率：21.64req/s] [内存消耗：3,469.96kb] [文件加载：55]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cart',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.6er.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.1.1; Nexus 6 Build/LYZ28E) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'referer' => 'http://www.6er.com/index/goods/detail/id/5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en;q=0.8',
+  'cookie' => 'PHPSESSID=80chc2ib1avvv000iidosjjcar8dm9omfhgl6lm01glmeef27ir1; keep_user=think%3A%7B%22id%22%3A%229397Sx1kMEkHRq1Y%252FEWBQ2FRbr%252FulIYQI4E9a5WX%22%2C%22pid%22%3A%226a5fk%252B5VRdnKeek%252Bu%252B%252FhTubAKTEJ78CzPIiwmKrQ%22%2C%22name%22%3A%22bbd5btkwsWuKc3uiOEINLruj8jORnxhabTtV90%252B2E7g%22%2C%22realname%22%3A%2266ba0x3sgDShJ0omL%252B3ZyoLyf2Je39n1CL6kZJM%22%2C%22sex%22%3A%22a5ea7k5ICaM86e43zV1Xvta0FVQNW9XjfBX8jhfE%22%2C%22mobile%22%3A%226b52oum7jIDPjMJRmH4pXNXNqoqN4KnIpHuCtSXxacqCWu3TmECpBQ%22%2C%22qq%22%3A%22067aE6iIANCmAL2d%252FOhvx3Xgb7AwNYvYR7%252FBI0I%22%2C%22email%22%3A%22b7c6JjMQF93s5lVvhUGxKVVCkGgRig%252BJX8CvNzE%22%2C%22point%22%3A%2254f4qtM%252B%252BuCPT3eW%252FEU7a1COe3wUxOl7bwlWqico%22%2C%22headimg%22%3A%22b1d7IaHQegjzYphiAdlGATipM531FUASdniLPT8%22%2C%22id_list%22%3A%22adebjxOX6Lajo0jG2JMtjUh21qbBhgcB1nPf%252BDM%22%2C%22regtime%22%3A%221c81473en0L1DNVUbHy300icCb7CS1uC5qp9YNdf%22%2C%22logintime%22%3A%22b65dm6thGv7g5jVw%252FU5TKaZFlWP0CLMqrfLPkM8%22%2C%22loginip%22%3A%22943aV7kgt8k%252FXk6yWjSE%252BFFEpcTUKfR4NYS3LNg%22%2C%22status%22%3A%224ab8zChAZdgM3NDIaP2oz25aGNlj8DJQ7ynHvSTP%22%2C%22remark%22%3A%22a645POUvCy3YrTSRwmP3071XGjThC4%252B%252FojUOAzU%22%7D',
+)
+[ info ] [ PARAM ] array (
+  '/index/cart' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Cart->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Cart.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/cart/index.html [ array (
+  0 => 'all_cart',
+  1 => 'carts',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-15T16:44:03+08:00 ] 127.0.0.4 127.0.0.1 GET /index/cart
+[ log ] www.6er.com/index/cart [运行时间：0.060630s][吞吐率：16.49req/s] [内存消耗：3,469.96kb] [文件加载：55]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cart',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.6er.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.1.1; Nexus 6 Build/LYZ28E) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'referer' => 'http://www.6er.com/index/goods/detail/id/5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en;q=0.8',
+  'cookie' => 'PHPSESSID=80chc2ib1avvv000iidosjjcar8dm9omfhgl6lm01glmeef27ir1; keep_user=think%3A%7B%22id%22%3A%229397Sx1kMEkHRq1Y%252FEWBQ2FRbr%252FulIYQI4E9a5WX%22%2C%22pid%22%3A%226a5fk%252B5VRdnKeek%252Bu%252B%252FhTubAKTEJ78CzPIiwmKrQ%22%2C%22name%22%3A%22bbd5btkwsWuKc3uiOEINLruj8jORnxhabTtV90%252B2E7g%22%2C%22realname%22%3A%2266ba0x3sgDShJ0omL%252B3ZyoLyf2Je39n1CL6kZJM%22%2C%22sex%22%3A%22a5ea7k5ICaM86e43zV1Xvta0FVQNW9XjfBX8jhfE%22%2C%22mobile%22%3A%226b52oum7jIDPjMJRmH4pXNXNqoqN4KnIpHuCtSXxacqCWu3TmECpBQ%22%2C%22qq%22%3A%22067aE6iIANCmAL2d%252FOhvx3Xgb7AwNYvYR7%252FBI0I%22%2C%22email%22%3A%22b7c6JjMQF93s5lVvhUGxKVVCkGgRig%252BJX8CvNzE%22%2C%22point%22%3A%2254f4qtM%252B%252BuCPT3eW%252FEU7a1COe3wUxOl7bwlWqico%22%2C%22headimg%22%3A%22b1d7IaHQegjzYphiAdlGATipM531FUASdniLPT8%22%2C%22id_list%22%3A%22adebjxOX6Lajo0jG2JMtjUh21qbBhgcB1nPf%252BDM%22%2C%22regtime%22%3A%221c81473en0L1DNVUbHy300icCb7CS1uC5qp9YNdf%22%2C%22logintime%22%3A%22b65dm6thGv7g5jVw%252FU5TKaZFlWP0CLMqrfLPkM8%22%2C%22loginip%22%3A%22943aV7kgt8k%252FXk6yWjSE%252BFFEpcTUKfR4NYS3LNg%22%2C%22status%22%3A%224ab8zChAZdgM3NDIaP2oz25aGNlj8DJQ7ynHvSTP%22%2C%22remark%22%3A%22a645POUvCy3YrTSRwmP3071XGjThC4%252B%252FojUOAzU%22%7D',
+)
+[ info ] [ PARAM ] array (
+  '/index/cart' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Cart->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Cart.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/cart/index.html [ array (
+  0 => 'all_cart',
+  1 => 'carts',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-15T16:44:04+08:00 ] 127.0.0.4 127.0.0.1 GET /index/cart
+[ log ] www.6er.com/index/cart [运行时间：0.053903s][吞吐率：18.55req/s] [内存消耗：3,469.96kb] [文件加载：55]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cart',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.6er.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.1.1; Nexus 6 Build/LYZ28E) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'referer' => 'http://www.6er.com/index/goods/detail/id/5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en;q=0.8',
+  'cookie' => 'PHPSESSID=80chc2ib1avvv000iidosjjcar8dm9omfhgl6lm01glmeef27ir1; keep_user=think%3A%7B%22id%22%3A%229397Sx1kMEkHRq1Y%252FEWBQ2FRbr%252FulIYQI4E9a5WX%22%2C%22pid%22%3A%226a5fk%252B5VRdnKeek%252Bu%252B%252FhTubAKTEJ78CzPIiwmKrQ%22%2C%22name%22%3A%22bbd5btkwsWuKc3uiOEINLruj8jORnxhabTtV90%252B2E7g%22%2C%22realname%22%3A%2266ba0x3sgDShJ0omL%252B3ZyoLyf2Je39n1CL6kZJM%22%2C%22sex%22%3A%22a5ea7k5ICaM86e43zV1Xvta0FVQNW9XjfBX8jhfE%22%2C%22mobile%22%3A%226b52oum7jIDPjMJRmH4pXNXNqoqN4KnIpHuCtSXxacqCWu3TmECpBQ%22%2C%22qq%22%3A%22067aE6iIANCmAL2d%252FOhvx3Xgb7AwNYvYR7%252FBI0I%22%2C%22email%22%3A%22b7c6JjMQF93s5lVvhUGxKVVCkGgRig%252BJX8CvNzE%22%2C%22point%22%3A%2254f4qtM%252B%252BuCPT3eW%252FEU7a1COe3wUxOl7bwlWqico%22%2C%22headimg%22%3A%22b1d7IaHQegjzYphiAdlGATipM531FUASdniLPT8%22%2C%22id_list%22%3A%22adebjxOX6Lajo0jG2JMtjUh21qbBhgcB1nPf%252BDM%22%2C%22regtime%22%3A%221c81473en0L1DNVUbHy300icCb7CS1uC5qp9YNdf%22%2C%22logintime%22%3A%22b65dm6thGv7g5jVw%252FU5TKaZFlWP0CLMqrfLPkM8%22%2C%22loginip%22%3A%22943aV7kgt8k%252FXk6yWjSE%252BFFEpcTUKfR4NYS3LNg%22%2C%22status%22%3A%224ab8zChAZdgM3NDIaP2oz25aGNlj8DJQ7ynHvSTP%22%2C%22remark%22%3A%22a645POUvCy3YrTSRwmP3071XGjThC4%252B%252FojUOAzU%22%7D',
+)
+[ info ] [ PARAM ] array (
+  '/index/cart' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Cart->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Cart.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/cart/index.html [ array (
+  0 => 'all_cart',
+  1 => 'carts',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-15T16:44:05+08:00 ] 127.0.0.4 127.0.0.1 GET /index/cart
+[ log ] www.6er.com/index/cart [运行时间：0.048622s][吞吐率：20.57req/s] [内存消耗：3,469.96kb] [文件加载：55]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cart',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.6er.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.1.1; Nexus 6 Build/LYZ28E) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'referer' => 'http://www.6er.com/index/goods/detail/id/5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en;q=0.8',
+  'cookie' => 'PHPSESSID=80chc2ib1avvv000iidosjjcar8dm9omfhgl6lm01glmeef27ir1; keep_user=think%3A%7B%22id%22%3A%229397Sx1kMEkHRq1Y%252FEWBQ2FRbr%252FulIYQI4E9a5WX%22%2C%22pid%22%3A%226a5fk%252B5VRdnKeek%252Bu%252B%252FhTubAKTEJ78CzPIiwmKrQ%22%2C%22name%22%3A%22bbd5btkwsWuKc3uiOEINLruj8jORnxhabTtV90%252B2E7g%22%2C%22realname%22%3A%2266ba0x3sgDShJ0omL%252B3ZyoLyf2Je39n1CL6kZJM%22%2C%22sex%22%3A%22a5ea7k5ICaM86e43zV1Xvta0FVQNW9XjfBX8jhfE%22%2C%22mobile%22%3A%226b52oum7jIDPjMJRmH4pXNXNqoqN4KnIpHuCtSXxacqCWu3TmECpBQ%22%2C%22qq%22%3A%22067aE6iIANCmAL2d%252FOhvx3Xgb7AwNYvYR7%252FBI0I%22%2C%22email%22%3A%22b7c6JjMQF93s5lVvhUGxKVVCkGgRig%252BJX8CvNzE%22%2C%22point%22%3A%2254f4qtM%252B%252BuCPT3eW%252FEU7a1COe3wUxOl7bwlWqico%22%2C%22headimg%22%3A%22b1d7IaHQegjzYphiAdlGATipM531FUASdniLPT8%22%2C%22id_list%22%3A%22adebjxOX6Lajo0jG2JMtjUh21qbBhgcB1nPf%252BDM%22%2C%22regtime%22%3A%221c81473en0L1DNVUbHy300icCb7CS1uC5qp9YNdf%22%2C%22logintime%22%3A%22b65dm6thGv7g5jVw%252FU5TKaZFlWP0CLMqrfLPkM8%22%2C%22loginip%22%3A%22943aV7kgt8k%252FXk6yWjSE%252BFFEpcTUKfR4NYS3LNg%22%2C%22status%22%3A%224ab8zChAZdgM3NDIaP2oz25aGNlj8DJQ7ynHvSTP%22%2C%22remark%22%3A%22a645POUvCy3YrTSRwmP3071XGjThC4%252B%252FojUOAzU%22%7D',
+)
+[ info ] [ PARAM ] array (
+  '/index/cart' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Cart->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Cart.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/cart/index.html [ array (
+  0 => 'all_cart',
+  1 => 'carts',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-15T16:44:05+08:00 ] 127.0.0.4 127.0.0.1 GET /index/cart
+[ log ] www.6er.com/index/cart [运行时间：0.046449s][吞吐率：21.53req/s] [内存消耗：3,469.96kb] [文件加载：55]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cart',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.6er.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.1.1; Nexus 6 Build/LYZ28E) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'referer' => 'http://www.6er.com/index/goods/detail/id/5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en;q=0.8',
+  'cookie' => 'PHPSESSID=80chc2ib1avvv000iidosjjcar8dm9omfhgl6lm01glmeef27ir1; keep_user=think%3A%7B%22id%22%3A%229397Sx1kMEkHRq1Y%252FEWBQ2FRbr%252FulIYQI4E9a5WX%22%2C%22pid%22%3A%226a5fk%252B5VRdnKeek%252Bu%252B%252FhTubAKTEJ78CzPIiwmKrQ%22%2C%22name%22%3A%22bbd5btkwsWuKc3uiOEINLruj8jORnxhabTtV90%252B2E7g%22%2C%22realname%22%3A%2266ba0x3sgDShJ0omL%252B3ZyoLyf2Je39n1CL6kZJM%22%2C%22sex%22%3A%22a5ea7k5ICaM86e43zV1Xvta0FVQNW9XjfBX8jhfE%22%2C%22mobile%22%3A%226b52oum7jIDPjMJRmH4pXNXNqoqN4KnIpHuCtSXxacqCWu3TmECpBQ%22%2C%22qq%22%3A%22067aE6iIANCmAL2d%252FOhvx3Xgb7AwNYvYR7%252FBI0I%22%2C%22email%22%3A%22b7c6JjMQF93s5lVvhUGxKVVCkGgRig%252BJX8CvNzE%22%2C%22point%22%3A%2254f4qtM%252B%252BuCPT3eW%252FEU7a1COe3wUxOl7bwlWqico%22%2C%22headimg%22%3A%22b1d7IaHQegjzYphiAdlGATipM531FUASdniLPT8%22%2C%22id_list%22%3A%22adebjxOX6Lajo0jG2JMtjUh21qbBhgcB1nPf%252BDM%22%2C%22regtime%22%3A%221c81473en0L1DNVUbHy300icCb7CS1uC5qp9YNdf%22%2C%22logintime%22%3A%22b65dm6thGv7g5jVw%252FU5TKaZFlWP0CLMqrfLPkM8%22%2C%22loginip%22%3A%22943aV7kgt8k%252FXk6yWjSE%252BFFEpcTUKfR4NYS3LNg%22%2C%22status%22%3A%224ab8zChAZdgM3NDIaP2oz25aGNlj8DJQ7ynHvSTP%22%2C%22remark%22%3A%22a645POUvCy3YrTSRwmP3071XGjThC4%252B%252FojUOAzU%22%7D',
+)
+[ info ] [ PARAM ] array (
+  '/index/cart' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Cart->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Cart.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/cart/index.html [ array (
+  0 => 'all_cart',
+  1 => 'carts',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-15T16:46:19+08:00 ] 127.0.0.4 127.0.0.1 GET /index/cart
+[ log ] www.6er.com/index/cart [运行时间：0.052977s][吞吐率：18.88req/s] [内存消耗：3,469.96kb] [文件加载：55]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cart',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.6er.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.1.1; Nexus 6 Build/LYZ28E) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'referer' => 'http://www.6er.com/index/goods/detail/id/5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en;q=0.8',
+  'cookie' => 'PHPSESSID=80chc2ib1avvv000iidosjjcar8dm9omfhgl6lm01glmeef27ir1; keep_user=think%3A%7B%22id%22%3A%229397Sx1kMEkHRq1Y%252FEWBQ2FRbr%252FulIYQI4E9a5WX%22%2C%22pid%22%3A%226a5fk%252B5VRdnKeek%252Bu%252B%252FhTubAKTEJ78CzPIiwmKrQ%22%2C%22name%22%3A%22bbd5btkwsWuKc3uiOEINLruj8jORnxhabTtV90%252B2E7g%22%2C%22realname%22%3A%2266ba0x3sgDShJ0omL%252B3ZyoLyf2Je39n1CL6kZJM%22%2C%22sex%22%3A%22a5ea7k5ICaM86e43zV1Xvta0FVQNW9XjfBX8jhfE%22%2C%22mobile%22%3A%226b52oum7jIDPjMJRmH4pXNXNqoqN4KnIpHuCtSXxacqCWu3TmECpBQ%22%2C%22qq%22%3A%22067aE6iIANCmAL2d%252FOhvx3Xgb7AwNYvYR7%252FBI0I%22%2C%22email%22%3A%22b7c6JjMQF93s5lVvhUGxKVVCkGgRig%252BJX8CvNzE%22%2C%22point%22%3A%2254f4qtM%252B%252BuCPT3eW%252FEU7a1COe3wUxOl7bwlWqico%22%2C%22headimg%22%3A%22b1d7IaHQegjzYphiAdlGATipM531FUASdniLPT8%22%2C%22id_list%22%3A%22adebjxOX6Lajo0jG2JMtjUh21qbBhgcB1nPf%252BDM%22%2C%22regtime%22%3A%221c81473en0L1DNVUbHy300icCb7CS1uC5qp9YNdf%22%2C%22logintime%22%3A%22b65dm6thGv7g5jVw%252FU5TKaZFlWP0CLMqrfLPkM8%22%2C%22loginip%22%3A%22943aV7kgt8k%252FXk6yWjSE%252BFFEpcTUKfR4NYS3LNg%22%2C%22status%22%3A%224ab8zChAZdgM3NDIaP2oz25aGNlj8DJQ7ynHvSTP%22%2C%22remark%22%3A%22a645POUvCy3YrTSRwmP3071XGjThC4%252B%252FojUOAzU%22%7D',
+)
+[ info ] [ PARAM ] array (
+  '/index/cart' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Cart->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Cart.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/cart/index.html [ array (
+  0 => 'all_cart',
+  1 => 'carts',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-15T16:46:43+08:00 ] 127.0.0.4 127.0.0.1 GET /index/cart
+[ log ] www.6er.com/index/cart [运行时间：0.053773s][吞吐率：18.60req/s] [内存消耗：3,469.96kb] [文件加载：55]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cart',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.6er.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.1.1; Nexus 6 Build/LYZ28E) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'referer' => 'http://www.6er.com/index/goods/detail/id/5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en;q=0.8',
+  'cookie' => 'PHPSESSID=80chc2ib1avvv000iidosjjcar8dm9omfhgl6lm01glmeef27ir1; keep_user=think%3A%7B%22id%22%3A%229397Sx1kMEkHRq1Y%252FEWBQ2FRbr%252FulIYQI4E9a5WX%22%2C%22pid%22%3A%226a5fk%252B5VRdnKeek%252Bu%252B%252FhTubAKTEJ78CzPIiwmKrQ%22%2C%22name%22%3A%22bbd5btkwsWuKc3uiOEINLruj8jORnxhabTtV90%252B2E7g%22%2C%22realname%22%3A%2266ba0x3sgDShJ0omL%252B3ZyoLyf2Je39n1CL6kZJM%22%2C%22sex%22%3A%22a5ea7k5ICaM86e43zV1Xvta0FVQNW9XjfBX8jhfE%22%2C%22mobile%22%3A%226b52oum7jIDPjMJRmH4pXNXNqoqN4KnIpHuCtSXxacqCWu3TmECpBQ%22%2C%22qq%22%3A%22067aE6iIANCmAL2d%252FOhvx3Xgb7AwNYvYR7%252FBI0I%22%2C%22email%22%3A%22b7c6JjMQF93s5lVvhUGxKVVCkGgRig%252BJX8CvNzE%22%2C%22point%22%3A%2254f4qtM%252B%252BuCPT3eW%252FEU7a1COe3wUxOl7bwlWqico%22%2C%22headimg%22%3A%22b1d7IaHQegjzYphiAdlGATipM531FUASdniLPT8%22%2C%22id_list%22%3A%22adebjxOX6Lajo0jG2JMtjUh21qbBhgcB1nPf%252BDM%22%2C%22regtime%22%3A%221c81473en0L1DNVUbHy300icCb7CS1uC5qp9YNdf%22%2C%22logintime%22%3A%22b65dm6thGv7g5jVw%252FU5TKaZFlWP0CLMqrfLPkM8%22%2C%22loginip%22%3A%22943aV7kgt8k%252FXk6yWjSE%252BFFEpcTUKfR4NYS3LNg%22%2C%22status%22%3A%224ab8zChAZdgM3NDIaP2oz25aGNlj8DJQ7ynHvSTP%22%2C%22remark%22%3A%22a645POUvCy3YrTSRwmP3071XGjThC4%252B%252FojUOAzU%22%7D',
+)
+[ info ] [ PARAM ] array (
+  '/index/cart' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Cart->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Cart.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/cart/index.html [ array (
+  0 => 'all_cart',
+  1 => 'carts',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-15T16:47:15+08:00 ] 127.0.0.4 127.0.0.1 GET /index/cart
+[ log ] www.6er.com/index/cart [运行时间：0.056514s][吞吐率：17.69req/s] [内存消耗：3,469.96kb] [文件加载：55]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cart',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.6er.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.1.1; Nexus 6 Build/LYZ28E) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'referer' => 'http://www.6er.com/index/goods/detail/id/5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en;q=0.8',
+  'cookie' => 'PHPSESSID=80chc2ib1avvv000iidosjjcar8dm9omfhgl6lm01glmeef27ir1; keep_user=think%3A%7B%22id%22%3A%229397Sx1kMEkHRq1Y%252FEWBQ2FRbr%252FulIYQI4E9a5WX%22%2C%22pid%22%3A%226a5fk%252B5VRdnKeek%252Bu%252B%252FhTubAKTEJ78CzPIiwmKrQ%22%2C%22name%22%3A%22bbd5btkwsWuKc3uiOEINLruj8jORnxhabTtV90%252B2E7g%22%2C%22realname%22%3A%2266ba0x3sgDShJ0omL%252B3ZyoLyf2Je39n1CL6kZJM%22%2C%22sex%22%3A%22a5ea7k5ICaM86e43zV1Xvta0FVQNW9XjfBX8jhfE%22%2C%22mobile%22%3A%226b52oum7jIDPjMJRmH4pXNXNqoqN4KnIpHuCtSXxacqCWu3TmECpBQ%22%2C%22qq%22%3A%22067aE6iIANCmAL2d%252FOhvx3Xgb7AwNYvYR7%252FBI0I%22%2C%22email%22%3A%22b7c6JjMQF93s5lVvhUGxKVVCkGgRig%252BJX8CvNzE%22%2C%22point%22%3A%2254f4qtM%252B%252BuCPT3eW%252FEU7a1COe3wUxOl7bwlWqico%22%2C%22headimg%22%3A%22b1d7IaHQegjzYphiAdlGATipM531FUASdniLPT8%22%2C%22id_list%22%3A%22adebjxOX6Lajo0jG2JMtjUh21qbBhgcB1nPf%252BDM%22%2C%22regtime%22%3A%221c81473en0L1DNVUbHy300icCb7CS1uC5qp9YNdf%22%2C%22logintime%22%3A%22b65dm6thGv7g5jVw%252FU5TKaZFlWP0CLMqrfLPkM8%22%2C%22loginip%22%3A%22943aV7kgt8k%252FXk6yWjSE%252BFFEpcTUKfR4NYS3LNg%22%2C%22status%22%3A%224ab8zChAZdgM3NDIaP2oz25aGNlj8DJQ7ynHvSTP%22%2C%22remark%22%3A%22a645POUvCy3YrTSRwmP3071XGjThC4%252B%252FojUOAzU%22%7D',
+)
+[ info ] [ PARAM ] array (
+  '/index/cart' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Cart->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Cart.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/cart/index.html [ array (
+  0 => 'all_cart',
+  1 => 'carts',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-15T16:47:23+08:00 ] 127.0.0.4 127.0.0.1 GET /index/cart
+[ log ] www.6er.com/index/cart [运行时间：0.058359s][吞吐率：17.14req/s] [内存消耗：3,469.96kb] [文件加载：55]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cart',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.6er.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.1.1; Nexus 6 Build/LYZ28E) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'referer' => 'http://www.6er.com/index/goods/detail/id/5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en;q=0.8',
+  'cookie' => 'PHPSESSID=80chc2ib1avvv000iidosjjcar8dm9omfhgl6lm01glmeef27ir1; keep_user=think%3A%7B%22id%22%3A%229397Sx1kMEkHRq1Y%252FEWBQ2FRbr%252FulIYQI4E9a5WX%22%2C%22pid%22%3A%226a5fk%252B5VRdnKeek%252Bu%252B%252FhTubAKTEJ78CzPIiwmKrQ%22%2C%22name%22%3A%22bbd5btkwsWuKc3uiOEINLruj8jORnxhabTtV90%252B2E7g%22%2C%22realname%22%3A%2266ba0x3sgDShJ0omL%252B3ZyoLyf2Je39n1CL6kZJM%22%2C%22sex%22%3A%22a5ea7k5ICaM86e43zV1Xvta0FVQNW9XjfBX8jhfE%22%2C%22mobile%22%3A%226b52oum7jIDPjMJRmH4pXNXNqoqN4KnIpHuCtSXxacqCWu3TmECpBQ%22%2C%22qq%22%3A%22067aE6iIANCmAL2d%252FOhvx3Xgb7AwNYvYR7%252FBI0I%22%2C%22email%22%3A%22b7c6JjMQF93s5lVvhUGxKVVCkGgRig%252BJX8CvNzE%22%2C%22point%22%3A%2254f4qtM%252B%252BuCPT3eW%252FEU7a1COe3wUxOl7bwlWqico%22%2C%22headimg%22%3A%22b1d7IaHQegjzYphiAdlGATipM531FUASdniLPT8%22%2C%22id_list%22%3A%22adebjxOX6Lajo0jG2JMtjUh21qbBhgcB1nPf%252BDM%22%2C%22regtime%22%3A%221c81473en0L1DNVUbHy300icCb7CS1uC5qp9YNdf%22%2C%22logintime%22%3A%22b65dm6thGv7g5jVw%252FU5TKaZFlWP0CLMqrfLPkM8%22%2C%22loginip%22%3A%22943aV7kgt8k%252FXk6yWjSE%252BFFEpcTUKfR4NYS3LNg%22%2C%22status%22%3A%224ab8zChAZdgM3NDIaP2oz25aGNlj8DJQ7ynHvSTP%22%2C%22remark%22%3A%22a645POUvCy3YrTSRwmP3071XGjThC4%252B%252FojUOAzU%22%7D',
+)
+[ info ] [ PARAM ] array (
+  '/index/cart' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Cart->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Cart.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/cart/index.html [ array (
+  0 => 'all_cart',
+  1 => 'carts',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-15T16:48:00+08:00 ] 192.168.1.116 192.168.1.115 GET /index/cart
+[ log ] 192.168.1.116:8090/index/cart [运行时间：0.047810s][吞吐率：20.92req/s] [内存消耗：3,469.52kb] [文件加载：55]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cart',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.116:8090',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.0; ASUS_Z00ADB Build/LRX21V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/43.0.2357.121 Mobile Safari/537.36 MicroMessenger/6.5.13.1100 NetType/WIFI Language/zh_CN',
+  'referer' => 'http://192.168.1.116:8090/index/goods/detail/id/5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=s1qfakcuo9egvjkmofppgaui9h6qnajvvvvjvkif3em33k6gntl0; keep_user=think%3A%7B%22id%22%3A%2235b5%252B%252FmOwpR7qMO%252F%252BImpk094Lmt%252B2KDRv2SIraRM%22%2C%22pid%22%3A%220fe1AdpGgBYq0fv0QADssRXg6nHc4RPkUBsEvSxb%22%2C%22name%22%3A%22ce2bMHKNFrJ9jv4Zjp3%252FeLxiJIiGZBo9VA8QLB42WeQ%22%2C%22realname%22%3A%223ecaM%252FbVvgAcgNwNXsBuP9Mme3ATf1d0IbCpnXc%22%2C%22sex%22%3A%2239b7R8GAmEphRAif%252BF9tFDWzEtowZrVcxAk64kuo%22%2C%22mobile%22%3A%229b66vzBsaxd4PuKlmgnEIrnMC5iG1ghcmm02wr%252FlyNCkFVpGuBZEjQ%22%2C%22qq%22%3A%228d238vYhE5%252F3rFAlNK3or9cqdmL1ADsB8vCfeHI%22%2C%22email%22%3A%2236709qlLtOoQaWGEIRAAfScRcaU1NukxXiI4lXk%22%2C%22point%22%3A%228383LIGJ0%252BCWRVWbg9zTkabJhqHTnHlOodxHcpfA%22%2C%22headimg%22%3A%22c2bcZN32GJnMPf4Jc9c4wuuWgBqI0Bd0x4cGjjA%22%2C%22id_list%22%3A%22e0bbZh75H7OkS86cOgDzz7mUhbfdF8rcI0QW4hY%22%2C%22regtime%22%3A%225d186pwcta3%252Fz88ego7WtEHUXxpR43ayFGKjssvh%22%2C%22logintime%22%3A%223655d9lsLy6e3%252BV3ybDUlO4yCoT0HXtJX823LFY%22%2C%22loginip%22%3A%22c81duPZad7gUgHWOoVDkXWLAAVhZACQRdDLbM0Q%22%2C%22status%22%3A%223a7aym5V6JmICK%252FcNXSx53APnS%252BH2UA3YlWnPoGg%22%2C%22remark%22%3A%2289d6%252BnR8N6nMSCqNCwUEpBp15XoiRw%252BpJ%252FaLK4g%22%7D',
+  'x-requested-with' => 'com.tencent.mm',
+)
+[ info ] [ PARAM ] array (
+  '/index/cart' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Cart->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Cart.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/cart/index.html [ array (
+  0 => 'all_cart',
+  1 => 'carts',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-15T16:48:43+08:00 ] 192.168.1.116 192.168.1.115 GET /index/goods/detail/id/5
+[ log ] 192.168.1.116:8090/index/goods/detail/id/5 [运行时间：0.053473s][吞吐率：18.70req/s] [内存消耗：3,400.63kb] [文件加载：53]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'goods',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.116:8090',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.0; ASUS_Z00ADB Build/LRX21V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/43.0.2357.121 Mobile Safari/537.36 MicroMessenger/6.5.13.1100 NetType/WIFI Language/zh_CN',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=s1qfakcuo9egvjkmofppgaui9h6qnajvvvvjvkif3em33k6gntl0; keep_user=think%3A%7B%22id%22%3A%2235b5%252B%252FmOwpR7qMO%252F%252BImpk094Lmt%252B2KDRv2SIraRM%22%2C%22pid%22%3A%220fe1AdpGgBYq0fv0QADssRXg6nHc4RPkUBsEvSxb%22%2C%22name%22%3A%22ce2bMHKNFrJ9jv4Zjp3%252FeLxiJIiGZBo9VA8QLB42WeQ%22%2C%22realname%22%3A%223ecaM%252FbVvgAcgNwNXsBuP9Mme3ATf1d0IbCpnXc%22%2C%22sex%22%3A%2239b7R8GAmEphRAif%252BF9tFDWzEtowZrVcxAk64kuo%22%2C%22mobile%22%3A%229b66vzBsaxd4PuKlmgnEIrnMC5iG1ghcmm02wr%252FlyNCkFVpGuBZEjQ%22%2C%22qq%22%3A%228d238vYhE5%252F3rFAlNK3or9cqdmL1ADsB8vCfeHI%22%2C%22email%22%3A%2236709qlLtOoQaWGEIRAAfScRcaU1NukxXiI4lXk%22%2C%22point%22%3A%228383LIGJ0%252BCWRVWbg9zTkabJhqHTnHlOodxHcpfA%22%2C%22headimg%22%3A%22c2bcZN32GJnMPf4Jc9c4wuuWgBqI0Bd0x4cGjjA%22%2C%22id_list%22%3A%22e0bbZh75H7OkS86cOgDzz7mUhbfdF8rcI0QW4hY%22%2C%22regtime%22%3A%225d186pwcta3%252Fz88ego7WtEHUXxpR43ayFGKjssvh%22%2C%22logintime%22%3A%223655d9lsLy6e3%252BV3ybDUlO4yCoT0HXtJX823LFY%22%2C%22loginip%22%3A%22c81duPZad7gUgHWOoVDkXWLAAVhZACQRdDLbM0Q%22%2C%22status%22%3A%223a7aym5V6JmICK%252FcNXSx53APnS%252BH2UA3YlWnPoGg%22%2C%22remark%22%3A%2289d6%252BnR8N6nMSCqNCwUEpBp15XoiRw%252BpJ%252FaLK4g%22%7D',
+  'x-requested-with' => 'com.tencent.mm',
+)
+[ info ] [ PARAM ] array (
+  '/index/goods/detail/id/5' => '',
+  'id' => '5',
+)
+[ info ] [ RUN ] app\index\controller\Goods->detail[ /home/aptx/File/PHP/6rmh/app/index/controller/Goods.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/goods/detail.html [ array (
+  0 => 'config',
+  1 => 'goods',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-15T17:17:14+08:00 ] 127.0.0.4 127.0.0.1 GET /index/cart
+[ log ] www.6er.com/index/cart [运行时间：0.057703s][吞吐率：17.33req/s] [内存消耗：3,675.13kb] [文件加载：57]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cart',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.6er.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.1.1; Nexus 6 Build/LYZ28E) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'referer' => 'http://www.6er.com/index/goods/detail/id/5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en;q=0.8',
+  'cookie' => 'PHPSESSID=80chc2ib1avvv000iidosjjcar8dm9omfhgl6lm01glmeef27ir1; keep_user=think%3A%7B%22id%22%3A%229397Sx1kMEkHRq1Y%252FEWBQ2FRbr%252FulIYQI4E9a5WX%22%2C%22pid%22%3A%226a5fk%252B5VRdnKeek%252Bu%252B%252FhTubAKTEJ78CzPIiwmKrQ%22%2C%22name%22%3A%22bbd5btkwsWuKc3uiOEINLruj8jORnxhabTtV90%252B2E7g%22%2C%22realname%22%3A%2266ba0x3sgDShJ0omL%252B3ZyoLyf2Je39n1CL6kZJM%22%2C%22sex%22%3A%22a5ea7k5ICaM86e43zV1Xvta0FVQNW9XjfBX8jhfE%22%2C%22mobile%22%3A%226b52oum7jIDPjMJRmH4pXNXNqoqN4KnIpHuCtSXxacqCWu3TmECpBQ%22%2C%22qq%22%3A%22067aE6iIANCmAL2d%252FOhvx3Xgb7AwNYvYR7%252FBI0I%22%2C%22email%22%3A%22b7c6JjMQF93s5lVvhUGxKVVCkGgRig%252BJX8CvNzE%22%2C%22point%22%3A%2254f4qtM%252B%252BuCPT3eW%252FEU7a1COe3wUxOl7bwlWqico%22%2C%22headimg%22%3A%22b1d7IaHQegjzYphiAdlGATipM531FUASdniLPT8%22%2C%22id_list%22%3A%22adebjxOX6Lajo0jG2JMtjUh21qbBhgcB1nPf%252BDM%22%2C%22regtime%22%3A%221c81473en0L1DNVUbHy300icCb7CS1uC5qp9YNdf%22%2C%22logintime%22%3A%22b65dm6thGv7g5jVw%252FU5TKaZFlWP0CLMqrfLPkM8%22%2C%22loginip%22%3A%22943aV7kgt8k%252FXk6yWjSE%252BFFEpcTUKfR4NYS3LNg%22%2C%22status%22%3A%224ab8zChAZdgM3NDIaP2oz25aGNlj8DJQ7ynHvSTP%22%2C%22remark%22%3A%22a645POUvCy3YrTSRwmP3071XGjThC4%252B%252FojUOAzU%22%7D',
+)
+[ info ] [ PARAM ] array (
+  '/index/cart' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Cart->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Cart.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/cart/index.html [ array (
+  0 => 'all_cart',
+  1 => 'carts',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-15T17:18:19+08:00 ] 127.0.0.4 127.0.0.1 GET /index/cart
+[ log ] www.6er.com/index/cart [运行时间：0.053570s][吞吐率：18.67req/s] [内存消耗：3,674.94kb] [文件加载：57]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cart',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.6er.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.1.1; Nexus 6 Build/LYZ28E) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'referer' => 'http://www.6er.com/index/goods/detail/id/5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en;q=0.8',
+  'cookie' => 'PHPSESSID=80chc2ib1avvv000iidosjjcar8dm9omfhgl6lm01glmeef27ir1; keep_user=think%3A%7B%22id%22%3A%229397Sx1kMEkHRq1Y%252FEWBQ2FRbr%252FulIYQI4E9a5WX%22%2C%22pid%22%3A%226a5fk%252B5VRdnKeek%252Bu%252B%252FhTubAKTEJ78CzPIiwmKrQ%22%2C%22name%22%3A%22bbd5btkwsWuKc3uiOEINLruj8jORnxhabTtV90%252B2E7g%22%2C%22realname%22%3A%2266ba0x3sgDShJ0omL%252B3ZyoLyf2Je39n1CL6kZJM%22%2C%22sex%22%3A%22a5ea7k5ICaM86e43zV1Xvta0FVQNW9XjfBX8jhfE%22%2C%22mobile%22%3A%226b52oum7jIDPjMJRmH4pXNXNqoqN4KnIpHuCtSXxacqCWu3TmECpBQ%22%2C%22qq%22%3A%22067aE6iIANCmAL2d%252FOhvx3Xgb7AwNYvYR7%252FBI0I%22%2C%22email%22%3A%22b7c6JjMQF93s5lVvhUGxKVVCkGgRig%252BJX8CvNzE%22%2C%22point%22%3A%2254f4qtM%252B%252BuCPT3eW%252FEU7a1COe3wUxOl7bwlWqico%22%2C%22headimg%22%3A%22b1d7IaHQegjzYphiAdlGATipM531FUASdniLPT8%22%2C%22id_list%22%3A%22adebjxOX6Lajo0jG2JMtjUh21qbBhgcB1nPf%252BDM%22%2C%22regtime%22%3A%221c81473en0L1DNVUbHy300icCb7CS1uC5qp9YNdf%22%2C%22logintime%22%3A%22b65dm6thGv7g5jVw%252FU5TKaZFlWP0CLMqrfLPkM8%22%2C%22loginip%22%3A%22943aV7kgt8k%252FXk6yWjSE%252BFFEpcTUKfR4NYS3LNg%22%2C%22status%22%3A%224ab8zChAZdgM3NDIaP2oz25aGNlj8DJQ7ynHvSTP%22%2C%22remark%22%3A%22a645POUvCy3YrTSRwmP3071XGjThC4%252B%252FojUOAzU%22%7D',
+)
+[ info ] [ PARAM ] array (
+  '/index/cart' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Cart->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Cart.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/cart/index.html [ array (
+  0 => 'all_cart',
+  1 => 'carts',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-15T17:18:54+08:00 ] 127.0.0.4 127.0.0.1 GET /index/cart
+[ log ] www.6er.com/index/cart [运行时间：0.052923s][吞吐率：18.90req/s] [内存消耗：3,469.88kb] [文件加载：55]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cart',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.6er.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.1.1; Nexus 6 Build/LYZ28E) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'referer' => 'http://www.6er.com/index/goods/detail/id/5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en;q=0.8',
+  'cookie' => 'PHPSESSID=80chc2ib1avvv000iidosjjcar8dm9omfhgl6lm01glmeef27ir1; keep_user=think%3A%7B%22id%22%3A%229397Sx1kMEkHRq1Y%252FEWBQ2FRbr%252FulIYQI4E9a5WX%22%2C%22pid%22%3A%226a5fk%252B5VRdnKeek%252Bu%252B%252FhTubAKTEJ78CzPIiwmKrQ%22%2C%22name%22%3A%22bbd5btkwsWuKc3uiOEINLruj8jORnxhabTtV90%252B2E7g%22%2C%22realname%22%3A%2266ba0x3sgDShJ0omL%252B3ZyoLyf2Je39n1CL6kZJM%22%2C%22sex%22%3A%22a5ea7k5ICaM86e43zV1Xvta0FVQNW9XjfBX8jhfE%22%2C%22mobile%22%3A%226b52oum7jIDPjMJRmH4pXNXNqoqN4KnIpHuCtSXxacqCWu3TmECpBQ%22%2C%22qq%22%3A%22067aE6iIANCmAL2d%252FOhvx3Xgb7AwNYvYR7%252FBI0I%22%2C%22email%22%3A%22b7c6JjMQF93s5lVvhUGxKVVCkGgRig%252BJX8CvNzE%22%2C%22point%22%3A%2254f4qtM%252B%252BuCPT3eW%252FEU7a1COe3wUxOl7bwlWqico%22%2C%22headimg%22%3A%22b1d7IaHQegjzYphiAdlGATipM531FUASdniLPT8%22%2C%22id_list%22%3A%22adebjxOX6Lajo0jG2JMtjUh21qbBhgcB1nPf%252BDM%22%2C%22regtime%22%3A%221c81473en0L1DNVUbHy300icCb7CS1uC5qp9YNdf%22%2C%22logintime%22%3A%22b65dm6thGv7g5jVw%252FU5TKaZFlWP0CLMqrfLPkM8%22%2C%22loginip%22%3A%22943aV7kgt8k%252FXk6yWjSE%252BFFEpcTUKfR4NYS3LNg%22%2C%22status%22%3A%224ab8zChAZdgM3NDIaP2oz25aGNlj8DJQ7ynHvSTP%22%2C%22remark%22%3A%22a645POUvCy3YrTSRwmP3071XGjThC4%252B%252FojUOAzU%22%7D',
+)
+[ info ] [ PARAM ] array (
+  '/index/cart' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Cart->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Cart.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/cart/index.html [ array (
+  0 => 'all_cart',
+  1 => 'carts',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-15T17:20:02+08:00 ] 127.0.0.4 127.0.0.1 GET /index/cart
+[ log ] www.6er.com/index/cart [运行时间：0.057935s][吞吐率：17.26req/s] [内存消耗：3,469.88kb] [文件加载：55]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cart',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.6er.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.1.1; Nexus 6 Build/LYZ28E) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'referer' => 'http://www.6er.com/index/goods/detail/id/5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en;q=0.8',
+  'cookie' => 'PHPSESSID=80chc2ib1avvv000iidosjjcar8dm9omfhgl6lm01glmeef27ir1; keep_user=think%3A%7B%22id%22%3A%229397Sx1kMEkHRq1Y%252FEWBQ2FRbr%252FulIYQI4E9a5WX%22%2C%22pid%22%3A%226a5fk%252B5VRdnKeek%252Bu%252B%252FhTubAKTEJ78CzPIiwmKrQ%22%2C%22name%22%3A%22bbd5btkwsWuKc3uiOEINLruj8jORnxhabTtV90%252B2E7g%22%2C%22realname%22%3A%2266ba0x3sgDShJ0omL%252B3ZyoLyf2Je39n1CL6kZJM%22%2C%22sex%22%3A%22a5ea7k5ICaM86e43zV1Xvta0FVQNW9XjfBX8jhfE%22%2C%22mobile%22%3A%226b52oum7jIDPjMJRmH4pXNXNqoqN4KnIpHuCtSXxacqCWu3TmECpBQ%22%2C%22qq%22%3A%22067aE6iIANCmAL2d%252FOhvx3Xgb7AwNYvYR7%252FBI0I%22%2C%22email%22%3A%22b7c6JjMQF93s5lVvhUGxKVVCkGgRig%252BJX8CvNzE%22%2C%22point%22%3A%2254f4qtM%252B%252BuCPT3eW%252FEU7a1COe3wUxOl7bwlWqico%22%2C%22headimg%22%3A%22b1d7IaHQegjzYphiAdlGATipM531FUASdniLPT8%22%2C%22id_list%22%3A%22adebjxOX6Lajo0jG2JMtjUh21qbBhgcB1nPf%252BDM%22%2C%22regtime%22%3A%221c81473en0L1DNVUbHy300icCb7CS1uC5qp9YNdf%22%2C%22logintime%22%3A%22b65dm6thGv7g5jVw%252FU5TKaZFlWP0CLMqrfLPkM8%22%2C%22loginip%22%3A%22943aV7kgt8k%252FXk6yWjSE%252BFFEpcTUKfR4NYS3LNg%22%2C%22status%22%3A%224ab8zChAZdgM3NDIaP2oz25aGNlj8DJQ7ynHvSTP%22%2C%22remark%22%3A%22a645POUvCy3YrTSRwmP3071XGjThC4%252B%252FojUOAzU%22%7D',
+)
+[ info ] [ PARAM ] array (
+  '/index/cart' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Cart->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Cart.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/cart/index.html [ array (
+  0 => 'all_cart',
+  1 => 'carts',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-15T17:20:03+08:00 ] 127.0.0.4 127.0.0.1 GET /index/cart
+[ log ] www.6er.com/index/cart [运行时间：0.047119s][吞吐率：21.22req/s] [内存消耗：3,469.88kb] [文件加载：55]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cart',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.6er.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.1.1; Nexus 6 Build/LYZ28E) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'referer' => 'http://www.6er.com/index/goods/detail/id/5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en;q=0.8',
+  'cookie' => 'PHPSESSID=80chc2ib1avvv000iidosjjcar8dm9omfhgl6lm01glmeef27ir1; keep_user=think%3A%7B%22id%22%3A%229397Sx1kMEkHRq1Y%252FEWBQ2FRbr%252FulIYQI4E9a5WX%22%2C%22pid%22%3A%226a5fk%252B5VRdnKeek%252Bu%252B%252FhTubAKTEJ78CzPIiwmKrQ%22%2C%22name%22%3A%22bbd5btkwsWuKc3uiOEINLruj8jORnxhabTtV90%252B2E7g%22%2C%22realname%22%3A%2266ba0x3sgDShJ0omL%252B3ZyoLyf2Je39n1CL6kZJM%22%2C%22sex%22%3A%22a5ea7k5ICaM86e43zV1Xvta0FVQNW9XjfBX8jhfE%22%2C%22mobile%22%3A%226b52oum7jIDPjMJRmH4pXNXNqoqN4KnIpHuCtSXxacqCWu3TmECpBQ%22%2C%22qq%22%3A%22067aE6iIANCmAL2d%252FOhvx3Xgb7AwNYvYR7%252FBI0I%22%2C%22email%22%3A%22b7c6JjMQF93s5lVvhUGxKVVCkGgRig%252BJX8CvNzE%22%2C%22point%22%3A%2254f4qtM%252B%252BuCPT3eW%252FEU7a1COe3wUxOl7bwlWqico%22%2C%22headimg%22%3A%22b1d7IaHQegjzYphiAdlGATipM531FUASdniLPT8%22%2C%22id_list%22%3A%22adebjxOX6Lajo0jG2JMtjUh21qbBhgcB1nPf%252BDM%22%2C%22regtime%22%3A%221c81473en0L1DNVUbHy300icCb7CS1uC5qp9YNdf%22%2C%22logintime%22%3A%22b65dm6thGv7g5jVw%252FU5TKaZFlWP0CLMqrfLPkM8%22%2C%22loginip%22%3A%22943aV7kgt8k%252FXk6yWjSE%252BFFEpcTUKfR4NYS3LNg%22%2C%22status%22%3A%224ab8zChAZdgM3NDIaP2oz25aGNlj8DJQ7ynHvSTP%22%2C%22remark%22%3A%22a645POUvCy3YrTSRwmP3071XGjThC4%252B%252FojUOAzU%22%7D',
+)
+[ info ] [ PARAM ] array (
+  '/index/cart' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Cart->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Cart.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/cart/index.html [ array (
+  0 => 'all_cart',
+  1 => 'carts',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-15T17:20:55+08:00 ] 127.0.0.4 127.0.0.1 GET /index/cart
+[ log ] www.6er.com/index/cart [运行时间：0.057003s][吞吐率：17.54req/s] [内存消耗：3,469.88kb] [文件加载：55]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cart',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.6er.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.1.1; Nexus 6 Build/LYZ28E) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'referer' => 'http://www.6er.com/index/goods/detail/id/5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en;q=0.8',
+  'cookie' => 'PHPSESSID=80chc2ib1avvv000iidosjjcar8dm9omfhgl6lm01glmeef27ir1; keep_user=think%3A%7B%22id%22%3A%229397Sx1kMEkHRq1Y%252FEWBQ2FRbr%252FulIYQI4E9a5WX%22%2C%22pid%22%3A%226a5fk%252B5VRdnKeek%252Bu%252B%252FhTubAKTEJ78CzPIiwmKrQ%22%2C%22name%22%3A%22bbd5btkwsWuKc3uiOEINLruj8jORnxhabTtV90%252B2E7g%22%2C%22realname%22%3A%2266ba0x3sgDShJ0omL%252B3ZyoLyf2Je39n1CL6kZJM%22%2C%22sex%22%3A%22a5ea7k5ICaM86e43zV1Xvta0FVQNW9XjfBX8jhfE%22%2C%22mobile%22%3A%226b52oum7jIDPjMJRmH4pXNXNqoqN4KnIpHuCtSXxacqCWu3TmECpBQ%22%2C%22qq%22%3A%22067aE6iIANCmAL2d%252FOhvx3Xgb7AwNYvYR7%252FBI0I%22%2C%22email%22%3A%22b7c6JjMQF93s5lVvhUGxKVVCkGgRig%252BJX8CvNzE%22%2C%22point%22%3A%2254f4qtM%252B%252BuCPT3eW%252FEU7a1COe3wUxOl7bwlWqico%22%2C%22headimg%22%3A%22b1d7IaHQegjzYphiAdlGATipM531FUASdniLPT8%22%2C%22id_list%22%3A%22adebjxOX6Lajo0jG2JMtjUh21qbBhgcB1nPf%252BDM%22%2C%22regtime%22%3A%221c81473en0L1DNVUbHy300icCb7CS1uC5qp9YNdf%22%2C%22logintime%22%3A%22b65dm6thGv7g5jVw%252FU5TKaZFlWP0CLMqrfLPkM8%22%2C%22loginip%22%3A%22943aV7kgt8k%252FXk6yWjSE%252BFFEpcTUKfR4NYS3LNg%22%2C%22status%22%3A%224ab8zChAZdgM3NDIaP2oz25aGNlj8DJQ7ynHvSTP%22%2C%22remark%22%3A%22a645POUvCy3YrTSRwmP3071XGjThC4%252B%252FojUOAzU%22%7D',
+)
+[ info ] [ PARAM ] array (
+  '/index/cart' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Cart->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Cart.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/cart/index.html [ array (
+  0 => 'all_cart',
+  1 => 'carts',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-15T17:25:20+08:00 ] 127.0.0.4 127.0.0.1 GET /index/cart
+[ log ] www.6er.com/index/cart [运行时间：0.056083s][吞吐率：17.83req/s] [内存消耗：3,469.88kb] [文件加载：55]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cart',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.6er.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.1.1; Nexus 6 Build/LYZ28E) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'referer' => 'http://www.6er.com/index/goods/detail/id/5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en;q=0.8',
+  'cookie' => 'PHPSESSID=80chc2ib1avvv000iidosjjcar8dm9omfhgl6lm01glmeef27ir1; keep_user=think%3A%7B%22id%22%3A%229397Sx1kMEkHRq1Y%252FEWBQ2FRbr%252FulIYQI4E9a5WX%22%2C%22pid%22%3A%226a5fk%252B5VRdnKeek%252Bu%252B%252FhTubAKTEJ78CzPIiwmKrQ%22%2C%22name%22%3A%22bbd5btkwsWuKc3uiOEINLruj8jORnxhabTtV90%252B2E7g%22%2C%22realname%22%3A%2266ba0x3sgDShJ0omL%252B3ZyoLyf2Je39n1CL6kZJM%22%2C%22sex%22%3A%22a5ea7k5ICaM86e43zV1Xvta0FVQNW9XjfBX8jhfE%22%2C%22mobile%22%3A%226b52oum7jIDPjMJRmH4pXNXNqoqN4KnIpHuCtSXxacqCWu3TmECpBQ%22%2C%22qq%22%3A%22067aE6iIANCmAL2d%252FOhvx3Xgb7AwNYvYR7%252FBI0I%22%2C%22email%22%3A%22b7c6JjMQF93s5lVvhUGxKVVCkGgRig%252BJX8CvNzE%22%2C%22point%22%3A%2254f4qtM%252B%252BuCPT3eW%252FEU7a1COe3wUxOl7bwlWqico%22%2C%22headimg%22%3A%22b1d7IaHQegjzYphiAdlGATipM531FUASdniLPT8%22%2C%22id_list%22%3A%22adebjxOX6Lajo0jG2JMtjUh21qbBhgcB1nPf%252BDM%22%2C%22regtime%22%3A%221c81473en0L1DNVUbHy300icCb7CS1uC5qp9YNdf%22%2C%22logintime%22%3A%22b65dm6thGv7g5jVw%252FU5TKaZFlWP0CLMqrfLPkM8%22%2C%22loginip%22%3A%22943aV7kgt8k%252FXk6yWjSE%252BFFEpcTUKfR4NYS3LNg%22%2C%22status%22%3A%224ab8zChAZdgM3NDIaP2oz25aGNlj8DJQ7ynHvSTP%22%2C%22remark%22%3A%22a645POUvCy3YrTSRwmP3071XGjThC4%252B%252FojUOAzU%22%7D',
+)
+[ info ] [ PARAM ] array (
+  '/index/cart' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Cart->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Cart.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/cart/index.html [ array (
+  0 => 'all_cart',
+  1 => 'carts',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-15T17:25:58+08:00 ] 127.0.0.4 127.0.0.1 GET /index/cart
+[ log ] www.6er.com/index/cart [运行时间：0.063596s][吞吐率：15.72req/s] [内存消耗：3,674.88kb] [文件加载：57]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cart',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.6er.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.1.1; Nexus 6 Build/LYZ28E) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'referer' => 'http://www.6er.com/index/goods/detail/id/5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en;q=0.8',
+  'cookie' => 'PHPSESSID=80chc2ib1avvv000iidosjjcar8dm9omfhgl6lm01glmeef27ir1; keep_user=think%3A%7B%22id%22%3A%229397Sx1kMEkHRq1Y%252FEWBQ2FRbr%252FulIYQI4E9a5WX%22%2C%22pid%22%3A%226a5fk%252B5VRdnKeek%252Bu%252B%252FhTubAKTEJ78CzPIiwmKrQ%22%2C%22name%22%3A%22bbd5btkwsWuKc3uiOEINLruj8jORnxhabTtV90%252B2E7g%22%2C%22realname%22%3A%2266ba0x3sgDShJ0omL%252B3ZyoLyf2Je39n1CL6kZJM%22%2C%22sex%22%3A%22a5ea7k5ICaM86e43zV1Xvta0FVQNW9XjfBX8jhfE%22%2C%22mobile%22%3A%226b52oum7jIDPjMJRmH4pXNXNqoqN4KnIpHuCtSXxacqCWu3TmECpBQ%22%2C%22qq%22%3A%22067aE6iIANCmAL2d%252FOhvx3Xgb7AwNYvYR7%252FBI0I%22%2C%22email%22%3A%22b7c6JjMQF93s5lVvhUGxKVVCkGgRig%252BJX8CvNzE%22%2C%22point%22%3A%2254f4qtM%252B%252BuCPT3eW%252FEU7a1COe3wUxOl7bwlWqico%22%2C%22headimg%22%3A%22b1d7IaHQegjzYphiAdlGATipM531FUASdniLPT8%22%2C%22id_list%22%3A%22adebjxOX6Lajo0jG2JMtjUh21qbBhgcB1nPf%252BDM%22%2C%22regtime%22%3A%221c81473en0L1DNVUbHy300icCb7CS1uC5qp9YNdf%22%2C%22logintime%22%3A%22b65dm6thGv7g5jVw%252FU5TKaZFlWP0CLMqrfLPkM8%22%2C%22loginip%22%3A%22943aV7kgt8k%252FXk6yWjSE%252BFFEpcTUKfR4NYS3LNg%22%2C%22status%22%3A%224ab8zChAZdgM3NDIaP2oz25aGNlj8DJQ7ynHvSTP%22%2C%22remark%22%3A%22a645POUvCy3YrTSRwmP3071XGjThC4%252B%252FojUOAzU%22%7D',
+)
+[ info ] [ PARAM ] array (
+  '/index/cart' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Cart->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Cart.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/cart/index.html [ array (
+  0 => 'all_cart',
+  1 => 'carts',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-15T17:30:23+08:00 ] 127.0.0.4 127.0.0.1 GET /index/cart
+[ log ] www.6er.com/index/cart [运行时间：0.056701s][吞吐率：17.64req/s] [内存消耗：3,675.19kb] [文件加载：57]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cart',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.6er.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.1.1; Nexus 6 Build/LYZ28E) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'referer' => 'http://www.6er.com/index/goods/detail/id/5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en;q=0.8',
+  'cookie' => 'PHPSESSID=80chc2ib1avvv000iidosjjcar8dm9omfhgl6lm01glmeef27ir1; keep_user=think%3A%7B%22id%22%3A%229397Sx1kMEkHRq1Y%252FEWBQ2FRbr%252FulIYQI4E9a5WX%22%2C%22pid%22%3A%226a5fk%252B5VRdnKeek%252Bu%252B%252FhTubAKTEJ78CzPIiwmKrQ%22%2C%22name%22%3A%22bbd5btkwsWuKc3uiOEINLruj8jORnxhabTtV90%252B2E7g%22%2C%22realname%22%3A%2266ba0x3sgDShJ0omL%252B3ZyoLyf2Je39n1CL6kZJM%22%2C%22sex%22%3A%22a5ea7k5ICaM86e43zV1Xvta0FVQNW9XjfBX8jhfE%22%2C%22mobile%22%3A%226b52oum7jIDPjMJRmH4pXNXNqoqN4KnIpHuCtSXxacqCWu3TmECpBQ%22%2C%22qq%22%3A%22067aE6iIANCmAL2d%252FOhvx3Xgb7AwNYvYR7%252FBI0I%22%2C%22email%22%3A%22b7c6JjMQF93s5lVvhUGxKVVCkGgRig%252BJX8CvNzE%22%2C%22point%22%3A%2254f4qtM%252B%252BuCPT3eW%252FEU7a1COe3wUxOl7bwlWqico%22%2C%22headimg%22%3A%22b1d7IaHQegjzYphiAdlGATipM531FUASdniLPT8%22%2C%22id_list%22%3A%22adebjxOX6Lajo0jG2JMtjUh21qbBhgcB1nPf%252BDM%22%2C%22regtime%22%3A%221c81473en0L1DNVUbHy300icCb7CS1uC5qp9YNdf%22%2C%22logintime%22%3A%22b65dm6thGv7g5jVw%252FU5TKaZFlWP0CLMqrfLPkM8%22%2C%22loginip%22%3A%22943aV7kgt8k%252FXk6yWjSE%252BFFEpcTUKfR4NYS3LNg%22%2C%22status%22%3A%224ab8zChAZdgM3NDIaP2oz25aGNlj8DJQ7ynHvSTP%22%2C%22remark%22%3A%22a645POUvCy3YrTSRwmP3071XGjThC4%252B%252FojUOAzU%22%7D',
+)
+[ info ] [ PARAM ] array (
+  '/index/cart' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Cart->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Cart.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/cart/index.html [ array (
+  0 => 'all_cart',
+  1 => 'carts',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-15T17:31:49+08:00 ] 127.0.0.4 127.0.0.1 GET /index/cart
+[ log ] www.6er.com/index/cart [运行时间：0.051264s][吞吐率：19.51req/s] [内存消耗：3,469.92kb] [文件加载：55]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cart',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.6er.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.1.1; Nexus 6 Build/LYZ28E) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'referer' => 'http://www.6er.com/index/goods/detail/id/5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en;q=0.8',
+  'cookie' => 'PHPSESSID=80chc2ib1avvv000iidosjjcar8dm9omfhgl6lm01glmeef27ir1; keep_user=think%3A%7B%22id%22%3A%229397Sx1kMEkHRq1Y%252FEWBQ2FRbr%252FulIYQI4E9a5WX%22%2C%22pid%22%3A%226a5fk%252B5VRdnKeek%252Bu%252B%252FhTubAKTEJ78CzPIiwmKrQ%22%2C%22name%22%3A%22bbd5btkwsWuKc3uiOEINLruj8jORnxhabTtV90%252B2E7g%22%2C%22realname%22%3A%2266ba0x3sgDShJ0omL%252B3ZyoLyf2Je39n1CL6kZJM%22%2C%22sex%22%3A%22a5ea7k5ICaM86e43zV1Xvta0FVQNW9XjfBX8jhfE%22%2C%22mobile%22%3A%226b52oum7jIDPjMJRmH4pXNXNqoqN4KnIpHuCtSXxacqCWu3TmECpBQ%22%2C%22qq%22%3A%22067aE6iIANCmAL2d%252FOhvx3Xgb7AwNYvYR7%252FBI0I%22%2C%22email%22%3A%22b7c6JjMQF93s5lVvhUGxKVVCkGgRig%252BJX8CvNzE%22%2C%22point%22%3A%2254f4qtM%252B%252BuCPT3eW%252FEU7a1COe3wUxOl7bwlWqico%22%2C%22headimg%22%3A%22b1d7IaHQegjzYphiAdlGATipM531FUASdniLPT8%22%2C%22id_list%22%3A%22adebjxOX6Lajo0jG2JMtjUh21qbBhgcB1nPf%252BDM%22%2C%22regtime%22%3A%221c81473en0L1DNVUbHy300icCb7CS1uC5qp9YNdf%22%2C%22logintime%22%3A%22b65dm6thGv7g5jVw%252FU5TKaZFlWP0CLMqrfLPkM8%22%2C%22loginip%22%3A%22943aV7kgt8k%252FXk6yWjSE%252BFFEpcTUKfR4NYS3LNg%22%2C%22status%22%3A%224ab8zChAZdgM3NDIaP2oz25aGNlj8DJQ7ynHvSTP%22%2C%22remark%22%3A%22a645POUvCy3YrTSRwmP3071XGjThC4%252B%252FojUOAzU%22%7D',
+)
+[ info ] [ PARAM ] array (
+  '/index/cart' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Cart->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Cart.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/cart/index.html [ array (
+  0 => 'all_cart',
+  1 => 'carts',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
