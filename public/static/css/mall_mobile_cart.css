@@ -1,0 +1,23 @@
+.more-info-navbar{
+    background: #6ad4c9;
+    color: #fff;
+    text-align: center;
+    font-size: 1.25em;
+    height: 2.5em;
+    line-height: 2.5em;
+    box-shadow: 0px 3px 5px #ccc;
+}
+.more-info-detail{
+  
+}
+.cart-goods-record{
+
+}
+.cart-goods-record:hover{
+    box-shadow: 1px 1px 10px #ccc;
+}
+.cart-goods-pic{
+    width: 5em;
+    height: 5em;
+    overflow: hidden;
+}
