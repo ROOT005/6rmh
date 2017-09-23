@@ -14,6 +14,11 @@ a{color: #8e8e8e;}
 span.input-verify{color: red;}
 .line-height-26{line-height: 26px;}
 input{outline: none;}
+.clear{clear: both;}
+.l_h_30{line-height: 30px;}
+.l_h_50{line-height: 50px;}
+.ctrl-option{color:#005EA7;}
+.ctrl-option:hover{color:#F30213;}
 /*==================================Mall登录页面=========================================*/
 .login-header{top: 0;}
 .login-header .login-header-panel{width: 1200px; margin: 0 auto; padding: 15px 5%;}
@@ -69,11 +74,7 @@ i.fa-shopping-cart{font-size: 20px; color: #6ad4c9;}
 body.web-body{padding-top: 26px; 
 /*background-color: #f6f6f6;*/
 }
-div.navbar-panel{
-    /*background: #6ad4c9; */
-    height: 40px; 
-    /*line-height: 45px;*/
-width: 1000px; margin-left: 200px; padding-left: 20px;}
+div.navbar-panel{height: 40px; width: 1000px; margin-left: 200px; padding-left: 20px;}
 div.navbar-panel ul li{margin: 16px 10px 0 10px; float: left;}
 div.navbar-panel ul li a{font-size: 16px; color: #272727; font-weight: 600;}
 div.navbar-panel ul li a:hover{color: #6ad4c9;}
@@ -100,7 +101,7 @@ div.goods-picture div.main-pic{height: 464px;}
 
 .goods-detail-panel .goods-detail{ padding: 0 20px;}
 .goods-detail-panel .goods-price{padding: 5px 10px;}
-.goods-detail-panel .goods-price .price{font-size: 22px; color: #e4393c;}
+ .price{font-size: 22px; color: #e4393c;}
 .font-color-sub_main{color: #e4393c;}
 .goods-promotion{border: 1px solid #e4393c;
 height: 32px; color: #e4393c;}
@@ -117,7 +118,8 @@ margin: 3px 5px; text-align: center; min-height: 32px; line-height: 32px;}
 .default-spec-li{
     border: 1px dashed #e0e0e0; cursor: pointer; 
 }
-.choseSpec, .chosePay{border: 1px solid #e4393c; color: #e4393c;}
+.choseSpec, .chosePay, .choseAddr{border: 2px solid #e4393c!important; color: #e4393c!important;}
+
 .goods-detail-panel .goods-detail .amount-number{
     height: 50px;  margin: 62px 0 10px 0; line-height: 45px;
     /*border-bottom: 1px solid #e0e0e0;*/
@@ -135,12 +137,12 @@ button.submit-btn{background: #df3033; height: 46px; width: 142px;
 font-size: 20px; font-weight: 700;}
 button.submit-btn:hover{background-color: #df3033;}
 button.submit-btn-default{background: #6ad4c9; height: 46px; min-width: 120px;
-font-size: 20px; font-weight: 700; border: 0; color: white;}
+font-size: 20px; font-weight: 700; border: 0; color: white; margin-left: 20px;}
 
 .more-info .more-info-navbar{height: 46px; background: red;}
 
 .goods-detail-panel .more-info{margin-top: 20px;}
-.more-info-navbar{ height: 46px; border-bottom: 2px solid #6ad4c9; }
+.more-info-navbar{ height: 46px;  border-bottom: 2px solid #6ad4c9; }
 .more-info-navbar ul li{margin: 13px 10px 0 10px; float: left;}
 
 
@@ -164,14 +166,37 @@ font-size: 20px; font-weight: 700; border: 0; color: white;}
 .number-change{font-size: 18px;}
 
 .order-preview-html .panel{margin: 20px 0; border: 0;}
-.panel-heading{background: white!important; border: 0; height: 38px!important;}
+.panel-heading{background: white!important; border: 0; height: 38px!important; color: #666!important;}
 .panel-body{border: 1px solid #e0e0e0;}
 
+.address-record{height: 28px; margin-bottom: 8px;}
+.address-record div{height: 28px; line-height: 26px; color: #666; font-size: 14px;}
+.addr-item-title{ margin-right: 20px;
+    border: 1px dashed #e0e0e0; cursor: pointer;}
+.addr-item-content{padding: 0 10px;}
+span.order-total{margin-top: 10px;}
 
 
+/*用户中心*/
+.address .user-address{height: 190px;border-bottom: 1px dashed #f0f0f0;}
+.address .middle-label{font-size: 14px;color:#666;}
+.address .middle-label input{width: 500px;height:30px;border: 1px solid #E0E0E0; padding: 0 10px;}
+.address .right-label{font-size: 14px;color: #999;}
+.address .right-labels{font-size: 14px;color: #999;}
+.address .middle-lab{width: 90px;height: 50px;}
+.address .pro{min-width: 85px;margin:14px 15px 0px 0px;border: 1px solid #E0E0E0;color:#666;}
 
 
+.hint-str{font-size: 12px;font-weight: 400;margin-left: 10px;color:#999;}
+.hint-int{font-size: 12px;font-weight: 400;color:#71b247;}
+/*.user-footer{bottom: 0;}*/
+.user-panel{width: 1050px; padding: 15px; float: left;}
+.user-left{width: 150px;}
+.user-left .panel-default{border: 0!important;}
+.user-left .panel-body{padding: 10px 35px!important;}
+.user-nav-li{margin: 5px 0; cursor: pointer;}
 
+.user-content{ width: 1050px; }
 
 
 /*==================================footer内容=========================================*/

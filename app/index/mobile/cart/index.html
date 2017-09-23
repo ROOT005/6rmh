@@ -10,68 +10,71 @@
     <title>购物车</title>
 </head>
 <body data-ng-app="myApp">
-    <div  class="content-panel " data-ng-controller="cartCtrl">
+    <div  class="content-panel" data-ng-controller="cartCtrl">
         <div class="more-info-navbar">
             购物车
         </div>
-        <div class="more-info-detail">
-            <input data-ng-model="allChecked"  data-ng-click="checkAllCart($event);" type="checkbox"/>
-            &nbsp;全选
+        <div class="more-info-top">
+            <input id="chose_all" data-ng-model="allChecked"  data-ng-click="checkAllCart($event);" type="checkbox"/>
+            <label for="chose_all"></label>
+            全选
+            <span class="pull-right">
+                <a href="javascript: void(0);" >删除选中商品</a>
+                <a href="<{:url('cart/delate')}>" >清理下架商品</a>
+            </span>
         </div>
         <div class="more-info-detail" >
             <{volist name="carts" id="vo"}>
                 <div class="cart-goods-record">
-                    <div class="good-left">
-                        <input data-ng-checked="allChecked" data-ng-click="checkCart($event, <{$vo.cart_id}>);" type="checkbox"/>
-                        <a href="javascript: void(0);">
-                            <img title="<{$vo.sub_name}>" class="cart-goods-pic" src="<{$vo.pic}>"/>
-                        </a>
+                    <div class="head-title">
+                        <span>
+                            <input id="<{$vo.cart_id}>" data-ng-checked="allChecked" data-ng-click="checkCart($event, <{$vo.cart_id}>);" type="checkbox"/>
+                            <label for="<{$vo.cart_id}>">
+                                <span class="fa fa-check" aria-hidden="true"></span>
+                            </label>
+                        </span>
+                        <span class="pull-right edit" >编辑</span>
                     </div>
-                    <ul class="goods-detail">
+                    <div class="good-left">
+                        <img title="<{$vo.sub_name}>" class="" src="<{$vo.pic}>"/>
+                    </div>
+                    <div class="goods-detail">
                         <li class="name-title" title="<{$vo.description}>"><{$vo.name}></li>
                         <li class="good-info">
-                            规格：<{$vo.spec}>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            规格：<{$vo.spec}>
                         </li>
                         <li class="">
-                            ¥ <{$vo.price}>
+                            单价：¥<{$vo.price}>
                             <{if $vo.promotion != ''}>
                             <span class="goods-promotion" >
                                 <{$vo.promotion}>
                             </span>
                             <{/if}>        
                         </li>
-                        <li href="javascript: void(0);">
-                                赠送鱼饵：<{$vo.bait}>个&nbsp;&nbsp;&nbsp;&nbsp;
-                                获得<{$vo.point}>积分
+                        <li class="given-info" href="javascript: void(0);">赠送鱼饵<{$vo.bait}>个&nbsp;&nbsp;&nbsp;&nbsp;获得<{$vo.point}>积分
                         </li>
-                    </ul>
-                    <div class="">
-                        <a class="number-change" href="/index/cart/setInc/id/<{$vo.cart_id}>/num/<{$vo.num}>" title="数量减1"></a>
-                        <input class="cart-goods-num" name="number" value="<{$vo.num}>"/>
-                        <a class="number-change" href="/index/cart/setDec/id/<{$vo.cart_id}>/num/<{$vo.num}>" title="数量加1">+</a>
                     </div>
-                    <div class=" wp_10">
-                        <span class="font-color-sub_main">¥ <{$vo.price*$vo.num}></span>
-                        
-                    </div>
-                    <div class=" wp_5">
-                        <a href="<{:url('cart/del', ['id'=>$vo.cart_id])}>" title="删除该商品">
-                            删除
-                        </a>
+                    <div class="good-option">
+                         <li class="option-title">编辑</li>
+                         <li class="changeNum">
+                            <a class="number-change" href="/index/cart/setInc/id/<{$vo.cart_id}>/num/<{$vo.num}>" title="数量减1">-</a>
+                            <input class="cart-goods-num" name="number" value="<{$vo.num}>"/>
+                            <a class="number-change" href="/index/cart/setDec/id/<{$vo.cart_id}>/num/<{$vo.num}>" title="数量加1">+</a>
+                        </li>
+                        <li>
+                            <a class="btn"href="<{:url('cart/del', ['id'=>$vo.cart_id])}>" title="删除该商品">
+                            删除</a>
+                            <a class="btn" href="" title="">完成</a>
+                        </li>
                     </div>
                 </div>
             <{/volist}>
         </div>
         <div class="foot-info-navbar">
-            <ul>
-                <li> <a href="javascript: void(0);" >删除选中商品</a></li>
-                <li><a href="<{:url('cart/delate')}>" >清理下架商品</a></li>
-            </ul>
-            <a class="pull-right" href="/index/order/preview/id_list/{{cart_list}}" title="结算选中商品">
-                <button class="submit-btn-default ">去结算</button>
-            </a>
+            <a class="btn btn-block" href="/index/order/preview/id_list/{{cart_list}}" title="结算选中商品">去结算</a>
         </div>
     </div>
+    <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="http://cdn.static.runoob.com/libs/angular.js/1.4.6/angular.min.js"></script>
     <script src="http://cdn.static.runoob.com/libs/angular.js/1.4.6/angular-animate.min.js"></script>
     <script>
@@ -107,6 +110,18 @@
                 }
                 $scope.cart_list = check_list.join();
             }
+        });
+        $('.edit').click(function(){
+            $(this).parent().parent().animate({
+                left: '-10em'
+            },100);
+            $(this).parent().nextAll('.good-option').fadeIn(100);
+        });
+        $('.goods-detail').click(function(){
+            $(this).next().fadeOut(100);
+            $(this).parent().animate({
+                left: '0em'
+            },100);
         });
     </script>
 </body>

@@ -496,3 +496,12 @@ function getOrderID(){
     $orderSn = $yCode[intval(date('Y')) - 2011] . strtoupper(dechex(date('m'))) . date('d') . substr(time(), -5) . substr(microtime(), 2, 5) . sprintf('%02d', rand(0, 99));
     return $orderSn;
 }
+
+function checkPost($array){
+    foreach($array as $k=>$v){
+        if(empty($v) || $v==0){
+            return false; exit;
+        }
+    }
+    return true;
+}

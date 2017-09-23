@@ -1,4 +1,4 @@
-<{extend name="./public/index"/}>
+<{extend name="./public/user"/}>
 <{block name="content"}>
 <style>
     .user-address{height: 190px;border-bottom: 1px dashed #f0f0f0;float:left;}
@@ -117,6 +117,9 @@
     $(document).ready(function(){
         //选择省份
         $('select[name=province]').change(function(){
+            
+            $('#city,#area').removeClass('kshow').addClass('khidden');
+
             $('select[name=city]').empty(); //清除原有的元素
 
             $.ajax({
@@ -133,6 +136,44 @@
                 }
             });
             
+            var ob = $(this).val();
+            if(ob !=''){
+                $.ajax({
+                    type: 'get',
+                    url: '/index/address/city',
+                    data: {id: ob},
+                    success: function(response){
+                        console.log(response);
+                        $('select[name=city]').removeClass('khidden').addClass('kshow pro');
+                        var html = createHtml(JSON.parse(response));
+                        $('select[name=city]').append(html);
+                    },
+                    error: function(e){
+                        console.log(e);
+                    }
+                });
+            }
+        });
+        //选择市
+        $('select[name=city]').click(function(){
+            $('select[name=area]').empty(); //清除原有的元素
+            
+                $.ajax({
+                    type: 'get',
+                    url: '/index/address/area',
+                    data: {id: $(this).val()},
+                    success: function(response){
+                        
+                        $('select[name=area]').removeClass('khidden').addClass('kshow pro');
+                        var html = createHtml(JSON.parse(response));
+                        $('select[name=area]').append(html);
+                    },
+                    error: function(e){
+                        console.log(e);
+                    }
+                });
+            
+        });
 
         });  
     });
@@ -140,7 +181,7 @@
 
     function createHtml(data){
         var html = '';
-        for(var i=0; i<data.length-1; i++){
+        for(var i=0; i<data.length; i++){
             html += '<option value="'+data[i]['id']+'">'+data[i]['name']+'</option>';
         }
         return html;

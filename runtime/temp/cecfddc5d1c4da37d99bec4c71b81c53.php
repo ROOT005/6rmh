@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:69:"/home/aptx/File/PHP/6rmh/public/../app/index/mobile/goods/detail.html";i:1505458242;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:69:"/home/aptx/File/PHP/6rmh/public/../app/index/mobile/goods/detail.html";i:1506060230;}*/ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="__STATIC__/css/mall_mobile_detail.css">
-    <link rel="stylesheet" type="text/css" href="https://cdn.bootcss.com/Swiper/3.4.2/css/swiper.min.css">
+    <link rel="stylesheet" type="text/css" href="__STATIC__/css/swiper-3.4.2.min.css">
 </head>
 <body data-ng-app="myApp">
     <!--头-->
@@ -34,7 +34,7 @@
                             <img src="__STATIC__/images/02_mid.jpg" alt="美女" rel="__STATIC__/images/02_mid.jpg">
                         </div>
                         <div class="swiper-slide">
-                            <img src="__STATIC__/images/01_mid.jpg" alt="美女" rel="__STATIC__/images/01_mid.jpg"/>
+                            <img src="__STATIC__/images/03_mid.jpg" alt="美女" rel="__STATIC__/images/03_mid.jpg"/>
                         </div>
                     </div>
                     <div class="swiper-pagination"></div>
@@ -68,7 +68,14 @@
                     </p>
                 </div>
                 <!--规格-->
+                <div class="choice_size btn btn-block">
+                    选择规格
+                </div>
+              
                 <div class="size">
+                    <div class="close"></div><!--黑色部分-->
+                    <div class="size-content">
+                    <img src="__STATIC__/images/02_mid.jpg" alt="美女" rel="__STATIC__/images/02_mid.jpg">
                     <span class="item-title">重量：</span>
                     <?php echo $goods['weight']; ?>kg
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -80,13 +87,16 @@
                     <?php if(is_array($goods['spec']) || $goods['spec'] instanceof \think\Collection || $goods['spec'] instanceof \think\Paginator): $i = 0; $__LIST__ = $goods['spec'];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?>
                         <li class="default-spec-li" ng-class="{choseSpec: <?php echo $vo['id']; ?>==isChose}" ng-click="specSelect(<?php echo $vo['id']; ?>);"><?php echo $vo['spec']; ?></li>
                     <?php endforeach; endif; else: echo "" ;endif; ?>
-                    <div class="end_count">
-                        <input id="buy-number" ng-model="buy_number" title="填写购买数量"/>
-                        <span class="item-title">库存：<?php echo $goods['amount']; ?></span>
+                     <span class="end_count item-title">库存：<?php echo $goods['amount']; ?></span>
+                    <div class="buy_count input-group">
+                        <div class="input-group-addon" ng-click="redNum()">-</div>
+                        <input id="buy-number"  ng-model="buy_number" title="填写购买数量"/>
+                        <div class="input-group-addon" ng-click="addNum()">+</div>
                     </div>
                     <div class="btn add_car">
                         加入购物车
                     </div>
+                </div>
                 </div>
             </div>
             <!--详情页-->
@@ -111,6 +121,7 @@
     <script src="__STATIC__/js/plugin/swiper3/swiper-3.4.2.jquery.min.js"></script>
     <script src="http://cdn.static.runoob.com/libs/angular.js/1.4.6/angular.min.js"></script>
     <script src="http://cdn.static.runoob.com/libs/angular.js/1.4.6/angular-animate.min.js"></script>
+
     <script>
         var app = angular.module('myApp', []);
         app.controller('goodsCtrl', function($scope) {
@@ -131,25 +142,41 @@
                 $scope.specValue = $id; 
                 $scope.isChose = $id;
             }
+            $scope.redNum = function(){
+                ($scope.buy_number - 1 < 0) ? $scope.buy_number = 0 : $scope.buy_number--;
+            }
+            $scope.addNum = function(){
+                $scope.buy_number++;
+            }
         });
         //设置展示图片的高宽相同
         var scr_height=window.screen.width;
         $('.swiper-container img').css("height",scr_height);
 
         var mySwiper = new Swiper ('.swiper-container', {
-        loop: true,
-        pagination: '.swiper-pagination',
+            autoplay : 3000,
+            loop: true,
+            pagination: '.swiper-pagination',
         })
-
         //外部切换
         var Swiper1 = new Swiper('.swiper-container-contant',{
             loop:true,
+            iOSEdgeSwipeDetection : true,
             onSlideChangeStart:function(swiper){
                 $("html,body").animate({scrollTop:0}, 1);
-                $('.current').attr('class','');
-                $('.tab').children().eq(swiper.realIndex).attr('class', 'current');
+                $('.current').removeClass('current');
+                $('.tab').children().eq(swiper.realIndex).addClass('current');
             }
         });
+        //标签页点击切换
+        $('.tab li').click(function(){
+            $('.tab li').removeClass('current');
+            $(this).addClass('current');
+            var index = $(this).index()+1;
+            Swiper1.slideTo(index, 500, false);
+            $("html,body").animate({scrollTop:0}, 1);
+        });
+
         //判断滑动方向    
         function scroll( fn ) {
             var beforeScrollTop = document.body.scrollTop,
@@ -164,13 +191,22 @@
         }
         scroll(function(direction) {
             if(direction=="up"){
-                $(".tab").slideUp(200);
-                $(".shop_car").fadeOut(200);
+                $(".tab").slideUp(100);
+                $(".shop_car").fadeOut(100);
             }else if(direction=="down"){
-                $(".tab").slideDown(200);
-                $(".shop_car").fadeIn(200);
+                $(".tab").slideDown(100);
+                $(".shop_car").fadeIn(100);
             }
          });
+        //按钮点击切换显示
+        $(".choice_size").click(function(){
+            $(".choice_size").css("display","none");
+            $(".size").slideToggle(100);
+        });
+        $('.close').click(function(){
+            $(".size").slideToggle(100);
+            $(".choice_size").css("display","block");
+        });
       </script>
 </body>
 </html>

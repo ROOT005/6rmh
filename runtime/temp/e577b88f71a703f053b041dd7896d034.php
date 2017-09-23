@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:67:"/home/aptx/File/PHP/6rmh/public/../app/index/mobile/cart/index.html";i:1505467819;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:67:"/home/aptx/File/PHP/6rmh/public/../app/index/mobile/cart/index.html";i:1506074542;}*/ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -11,67 +11,70 @@
     <title>购物车</title>
 </head>
 <body data-ng-app="myApp">
-    <div  class="content-panel " data-ng-controller="cartCtrl">
+    <div  class="content-panel" data-ng-controller="cartCtrl">
         <div class="more-info-navbar">
             购物车
         </div>
-        <div class="more-info-detail">
-            <input data-ng-model="allChecked"  data-ng-click="checkAllCart($event);" type="checkbox"/>
-            &nbsp;全选
+        <div class="more-info-top">
+            <input id="chose_all" data-ng-model="allChecked"  data-ng-click="checkAllCart($event);" type="checkbox"/>
+            <label for="chose_all"></label>
+            全选
+            <span class="pull-right">
+                <a href="javascript: void(0);" >删除选中商品</a>
+                <a href="<?php echo url('cart/delate'); ?>" >清理下架商品</a>
+            </span>
         </div>
         <div class="more-info-detail" >
             <?php if(is_array($carts) || $carts instanceof \think\Collection || $carts instanceof \think\Paginator): $i = 0; $__LIST__ = $carts;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?>
                 <div class="cart-goods-record">
-                    <div class="good-left">
-                        <input data-ng-checked="allChecked" data-ng-click="checkCart($event, <?php echo $vo['cart_id']; ?>);" type="checkbox"/>
-                        <a href="javascript: void(0);">
-                            <img title="<?php echo $vo['sub_name']; ?>" class="cart-goods-pic" src="<?php echo $vo['pic']; ?>"/>
-                        </a>
+                    <div class="head-title">
+                        <span>
+                            <input id="<?php echo $vo['cart_id']; ?>" data-ng-checked="allChecked" data-ng-click="checkCart($event, <?php echo $vo['cart_id']; ?>);" type="checkbox"/>
+                            <label for="<?php echo $vo['cart_id']; ?>">
+                                <span class="fa fa-check" aria-hidden="true"></span>
+                            </label>
+                        </span>
+                        <span class="pull-right edit" >编辑</span>
                     </div>
-                    <ul class="goods-detail">
+                    <div class="good-left">
+                        <img title="<?php echo $vo['sub_name']; ?>" class="" src="<?php echo $vo['pic']; ?>"/>
+                    </div>
+                    <div class="goods-detail">
                         <li class="name-title" title="<?php echo $vo['description']; ?>"><?php echo $vo['name']; ?></li>
                         <li class="good-info">
-                            规格：<?php echo $vo['spec']; ?>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            规格：<?php echo $vo['spec']; ?>
                         </li>
                         <li class="">
-                            ¥ <?php echo $vo['price']; if($vo['promotion'] != ''): ?>
+                            单价：¥<?php echo $vo['price']; if($vo['promotion'] != ''): ?>
                             <span class="goods-promotion" >
                                 <?php echo $vo['promotion']; ?>
                             </span>
                             <?php endif; ?>        
                         </li>
-                        <li href="javascript: void(0);">
-                                赠送鱼饵：<?php echo $vo['bait']; ?>个&nbsp;&nbsp;&nbsp;&nbsp;
-                                获得<?php echo $vo['point']; ?>积分
+                        <li class="given-info" href="javascript: void(0);">赠送鱼饵<?php echo $vo['bait']; ?>个&nbsp;&nbsp;&nbsp;&nbsp;获得<?php echo $vo['point']; ?>积分
                         </li>
-                    </ul>
-                    <div class="">
-                        <a class="number-change" href="/index/cart/setInc/id/<?php echo $vo['cart_id']; ?>/num/<?php echo $vo['num']; ?>" title="数量减1"></a>
-                        <input class="cart-goods-num" name="number" value="<?php echo $vo['num']; ?>"/>
-                        <a class="number-change" href="/index/cart/setDec/id/<?php echo $vo['cart_id']; ?>/num/<?php echo $vo['num']; ?>" title="数量加1">+</a>
                     </div>
-                    <div class=" wp_10">
-                        <span class="font-color-sub_main">¥ <?php echo $vo['price']*$vo['num']; ?></span>
-                        
-                    </div>
-                    <div class=" wp_5">
-                        <a href="<?php echo url('cart/del', ['id'=>$vo['cart_id']]); ?>" title="删除该商品">
-                            删除
-                        </a>
+                    <div class="good-option">
+                         <li class="option-title">编辑</li>
+                         <li class="changeNum">
+                            <a class="number-change" href="/index/cart/setInc/id/<?php echo $vo['cart_id']; ?>/num/<?php echo $vo['num']; ?>" title="数量减1">-</a>
+                            <input class="cart-goods-num" name="number" value="<?php echo $vo['num']; ?>"/>
+                            <a class="number-change" href="/index/cart/setDec/id/<?php echo $vo['cart_id']; ?>/num/<?php echo $vo['num']; ?>" title="数量加1">+</a>
+                        </li>
+                        <li>
+                            <a class="btn"href="<?php echo url('cart/del', ['id'=>$vo['cart_id']]); ?>" title="删除该商品">
+                            删除</a>
+                            <a class="btn" href="" title="">完成</a>
+                        </li>
                     </div>
                 </div>
             <?php endforeach; endif; else: echo "" ;endif; ?>
         </div>
         <div class="foot-info-navbar">
-            <ul>
-                <li> <a href="javascript: void(0);" >删除选中商品</a></li>
-                <li><a href="<?php echo url('cart/delate'); ?>" >清理下架商品</a></li>
-            </ul>
-            <a class="pull-right" href="/index/order/preview/id_list/{{cart_list}}" title="结算选中商品">
-                <button class="submit-btn-default ">去结算</button>
-            </a>
+            <a class="btn btn-block" href="/index/order/preview/id_list/{{cart_list}}" title="结算选中商品">去结算</a>
         </div>
     </div>
+    <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="http://cdn.static.runoob.com/libs/angular.js/1.4.6/angular.min.js"></script>
     <script src="http://cdn.static.runoob.com/libs/angular.js/1.4.6/angular-animate.min.js"></script>
     <script>
@@ -107,6 +110,18 @@
                 }
                 $scope.cart_list = check_list.join();
             }
+        });
+        $('.edit').click(function(){
+            $(this).parent().parent().animate({
+                left: '-10em'
+            },100);
+            $(this).parent().nextAll('.good-option').fadeIn(100);
+        });
+        $('.goods-detail').click(function(){
+            $(this).next().fadeOut(100);
+            $(this).parent().animate({
+                left: '0em'
+            },100);
         });
     </script>
 </body>

@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:5:{s:65:"/home/aptx/File/PHP/6rmh/public/../app/index/view/cart/index.html";i:1505380576;s:69:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./public/index.html";i:1504744427;s:67:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./public/top.html";i:1504744427;s:70:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./public/header.html";i:1504744427;s:70:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./public/footer.html";i:1504744427;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:5:{s:65:"/home/aptx/File/PHP/6rmh/public/../app/index/view/cart/index.html";i:1505801878;s:69:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./public/index.html";i:1504744427;s:67:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./public/top.html";i:1504744427;s:70:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./public/header.html";i:1504744427;s:70:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./public/footer.html";i:1504744427;}*/ ?>
 <!DOCTYPE html>
 <html lang="en" >
 <head>
@@ -227,8 +227,8 @@
                 </div>
                 &nbsp;全选
             </li>
-            <li> <a href="javascript: void(0);" >删除选中商品</a></li>
-            <li><a href="<?php echo url('cart/delate'); ?>" >清理下架商品</a></li>
+            <li> <a href="/index/cart/delete/id_list/{{cart_list}}" >删除选中商品</a></li>
+            <li><a href="<?php echo url('cart/delete'); ?>" >清理下架商品</a></li>
         </ul>
 
         <a class="pull-right" href="/index/order/preview/id_list/{{cart_list}}" title="结算选中商品">

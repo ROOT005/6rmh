@@ -1,0 +1,115 @@
+[ 2017-09-23T08:13:09+08:00 ] 127.0.0.4 127.0.0.1 GET /index/cart
+[ log ] www.6er.com/index/cart [运行时间：2.352954s][吞吐率：0.42req/s] [内存消耗：3,476.20kb] [文件加载：55]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cart',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.6er.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.91 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en;q=0.8',
+  'cookie' => 'PHPSESSID=3kplotn4t4ktoesam5u0p7io89cfsja4kuh4t9efn1lbt15al9f0; keep_user=think%3A%7B%22id%22%3A%22e5dazm%252F8ThPG2vIyxXunlhw68y70Rqbnkd0la%252BSJ%22%2C%22pid%22%3A%222164Ai0qwIYcQldECH5hE7E1L%252B8pMq3zdHzGYprM%22%2C%22name%22%3A%223741CvPeyjGZ1Enw%252F72bQ%252F8N7XCHmErm81TxqqWWMkk%22%2C%22realname%22%3A%22c7d0CGQr3WxbeJazFDemMbo84no%252FCGd%252FBbfBl6I%22%2C%22sex%22%3A%2217cfMJTqtEYvI3sukGMvYgzawQsRxqazDh%252BjgASK%22%2C%22mobile%22%3A%22b315XUeogkrih%252F%252F6ETmJZW3eVxEvNvhtdjFs%252FAQxuiovbphAqTuy2Q%22%2C%22qq%22%3A%221c1bfUN2WeDEMNdOBon4cV6%252BMuTv4%252FxC4eY0D%252Bk%22%2C%22email%22%3A%22c37docxWefCBj%252Fc0ViGpId6eg0qvNfcztwHUpNI%22%2C%22point%22%3A%22ce5ffwxzGRYamtQDxsnKAbXUWS29wJgjsVi2QJrW%22%2C%22headimg%22%3A%2237d6QOWUBis9iOKQlniU94p2SCqlhwxatR1LMgs%22%2C%22id_list%22%3A%22fb84DYVR6KHONBm%252B7fjJa2GmDLlb16QQJfoGC2g%22%2C%22regtime%22%3A%223702nxHtz9Xl7ZfwDn4Jzu%252FGeYb8MY1BzN7rqisW%22%2C%22logintime%22%3A%221d72LySNbcwXSg%252FRU0uw7LTLpvgD30nE1FTomn4%22%2C%22loginip%22%3A%2207c16Qo19%252F1gG%252FMU9Je1dpFrDLPkqT5Vmf69yJc%22%2C%22status%22%3A%2238493kb82ODdW0pvUWb8yf6nL1POFuC%252B%252F1ZGlkjs%22%2C%22remark%22%3A%22a6c3onW6OYZ1t2xYgFPfx%252FCVd1FAIupXoHbh9XM%22%7D',
+)
+[ info ] [ PARAM ] array (
+  '/index/cart' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Cart->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Cart.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/view/cart/index.html [ array (
+  0 => 'all_cart',
+  1 => 'carts',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-23T08:13:10+08:00 ] 127.0.0.4 127.0.0.1 GET /index/index/footerinfo
+[ log ] www.6er.com/index/index/footerinfo [运行时间：0.155230s][吞吐率：6.44req/s] [内存消耗：3,243.35kb] [文件加载：50]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'footerinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.6er.com',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.91 Safari/537.36',
+  'dnt' => '1',
+  'referer' => 'http://www.6er.com/index/cart',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en;q=0.8',
+  'cookie' => 'PHPSESSID=3kplotn4t4ktoesam5u0p7io89cfsja4kuh4t9efn1lbt15al9f0; keep_user=think%3A%7B%22id%22%3A%22e5dazm%252F8ThPG2vIyxXunlhw68y70Rqbnkd0la%252BSJ%22%2C%22pid%22%3A%222164Ai0qwIYcQldECH5hE7E1L%252B8pMq3zdHzGYprM%22%2C%22name%22%3A%223741CvPeyjGZ1Enw%252F72bQ%252F8N7XCHmErm81TxqqWWMkk%22%2C%22realname%22%3A%22c7d0CGQr3WxbeJazFDemMbo84no%252FCGd%252FBbfBl6I%22%2C%22sex%22%3A%2217cfMJTqtEYvI3sukGMvYgzawQsRxqazDh%252BjgASK%22%2C%22mobile%22%3A%22b315XUeogkrih%252F%252F6ETmJZW3eVxEvNvhtdjFs%252FAQxuiovbphAqTuy2Q%22%2C%22qq%22%3A%221c1bfUN2WeDEMNdOBon4cV6%252BMuTv4%252FxC4eY0D%252Bk%22%2C%22email%22%3A%22c37docxWefCBj%252Fc0ViGpId6eg0qvNfcztwHUpNI%22%2C%22point%22%3A%22ce5ffwxzGRYamtQDxsnKAbXUWS29wJgjsVi2QJrW%22%2C%22headimg%22%3A%2237d6QOWUBis9iOKQlniU94p2SCqlhwxatR1LMgs%22%2C%22id_list%22%3A%22fb84DYVR6KHONBm%252B7fjJa2GmDLlb16QQJfoGC2g%22%2C%22regtime%22%3A%223702nxHtz9Xl7ZfwDn4Jzu%252FGeYb8MY1BzN7rqisW%22%2C%22logintime%22%3A%221d72LySNbcwXSg%252FRU0uw7LTLpvgD30nE1FTomn4%22%2C%22loginip%22%3A%2207c16Qo19%252F1gG%252FMU9Je1dpFrDLPkqT5Vmf69yJc%22%2C%22status%22%3A%2238493kb82ODdW0pvUWb8yf6nL1POFuC%252B%252F1ZGlkjs%22%2C%22remark%22%3A%22a6c3onW6OYZ1t2xYgFPfx%252FCVd1FAIupXoHbh9XM%22%7D',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/footerinfo' => '',
+)
+[ info ] [ RUN ] app\index\controller\Index->footerInfo[ /home/aptx/File/PHP/6rmh/app/index/controller/Index.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-09-23T08:13:10+08:00 ] 127.0.0.4 127.0.0.1 GET /index/index/topInfo
+[ log ] www.6er.com/index/index/topInfo [运行时间：0.166981s][吞吐率：5.99req/s] [内存消耗：3,280.77kb] [文件加载：51]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'topInfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.6er.com',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.91 Safari/537.36',
+  'dnt' => '1',
+  'referer' => 'http://www.6er.com/index/cart',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh,en;q=0.8',
+  'cookie' => 'PHPSESSID=3kplotn4t4ktoesam5u0p7io89cfsja4kuh4t9efn1lbt15al9f0; keep_user=think%3A%7B%22id%22%3A%22e5dazm%252F8ThPG2vIyxXunlhw68y70Rqbnkd0la%252BSJ%22%2C%22pid%22%3A%222164Ai0qwIYcQldECH5hE7E1L%252B8pMq3zdHzGYprM%22%2C%22name%22%3A%223741CvPeyjGZ1Enw%252F72bQ%252F8N7XCHmErm81TxqqWWMkk%22%2C%22realname%22%3A%22c7d0CGQr3WxbeJazFDemMbo84no%252FCGd%252FBbfBl6I%22%2C%22sex%22%3A%2217cfMJTqtEYvI3sukGMvYgzawQsRxqazDh%252BjgASK%22%2C%22mobile%22%3A%22b315XUeogkrih%252F%252F6ETmJZW3eVxEvNvhtdjFs%252FAQxuiovbphAqTuy2Q%22%2C%22qq%22%3A%221c1bfUN2WeDEMNdOBon4cV6%252BMuTv4%252FxC4eY0D%252Bk%22%2C%22email%22%3A%22c37docxWefCBj%252Fc0ViGpId6eg0qvNfcztwHUpNI%22%2C%22point%22%3A%22ce5ffwxzGRYamtQDxsnKAbXUWS29wJgjsVi2QJrW%22%2C%22headimg%22%3A%2237d6QOWUBis9iOKQlniU94p2SCqlhwxatR1LMgs%22%2C%22id_list%22%3A%22fb84DYVR6KHONBm%252B7fjJa2GmDLlb16QQJfoGC2g%22%2C%22regtime%22%3A%223702nxHtz9Xl7ZfwDn4Jzu%252FGeYb8MY1BzN7rqisW%22%2C%22logintime%22%3A%221d72LySNbcwXSg%252FRU0uw7LTLpvgD30nE1FTomn4%22%2C%22loginip%22%3A%2207c16Qo19%252F1gG%252FMU9Je1dpFrDLPkqT5Vmf69yJc%22%2C%22status%22%3A%2238493kb82ODdW0pvUWb8yf6nL1POFuC%252B%252F1ZGlkjs%22%2C%22remark%22%3A%22a6c3onW6OYZ1t2xYgFPfx%252FCVd1FAIupXoHbh9XM%22%7D',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/topInfo' => '',
+)
+[ info ] [ RUN ] app\index\controller\Index->topInfo[ /home/aptx/File/PHP/6rmh/app/index/controller/Index.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
