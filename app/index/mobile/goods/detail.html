@@ -92,9 +92,7 @@
                         <input id="buy-number"  ng-model="buy_number" title="填写购买数量"/>
                         <div class="input-group-addon" ng-click="addNum()">+</div>
                     </div>
-                    <div class="btn add_car">
-                        加入购物车
-                    </div>
+                    <a class="btn add_car" href="/index/cart/add/id/<{$goods.id}>/spec/{{specValue}}/num/{{buy_number}}" title="加入购物车">加入购物车</a>
                 </div>
                 </div>
             </div>
@@ -203,6 +201,10 @@
             $(".size").slideToggle(100);
         });
         $('.close').click(function(){
+            $(".size").slideToggle(100);
+            $(".choice_size").css("display","block");
+        });
+        $('.add_car').click(function(){
             $(".size").slideToggle(100);
             $(".choice_size").css("display","block");
         });

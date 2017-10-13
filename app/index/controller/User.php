@@ -1,82 +1,139 @@
 <?php
 namespace app\index\controller;
 use app\common\controller\Common; 
-use app\common\controller\Mall as Mall;
+// use app\common\controller\Mall as Mall;
 use think\Controller;
 use think\Config;
 use think\Session;
+use think\Db;
 
 class User extends Common
 {
 
     public function index(){
-        return 'User控制器';
+        $id = session(config('USER_ID'));
+        
         if(Session::get(Config::get('USER_ID'))){
             $user = decodeCookie('user');
         }
         
-        // return dump($user);
-        $mall_config = mallConfig();
-        $this->assign('config', ['template'=>$mall_config['index_template']['value']
+        $config = mallConfig();
+        $this->assign('config', ['page_title'=>'用户中心', 'template'=>$config['mall_template']['value'] 
             ]);
-        // $this->assign('user', ['']);
-        return $this->fetch($mall_config['index_template']['value']);
+
+        $users = Db::name('users') ->where(['id' =>$id]) ->find();
+        
+        $this->assign('header', [ 'form'=>'user', 'id'=>$id ]);
+        
+        $this->assign('users', $users);
+        return $this->fetch();
     }
 
-    public function topInfo(){
-        $login = '/index/login/index';
-        if(Session::get(Config::get('USER_ID'))){
-            $user = decodeCookie('user');
-            $data = [
-                'left'=> [
-                    ['title'=>empty($user['realname'])?$user['name']:$user['realname'], 'url'=>'/index/center/index', 'iconfont'=>''],
-                    ['title'=>'定位', 'url'=>'javascript: void(0);', 'iconfont'=>'fa-li fa fa-map-marker'],
-                    // ['title'=>'注销', 'url'=>'javascript: void(0);', 'iconfont'=>'']
-                ]
-                // 'right'=> [
-                //     'mobile' => '/index/mobile/index', 
-                //     'order'=> '/index/order/index', 
-                //     'collection'=> '/index/collection/index', 
-                //     'center'=> '/index/center/index'
-                // ]
-            ];
-        }else{
-            $data = [
-                'left' => [
-                    ['title'=>'欢迎来到六耳猕猴网', 'url'=>'/index/index/index', 'iconfont'=>''], 
-                    ['title'=>'欢迎登录', 'url'=>$login, 'iconfont'=>''],
-                    ['title'=>'免费注册', 'url'=>'/index/register/index', 'iconfont'=>''],
-                    ['title'=>'定位', 'url'=>'javascript: void(0);', 'iconfont'=>'fa-li fa fa-map-marker']
-                ]
-                // 'right' => [
-                //     'mobile' => $login, 
-                //     'order'=> $login, 
-                //     'collection'=> $login, 
-                //     'center'=> $login
-                // ]
-            ];
+    public function editor(){
+        $id = input('id',0,'intval');
+        $data['name'] = input('name','','htmlspecialchars,trim');
+        $data['sex'] = input('sex',0,'intval');
+        $data['mobile'] = input('mobile','','htmlspecialchars,trim');
+        $data['qq'] = input('qq',0,'intval');
+        $data['email'] = input('email','','htmlspecialchars,trim');
+        #头像上传
+        if(!empty($_FILES['headimg']['name'])){
+            $upload = uploadHeadImg('images'.DS.'headimage');
+            if($upload['status']){
+                $data['headimg'] = $upload['path'][0];
+            }else{
+                return $this->error('头像上传失败');
+            }
         }
-        $data['right'] = [
-            'mobile' => '/index/mobile/index', 
-            'order'=> '/index/order/index', 
-            'collection'=> '/index/collection/index', 
-            'user'=> '/index/user/index'
-        ];
 
-        echo json_encode($data, JSON_UNESCAPED_UNICODE);
+        $res = Db::name('users') ->where(['id'=>$id]) ->update($data);
+        if($res){
+            return $this->success('修改成功', 'User/index');
+        }else{
+            return $this->error('修改失败');
+        }
     }
 
-    public function footerInfo(){
-        if(cache('FOOTER_INFO')){
-            $data = cache('FOOTER_INFO');
-        }else{
-            $footer = db('web_info', [], false) -> where(array('type'=>'footer', 'status'=>1)) -> select();
-            $data['footer'] = getField($footer);
-            $data['company'] = $data['footer']['company_info']['value'];
-            unset($data['footer']['company_info']);
-            // cache('FOOTER_INFO', $data); //缓存 注释
+    public function passcode(){
+        
+        $config = mallConfig();
+        $this->assign('config', ['page_title'=>'用户中心', 'template'=>$config['mall_template']['value'] 
+            ]);
+
+        return $this->fetch('passcode');
+    }
+
+    public function password(){
+        $id = session(config('USER_ID'));
+        if(empty($_POST['old-password'])){
+            return $this->error('旧密码不可为空');
         }
-        echo json_encode($data, JSON_UNESCAPED_UNICODE);
+
+        if(empty($_POST['pass'])){
+            return $this->error('新密码不可为空');
+        }
+
+        if(empty($_POST['repass'])){
+            return $this->error('重复密码不可为空');
+        }
+
+        if($_POST['pass'] !== $_POST['repass']){
+            return $this->error('新密码输入不一致');
+        }
+        
+        $user = getUserInfo('users', $id);
+
+        $old_pwd = cryptCode($_POST['old-password'], 'ENCODE', substr(md5($_POST['old-password']), 0, 4));
+        
+        if($old_pwd !== $user['password']){
+            return $this->error('旧密码错误');
+        }
+
+        $data['encrypt'] = substr(md5($_POST['pass']), 0, 4);
+        $data['password'] = cryptCode($_POST['pass'], 'ENCODE', $data['encrypt']);
+        $result = db('users', [], false) -> where(array('id'=>$id)) ->update($data);
+        if($result){
+            session(null);
+            return msg('index/login/index', '修改成功，请重新登录');
+        }else{
+            return $this->error('修改失败');
+        }
+    }
+
+    public function payword(){
+        $id = session(config('USER_ID'));
+        if(empty($_POST['old-password'])){
+            return $this->error('旧密码不可为空');
+        }
+
+        if(empty($_POST['pass'])){
+            return $this->error('新密码不可为空');
+        }
+
+        if(empty($_POST['repass'])){
+            return $this->error('重复密码不可为空');
+        }
+
+        if($_POST['pass'] !== $_POST['repass']){
+            return $this->error('新密码输入不一致');
+        }
+        
+        $user = getUserInfo('users', $id);
+
+        $old_pwd = cryptCode($_POST['old-password'], 'ENCODE', substr(md5($_POST['old-password']), 0, 4));
+        
+        if($old_pwd !== $user['pay_code']){
+            return $this->error('旧密码错误');
+        }
+
+        $data['paycrypt'] = substr(md5($_POST['pass']), 0, 4);
+        $data['pay_code'] = cryptCode($_POST['pass'], 'ENCODE', $data['paycrypt']);
+        $result = db('users', [], false) -> where(array('id'=>$id)) ->update($data);
+        if($result){
+            return $this->success('修改成功');
+        }else{
+            return $this->error('修改失败');
+        }
     }
 
 }

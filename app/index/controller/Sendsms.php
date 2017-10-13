@@ -15,8 +15,11 @@ class Sendsms extends controller
         $username=iconv('UTF-8','UTF-8','cf_57407966');
         $password=iconv('UTF-8', 'UTF-8','e4bfc480419da57b836ec07e2abdfe89');
         $code = rand(100000,999999);
-        session('verify_code', $code);
-        session('phone', $phone);
+        session([
+            'expire' => 600,
+            'verify_code' => $code,
+            'phone' => $phone,
+        ]);
         $data='您的验证码是：【'.$code.'】。请不要把验证码泄露给其他人。如非本人操作，可不用理会！';//要发送的短信内容
         $content=mb_convert_encoding("$data",'UTF-8', 'UTF-8');
 

@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:67:"/home/aptx/File/PHP/6rmh/public/../app/index/mobile/cart/index.html";i:1506074542;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:67:"/home/aptx/File/PHP/6rmh/public/../app/index/mobile/cart/index.html";i:1506135061;}*/ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -44,6 +44,9 @@
                         <li class="good-info">
                             规格：<?php echo $vo['spec']; ?>
                         </li>
+                        <li>
+                            数量：<?php echo $vo['num']; ?>
+                        </li>
                         <li class="">
                             单价：¥<?php echo $vo['price']; if($vo['promotion'] != ''): ?>
                             <span class="goods-promotion" >
@@ -57,9 +60,9 @@
                     <div class="good-option">
                          <li class="option-title">编辑</li>
                          <li class="changeNum">
-                            <a class="number-change" href="/index/cart/setInc/id/<?php echo $vo['cart_id']; ?>/num/<?php echo $vo['num']; ?>" title="数量减1">-</a>
+                            <a class="number-change" href="/index/cart/setDec/id/<?php echo $vo['cart_id']; ?>/num/<?php echo $vo['num']; ?>" title="数量减1">-</a>
                             <input class="cart-goods-num" name="number" value="<?php echo $vo['num']; ?>"/>
-                            <a class="number-change" href="/index/cart/setDec/id/<?php echo $vo['cart_id']; ?>/num/<?php echo $vo['num']; ?>" title="数量加1">+</a>
+                            <a class="number-change" href="/index/cart/setInc/id/<?php echo $vo['cart_id']; ?>/num/<?php echo $vo['num']; ?>" title="数量加1">+</a>
                         </li>
                         <li>
                             <a class="btn"href="<?php echo url('cart/del', ['id'=>$vo['cart_id']]); ?>" title="删除该商品">

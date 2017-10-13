@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:6:{s:67:"/home/aptx/File/PHP/6rmh/public/../app/index/view/goods/detail.html";i:1505370625;s:69:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./public/index.html";i:1504744427;s:67:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./public/top.html";i:1504744427;s:70:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./public/header.html";i:1504744427;s:70:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./public/navbar.html";i:1504744427;s:70:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./public/footer.html";i:1504744427;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:6:{s:67:"/home/aptx/File/PHP/6rmh/public/../app/index/view/goods/detail.html";i:1505370625;s:69:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./public/index.html";i:1506132572;s:67:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./public/top.html";i:1504744427;s:70:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./public/header.html";i:1504744427;s:70:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./public/navbar.html";i:1504744427;s:70:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./public/footer.html";i:1504744427;}*/ ?>
 <!DOCTYPE html>
 <html lang="en" >
 <head>
@@ -10,9 +10,14 @@
     <!--加载swiper的css-->
     <link rel="stylesheet" href="__CSS__/swiper-3.4.2.min.css" type="text/css"/>
     <link rel="stylesheet" href="__CSS__/animate.min.css" type="text/css"/>
-    
-    <link rel="stylesheet" href="__CSS__/mall_default_layout.css" type="text/css"/>
 
+    <link rel="stylesheet" href="__CSS__/mall_default_layout.css" type="text/css"/>
+     <!--引用六边形样式-->
+    <link rel="stylesheet" type="text/css" href="__STATIC__/css/hexagon/hexagons.css">
+    <link href='https://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'>
+	<!--[if IE]>
+		<script src="http://libs.useso.com/js/html5shiv/3.7/html5shiv.min.js"></script>
+	<![endif]-->
     <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="__STATIC__/js/plugin/jquery.imagezoom.min.js"></script>
     <script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -21,7 +26,8 @@
     <script src="http://cdn.static.runoob.com/libs/angular.js/1.4.6/angular-animate.min.js"></script>
     <script src="https://cdn.bootcss.com/angular.js/1.5.0-beta.0/angular-sanitize.min.js"></script>
     
-    <!--<script src="__JS__/admin/admin_default_layout.js"></script>-->
+    <!--<script src="__JS__/mall/mall_default_layout.js"></script>-->
+   
 </head>
 <body data-ng-app="myApp" class="web-body" >
     <header class=" web-top  wp_100 ">

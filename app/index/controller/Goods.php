@@ -31,8 +31,4 @@ class Goods extends controller
         
     }
 
-
-
-
-
 }

@@ -62,6 +62,7 @@ $('.password-repeat').change(function(){
 
 //检查表单数据是否全部输入正确
 function checkForm(){
+
     var phone=$('.phone').attr('check');
     var password=$('.password-repeat').attr('check');
     var verify=$('.verify').attr('check');
@@ -76,15 +77,17 @@ function checkForm(){
 function sendM(){
     //防止重复发送验证码
     var phone=$('.phone').val();
+    if(phone == ""){
+        alert("请输入手机号码！");
+        return;
+    }
     $.ajax({
         url: '/index/sendsms/verify?phone='+phone,
         dataType: "xml",
         success:function(data){
             var code = $(data).find('code').html();
-            /*var smsid = $(data).find('smsid').html();*/
             if(code == '2'){
                 alert('发送成功!');
-                /*$('.verify').append('<input stype="hidden" name="smdid" value='+smsid+'>');*/
             }
             var s = 60;
             var interval = setInterval(function(){

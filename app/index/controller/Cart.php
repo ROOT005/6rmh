@@ -63,11 +63,35 @@ class Cart extends Common
 
     #数量增加
     public function setInc(){
+        $id = input('id', 0, 'intval');
+        $num = input('num', 0, 'intval');
+        $inc = Db::name('cart') -> where(['id'=>$id]) -> setInc('num', 1);
+        if($inc){
+            return $this->redirect('index'); exit;
+        }else{
+            return $this->error('修改失败');
+        }
+
+
 
     }
 
     #数量减少
     public function setDec(){
+        $id = input('id', 0, 'intval');
+        $num = input('num', 0, 'intval');
+        $inc = Db::name('cart') -> where(['id'=>$id]) -> setDec('num', 1);
+        if($inc){
+            return $this->redirect('index'); exit;
+        }else{
+            return $this->error('修改失败');
+        }
+
+
+    }
+
+    #手动修改数量
+    public function changeNum(){
 
     }
 
@@ -91,6 +115,8 @@ class Cart extends Common
         $id = input('id', 0, 'intval'); //商品id
         $sid = input('spec', 0, 'intval'); //规格  id
         $num = input('num', 0, 'intval'); //数量
+        #获取推荐人id
+        $pid = Db::name('users')->where(['id'=>session(config('USER_ID'))])->find()['pid'];
 
         $goods = $this->getCartGoods($id, $sid);
         
@@ -111,7 +137,7 @@ class Cart extends Common
             $data = ['buyer_id'=>Session::get(Config::get('USER_ID')), 
                 'seller_id'=>$goods['userid'], 'goods_id'=>$id, 
                 'price'=>$goods['sprice']?$goods['sprice']:$goods['gprice'],
-                'num'=>$num, 'addtime'=>time(), 'spec'=>$sid
+                'num'=>$num, 'addtime'=>time(), 'spec'=>$sid, 'parent_id'=>$pid
                 ];
             
             $result = Db::name('cart') -> insert($data);

@@ -43,6 +43,9 @@
                         <li class="good-info">
                             规格：<{$vo.spec}>
                         </li>
+                        <li>
+                            数量：<{$vo.num}>
+                        </li>
                         <li class="">
                             单价：¥<{$vo.price}>
                             <{if $vo.promotion != ''}>
@@ -57,9 +60,9 @@
                     <div class="good-option">
                          <li class="option-title">编辑</li>
                          <li class="changeNum">
-                            <a class="number-change" href="/index/cart/setInc/id/<{$vo.cart_id}>/num/<{$vo.num}>" title="数量减1">-</a>
+                            <a class="number-change" href="/index/cart/setDec/id/<{$vo.cart_id}>/num/<{$vo.num}>" title="数量减1">-</a>
                             <input class="cart-goods-num" name="number" value="<{$vo.num}>"/>
-                            <a class="number-change" href="/index/cart/setDec/id/<{$vo.cart_id}>/num/<{$vo.num}>" title="数量加1">+</a>
+                            <a class="number-change" href="/index/cart/setInc/id/<{$vo.cart_id}>/num/<{$vo.num}>" title="数量加1">+</a>
                         </li>
                         <li>
                             <a class="btn"href="<{:url('cart/del', ['id'=>$vo.cart_id])}>" title="删除该商品">

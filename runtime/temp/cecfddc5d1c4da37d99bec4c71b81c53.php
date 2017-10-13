@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:69:"/home/aptx/File/PHP/6rmh/public/../app/index/mobile/goods/detail.html";i:1506060230;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:69:"/home/aptx/File/PHP/6rmh/public/../app/index/mobile/goods/detail.html";i:1507708001;}*/ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -93,9 +93,7 @@
                         <input id="buy-number"  ng-model="buy_number" title="填写购买数量"/>
                         <div class="input-group-addon" ng-click="addNum()">+</div>
                     </div>
-                    <div class="btn add_car">
-                        加入购物车
-                    </div>
+                    <a class="btn add_car" href="/index/cart/add/id/<?php echo $goods['id']; ?>/spec/{{specValue}}/num/{{buy_number}}" title="加入购物车">加入购物车</a>
                 </div>
                 </div>
             </div>
@@ -204,6 +202,10 @@
             $(".size").slideToggle(100);
         });
         $('.close').click(function(){
+            $(".size").slideToggle(100);
+            $(".choice_size").css("display","block");
+        });
+        $('.add_car').click(function(){
             $(".size").slideToggle(100);
             $(".choice_size").css("display","block");
         });

@@ -1,0 +1,2786 @@
+[ 2017-10-11T14:46:28+08:00 ] 127.0.0.2 127.0.0.1 GET /index/sendsms/checkphone?phone=17616711978
+[ log ] www.sixer.com/index/sendsms/checkphone?phone=17616711978 [运行时间：0.040758s][吞吐率：24.54req/s] [内存消耗：3,138.63kb] [文件加载：47]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'sendsms',
+    2 => 'checkphone',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Version/10.0 Mobile/14D27 Safari/602.1',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.sixer.com/index/register/index.html',
+  'x-requested-with' => 'XMLHttpRequest',
+  'cookie' => 'PHPSESSID=h3mlnoqcn77ofavc7a4q7gpr01sfukrms500a4ss4q0pdko57m00',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/index/sendsms/checkphone' => '',
+  'phone' => '17616711978',
+)
+[ info ] [ RUN ] app\index\controller\Sendsms->checkPhone[ /home/aptx/File/PHP/6rmh/app/index/controller/Sendsms.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-11T14:46:36+08:00 ] 127.0.0.2 127.0.0.1 GET /index/sendsms/verify?phone=17616711978
+[ log ] www.sixer.com/index/sendsms/verify?phone=17616711978 [运行时间：0.329742s][吞吐率：3.03req/s] [内存消耗：2,231.95kb] [文件加载：41]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'sendsms',
+    2 => 'verify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Version/10.0 Mobile/14D27 Safari/602.1',
+  'accept' => 'application/xml, text/xml, */*; q=0.01',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.sixer.com/index/register/index.html',
+  'x-requested-with' => 'XMLHttpRequest',
+  'cookie' => 'PHPSESSID=h3mlnoqcn77ofavc7a4q7gpr01sfukrms500a4ss4q0pdko57m00',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/index/sendsms/verify' => '',
+  'phone' => '17616711978',
+)
+[ info ] [ RUN ] app\index\controller\Sendsms->verify[ /home/aptx/File/PHP/6rmh/app/index/controller/Sendsms.php ]
+[ info ] [ SESSION ] INIT array (
+  'expire' => 600,
+  'verify_code' => 221599,
+  'phone' => '17616711978',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-11T14:46:39+08:00 ] 127.0.0.2 127.0.0.1 POST /index/register/register
+[ log ] www.sixer.com/index/register/register [运行时间：0.032433s][吞吐率：30.83req/s] [内存消耗：2,513.52kb] [文件加载：46]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'register',
+    2 => 'register',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Version/10.0 Mobile/14D27 Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.sixer.com/index/register/index.html',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '41',
+  'cookie' => 'PHPSESSID=h3mlnoqcn77ofavc7a4q7gpr01sfukrms500a4ss4q0pdko57m00',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/index/register/register' => '',
+  'phone' => '17616711978',
+  'password' => '123456',
+  'verify' => '',
+)
+[ info ] [ RUN ] app\index\controller\Register->Register[ /home/aptx/File/PHP/6rmh/app/index/controller/Register.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/thinkphp/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-11T14:46:43+08:00 ] 127.0.0.2 127.0.0.1 GET /index/register/index.html
+[ log ] www.sixer.com/index/register/index.html [运行时间：0.033836s][吞吐率：29.55req/s] [内存消耗：2,423.85kb] [文件加载：44]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Version/10.0 Mobile/14D27 Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.sixer.com/index/register/register',
+  'cookie' => 'PHPSESSID=h3mlnoqcn77ofavc7a4q7gpr01sfukrms500a4ss4q0pdko57m00',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/index/register/index_html' => '',
+)
+[ info ] [ RUN ] app\index\controller\Register->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Register.php ]
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/register/index.html [ array (
+  0 => 'header',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-11T14:46:44+08:00 ] 127.0.0.2 127.0.0.1 GET /static/js/jquery-1.10.2.min.map
+[ log ] www.sixer.com/static/js/jquery-1.10.2.min.map [运行时间：0.026495s][吞吐率：37.74req/s] [内存消耗：1,904.88kb] [文件加载：37]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'jquery-1.10.2.min.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'null',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  '/static/js/jquery-1_10_2_min_map' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-11T14:47:14+08:00 ] 127.0.0.2 127.0.0.1 GET /index/sendsms/checkphone?phone=17616711978
+[ log ] www.sixer.com/index/sendsms/checkphone?phone=17616711978 [运行时间：0.035550s][吞吐率：28.13req/s] [内存消耗：3,137.34kb] [文件加载：47]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'sendsms',
+    2 => 'checkphone',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.1.1; Nexus 6 Build/LYZ28E) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Mobile Safari/537.36',
+  'referer' => 'http://www.sixer.com/index/register/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7e1bo73elgffjok7ljngcr5ncc0s3d4ku5l5t6nh91mcdfrhvl00',
+)
+[ info ] [ PARAM ] array (
+  '/index/sendsms/checkphone' => '',
+  'phone' => '17616711978',
+)
+[ info ] [ RUN ] app\index\controller\Sendsms->checkPhone[ /home/aptx/File/PHP/6rmh/app/index/controller/Sendsms.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-11T14:47:36+08:00 ] 127.0.0.2 127.0.0.1 POST /index/register/register
+[ log ] www.sixer.com/index/register/register [运行时间：0.023401s][吞吐率：42.73req/s] [内存消耗：2,319.33kb] [文件加载：44]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'register',
+    2 => 'register',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'connection' => 'keep-alive',
+  'content-length' => '42',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.sixer.com',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.1.1; Nexus 6 Build/LYZ28E) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.sixer.com/index/register/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7e1bo73elgffjok7ljngcr5ncc0s3d4ku5l5t6nh91mcdfrhvl00',
+)
+[ info ] [ PARAM ] array (
+  '/index/register/register' => '',
+  'phone' => '17616711978',
+  'password' => '123456',
+  'verify' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Register->Register[ /home/aptx/File/PHP/6rmh/app/index/controller/Register.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/thinkphp/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-11T14:47:39+08:00 ] 127.0.0.2 127.0.0.1 GET /index/register/index.html
+[ log ] www.sixer.com/index/register/index.html [运行时间：0.021941s][吞吐率：45.58req/s] [内存消耗：2,231.01kb] [文件加载：42]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.1.1; Nexus 6 Build/LYZ28E) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.sixer.com/index/register/register',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7e1bo73elgffjok7ljngcr5ncc0s3d4ku5l5t6nh91mcdfrhvl00',
+)
+[ info ] [ PARAM ] array (
+  '/index/register/index_html' => '',
+)
+[ info ] [ RUN ] app\index\controller\Register->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Register.php ]
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/register/index.html [ array (
+  0 => 'header',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-11T14:57:16+08:00 ] 127.0.0.2 127.0.0.1 GET /index/register/index.html
+[ log ] www.sixer.com/index/register/index.html [运行时间：0.057933s][吞吐率：17.26req/s] [内存消耗：2,487.09kb] [文件加载：48]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.1.1; Nexus 6 Build/LYZ28E) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.sixer.com/index/register/register',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7e1bo73elgffjok7ljngcr5ncc0s3d4ku5l5t6nh91mcdfrhvl00',
+)
+[ info ] [ PARAM ] array (
+  '/index/register/index_html' => '',
+)
+[ info ] [ RUN ] app\index\controller\Register->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Register.php ]
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/register/index.html [ array (
+  0 => 'header',
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Array to string conversion[/home/aptx/File/PHP/6rmh/runtime/temp/6bc3e403aec90c9a54333d849a0aca7f.php:14]
+
+---------------------------------------------------------------
+[ 2017-10-11T14:57:29+08:00 ] 127.0.0.2 127.0.0.1 GET /index/register/index.html
+[ log ] www.sixer.com/index/register/index.html [运行时间：0.032037s][吞吐率：31.21req/s] [内存消耗：2,423.45kb] [文件加载：44]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.1.1; Nexus 6 Build/LYZ28E) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.sixer.com/index/register/register',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7e1bo73elgffjok7ljngcr5ncc0s3d4ku5l5t6nh91mcdfrhvl00',
+)
+[ info ] [ PARAM ] array (
+  '/index/register/index_html' => '',
+)
+[ info ] [ RUN ] app\index\controller\Register->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Register.php ]
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/register/index.html [ array (
+  0 => 'header',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-11T14:57:53+08:00 ] 127.0.0.2 127.0.0.1 GET /index/register/index.html
+[ log ] www.sixer.com/index/register/index.html [运行时间：0.036923s][吞吐率：27.08req/s] [内存消耗：2,423.99kb] [文件加载：44]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Version/10.0 Mobile/14D27 Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.sixer.com/index/register/register',
+  'cookie' => 'PHPSESSID=h3mlnoqcn77ofavc7a4q7gpr01sfukrms500a4ss4q0pdko57m00',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/index/register/index_html' => '',
+)
+[ info ] [ RUN ] app\index\controller\Register->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Register.php ]
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/register/index.html [ array (
+  0 => 'header',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-11T14:57:54+08:00 ] 127.0.0.2 127.0.0.1 GET /static/js/jquery-1.10.2.min.map
+[ log ] www.sixer.com/static/js/jquery-1.10.2.min.map [运行时间：0.026024s][吞吐率：38.43req/s] [内存消耗：1,904.88kb] [文件加载：37]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'jquery-1.10.2.min.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'null',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  '/static/js/jquery-1_10_2_min_map' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-11T14:57:56+08:00 ] 127.0.0.2 127.0.0.1 GET /index/register/index.html
+[ log ] www.sixer.com/index/register/index.html [运行时间：0.021864s][吞吐率：45.74req/s] [内存消耗：2,231.82kb] [文件加载：42]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Version/10.0 Mobile/14D27 Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.sixer.com/index/register/register',
+  'cookie' => 'PHPSESSID=h3mlnoqcn77ofavc7a4q7gpr01sfukrms500a4ss4q0pdko57m00',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/index/register/index_html' => '',
+)
+[ info ] [ RUN ] app\index\controller\Register->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Register.php ]
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/register/index.html [ array (
+  0 => 'header',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-11T14:57:57+08:00 ] 127.0.0.2 127.0.0.1 GET /static/js/jquery-1.10.2.min.map
+[ log ] www.sixer.com/static/js/jquery-1.10.2.min.map [运行时间：0.021450s][吞吐率：46.62req/s] [内存消耗：1,904.88kb] [文件加载：37]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'jquery-1.10.2.min.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'null',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  '/static/js/jquery-1_10_2_min_map' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-11T14:59:36+08:00 ] 127.0.0.2 127.0.0.1 GET /index/register/index.html
+[ log ] www.sixer.com/index/register/index.html [运行时间：0.031623s][吞吐率：31.62req/s] [内存消耗：2,424.58kb] [文件加载：44]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Version/10.0 Mobile/14D27 Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.sixer.com/index/register/register',
+  'cookie' => 'PHPSESSID=h3mlnoqcn77ofavc7a4q7gpr01sfukrms500a4ss4q0pdko57m00',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/index/register/index_html' => '',
+)
+[ info ] [ RUN ] app\index\controller\Register->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Register.php ]
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/register/index.html [ array (
+  0 => 'header',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-11T14:59:37+08:00 ] 127.0.0.2 127.0.0.1 GET /static/js/jquery-1.10.2.min.map
+[ log ] www.sixer.com/static/js/jquery-1.10.2.min.map [运行时间：0.026312s][吞吐率：38.01req/s] [内存消耗：1,904.88kb] [文件加载：37]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'jquery-1.10.2.min.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'null',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  '/static/js/jquery-1_10_2_min_map' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-11T15:00:06+08:00 ] 127.0.0.2 127.0.0.1 GET /index/sendsms/checkphone?phone=17616711978
+[ log ] www.sixer.com/index/sendsms/checkphone?phone=17616711978 [运行时间：0.039420s][吞吐率：25.37req/s] [内存消耗：3,138.61kb] [文件加载：47]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'sendsms',
+    2 => 'checkphone',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Version/10.0 Mobile/14D27 Safari/602.1',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.sixer.com/index/register/index.html',
+  'x-requested-with' => 'XMLHttpRequest',
+  'cookie' => 'PHPSESSID=h3mlnoqcn77ofavc7a4q7gpr01sfukrms500a4ss4q0pdko57m00',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/index/sendsms/checkphone' => '',
+  'phone' => '17616711978',
+)
+[ info ] [ RUN ] app\index\controller\Sendsms->checkPhone[ /home/aptx/File/PHP/6rmh/app/index/controller/Sendsms.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-11T15:00:46+08:00 ] 127.0.0.2 127.0.0.1 POST /index/register/register
+[ log ] www.sixer.com/index/register/register [运行时间：0.104363s][吞吐率：9.58req/s] [内存消耗：3,195.55kb] [文件加载：52]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'register',
+    2 => 'register',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Version/10.0 Mobile/14D27 Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.sixer.com/index/register/index.html',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '42',
+  'cookie' => 'PHPSESSID=h3mlnoqcn77ofavc7a4q7gpr01sfukrms500a4ss4q0pdko57m00',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/index/register/register' => '',
+  'phone' => '17616711978',
+  'password' => '123456',
+  'verify' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Register->register[ /home/aptx/File/PHP/6rmh/app/index/controller/Register.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [10501]SQLSTATE[HY000]: General error: 1364 Field 'regtime' doesn't have a default value[/home/aptx/File/PHP/6rmh/thinkphp/library/think/db/Connection.php:438]
+
+---------------------------------------------------------------
+[ 2017-10-11T15:05:45+08:00 ] 127.0.0.2 127.0.0.1 POST /index/register/register
+[ log ] www.sixer.com/index/register/register [运行时间：0.037226s][吞吐率：26.86req/s] [内存消耗：3,214.09kb] [文件加载：50]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'register',
+    2 => 'register',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Version/10.0 Mobile/14D27 Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.sixer.com/index/register/index.html',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '42',
+  'cookie' => 'PHPSESSID=h3mlnoqcn77ofavc7a4q7gpr01sfukrms500a4ss4q0pdko57m00',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/index/register/register' => '',
+  'phone' => '17616711978',
+  'password' => '123456',
+  'verify' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Register->register[ /home/aptx/File/PHP/6rmh/app/index/controller/Register.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/thinkphp/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-11T15:05:49+08:00 ] 127.0.0.2 127.0.0.1 GET /index/user/index.html
+[ log ] www.sixer.com/index/user/index.html [运行时间：0.047648s][吞吐率：20.99req/s] [内存消耗：2,299.52kb] [文件加载：44]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Version/10.0 Mobile/14D27 Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.sixer.com/index/register/register',
+  'cookie' => 'PHPSESSID=h3mlnoqcn77ofavc7a4q7gpr01sfukrms500a4ss4q0pdko57m00',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/index/user/index_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-11T15:05:49+08:00 ] 127.0.0.2 127.0.0.1 GET /index/login/index
+[ log ] www.sixer.com/index/login/index [运行时间：0.067611s][吞吐率：14.79req/s] [内存消耗：2,432.21kb] [文件加载：44]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Version/10.0 Mobile/14D27 Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.sixer.com/index/register/register',
+  'cookie' => 'PHPSESSID=h3mlnoqcn77ofavc7a4q7gpr01sfukrms500a4ss4q0pdko57m00',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/index/login/index' => '',
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/login/index.html [ array (
+  0 => 'header',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-11T15:05:50+08:00 ] 127.0.0.2 127.0.0.1 GET /static/js/jquery-1.10.2.min.map
+[ log ] www.sixer.com/static/js/jquery-1.10.2.min.map [运行时间：0.022718s][吞吐率：44.02req/s] [内存消耗：1,904.88kb] [文件加载：37]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'jquery-1.10.2.min.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'null',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  '/static/js/jquery-1_10_2_min_map' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-11T15:06:30+08:00 ] 127.0.0.2 127.0.0.1 POST /index/login/login
+[ log ] www.sixer.com/index/login/login [运行时间：0.043037s][吞吐率：23.24req/s] [内存消耗：3,157.57kb] [文件加载：49]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Version/10.0 Mobile/14D27 Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.sixer.com/index/login/index',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '54',
+  'cookie' => 'PHPSESSID=h3mlnoqcn77ofavc7a4q7gpr01sfukrms500a4ss4q0pdko57m00',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/index/login/login' => '',
+  'login' => 
+  array (
+    'name' => '17616711978',
+    'password' => '123456',
+  ),
+)
+[ info ] [ RUN ] app\index\controller\Login->login[ /home/aptx/File/PHP/6rmh/app/index/controller/Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/thinkphp/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-11T15:06:34+08:00 ] 127.0.0.2 127.0.0.1 GET /index/login/index
+[ log ] www.sixer.com/index/login/index [运行时间：0.034848s][吞吐率：28.70req/s] [内存消耗：2,242.77kb] [文件加载：42]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Version/10.0 Mobile/14D27 Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.sixer.com/index/register/register',
+  'cookie' => 'PHPSESSID=h3mlnoqcn77ofavc7a4q7gpr01sfukrms500a4ss4q0pdko57m00',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/index/login/index' => '',
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/login/index.html [ array (
+  0 => 'header',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-11T15:06:35+08:00 ] 127.0.0.2 127.0.0.1 GET /static/js/jquery-1.10.2.min.map
+[ log ] www.sixer.com/static/js/jquery-1.10.2.min.map [运行时间：0.027695s][吞吐率：36.11req/s] [内存消耗：1,904.88kb] [文件加载：37]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'jquery-1.10.2.min.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'null',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  '/static/js/jquery-1_10_2_min_map' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-11T15:07:30+08:00 ] 127.0.0.2 127.0.0.1 POST /index/login/login
+[ log ] www.sixer.com/index/login/login [运行时间：0.059497s][吞吐率：16.81req/s] [内存消耗：3,218.38kb] [文件加载：50]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Version/10.0 Mobile/14D27 Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.sixer.com/index/login/index',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '54',
+  'cookie' => 'PHPSESSID=h3mlnoqcn77ofavc7a4q7gpr01sfukrms500a4ss4q0pdko57m00',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/index/login/login' => '',
+  'login' => 
+  array (
+    'name' => '17616711978',
+    'password' => '123456',
+  ),
+)
+[ info ] [ RUN ] app\index\controller\Login->login[ /home/aptx/File/PHP/6rmh/app/index/controller/Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-11T15:07:31+08:00 ] 127.0.0.2 127.0.0.1 GET /index/index/index
+[ log ] www.sixer.com/index/index/index [运行时间：0.167568s][吞吐率：5.97req/s] [内存消耗：3,493.67kb] [文件加载：55]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Version/10.0 Mobile/14D27 Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.sixer.com/index/login/index',
+  'cookie' => 'PHPSESSID=h3mlnoqcn77ofavc7a4q7gpr01sfukrms500a4ss4q0pdko57m00; keep_user=think%3A%7B%22id%22%3A%2256d9l2mxzGoqOExayDgWmCA3AcqlWqA9%252BvLifcGh%22%2C%22pid%22%3A%225fa97icG3rRsEdOHZDeJk%252BaX1FY9W1NuLLztq%252Bj4%22%2C%22name%22%3A%22e1b7S30mxDvbNNX%252B8whwOTeTALuTh8aEvUiNiidNjHg5Q5r%252Bm30z3Q%22%2C%22realname%22%3A%223bbaA22mxBXqfWW%252BrwL7WW6b3UY8qmNnz%252BCKut4%22%2C%22sex%22%3A%22072e02OtUnF%252B%252BGtItVtc7Gq8%252BG%252FS6ql1oXgtRnZ5%22%2C%22mobile%22%3A%226510Mmh5csmCxg08kR%252FVgLJQpScSaheajSiH5ztSELzabtljCBtmaw%22%2C%22bait%22%3A%22902djdoo2XS2vxXuYA2DCFan%252FcmOTgtO8pN71FLO%22%2C%22point%22%3A%22bfa4ZjU5CC1T9vI2XalHgXNNOUA6P8bEjJPDTIV%252F%22%2C%22qq%22%3A%22c5fbYCC0E1EqjK6Jyw2Bjk1HZ1dSXHAXCzzVQwE%22%2C%22email%22%3A%22b975xvxt1HkbLfmI%252B4hKtt4DdEnB2w3lM2Dq%252F%252BM%22%2C%22pay_code%22%3A%224009xOHpeK8Fsx95CPx52B6lh8rod0%252BO8cGjUIE%22%2C%22paycrypt%22%3A%2282f72ztYhN0Qhf1ma6voRug0BeZKZE%252FH%252B5GI4po%22%2C%22id_num%22%3A%22cbd3v34BjFDoBDXEJ4U78buAQIAETyYGowd3rFI%22%2C%22id_card%22%3A%22be9dmAS1ucDwwjmN2lmNFbR5d1CShTOyoz1%252Bu6I%22%2C%22headimg%22%3A%224497iXb3RxP90MSS4EuXcsoJyvRJEPVnyFTrIGM%22%2C%22id_list%22%3A%22973f2lmQvNSEOe%252FqK71aYtc5Q%252F7%252BKLtagNnvxl8%22%2C%22regtime%22%3A%22c9088wbM2c9f%252Fbnwcdijw6YOgwmVUHgnhCOzR6T%252B644FxLxF0zZz%22%2C%22logintime%22%3A%224b24biA%252BAm6aqBWpSAQ7bUCSuKHarjF1DCAwMpA%22%2C%22loginip%22%3A%229d02G0OizLweUzHoH56vi%252BTeYy6js5WhvP3tE70%22%2C%22status%22%3A%22276c0bxpBaeFeDQgRpaCJJvSAzNRf0em4DhfbPSc%22%2C%22remark%22%3A%22b799hdH6ZpxC1S4Qg5NmDdlmnhckzKkPP8xFA5U%22%7D',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/index' => '',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/index/special.html [ array (
+  0 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-11T15:07:31+08:00 ] 127.0.0.2 127.0.0.1 GET /static/css/mall_mobile_layout.css
+[ log ] www.sixer.com/static/css/mall_mobile_layout.css [运行时间：0.031163s][吞吐率：32.09req/s] [内存消耗：1,908.77kb] [文件加载：37]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'css',
+    2 => 'mall_mobile_layout.css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Version/10.0 Mobile/14D27 Safari/602.1',
+  'accept' => 'text/css,*/*;q=0.1',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.sixer.com/index/index/index',
+  'cookie' => 'PHPSESSID=h3mlnoqcn77ofavc7a4q7gpr01sfukrms500a4ss4q0pdko57m00; keep_user=think%3A%7B%22id%22%3A%2256d9l2mxzGoqOExayDgWmCA3AcqlWqA9%252BvLifcGh%22%2C%22pid%22%3A%225fa97icG3rRsEdOHZDeJk%252BaX1FY9W1NuLLztq%252Bj4%22%2C%22name%22%3A%22e1b7S30mxDvbNNX%252B8whwOTeTALuTh8aEvUiNiidNjHg5Q5r%252Bm30z3Q%22%2C%22realname%22%3A%223bbaA22mxBXqfWW%252BrwL7WW6b3UY8qmNnz%252BCKut4%22%2C%22sex%22%3A%22072e02OtUnF%252B%252BGtItVtc7Gq8%252BG%252FS6ql1oXgtRnZ5%22%2C%22mobile%22%3A%226510Mmh5csmCxg08kR%252FVgLJQpScSaheajSiH5ztSELzabtljCBtmaw%22%2C%22bait%22%3A%22902djdoo2XS2vxXuYA2DCFan%252FcmOTgtO8pN71FLO%22%2C%22point%22%3A%22bfa4ZjU5CC1T9vI2XalHgXNNOUA6P8bEjJPDTIV%252F%22%2C%22qq%22%3A%22c5fbYCC0E1EqjK6Jyw2Bjk1HZ1dSXHAXCzzVQwE%22%2C%22email%22%3A%22b975xvxt1HkbLfmI%252B4hKtt4DdEnB2w3lM2Dq%252F%252BM%22%2C%22pay_code%22%3A%224009xOHpeK8Fsx95CPx52B6lh8rod0%252BO8cGjUIE%22%2C%22paycrypt%22%3A%2282f72ztYhN0Qhf1ma6voRug0BeZKZE%252FH%252B5GI4po%22%2C%22id_num%22%3A%22cbd3v34BjFDoBDXEJ4U78buAQIAETyYGowd3rFI%22%2C%22id_card%22%3A%22be9dmAS1ucDwwjmN2lmNFbR5d1CShTOyoz1%252Bu6I%22%2C%22headimg%22%3A%224497iXb3RxP90MSS4EuXcsoJyvRJEPVnyFTrIGM%22%2C%22id_list%22%3A%22973f2lmQvNSEOe%252FqK71aYtc5Q%252F7%252BKLtagNnvxl8%22%2C%22regtime%22%3A%22c9088wbM2c9f%252Fbnwcdijw6YOgwmVUHgnhCOzR6T%252B644FxLxF0zZz%22%2C%22logintime%22%3A%224b24biA%252BAm6aqBWpSAQ7bUCSuKHarjF1DCAwMpA%22%2C%22loginip%22%3A%229d02G0OizLweUzHoH56vi%252BTeYy6js5WhvP3tE70%22%2C%22status%22%3A%22276c0bxpBaeFeDQgRpaCJJvSAzNRf0em4DhfbPSc%22%2C%22remark%22%3A%22b799hdH6ZpxC1S4Qg5NmDdlmnhckzKkPP8xFA5U%22%7D',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/static/css/mall_mobile_layout_css' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-11T15:08:02+08:00 ] 127.0.0.2 127.0.0.1 GET /index/index/index
+[ log ] www.sixer.com/index/index/index [运行时间：0.049714s][吞吐率：20.12req/s] [内存消耗：3,290.24kb] [文件加载：52]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Version/10.0 Mobile/14D27 Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.sixer.com/index/login/index',
+  'cookie' => 'PHPSESSID=h3mlnoqcn77ofavc7a4q7gpr01sfukrms500a4ss4q0pdko57m00; keep_user=think%3A%7B%22id%22%3A%2256d9l2mxzGoqOExayDgWmCA3AcqlWqA9%252BvLifcGh%22%2C%22pid%22%3A%225fa97icG3rRsEdOHZDeJk%252BaX1FY9W1NuLLztq%252Bj4%22%2C%22name%22%3A%22e1b7S30mxDvbNNX%252B8whwOTeTALuTh8aEvUiNiidNjHg5Q5r%252Bm30z3Q%22%2C%22realname%22%3A%223bbaA22mxBXqfWW%252BrwL7WW6b3UY8qmNnz%252BCKut4%22%2C%22sex%22%3A%22072e02OtUnF%252B%252BGtItVtc7Gq8%252BG%252FS6ql1oXgtRnZ5%22%2C%22mobile%22%3A%226510Mmh5csmCxg08kR%252FVgLJQpScSaheajSiH5ztSELzabtljCBtmaw%22%2C%22bait%22%3A%22902djdoo2XS2vxXuYA2DCFan%252FcmOTgtO8pN71FLO%22%2C%22point%22%3A%22bfa4ZjU5CC1T9vI2XalHgXNNOUA6P8bEjJPDTIV%252F%22%2C%22qq%22%3A%22c5fbYCC0E1EqjK6Jyw2Bjk1HZ1dSXHAXCzzVQwE%22%2C%22email%22%3A%22b975xvxt1HkbLfmI%252B4hKtt4DdEnB2w3lM2Dq%252F%252BM%22%2C%22pay_code%22%3A%224009xOHpeK8Fsx95CPx52B6lh8rod0%252BO8cGjUIE%22%2C%22paycrypt%22%3A%2282f72ztYhN0Qhf1ma6voRug0BeZKZE%252FH%252B5GI4po%22%2C%22id_num%22%3A%22cbd3v34BjFDoBDXEJ4U78buAQIAETyYGowd3rFI%22%2C%22id_card%22%3A%22be9dmAS1ucDwwjmN2lmNFbR5d1CShTOyoz1%252Bu6I%22%2C%22headimg%22%3A%224497iXb3RxP90MSS4EuXcsoJyvRJEPVnyFTrIGM%22%2C%22id_list%22%3A%22973f2lmQvNSEOe%252FqK71aYtc5Q%252F7%252BKLtagNnvxl8%22%2C%22regtime%22%3A%22c9088wbM2c9f%252Fbnwcdijw6YOgwmVUHgnhCOzR6T%252B644FxLxF0zZz%22%2C%22logintime%22%3A%224b24biA%252BAm6aqBWpSAQ7bUCSuKHarjF1DCAwMpA%22%2C%22loginip%22%3A%229d02G0OizLweUzHoH56vi%252BTeYy6js5WhvP3tE70%22%2C%22status%22%3A%22276c0bxpBaeFeDQgRpaCJJvSAzNRf0em4DhfbPSc%22%2C%22remark%22%3A%22b799hdH6ZpxC1S4Qg5NmDdlmnhckzKkPP8xFA5U%22%7D',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/index' => '',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/index/special.html [ array (
+  0 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-11T15:08:02+08:00 ] 127.0.0.2 127.0.0.1 GET /static/css/mall_mobile_layout.css
+[ log ] www.sixer.com/static/css/mall_mobile_layout.css [运行时间：0.030300s][吞吐率：33.00req/s] [内存消耗：1,908.77kb] [文件加载：37]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'css',
+    2 => 'mall_mobile_layout.css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Version/10.0 Mobile/14D27 Safari/602.1',
+  'accept' => 'text/css,*/*;q=0.1',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.sixer.com/index/index/index',
+  'cookie' => 'PHPSESSID=h3mlnoqcn77ofavc7a4q7gpr01sfukrms500a4ss4q0pdko57m00; keep_user=think%3A%7B%22id%22%3A%2256d9l2mxzGoqOExayDgWmCA3AcqlWqA9%252BvLifcGh%22%2C%22pid%22%3A%225fa97icG3rRsEdOHZDeJk%252BaX1FY9W1NuLLztq%252Bj4%22%2C%22name%22%3A%22e1b7S30mxDvbNNX%252B8whwOTeTALuTh8aEvUiNiidNjHg5Q5r%252Bm30z3Q%22%2C%22realname%22%3A%223bbaA22mxBXqfWW%252BrwL7WW6b3UY8qmNnz%252BCKut4%22%2C%22sex%22%3A%22072e02OtUnF%252B%252BGtItVtc7Gq8%252BG%252FS6ql1oXgtRnZ5%22%2C%22mobile%22%3A%226510Mmh5csmCxg08kR%252FVgLJQpScSaheajSiH5ztSELzabtljCBtmaw%22%2C%22bait%22%3A%22902djdoo2XS2vxXuYA2DCFan%252FcmOTgtO8pN71FLO%22%2C%22point%22%3A%22bfa4ZjU5CC1T9vI2XalHgXNNOUA6P8bEjJPDTIV%252F%22%2C%22qq%22%3A%22c5fbYCC0E1EqjK6Jyw2Bjk1HZ1dSXHAXCzzVQwE%22%2C%22email%22%3A%22b975xvxt1HkbLfmI%252B4hKtt4DdEnB2w3lM2Dq%252F%252BM%22%2C%22pay_code%22%3A%224009xOHpeK8Fsx95CPx52B6lh8rod0%252BO8cGjUIE%22%2C%22paycrypt%22%3A%2282f72ztYhN0Qhf1ma6voRug0BeZKZE%252FH%252B5GI4po%22%2C%22id_num%22%3A%22cbd3v34BjFDoBDXEJ4U78buAQIAETyYGowd3rFI%22%2C%22id_card%22%3A%22be9dmAS1ucDwwjmN2lmNFbR5d1CShTOyoz1%252Bu6I%22%2C%22headimg%22%3A%224497iXb3RxP90MSS4EuXcsoJyvRJEPVnyFTrIGM%22%2C%22id_list%22%3A%22973f2lmQvNSEOe%252FqK71aYtc5Q%252F7%252BKLtagNnvxl8%22%2C%22regtime%22%3A%22c9088wbM2c9f%252Fbnwcdijw6YOgwmVUHgnhCOzR6T%252B644FxLxF0zZz%22%2C%22logintime%22%3A%224b24biA%252BAm6aqBWpSAQ7bUCSuKHarjF1DCAwMpA%22%2C%22loginip%22%3A%229d02G0OizLweUzHoH56vi%252BTeYy6js5WhvP3tE70%22%2C%22status%22%3A%22276c0bxpBaeFeDQgRpaCJJvSAzNRf0em4DhfbPSc%22%2C%22remark%22%3A%22b799hdH6ZpxC1S4Qg5NmDdlmnhckzKkPP8xFA5U%22%7D',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/static/css/mall_mobile_layout_css' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-11T15:08:18+08:00 ] 127.0.0.2 127.0.0.1 GET /index/goods/detail/id/5
+[ log ] www.sixer.com/index/goods/detail/id/5 [运行时间：0.077648s][吞吐率：12.88req/s] [内存消耗：3,614.44kb] [文件加载：55]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'goods',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Version/10.0 Mobile/14D27 Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=h3mlnoqcn77ofavc7a4q7gpr01sfukrms500a4ss4q0pdko57m00; keep_user=think%3A%7B%22id%22%3A%2256d9l2mxzGoqOExayDgWmCA3AcqlWqA9%252BvLifcGh%22%2C%22pid%22%3A%225fa97icG3rRsEdOHZDeJk%252BaX1FY9W1NuLLztq%252Bj4%22%2C%22name%22%3A%22e1b7S30mxDvbNNX%252B8whwOTeTALuTh8aEvUiNiidNjHg5Q5r%252Bm30z3Q%22%2C%22realname%22%3A%223bbaA22mxBXqfWW%252BrwL7WW6b3UY8qmNnz%252BCKut4%22%2C%22sex%22%3A%22072e02OtUnF%252B%252BGtItVtc7Gq8%252BG%252FS6ql1oXgtRnZ5%22%2C%22mobile%22%3A%226510Mmh5csmCxg08kR%252FVgLJQpScSaheajSiH5ztSELzabtljCBtmaw%22%2C%22bait%22%3A%22902djdoo2XS2vxXuYA2DCFan%252FcmOTgtO8pN71FLO%22%2C%22point%22%3A%22bfa4ZjU5CC1T9vI2XalHgXNNOUA6P8bEjJPDTIV%252F%22%2C%22qq%22%3A%22c5fbYCC0E1EqjK6Jyw2Bjk1HZ1dSXHAXCzzVQwE%22%2C%22email%22%3A%22b975xvxt1HkbLfmI%252B4hKtt4DdEnB2w3lM2Dq%252F%252BM%22%2C%22pay_code%22%3A%224009xOHpeK8Fsx95CPx52B6lh8rod0%252BO8cGjUIE%22%2C%22paycrypt%22%3A%2282f72ztYhN0Qhf1ma6voRug0BeZKZE%252FH%252B5GI4po%22%2C%22id_num%22%3A%22cbd3v34BjFDoBDXEJ4U78buAQIAETyYGowd3rFI%22%2C%22id_card%22%3A%22be9dmAS1ucDwwjmN2lmNFbR5d1CShTOyoz1%252Bu6I%22%2C%22headimg%22%3A%224497iXb3RxP90MSS4EuXcsoJyvRJEPVnyFTrIGM%22%2C%22id_list%22%3A%22973f2lmQvNSEOe%252FqK71aYtc5Q%252F7%252BKLtagNnvxl8%22%2C%22regtime%22%3A%22c9088wbM2c9f%252Fbnwcdijw6YOgwmVUHgnhCOzR6T%252B644FxLxF0zZz%22%2C%22logintime%22%3A%224b24biA%252BAm6aqBWpSAQ7bUCSuKHarjF1DCAwMpA%22%2C%22loginip%22%3A%229d02G0OizLweUzHoH56vi%252BTeYy6js5WhvP3tE70%22%2C%22status%22%3A%22276c0bxpBaeFeDQgRpaCJJvSAzNRf0em4DhfbPSc%22%2C%22remark%22%3A%22b799hdH6ZpxC1S4Qg5NmDdlmnhckzKkPP8xFA5U%22%7D',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/index/goods/detail/id/5' => '',
+  'id' => '5',
+)
+[ info ] [ RUN ] app\index\controller\Goods->detail[ /home/aptx/File/PHP/6rmh/app/index/controller/Goods.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/goods/detail.html [ array (
+  0 => 'config',
+  1 => 'goods',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-11T15:08:46+08:00 ] 192.168.1.105 192.168.1.104 GET /index/register/index.html
+[ log ] 192.168.1.105:8090/index/register/index.html [运行时间：0.033304s][吞吐率：30.03req/s] [内存消耗：2,232.05kb] [文件加载：42]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.105:8090',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'x-wap-profile' => 'http://uaprofile.asus.com/uaprof/ASUS-ZE551ML.xml',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.0; ASUS_Z00ADB Build/LRX21V) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0  Mobile Safari/537.36',
+  'referer' => 'http://192.168.1.105:8090/index/register/register',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=sj4fdqek5hfeh22o4vop1lie76tt8o36et5m0dlrn0buc2rkn370',
+  'x-requested-with' => 'com.asus.browser',
+)
+[ info ] [ PARAM ] array (
+  '/index/register/index_html' => '',
+)
+[ info ] [ RUN ] app\index\controller\Register->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Register.php ]
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/register/index.html [ array (
+  0 => 'header',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-11T15:19:33+08:00 ] 192.168.1.105 192.168.1.104 GET /index/register/index.html
+[ log ] 192.168.1.105:8090/index/register/index.html [运行时间：0.029849s][吞吐率：33.50req/s] [内存消耗：2,232.05kb] [文件加载：42]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.105:8090',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'x-wap-profile' => 'http://uaprofile.asus.com/uaprof/ASUS-ZE551ML.xml',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.0; ASUS_Z00ADB Build/LRX21V) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0  Mobile Safari/537.36',
+  'referer' => 'http://192.168.1.105:8090/index/register/register',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=sj4fdqek5hfeh22o4vop1lie76tt8o36et5m0dlrn0buc2rkn370',
+  'x-requested-with' => 'com.asus.browser',
+)
+[ info ] [ PARAM ] array (
+  '/index/register/index_html' => '',
+)
+[ info ] [ RUN ] app\index\controller\Register->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Register.php ]
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/register/index.html [ array (
+  0 => 'header',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-11T15:19:45+08:00 ] 192.168.1.105 192.168.1.104 GET /index/sendsms/checkphone?phone=18535067585
+[ log ] 192.168.1.105:8090/index/sendsms/checkphone?phone=18535067585 [运行时间：0.044615s][吞吐率：22.41req/s] [内存消耗：3,138.23kb] [文件加载：47]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'sendsms',
+    2 => 'checkphone',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.105:8090',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'x-wap-profile' => 'http://uaprofile.asus.com/uaprof/ASUS-ZE551ML.xml',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.0; ASUS_Z00ADB Build/LRX21V) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0  Mobile Safari/537.36',
+  'referer' => 'http://192.168.1.105:8090/index/register/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=sj4fdqek5hfeh22o4vop1lie76tt8o36et5m0dlrn0buc2rkn370',
+)
+[ info ] [ PARAM ] array (
+  '/index/sendsms/checkphone' => '',
+  'phone' => '18535067585',
+)
+[ info ] [ RUN ] app\index\controller\Sendsms->checkPhone[ /home/aptx/File/PHP/6rmh/app/index/controller/Sendsms.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-11T15:20:01+08:00 ] 192.168.1.105 192.168.1.104 GET /index/register/register
+[ log ] 192.168.1.105:8090/index/register/register [运行时间：0.050259s][吞吐率：19.90req/s] [内存消耗：3,194.19kb] [文件加载：52]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'register',
+    2 => 'register',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.105:8090',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'x-wap-profile' => 'http://uaprofile.asus.com/uaprof/ASUS-ZE551ML.xml',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.0; ASUS_Z00ADB Build/LRX21V) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0  Mobile Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=sj4fdqek5hfeh22o4vop1lie76tt8o36et5m0dlrn0buc2rkn370',
+  'x-requested-with' => 'com.asus.browser',
+)
+[ info ] [ PARAM ] array (
+  '/index/register/register' => '',
+)
+[ info ] [ RUN ] app\index\controller\Register->register[ /home/aptx/File/PHP/6rmh/app/index/controller/Register.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [10501]SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'name' cannot be null[/home/aptx/File/PHP/6rmh/thinkphp/library/think/db/Connection.php:438]
+
+---------------------------------------------------------------
+[ 2017-10-11T15:20:06+08:00 ] 192.168.1.105 192.168.1.104 GET /index/register/register
+[ log ] 192.168.1.105:8090/index/register/register [运行时间：0.049403s][吞吐率：20.24req/s] [内存消耗：3,194.19kb] [文件加载：52]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'register',
+    2 => 'register',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.105:8090',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'x-wap-profile' => 'http://uaprofile.asus.com/uaprof/ASUS-ZE551ML.xml',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.0; ASUS_Z00ADB Build/LRX21V) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0  Mobile Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=sj4fdqek5hfeh22o4vop1lie76tt8o36et5m0dlrn0buc2rkn370',
+  'x-requested-with' => 'com.asus.browser',
+)
+[ info ] [ PARAM ] array (
+  '/index/register/register' => '',
+)
+[ info ] [ RUN ] app\index\controller\Register->register[ /home/aptx/File/PHP/6rmh/app/index/controller/Register.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [10501]SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'name' cannot be null[/home/aptx/File/PHP/6rmh/thinkphp/library/think/db/Connection.php:438]
+
+---------------------------------------------------------------
+[ 2017-10-11T15:20:21+08:00 ] 192.168.1.105 192.168.1.104 GET /index/sendsms/checkphone?phone=18534026720
+[ log ] 192.168.1.105:8090/index/sendsms/checkphone?phone=18534026720 [运行时间：0.045872s][吞吐率：21.80req/s] [内存消耗：3,138.23kb] [文件加载：47]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'sendsms',
+    2 => 'checkphone',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.105:8090',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'x-wap-profile' => 'http://uaprofile.asus.com/uaprof/ASUS-ZE551ML.xml',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.0; ASUS_Z00ADB Build/LRX21V) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0  Mobile Safari/537.36',
+  'referer' => 'http://192.168.1.105:8090/index/register/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=sj4fdqek5hfeh22o4vop1lie76tt8o36et5m0dlrn0buc2rkn370',
+)
+[ info ] [ PARAM ] array (
+  '/index/sendsms/checkphone' => '',
+  'phone' => '18534026720',
+)
+[ info ] [ RUN ] app\index\controller\Sendsms->checkPhone[ /home/aptx/File/PHP/6rmh/app/index/controller/Sendsms.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-11T15:20:32+08:00 ] 192.168.1.105 192.168.1.104 GET /index/sendsms/verify?phone=18534026720
+[ log ] 192.168.1.105:8090/index/sendsms/verify?phone=18534026720 [运行时间：1.137214s][吞吐率：0.88req/s] [内存消耗：2,231.73kb] [文件加载：41]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'sendsms',
+    2 => 'verify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.105:8090',
+  'connection' => 'keep-alive',
+  'accept' => 'application/xml, text/xml, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'x-wap-profile' => 'http://uaprofile.asus.com/uaprof/ASUS-ZE551ML.xml',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.0; ASUS_Z00ADB Build/LRX21V) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0  Mobile Safari/537.36',
+  'referer' => 'http://192.168.1.105:8090/index/register/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=sj4fdqek5hfeh22o4vop1lie76tt8o36et5m0dlrn0buc2rkn370',
+)
+[ info ] [ PARAM ] array (
+  '/index/sendsms/verify' => '',
+  'phone' => '18534026720',
+)
+[ info ] [ RUN ] app\index\controller\Sendsms->verify[ /home/aptx/File/PHP/6rmh/app/index/controller/Sendsms.php ]
+[ info ] [ SESSION ] INIT array (
+  'expire' => 600,
+  'verify_code' => 433054,
+  'phone' => '18534026720',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-11T15:20:53+08:00 ] 192.168.1.105 192.168.1.104 POST /index/register/register
+[ log ] 192.168.1.105:8090/index/register/register [运行时间：0.048662s][吞吐率：20.55req/s] [内存消耗：3,213.63kb] [文件加载：50]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'register',
+    2 => 'register',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.105:8090',
+  'connection' => 'keep-alive',
+  'content-length' => '47',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'origin' => 'http://192.168.1.105:8090',
+  'x-wap-profile' => 'http://uaprofile.asus.com/uaprof/ASUS-ZE551ML.xml',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.0; ASUS_Z00ADB Build/LRX21V) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0  Mobile Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://192.168.1.105:8090/index/register/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=sj4fdqek5hfeh22o4vop1lie76tt8o36et5m0dlrn0buc2rkn370',
+  'x-requested-with' => 'com.asus.browser',
+)
+[ info ] [ PARAM ] array (
+  '/index/register/register' => '',
+  'phone' => '18534026720',
+  'password' => '123456',
+  'verify' => '433054',
+)
+[ info ] [ RUN ] app\index\controller\Register->register[ /home/aptx/File/PHP/6rmh/app/index/controller/Register.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/thinkphp/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-11T15:20:56+08:00 ] 192.168.1.105 192.168.1.104 GET /index/user/index.html
+[ log ] 192.168.1.105:8090/index/user/index.html [运行时间：0.095878s][吞吐率：10.43req/s] [内存消耗：2,312.63kb] [文件加载：45]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.105:8090',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'x-wap-profile' => 'http://uaprofile.asus.com/uaprof/ASUS-ZE551ML.xml',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.0; ASUS_Z00ADB Build/LRX21V) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0  Mobile Safari/537.36',
+  'referer' => 'http://192.168.1.105:8090/index/register/register',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=sj4fdqek5hfeh22o4vop1lie76tt8o36et5m0dlrn0buc2rkn370',
+  'x-requested-with' => 'com.asus.browser',
+)
+[ info ] [ PARAM ] array (
+  '/index/user/index_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-11T15:20:56+08:00 ] 192.168.1.105 192.168.1.104 GET /index/login/index
+[ log ] 192.168.1.105:8090/index/login/index [运行时间：0.023271s][吞吐率：42.97req/s] [内存消耗：2,242.17kb] [文件加载：42]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.105:8090',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'x-wap-profile' => 'http://uaprofile.asus.com/uaprof/ASUS-ZE551ML.xml',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.0; ASUS_Z00ADB Build/LRX21V) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0  Mobile Safari/537.36',
+  'referer' => 'http://192.168.1.105:8090/index/register/register',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=sj4fdqek5hfeh22o4vop1lie76tt8o36et5m0dlrn0buc2rkn370',
+  'x-requested-with' => 'com.asus.browser',
+)
+[ info ] [ PARAM ] array (
+  '/index/login/index' => '',
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/login/index.html [ array (
+  0 => 'header',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-11T15:21:42+08:00 ] 192.168.1.105 192.168.1.104 POST /index/login/login
+[ log ] 192.168.1.105:8090/index/login/login [运行时间：0.046674s][吞吐率：21.43req/s] [内存消耗：3,218.41kb] [文件加载：50]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.105:8090',
+  'connection' => 'keep-alive',
+  'content-length' => '46',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'origin' => 'http://192.168.1.105:8090',
+  'x-wap-profile' => 'http://uaprofile.asus.com/uaprof/ASUS-ZE551ML.xml',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.0; ASUS_Z00ADB Build/LRX21V) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0  Mobile Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://192.168.1.105:8090/index/login/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=sj4fdqek5hfeh22o4vop1lie76tt8o36et5m0dlrn0buc2rkn370',
+  'x-requested-with' => 'com.asus.browser',
+)
+[ info ] [ PARAM ] array (
+  '/index/login/login' => '',
+  'login' => 
+  array (
+    'name' => 'ztf',
+    'password' => '123456',
+  ),
+)
+[ info ] [ RUN ] app\index\controller\Login->login[ /home/aptx/File/PHP/6rmh/app/index/controller/Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-11T15:21:43+08:00 ] 192.168.1.105 192.168.1.104 GET /index/index/index
+[ log ] 192.168.1.105:8090/index/index/index [运行时间：0.172728s][吞吐率：5.79req/s] [内存消耗：3,304.21kb] [文件加载：53]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.105:8090',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'x-wap-profile' => 'http://uaprofile.asus.com/uaprof/ASUS-ZE551ML.xml',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.0; ASUS_Z00ADB Build/LRX21V) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0  Mobile Safari/537.36',
+  'referer' => 'http://192.168.1.105:8090/index/login/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=sj4fdqek5hfeh22o4vop1lie76tt8o36et5m0dlrn0buc2rkn370; keep_user=think%3A%7B%22id%22%3A%22aa38L6PQq4EiEoU0jC%252FSa%252BTiXCTyWVF3kT0N9YT5%22%2C%22pid%22%3A%2240d4Fvg8hTaO9%252BqDgZhKyT8w8aAk2fXmn7xbI%252BQ8%22%2C%22name%22%3A%221173fQ8lqfkvN%252FqBzTSPyjrQYuaYtz5EVuzrAz9Kqzw%22%2C%22realname%22%3A%22bae0mMtMP1D%252Fq4LFn5VTfyWfgaRQN%252FqUkEUF9Jg%22%2C%22sex%22%3A%228671s%252FDLjnQzs8grwkc4Wnu719%252FHZp7Teh3ThDXe%22%2C%22mobile%22%3A%22c507jwz3mZ%252FtpVzP%252FwxKMvWdQq5od3MMSR9xnlK1Ghpe5DG5XghVkA%22%2C%22bait%22%3A%2263cfjUrp29gK2QrrcsFsi9K06zV1QjGVOZDeWHuQ%22%2C%22point%22%3A%22a080hZ%252BGjf9oVlr9TiAyEQJFJqwLrmU4dQ5nJYW%252F%22%2C%22qq%22%3A%220786Z9Hdm1pAoh3%252FfUzEPIr4HxV1ikbag3xL%252FAs%22%2C%22email%22%3A%22d8f5orFudvG7QwuFP4%252FcFxONkO2i2Nl%252F7GQXUUU%22%2C%22pay_code%22%3A%22162f%252B5tdV20xNknO3AFLSxmcEjs4XFf6KXc%252FIpY%22%2C%22paycrypt%22%3A%22e54bzNHITkTCD%252BNmf0DMPPt7AiWpe5iAYokHLZM%22%2C%22id_num%22%3A%227329vNQYif0v4jr2QT3G6x%252B%252BpWr21wFxFic5V4g%22%2C%22id_card%22%3A%22e79fOr2IbggHNWtBGYIttyp03FFocwEcDE3O%252FRI%22%2C%22headimg%22%3A%22613aBjgNe6UglSEwhR1IgQtaB%252FIf1SDKRRbb0hs%22%2C%22id_list%22%3A%224c88ADuo7Ne%252BxRaUpiN5%252Bx6Qip6vS0MuMNKGmYI%22%2C%22regtime%22%3A%2231f5Zx%252BRs7rqXrkWcMmufMQ3cB1v7mgiY1clLy2umTUXu8A4JTHG%22%2C%22logintime%22%3A%222dd9EejbBE%252FvQBwP4mEzADP0TliABA1VIxbW%252BRg%22%2C%22loginip%22%3A%223de9LOwdXAtEF%252FPaDu%252BKx1%252BlL7MBn3NleOdGTTM%22%2C%22status%22%3A%22b827wGeQG7XbF497Up0oE1XV8xVhacgfqAk1jGYJ%22%2C%22remark%22%3A%2246bbnGlRPQj4rBLGV3zmKzyT73yiAXa6R8RPYnc%22%7D',
+  'x-requested-with' => 'com.asus.browser',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/index' => '',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/index/special.html [ array (
+  0 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-11T15:21:43+08:00 ] 192.168.1.105 192.168.1.104 GET /static/css/mall_mobile_layout.css
+[ log ] 192.168.1.105:8090/static/css/mall_mobile_layout.css [运行时间：0.026113s][吞吐率：38.30req/s] [内存消耗：1,908.45kb] [文件加载：37]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'css',
+    2 => 'mall_mobile_layout.css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.105:8090',
+  'connection' => 'keep-alive',
+  'accept' => 'text/css,*/*;q=0.1',
+  'x-wap-profile' => 'http://uaprofile.asus.com/uaprof/ASUS-ZE551ML.xml',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.0; ASUS_Z00ADB Build/LRX21V) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0  Mobile Safari/537.36',
+  'referer' => 'http://192.168.1.105:8090/index/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=sj4fdqek5hfeh22o4vop1lie76tt8o36et5m0dlrn0buc2rkn370; keep_user=think%3A%7B%22id%22%3A%22aa38L6PQq4EiEoU0jC%252FSa%252BTiXCTyWVF3kT0N9YT5%22%2C%22pid%22%3A%2240d4Fvg8hTaO9%252BqDgZhKyT8w8aAk2fXmn7xbI%252BQ8%22%2C%22name%22%3A%221173fQ8lqfkvN%252FqBzTSPyjrQYuaYtz5EVuzrAz9Kqzw%22%2C%22realname%22%3A%22bae0mMtMP1D%252Fq4LFn5VTfyWfgaRQN%252FqUkEUF9Jg%22%2C%22sex%22%3A%228671s%252FDLjnQzs8grwkc4Wnu719%252FHZp7Teh3ThDXe%22%2C%22mobile%22%3A%22c507jwz3mZ%252FtpVzP%252FwxKMvWdQq5od3MMSR9xnlK1Ghpe5DG5XghVkA%22%2C%22bait%22%3A%2263cfjUrp29gK2QrrcsFsi9K06zV1QjGVOZDeWHuQ%22%2C%22point%22%3A%22a080hZ%252BGjf9oVlr9TiAyEQJFJqwLrmU4dQ5nJYW%252F%22%2C%22qq%22%3A%220786Z9Hdm1pAoh3%252FfUzEPIr4HxV1ikbag3xL%252FAs%22%2C%22email%22%3A%22d8f5orFudvG7QwuFP4%252FcFxONkO2i2Nl%252F7GQXUUU%22%2C%22pay_code%22%3A%22162f%252B5tdV20xNknO3AFLSxmcEjs4XFf6KXc%252FIpY%22%2C%22paycrypt%22%3A%22e54bzNHITkTCD%252BNmf0DMPPt7AiWpe5iAYokHLZM%22%2C%22id_num%22%3A%227329vNQYif0v4jr2QT3G6x%252B%252BpWr21wFxFic5V4g%22%2C%22id_card%22%3A%22e79fOr2IbggHNWtBGYIttyp03FFocwEcDE3O%252FRI%22%2C%22headimg%22%3A%22613aBjgNe6UglSEwhR1IgQtaB%252FIf1SDKRRbb0hs%22%2C%22id_list%22%3A%224c88ADuo7Ne%252BxRaUpiN5%252Bx6Qip6vS0MuMNKGmYI%22%2C%22regtime%22%3A%2231f5Zx%252BRs7rqXrkWcMmufMQ3cB1v7mgiY1clLy2umTUXu8A4JTHG%22%2C%22logintime%22%3A%222dd9EejbBE%252FvQBwP4mEzADP0TliABA1VIxbW%252BRg%22%2C%22loginip%22%3A%223de9LOwdXAtEF%252FPaDu%252BKx1%252BlL7MBn3NleOdGTTM%22%2C%22status%22%3A%22b827wGeQG7XbF497Up0oE1XV8xVhacgfqAk1jGYJ%22%2C%22remark%22%3A%2246bbnGlRPQj4rBLGV3zmKzyT73yiAXa6R8RPYnc%22%7D',
+  'x-requested-with' => 'com.asus.browser',
+)
+[ info ] [ PARAM ] array (
+  '/static/css/mall_mobile_layout_css' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-11T15:22:06+08:00 ] 192.168.1.105 192.168.1.104 GET /index/goods/detail/id/5
+[ log ] 192.168.1.105:8090/index/goods/detail/id/5 [运行时间：0.070809s][吞吐率：14.12req/s] [内存消耗：3,405.22kb] [文件加载：53]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'goods',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.105:8090',
+  'connection' => 'keep-alive',
+  'x-wap-profile' => 'http://uaprofile.asus.com/uaprof/ASUS-ZE551ML.xml',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.0; ASUS_Z00ADB Build/LRX21V) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0  Mobile Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=sj4fdqek5hfeh22o4vop1lie76tt8o36et5m0dlrn0buc2rkn370; keep_user=think%3A%7B%22id%22%3A%22aa38L6PQq4EiEoU0jC%252FSa%252BTiXCTyWVF3kT0N9YT5%22%2C%22pid%22%3A%2240d4Fvg8hTaO9%252BqDgZhKyT8w8aAk2fXmn7xbI%252BQ8%22%2C%22name%22%3A%221173fQ8lqfkvN%252FqBzTSPyjrQYuaYtz5EVuzrAz9Kqzw%22%2C%22realname%22%3A%22bae0mMtMP1D%252Fq4LFn5VTfyWfgaRQN%252FqUkEUF9Jg%22%2C%22sex%22%3A%228671s%252FDLjnQzs8grwkc4Wnu719%252FHZp7Teh3ThDXe%22%2C%22mobile%22%3A%22c507jwz3mZ%252FtpVzP%252FwxKMvWdQq5od3MMSR9xnlK1Ghpe5DG5XghVkA%22%2C%22bait%22%3A%2263cfjUrp29gK2QrrcsFsi9K06zV1QjGVOZDeWHuQ%22%2C%22point%22%3A%22a080hZ%252BGjf9oVlr9TiAyEQJFJqwLrmU4dQ5nJYW%252F%22%2C%22qq%22%3A%220786Z9Hdm1pAoh3%252FfUzEPIr4HxV1ikbag3xL%252FAs%22%2C%22email%22%3A%22d8f5orFudvG7QwuFP4%252FcFxONkO2i2Nl%252F7GQXUUU%22%2C%22pay_code%22%3A%22162f%252B5tdV20xNknO3AFLSxmcEjs4XFf6KXc%252FIpY%22%2C%22paycrypt%22%3A%22e54bzNHITkTCD%252BNmf0DMPPt7AiWpe5iAYokHLZM%22%2C%22id_num%22%3A%227329vNQYif0v4jr2QT3G6x%252B%252BpWr21wFxFic5V4g%22%2C%22id_card%22%3A%22e79fOr2IbggHNWtBGYIttyp03FFocwEcDE3O%252FRI%22%2C%22headimg%22%3A%22613aBjgNe6UglSEwhR1IgQtaB%252FIf1SDKRRbb0hs%22%2C%22id_list%22%3A%224c88ADuo7Ne%252BxRaUpiN5%252Bx6Qip6vS0MuMNKGmYI%22%2C%22regtime%22%3A%2231f5Zx%252BRs7rqXrkWcMmufMQ3cB1v7mgiY1clLy2umTUXu8A4JTHG%22%2C%22logintime%22%3A%222dd9EejbBE%252FvQBwP4mEzADP0TliABA1VIxbW%252BRg%22%2C%22loginip%22%3A%223de9LOwdXAtEF%252FPaDu%252BKx1%252BlL7MBn3NleOdGTTM%22%2C%22status%22%3A%22b827wGeQG7XbF497Up0oE1XV8xVhacgfqAk1jGYJ%22%2C%22remark%22%3A%2246bbnGlRPQj4rBLGV3zmKzyT73yiAXa6R8RPYnc%22%7D',
+  'x-requested-with' => 'com.asus.browser',
+)
+[ info ] [ PARAM ] array (
+  '/index/goods/detail/id/5' => '',
+  'id' => '5',
+)
+[ info ] [ RUN ] app\index\controller\Goods->detail[ /home/aptx/File/PHP/6rmh/app/index/controller/Goods.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/goods/detail.html [ array (
+  0 => 'config',
+  1 => 'goods',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-11T15:22:10+08:00 ] 192.168.1.105 192.168.1.104 GET /index/cart
+[ log ] 192.168.1.105:8090/index/cart [运行时间：0.041887s][吞吐率：23.87req/s] [内存消耗：3,265.19kb] [文件加载：50]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cart',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.105:8090',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'x-wap-profile' => 'http://uaprofile.asus.com/uaprof/ASUS-ZE551ML.xml',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.0; ASUS_Z00ADB Build/LRX21V) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0  Mobile Safari/537.36',
+  'referer' => 'http://192.168.1.105:8090/index/goods/detail/id/5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=sj4fdqek5hfeh22o4vop1lie76tt8o36et5m0dlrn0buc2rkn370; keep_user=think%3A%7B%22id%22%3A%22aa38L6PQq4EiEoU0jC%252FSa%252BTiXCTyWVF3kT0N9YT5%22%2C%22pid%22%3A%2240d4Fvg8hTaO9%252BqDgZhKyT8w8aAk2fXmn7xbI%252BQ8%22%2C%22name%22%3A%221173fQ8lqfkvN%252FqBzTSPyjrQYuaYtz5EVuzrAz9Kqzw%22%2C%22realname%22%3A%22bae0mMtMP1D%252Fq4LFn5VTfyWfgaRQN%252FqUkEUF9Jg%22%2C%22sex%22%3A%228671s%252FDLjnQzs8grwkc4Wnu719%252FHZp7Teh3ThDXe%22%2C%22mobile%22%3A%22c507jwz3mZ%252FtpVzP%252FwxKMvWdQq5od3MMSR9xnlK1Ghpe5DG5XghVkA%22%2C%22bait%22%3A%2263cfjUrp29gK2QrrcsFsi9K06zV1QjGVOZDeWHuQ%22%2C%22point%22%3A%22a080hZ%252BGjf9oVlr9TiAyEQJFJqwLrmU4dQ5nJYW%252F%22%2C%22qq%22%3A%220786Z9Hdm1pAoh3%252FfUzEPIr4HxV1ikbag3xL%252FAs%22%2C%22email%22%3A%22d8f5orFudvG7QwuFP4%252FcFxONkO2i2Nl%252F7GQXUUU%22%2C%22pay_code%22%3A%22162f%252B5tdV20xNknO3AFLSxmcEjs4XFf6KXc%252FIpY%22%2C%22paycrypt%22%3A%22e54bzNHITkTCD%252BNmf0DMPPt7AiWpe5iAYokHLZM%22%2C%22id_num%22%3A%227329vNQYif0v4jr2QT3G6x%252B%252BpWr21wFxFic5V4g%22%2C%22id_card%22%3A%22e79fOr2IbggHNWtBGYIttyp03FFocwEcDE3O%252FRI%22%2C%22headimg%22%3A%22613aBjgNe6UglSEwhR1IgQtaB%252FIf1SDKRRbb0hs%22%2C%22id_list%22%3A%224c88ADuo7Ne%252BxRaUpiN5%252Bx6Qip6vS0MuMNKGmYI%22%2C%22regtime%22%3A%2231f5Zx%252BRs7rqXrkWcMmufMQ3cB1v7mgiY1clLy2umTUXu8A4JTHG%22%2C%22logintime%22%3A%222dd9EejbBE%252FvQBwP4mEzADP0TliABA1VIxbW%252BRg%22%2C%22loginip%22%3A%223de9LOwdXAtEF%252FPaDu%252BKx1%252BlL7MBn3NleOdGTTM%22%2C%22status%22%3A%22b827wGeQG7XbF497Up0oE1XV8xVhacgfqAk1jGYJ%22%2C%22remark%22%3A%2246bbnGlRPQj4rBLGV3zmKzyT73yiAXa6R8RPYnc%22%7D',
+  'x-requested-with' => 'com.asus.browser',
+)
+[ info ] [ PARAM ] array (
+  '/index/cart' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Cart->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Cart.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-11T15:22:11+08:00 ] 192.168.1.105 192.168.1.104 GET /index/goods/detail/id/5
+[ log ] 192.168.1.105:8090/index/goods/detail/id/5 [运行时间：0.059086s][吞吐率：16.92req/s] [内存消耗：3,405.22kb] [文件加载：53]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'goods',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.105:8090',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'x-wap-profile' => 'http://uaprofile.asus.com/uaprof/ASUS-ZE551ML.xml',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.0; ASUS_Z00ADB Build/LRX21V) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0  Mobile Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=sj4fdqek5hfeh22o4vop1lie76tt8o36et5m0dlrn0buc2rkn370; keep_user=think%3A%7B%22id%22%3A%22aa38L6PQq4EiEoU0jC%252FSa%252BTiXCTyWVF3kT0N9YT5%22%2C%22pid%22%3A%2240d4Fvg8hTaO9%252BqDgZhKyT8w8aAk2fXmn7xbI%252BQ8%22%2C%22name%22%3A%221173fQ8lqfkvN%252FqBzTSPyjrQYuaYtz5EVuzrAz9Kqzw%22%2C%22realname%22%3A%22bae0mMtMP1D%252Fq4LFn5VTfyWfgaRQN%252FqUkEUF9Jg%22%2C%22sex%22%3A%228671s%252FDLjnQzs8grwkc4Wnu719%252FHZp7Teh3ThDXe%22%2C%22mobile%22%3A%22c507jwz3mZ%252FtpVzP%252FwxKMvWdQq5od3MMSR9xnlK1Ghpe5DG5XghVkA%22%2C%22bait%22%3A%2263cfjUrp29gK2QrrcsFsi9K06zV1QjGVOZDeWHuQ%22%2C%22point%22%3A%22a080hZ%252BGjf9oVlr9TiAyEQJFJqwLrmU4dQ5nJYW%252F%22%2C%22qq%22%3A%220786Z9Hdm1pAoh3%252FfUzEPIr4HxV1ikbag3xL%252FAs%22%2C%22email%22%3A%22d8f5orFudvG7QwuFP4%252FcFxONkO2i2Nl%252F7GQXUUU%22%2C%22pay_code%22%3A%22162f%252B5tdV20xNknO3AFLSxmcEjs4XFf6KXc%252FIpY%22%2C%22paycrypt%22%3A%22e54bzNHITkTCD%252BNmf0DMPPt7AiWpe5iAYokHLZM%22%2C%22id_num%22%3A%227329vNQYif0v4jr2QT3G6x%252B%252BpWr21wFxFic5V4g%22%2C%22id_card%22%3A%22e79fOr2IbggHNWtBGYIttyp03FFocwEcDE3O%252FRI%22%2C%22headimg%22%3A%22613aBjgNe6UglSEwhR1IgQtaB%252FIf1SDKRRbb0hs%22%2C%22id_list%22%3A%224c88ADuo7Ne%252BxRaUpiN5%252Bx6Qip6vS0MuMNKGmYI%22%2C%22regtime%22%3A%2231f5Zx%252BRs7rqXrkWcMmufMQ3cB1v7mgiY1clLy2umTUXu8A4JTHG%22%2C%22logintime%22%3A%222dd9EejbBE%252FvQBwP4mEzADP0TliABA1VIxbW%252BRg%22%2C%22loginip%22%3A%223de9LOwdXAtEF%252FPaDu%252BKx1%252BlL7MBn3NleOdGTTM%22%2C%22status%22%3A%22b827wGeQG7XbF497Up0oE1XV8xVhacgfqAk1jGYJ%22%2C%22remark%22%3A%2246bbnGlRPQj4rBLGV3zmKzyT73yiAXa6R8RPYnc%22%7D',
+  'x-requested-with' => 'com.asus.browser',
+)
+[ info ] [ PARAM ] array (
+  '/index/goods/detail/id/5' => '',
+  'id' => '5',
+)
+[ info ] [ RUN ] app\index\controller\Goods->detail[ /home/aptx/File/PHP/6rmh/app/index/controller/Goods.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/goods/detail.html [ array (
+  0 => 'config',
+  1 => 'goods',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-11T15:22:28+08:00 ] 192.168.1.105 192.168.1.104 GET /index/cart
+[ log ] 192.168.1.105:8090/index/cart [运行时间：0.052468s][吞吐率：19.06req/s] [内存消耗：3,265.19kb] [文件加载：50]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cart',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.105:8090',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'x-wap-profile' => 'http://uaprofile.asus.com/uaprof/ASUS-ZE551ML.xml',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.0; ASUS_Z00ADB Build/LRX21V) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0  Mobile Safari/537.36',
+  'referer' => 'http://192.168.1.105:8090/index/goods/detail/id/5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=sj4fdqek5hfeh22o4vop1lie76tt8o36et5m0dlrn0buc2rkn370; keep_user=think%3A%7B%22id%22%3A%22aa38L6PQq4EiEoU0jC%252FSa%252BTiXCTyWVF3kT0N9YT5%22%2C%22pid%22%3A%2240d4Fvg8hTaO9%252BqDgZhKyT8w8aAk2fXmn7xbI%252BQ8%22%2C%22name%22%3A%221173fQ8lqfkvN%252FqBzTSPyjrQYuaYtz5EVuzrAz9Kqzw%22%2C%22realname%22%3A%22bae0mMtMP1D%252Fq4LFn5VTfyWfgaRQN%252FqUkEUF9Jg%22%2C%22sex%22%3A%228671s%252FDLjnQzs8grwkc4Wnu719%252FHZp7Teh3ThDXe%22%2C%22mobile%22%3A%22c507jwz3mZ%252FtpVzP%252FwxKMvWdQq5od3MMSR9xnlK1Ghpe5DG5XghVkA%22%2C%22bait%22%3A%2263cfjUrp29gK2QrrcsFsi9K06zV1QjGVOZDeWHuQ%22%2C%22point%22%3A%22a080hZ%252BGjf9oVlr9TiAyEQJFJqwLrmU4dQ5nJYW%252F%22%2C%22qq%22%3A%220786Z9Hdm1pAoh3%252FfUzEPIr4HxV1ikbag3xL%252FAs%22%2C%22email%22%3A%22d8f5orFudvG7QwuFP4%252FcFxONkO2i2Nl%252F7GQXUUU%22%2C%22pay_code%22%3A%22162f%252B5tdV20xNknO3AFLSxmcEjs4XFf6KXc%252FIpY%22%2C%22paycrypt%22%3A%22e54bzNHITkTCD%252BNmf0DMPPt7AiWpe5iAYokHLZM%22%2C%22id_num%22%3A%227329vNQYif0v4jr2QT3G6x%252B%252BpWr21wFxFic5V4g%22%2C%22id_card%22%3A%22e79fOr2IbggHNWtBGYIttyp03FFocwEcDE3O%252FRI%22%2C%22headimg%22%3A%22613aBjgNe6UglSEwhR1IgQtaB%252FIf1SDKRRbb0hs%22%2C%22id_list%22%3A%224c88ADuo7Ne%252BxRaUpiN5%252Bx6Qip6vS0MuMNKGmYI%22%2C%22regtime%22%3A%2231f5Zx%252BRs7rqXrkWcMmufMQ3cB1v7mgiY1clLy2umTUXu8A4JTHG%22%2C%22logintime%22%3A%222dd9EejbBE%252FvQBwP4mEzADP0TliABA1VIxbW%252BRg%22%2C%22loginip%22%3A%223de9LOwdXAtEF%252FPaDu%252BKx1%252BlL7MBn3NleOdGTTM%22%2C%22status%22%3A%22b827wGeQG7XbF497Up0oE1XV8xVhacgfqAk1jGYJ%22%2C%22remark%22%3A%2246bbnGlRPQj4rBLGV3zmKzyT73yiAXa6R8RPYnc%22%7D',
+  'x-requested-with' => 'com.asus.browser',
+)
+[ info ] [ PARAM ] array (
+  '/index/cart' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Cart->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Cart.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-11T15:22:32+08:00 ] 192.168.1.105 192.168.1.104 GET /index/goods/detail/id/5
+[ log ] 192.168.1.105:8090/index/goods/detail/id/5 [运行时间：0.081503s][吞吐率：12.27req/s] [内存消耗：3,405.22kb] [文件加载：53]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'goods',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.105:8090',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'x-wap-profile' => 'http://uaprofile.asus.com/uaprof/ASUS-ZE551ML.xml',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.0; ASUS_Z00ADB Build/LRX21V) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0  Mobile Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=sj4fdqek5hfeh22o4vop1lie76tt8o36et5m0dlrn0buc2rkn370; keep_user=think%3A%7B%22id%22%3A%22aa38L6PQq4EiEoU0jC%252FSa%252BTiXCTyWVF3kT0N9YT5%22%2C%22pid%22%3A%2240d4Fvg8hTaO9%252BqDgZhKyT8w8aAk2fXmn7xbI%252BQ8%22%2C%22name%22%3A%221173fQ8lqfkvN%252FqBzTSPyjrQYuaYtz5EVuzrAz9Kqzw%22%2C%22realname%22%3A%22bae0mMtMP1D%252Fq4LFn5VTfyWfgaRQN%252FqUkEUF9Jg%22%2C%22sex%22%3A%228671s%252FDLjnQzs8grwkc4Wnu719%252FHZp7Teh3ThDXe%22%2C%22mobile%22%3A%22c507jwz3mZ%252FtpVzP%252FwxKMvWdQq5od3MMSR9xnlK1Ghpe5DG5XghVkA%22%2C%22bait%22%3A%2263cfjUrp29gK2QrrcsFsi9K06zV1QjGVOZDeWHuQ%22%2C%22point%22%3A%22a080hZ%252BGjf9oVlr9TiAyEQJFJqwLrmU4dQ5nJYW%252F%22%2C%22qq%22%3A%220786Z9Hdm1pAoh3%252FfUzEPIr4HxV1ikbag3xL%252FAs%22%2C%22email%22%3A%22d8f5orFudvG7QwuFP4%252FcFxONkO2i2Nl%252F7GQXUUU%22%2C%22pay_code%22%3A%22162f%252B5tdV20xNknO3AFLSxmcEjs4XFf6KXc%252FIpY%22%2C%22paycrypt%22%3A%22e54bzNHITkTCD%252BNmf0DMPPt7AiWpe5iAYokHLZM%22%2C%22id_num%22%3A%227329vNQYif0v4jr2QT3G6x%252B%252BpWr21wFxFic5V4g%22%2C%22id_card%22%3A%22e79fOr2IbggHNWtBGYIttyp03FFocwEcDE3O%252FRI%22%2C%22headimg%22%3A%22613aBjgNe6UglSEwhR1IgQtaB%252FIf1SDKRRbb0hs%22%2C%22id_list%22%3A%224c88ADuo7Ne%252BxRaUpiN5%252Bx6Qip6vS0MuMNKGmYI%22%2C%22regtime%22%3A%2231f5Zx%252BRs7rqXrkWcMmufMQ3cB1v7mgiY1clLy2umTUXu8A4JTHG%22%2C%22logintime%22%3A%222dd9EejbBE%252FvQBwP4mEzADP0TliABA1VIxbW%252BRg%22%2C%22loginip%22%3A%223de9LOwdXAtEF%252FPaDu%252BKx1%252BlL7MBn3NleOdGTTM%22%2C%22status%22%3A%22b827wGeQG7XbF497Up0oE1XV8xVhacgfqAk1jGYJ%22%2C%22remark%22%3A%2246bbnGlRPQj4rBLGV3zmKzyT73yiAXa6R8RPYnc%22%7D',
+  'x-requested-with' => 'com.asus.browser',
+)
+[ info ] [ PARAM ] array (
+  '/index/goods/detail/id/5' => '',
+  'id' => '5',
+)
+[ info ] [ RUN ] app\index\controller\Goods->detail[ /home/aptx/File/PHP/6rmh/app/index/controller/Goods.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/goods/detail.html [ array (
+  0 => 'config',
+  1 => 'goods',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-11T15:24:32+08:00 ] 127.0.0.2 127.0.0.1 GET /index/goods/detail/id/5
+[ log ] www.sixer.com/index/goods/detail/id/5 [运行时间：0.088851s][吞吐率：11.25req/s] [内存消耗：3,672.83kb] [文件加载：55]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'goods',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/index/goods/detail/id/5' => '',
+  'id' => '5',
+)
+[ info ] [ RUN ] app\index\controller\Goods->detail[ /home/aptx/File/PHP/6rmh/app/index/controller/Goods.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/view/goods/detail.html [ array (
+  0 => 'config',
+  1 => 'goods',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-11T15:24:36+08:00 ] 127.0.0.2 127.0.0.1 GET /index/index/topInfo
+[ log ] www.sixer.com/index/index/topInfo [运行时间：0.052556s][吞吐率：19.03req/s] [内存消耗：3,243.82kb] [文件加载：50]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'topInfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => 'application/json, text/plain, */*',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.sixer.com/index/goods/detail/id/5',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/topInfo' => '',
+)
+[ info ] [ RUN ] app\index\controller\Index->topInfo[ /home/aptx/File/PHP/6rmh/app/index/controller/Index.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-11T15:24:36+08:00 ] 127.0.0.2 127.0.0.1 GET /index/index/footerinfo
+[ log ] www.sixer.com/index/index/footerinfo [运行时间：0.041660s][吞吐率：24.00req/s] [内存消耗：3,243.96kb] [文件加载：50]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'footerinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => 'application/json, text/plain, */*',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.sixer.com/index/goods/detail/id/5',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/footerinfo' => '',
+)
+[ info ] [ RUN ] app\index\controller\Index->footerInfo[ /home/aptx/File/PHP/6rmh/app/index/controller/Index.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-11T15:27:51+08:00 ] 127.0.0.2 127.0.0.1 GET /index/goods/detail/id/5
+[ log ] www.sixer.com/index/goods/detail/id/5 [运行时间：0.072590s][吞吐率：13.78req/s] [内存消耗：3,615.01kb] [文件加载：55]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'goods',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Version/10.0 Mobile/14D27 Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=h3mlnoqcn77ofavc7a4q7gpr01sfukrms500a4ss4q0pdko57m00; keep_user=think%3A%7B%22id%22%3A%2256d9l2mxzGoqOExayDgWmCA3AcqlWqA9%252BvLifcGh%22%2C%22pid%22%3A%225fa97icG3rRsEdOHZDeJk%252BaX1FY9W1NuLLztq%252Bj4%22%2C%22name%22%3A%22e1b7S30mxDvbNNX%252B8whwOTeTALuTh8aEvUiNiidNjHg5Q5r%252Bm30z3Q%22%2C%22realname%22%3A%223bbaA22mxBXqfWW%252BrwL7WW6b3UY8qmNnz%252BCKut4%22%2C%22sex%22%3A%22072e02OtUnF%252B%252BGtItVtc7Gq8%252BG%252FS6ql1oXgtRnZ5%22%2C%22mobile%22%3A%226510Mmh5csmCxg08kR%252FVgLJQpScSaheajSiH5ztSELzabtljCBtmaw%22%2C%22bait%22%3A%22902djdoo2XS2vxXuYA2DCFan%252FcmOTgtO8pN71FLO%22%2C%22point%22%3A%22bfa4ZjU5CC1T9vI2XalHgXNNOUA6P8bEjJPDTIV%252F%22%2C%22qq%22%3A%22c5fbYCC0E1EqjK6Jyw2Bjk1HZ1dSXHAXCzzVQwE%22%2C%22email%22%3A%22b975xvxt1HkbLfmI%252B4hKtt4DdEnB2w3lM2Dq%252F%252BM%22%2C%22pay_code%22%3A%224009xOHpeK8Fsx95CPx52B6lh8rod0%252BO8cGjUIE%22%2C%22paycrypt%22%3A%2282f72ztYhN0Qhf1ma6voRug0BeZKZE%252FH%252B5GI4po%22%2C%22id_num%22%3A%22cbd3v34BjFDoBDXEJ4U78buAQIAETyYGowd3rFI%22%2C%22id_card%22%3A%22be9dmAS1ucDwwjmN2lmNFbR5d1CShTOyoz1%252Bu6I%22%2C%22headimg%22%3A%224497iXb3RxP90MSS4EuXcsoJyvRJEPVnyFTrIGM%22%2C%22id_list%22%3A%22973f2lmQvNSEOe%252FqK71aYtc5Q%252F7%252BKLtagNnvxl8%22%2C%22regtime%22%3A%22c9088wbM2c9f%252Fbnwcdijw6YOgwmVUHgnhCOzR6T%252B644FxLxF0zZz%22%2C%22logintime%22%3A%224b24biA%252BAm6aqBWpSAQ7bUCSuKHarjF1DCAwMpA%22%2C%22loginip%22%3A%229d02G0OizLweUzHoH56vi%252BTeYy6js5WhvP3tE70%22%2C%22status%22%3A%22276c0bxpBaeFeDQgRpaCJJvSAzNRf0em4DhfbPSc%22%2C%22remark%22%3A%22b799hdH6ZpxC1S4Qg5NmDdlmnhckzKkPP8xFA5U%22%7D',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/index/goods/detail/id/5' => '',
+  'id' => '5',
+)
+[ info ] [ RUN ] app\index\controller\Goods->detail[ /home/aptx/File/PHP/6rmh/app/index/controller/Goods.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/goods/detail.html [ array (
+  0 => 'config',
+  1 => 'goods',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-11T15:28:03+08:00 ] 127.0.0.2 127.0.0.1 GET /index/cart/add/id/5/spec/1/num/1
+[ log ] www.sixer.com/index/cart/add/id/5/spec/1/num/1 [运行时间：0.060249s][吞吐率：16.60req/s] [内存消耗：3,274.09kb] [文件加载：53]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cart',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Version/10.0 Mobile/14D27 Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.sixer.com/index/goods/detail/id/5',
+  'cookie' => 'PHPSESSID=h3mlnoqcn77ofavc7a4q7gpr01sfukrms500a4ss4q0pdko57m00; keep_user=think%3A%7B%22id%22%3A%2256d9l2mxzGoqOExayDgWmCA3AcqlWqA9%252BvLifcGh%22%2C%22pid%22%3A%225fa97icG3rRsEdOHZDeJk%252BaX1FY9W1NuLLztq%252Bj4%22%2C%22name%22%3A%22e1b7S30mxDvbNNX%252B8whwOTeTALuTh8aEvUiNiidNjHg5Q5r%252Bm30z3Q%22%2C%22realname%22%3A%223bbaA22mxBXqfWW%252BrwL7WW6b3UY8qmNnz%252BCKut4%22%2C%22sex%22%3A%22072e02OtUnF%252B%252BGtItVtc7Gq8%252BG%252FS6ql1oXgtRnZ5%22%2C%22mobile%22%3A%226510Mmh5csmCxg08kR%252FVgLJQpScSaheajSiH5ztSELzabtljCBtmaw%22%2C%22bait%22%3A%22902djdoo2XS2vxXuYA2DCFan%252FcmOTgtO8pN71FLO%22%2C%22point%22%3A%22bfa4ZjU5CC1T9vI2XalHgXNNOUA6P8bEjJPDTIV%252F%22%2C%22qq%22%3A%22c5fbYCC0E1EqjK6Jyw2Bjk1HZ1dSXHAXCzzVQwE%22%2C%22email%22%3A%22b975xvxt1HkbLfmI%252B4hKtt4DdEnB2w3lM2Dq%252F%252BM%22%2C%22pay_code%22%3A%224009xOHpeK8Fsx95CPx52B6lh8rod0%252BO8cGjUIE%22%2C%22paycrypt%22%3A%2282f72ztYhN0Qhf1ma6voRug0BeZKZE%252FH%252B5GI4po%22%2C%22id_num%22%3A%22cbd3v34BjFDoBDXEJ4U78buAQIAETyYGowd3rFI%22%2C%22id_card%22%3A%22be9dmAS1ucDwwjmN2lmNFbR5d1CShTOyoz1%252Bu6I%22%2C%22headimg%22%3A%224497iXb3RxP90MSS4EuXcsoJyvRJEPVnyFTrIGM%22%2C%22id_list%22%3A%22973f2lmQvNSEOe%252FqK71aYtc5Q%252F7%252BKLtagNnvxl8%22%2C%22regtime%22%3A%22c9088wbM2c9f%252Fbnwcdijw6YOgwmVUHgnhCOzR6T%252B644FxLxF0zZz%22%2C%22logintime%22%3A%224b24biA%252BAm6aqBWpSAQ7bUCSuKHarjF1DCAwMpA%22%2C%22loginip%22%3A%229d02G0OizLweUzHoH56vi%252BTeYy6js5WhvP3tE70%22%2C%22status%22%3A%22276c0bxpBaeFeDQgRpaCJJvSAzNRf0em4DhfbPSc%22%2C%22remark%22%3A%22b799hdH6ZpxC1S4Qg5NmDdlmnhckzKkPP8xFA5U%22%7D',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/index/cart/add/id/5/spec/1/num/1' => '',
+  'id' => '5',
+  'spec' => '1',
+  'num' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Cart->add[ /home/aptx/File/PHP/6rmh/app/index/controller/Cart.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [10501]SQLSTATE[HY000]: General error: 1364 Field 'parent_id' doesn't have a default value[/home/aptx/File/PHP/6rmh/thinkphp/library/think/db/Connection.php:438]
+
+---------------------------------------------------------------
+[ 2017-10-11T15:29:22+08:00 ] 127.0.0.2 127.0.0.1 GET /index/cart/add/id/5/spec/1/num/1
+[ log ] www.sixer.com/index/cart/add/id/5/spec/1/num/1 [运行时间：0.047923s][吞吐率：20.87req/s] [内存消耗：3,274.09kb] [文件加载：53]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cart',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Version/10.0 Mobile/14D27 Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.sixer.com/index/goods/detail/id/5',
+  'cookie' => 'PHPSESSID=h3mlnoqcn77ofavc7a4q7gpr01sfukrms500a4ss4q0pdko57m00; keep_user=think%3A%7B%22id%22%3A%2256d9l2mxzGoqOExayDgWmCA3AcqlWqA9%252BvLifcGh%22%2C%22pid%22%3A%225fa97icG3rRsEdOHZDeJk%252BaX1FY9W1NuLLztq%252Bj4%22%2C%22name%22%3A%22e1b7S30mxDvbNNX%252B8whwOTeTALuTh8aEvUiNiidNjHg5Q5r%252Bm30z3Q%22%2C%22realname%22%3A%223bbaA22mxBXqfWW%252BrwL7WW6b3UY8qmNnz%252BCKut4%22%2C%22sex%22%3A%22072e02OtUnF%252B%252BGtItVtc7Gq8%252BG%252FS6ql1oXgtRnZ5%22%2C%22mobile%22%3A%226510Mmh5csmCxg08kR%252FVgLJQpScSaheajSiH5ztSELzabtljCBtmaw%22%2C%22bait%22%3A%22902djdoo2XS2vxXuYA2DCFan%252FcmOTgtO8pN71FLO%22%2C%22point%22%3A%22bfa4ZjU5CC1T9vI2XalHgXNNOUA6P8bEjJPDTIV%252F%22%2C%22qq%22%3A%22c5fbYCC0E1EqjK6Jyw2Bjk1HZ1dSXHAXCzzVQwE%22%2C%22email%22%3A%22b975xvxt1HkbLfmI%252B4hKtt4DdEnB2w3lM2Dq%252F%252BM%22%2C%22pay_code%22%3A%224009xOHpeK8Fsx95CPx52B6lh8rod0%252BO8cGjUIE%22%2C%22paycrypt%22%3A%2282f72ztYhN0Qhf1ma6voRug0BeZKZE%252FH%252B5GI4po%22%2C%22id_num%22%3A%22cbd3v34BjFDoBDXEJ4U78buAQIAETyYGowd3rFI%22%2C%22id_card%22%3A%22be9dmAS1ucDwwjmN2lmNFbR5d1CShTOyoz1%252Bu6I%22%2C%22headimg%22%3A%224497iXb3RxP90MSS4EuXcsoJyvRJEPVnyFTrIGM%22%2C%22id_list%22%3A%22973f2lmQvNSEOe%252FqK71aYtc5Q%252F7%252BKLtagNnvxl8%22%2C%22regtime%22%3A%22c9088wbM2c9f%252Fbnwcdijw6YOgwmVUHgnhCOzR6T%252B644FxLxF0zZz%22%2C%22logintime%22%3A%224b24biA%252BAm6aqBWpSAQ7bUCSuKHarjF1DCAwMpA%22%2C%22loginip%22%3A%229d02G0OizLweUzHoH56vi%252BTeYy6js5WhvP3tE70%22%2C%22status%22%3A%22276c0bxpBaeFeDQgRpaCJJvSAzNRf0em4DhfbPSc%22%2C%22remark%22%3A%22b799hdH6ZpxC1S4Qg5NmDdlmnhckzKkPP8xFA5U%22%7D',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/index/cart/add/id/5/spec/1/num/1' => '',
+  'id' => '5',
+  'spec' => '1',
+  'num' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Cart->add[ /home/aptx/File/PHP/6rmh/app/index/controller/Cart.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [10501]SQLSTATE[HY000]: General error: 1364 Field 'parent_id' doesn't have a default value[/home/aptx/File/PHP/6rmh/thinkphp/library/think/db/Connection.php:438]
+
+---------------------------------------------------------------
+[ 2017-10-11T15:29:25+08:00 ] 127.0.0.2 127.0.0.1 GET /index/goods/detail/id/5
+[ log ] www.sixer.com/index/goods/detail/id/5 [运行时间：0.065847s][吞吐率：15.19req/s] [内存消耗：3,614.98kb] [文件加载：55]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'goods',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Version/10.0 Mobile/14D27 Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=h3mlnoqcn77ofavc7a4q7gpr01sfukrms500a4ss4q0pdko57m00; keep_user=think%3A%7B%22id%22%3A%2256d9l2mxzGoqOExayDgWmCA3AcqlWqA9%252BvLifcGh%22%2C%22pid%22%3A%225fa97icG3rRsEdOHZDeJk%252BaX1FY9W1NuLLztq%252Bj4%22%2C%22name%22%3A%22e1b7S30mxDvbNNX%252B8whwOTeTALuTh8aEvUiNiidNjHg5Q5r%252Bm30z3Q%22%2C%22realname%22%3A%223bbaA22mxBXqfWW%252BrwL7WW6b3UY8qmNnz%252BCKut4%22%2C%22sex%22%3A%22072e02OtUnF%252B%252BGtItVtc7Gq8%252BG%252FS6ql1oXgtRnZ5%22%2C%22mobile%22%3A%226510Mmh5csmCxg08kR%252FVgLJQpScSaheajSiH5ztSELzabtljCBtmaw%22%2C%22bait%22%3A%22902djdoo2XS2vxXuYA2DCFan%252FcmOTgtO8pN71FLO%22%2C%22point%22%3A%22bfa4ZjU5CC1T9vI2XalHgXNNOUA6P8bEjJPDTIV%252F%22%2C%22qq%22%3A%22c5fbYCC0E1EqjK6Jyw2Bjk1HZ1dSXHAXCzzVQwE%22%2C%22email%22%3A%22b975xvxt1HkbLfmI%252B4hKtt4DdEnB2w3lM2Dq%252F%252BM%22%2C%22pay_code%22%3A%224009xOHpeK8Fsx95CPx52B6lh8rod0%252BO8cGjUIE%22%2C%22paycrypt%22%3A%2282f72ztYhN0Qhf1ma6voRug0BeZKZE%252FH%252B5GI4po%22%2C%22id_num%22%3A%22cbd3v34BjFDoBDXEJ4U78buAQIAETyYGowd3rFI%22%2C%22id_card%22%3A%22be9dmAS1ucDwwjmN2lmNFbR5d1CShTOyoz1%252Bu6I%22%2C%22headimg%22%3A%224497iXb3RxP90MSS4EuXcsoJyvRJEPVnyFTrIGM%22%2C%22id_list%22%3A%22973f2lmQvNSEOe%252FqK71aYtc5Q%252F7%252BKLtagNnvxl8%22%2C%22regtime%22%3A%22c9088wbM2c9f%252Fbnwcdijw6YOgwmVUHgnhCOzR6T%252B644FxLxF0zZz%22%2C%22logintime%22%3A%224b24biA%252BAm6aqBWpSAQ7bUCSuKHarjF1DCAwMpA%22%2C%22loginip%22%3A%229d02G0OizLweUzHoH56vi%252BTeYy6js5WhvP3tE70%22%2C%22status%22%3A%22276c0bxpBaeFeDQgRpaCJJvSAzNRf0em4DhfbPSc%22%2C%22remark%22%3A%22b799hdH6ZpxC1S4Qg5NmDdlmnhckzKkPP8xFA5U%22%7D',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/index/goods/detail/id/5' => '',
+  'id' => '5',
+)
+[ info ] [ RUN ] app\index\controller\Goods->detail[ /home/aptx/File/PHP/6rmh/app/index/controller/Goods.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/goods/detail.html [ array (
+  0 => 'config',
+  1 => 'goods',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-11T15:29:41+08:00 ] 127.0.0.2 127.0.0.1 GET /index/goods/detail/id/5
+[ log ] www.sixer.com/index/goods/detail/id/5 [运行时间：0.077735s][吞吐率：12.86req/s] [内存消耗：3,614.98kb] [文件加载：55]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'goods',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Version/10.0 Mobile/14D27 Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=h3mlnoqcn77ofavc7a4q7gpr01sfukrms500a4ss4q0pdko57m00; keep_user=think%3A%7B%22id%22%3A%2256d9l2mxzGoqOExayDgWmCA3AcqlWqA9%252BvLifcGh%22%2C%22pid%22%3A%225fa97icG3rRsEdOHZDeJk%252BaX1FY9W1NuLLztq%252Bj4%22%2C%22name%22%3A%22e1b7S30mxDvbNNX%252B8whwOTeTALuTh8aEvUiNiidNjHg5Q5r%252Bm30z3Q%22%2C%22realname%22%3A%223bbaA22mxBXqfWW%252BrwL7WW6b3UY8qmNnz%252BCKut4%22%2C%22sex%22%3A%22072e02OtUnF%252B%252BGtItVtc7Gq8%252BG%252FS6ql1oXgtRnZ5%22%2C%22mobile%22%3A%226510Mmh5csmCxg08kR%252FVgLJQpScSaheajSiH5ztSELzabtljCBtmaw%22%2C%22bait%22%3A%22902djdoo2XS2vxXuYA2DCFan%252FcmOTgtO8pN71FLO%22%2C%22point%22%3A%22bfa4ZjU5CC1T9vI2XalHgXNNOUA6P8bEjJPDTIV%252F%22%2C%22qq%22%3A%22c5fbYCC0E1EqjK6Jyw2Bjk1HZ1dSXHAXCzzVQwE%22%2C%22email%22%3A%22b975xvxt1HkbLfmI%252B4hKtt4DdEnB2w3lM2Dq%252F%252BM%22%2C%22pay_code%22%3A%224009xOHpeK8Fsx95CPx52B6lh8rod0%252BO8cGjUIE%22%2C%22paycrypt%22%3A%2282f72ztYhN0Qhf1ma6voRug0BeZKZE%252FH%252B5GI4po%22%2C%22id_num%22%3A%22cbd3v34BjFDoBDXEJ4U78buAQIAETyYGowd3rFI%22%2C%22id_card%22%3A%22be9dmAS1ucDwwjmN2lmNFbR5d1CShTOyoz1%252Bu6I%22%2C%22headimg%22%3A%224497iXb3RxP90MSS4EuXcsoJyvRJEPVnyFTrIGM%22%2C%22id_list%22%3A%22973f2lmQvNSEOe%252FqK71aYtc5Q%252F7%252BKLtagNnvxl8%22%2C%22regtime%22%3A%22c9088wbM2c9f%252Fbnwcdijw6YOgwmVUHgnhCOzR6T%252B644FxLxF0zZz%22%2C%22logintime%22%3A%224b24biA%252BAm6aqBWpSAQ7bUCSuKHarjF1DCAwMpA%22%2C%22loginip%22%3A%229d02G0OizLweUzHoH56vi%252BTeYy6js5WhvP3tE70%22%2C%22status%22%3A%22276c0bxpBaeFeDQgRpaCJJvSAzNRf0em4DhfbPSc%22%2C%22remark%22%3A%22b799hdH6ZpxC1S4Qg5NmDdlmnhckzKkPP8xFA5U%22%7D',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/index/goods/detail/id/5' => '',
+  'id' => '5',
+)
+[ info ] [ RUN ] app\index\controller\Goods->detail[ /home/aptx/File/PHP/6rmh/app/index/controller/Goods.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/goods/detail.html [ array (
+  0 => 'config',
+  1 => 'goods',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-11T15:29:53+08:00 ] 127.0.0.2 127.0.0.1 GET /index/cart/add/id/5/spec/1/num/2
+[ log ] www.sixer.com/index/cart/add/id/5/spec/1/num/2 [运行时间：0.052523s][吞吐率：19.04req/s] [内存消耗：3,274.09kb] [文件加载：53]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cart',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Version/10.0 Mobile/14D27 Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.sixer.com/index/goods/detail/id/5',
+  'cookie' => 'PHPSESSID=h3mlnoqcn77ofavc7a4q7gpr01sfukrms500a4ss4q0pdko57m00; keep_user=think%3A%7B%22id%22%3A%2256d9l2mxzGoqOExayDgWmCA3AcqlWqA9%252BvLifcGh%22%2C%22pid%22%3A%225fa97icG3rRsEdOHZDeJk%252BaX1FY9W1NuLLztq%252Bj4%22%2C%22name%22%3A%22e1b7S30mxDvbNNX%252B8whwOTeTALuTh8aEvUiNiidNjHg5Q5r%252Bm30z3Q%22%2C%22realname%22%3A%223bbaA22mxBXqfWW%252BrwL7WW6b3UY8qmNnz%252BCKut4%22%2C%22sex%22%3A%22072e02OtUnF%252B%252BGtItVtc7Gq8%252BG%252FS6ql1oXgtRnZ5%22%2C%22mobile%22%3A%226510Mmh5csmCxg08kR%252FVgLJQpScSaheajSiH5ztSELzabtljCBtmaw%22%2C%22bait%22%3A%22902djdoo2XS2vxXuYA2DCFan%252FcmOTgtO8pN71FLO%22%2C%22point%22%3A%22bfa4ZjU5CC1T9vI2XalHgXNNOUA6P8bEjJPDTIV%252F%22%2C%22qq%22%3A%22c5fbYCC0E1EqjK6Jyw2Bjk1HZ1dSXHAXCzzVQwE%22%2C%22email%22%3A%22b975xvxt1HkbLfmI%252B4hKtt4DdEnB2w3lM2Dq%252F%252BM%22%2C%22pay_code%22%3A%224009xOHpeK8Fsx95CPx52B6lh8rod0%252BO8cGjUIE%22%2C%22paycrypt%22%3A%2282f72ztYhN0Qhf1ma6voRug0BeZKZE%252FH%252B5GI4po%22%2C%22id_num%22%3A%22cbd3v34BjFDoBDXEJ4U78buAQIAETyYGowd3rFI%22%2C%22id_card%22%3A%22be9dmAS1ucDwwjmN2lmNFbR5d1CShTOyoz1%252Bu6I%22%2C%22headimg%22%3A%224497iXb3RxP90MSS4EuXcsoJyvRJEPVnyFTrIGM%22%2C%22id_list%22%3A%22973f2lmQvNSEOe%252FqK71aYtc5Q%252F7%252BKLtagNnvxl8%22%2C%22regtime%22%3A%22c9088wbM2c9f%252Fbnwcdijw6YOgwmVUHgnhCOzR6T%252B644FxLxF0zZz%22%2C%22logintime%22%3A%224b24biA%252BAm6aqBWpSAQ7bUCSuKHarjF1DCAwMpA%22%2C%22loginip%22%3A%229d02G0OizLweUzHoH56vi%252BTeYy6js5WhvP3tE70%22%2C%22status%22%3A%22276c0bxpBaeFeDQgRpaCJJvSAzNRf0em4DhfbPSc%22%2C%22remark%22%3A%22b799hdH6ZpxC1S4Qg5NmDdlmnhckzKkPP8xFA5U%22%7D',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/index/cart/add/id/5/spec/1/num/2' => '',
+  'id' => '5',
+  'spec' => '1',
+  'num' => '2',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Cart->add[ /home/aptx/File/PHP/6rmh/app/index/controller/Cart.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [10501]SQLSTATE[HY000]: General error: 1364 Field 'parent_id' doesn't have a default value[/home/aptx/File/PHP/6rmh/thinkphp/library/think/db/Connection.php:438]
+
+---------------------------------------------------------------
+[ 2017-10-11T15:34:23+08:00 ] 127.0.0.2 127.0.0.1 GET /index/cart/add/id/5/spec/1/num/2
+[ log ] www.sixer.com/index/cart/add/id/5/spec/1/num/2 [运行时间：0.048490s][吞吐率：20.62req/s] [内存消耗：3,274.09kb] [文件加载：53]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cart',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Version/10.0 Mobile/14D27 Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.sixer.com/index/goods/detail/id/5',
+  'cookie' => 'PHPSESSID=h3mlnoqcn77ofavc7a4q7gpr01sfukrms500a4ss4q0pdko57m00; keep_user=think%3A%7B%22id%22%3A%2256d9l2mxzGoqOExayDgWmCA3AcqlWqA9%252BvLifcGh%22%2C%22pid%22%3A%225fa97icG3rRsEdOHZDeJk%252BaX1FY9W1NuLLztq%252Bj4%22%2C%22name%22%3A%22e1b7S30mxDvbNNX%252B8whwOTeTALuTh8aEvUiNiidNjHg5Q5r%252Bm30z3Q%22%2C%22realname%22%3A%223bbaA22mxBXqfWW%252BrwL7WW6b3UY8qmNnz%252BCKut4%22%2C%22sex%22%3A%22072e02OtUnF%252B%252BGtItVtc7Gq8%252BG%252FS6ql1oXgtRnZ5%22%2C%22mobile%22%3A%226510Mmh5csmCxg08kR%252FVgLJQpScSaheajSiH5ztSELzabtljCBtmaw%22%2C%22bait%22%3A%22902djdoo2XS2vxXuYA2DCFan%252FcmOTgtO8pN71FLO%22%2C%22point%22%3A%22bfa4ZjU5CC1T9vI2XalHgXNNOUA6P8bEjJPDTIV%252F%22%2C%22qq%22%3A%22c5fbYCC0E1EqjK6Jyw2Bjk1HZ1dSXHAXCzzVQwE%22%2C%22email%22%3A%22b975xvxt1HkbLfmI%252B4hKtt4DdEnB2w3lM2Dq%252F%252BM%22%2C%22pay_code%22%3A%224009xOHpeK8Fsx95CPx52B6lh8rod0%252BO8cGjUIE%22%2C%22paycrypt%22%3A%2282f72ztYhN0Qhf1ma6voRug0BeZKZE%252FH%252B5GI4po%22%2C%22id_num%22%3A%22cbd3v34BjFDoBDXEJ4U78buAQIAETyYGowd3rFI%22%2C%22id_card%22%3A%22be9dmAS1ucDwwjmN2lmNFbR5d1CShTOyoz1%252Bu6I%22%2C%22headimg%22%3A%224497iXb3RxP90MSS4EuXcsoJyvRJEPVnyFTrIGM%22%2C%22id_list%22%3A%22973f2lmQvNSEOe%252FqK71aYtc5Q%252F7%252BKLtagNnvxl8%22%2C%22regtime%22%3A%22c9088wbM2c9f%252Fbnwcdijw6YOgwmVUHgnhCOzR6T%252B644FxLxF0zZz%22%2C%22logintime%22%3A%224b24biA%252BAm6aqBWpSAQ7bUCSuKHarjF1DCAwMpA%22%2C%22loginip%22%3A%229d02G0OizLweUzHoH56vi%252BTeYy6js5WhvP3tE70%22%2C%22status%22%3A%22276c0bxpBaeFeDQgRpaCJJvSAzNRf0em4DhfbPSc%22%2C%22remark%22%3A%22b799hdH6ZpxC1S4Qg5NmDdlmnhckzKkPP8xFA5U%22%7D',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/index/cart/add/id/5/spec/1/num/2' => '',
+  'id' => '5',
+  'spec' => '1',
+  'num' => '2',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Cart->add[ /home/aptx/File/PHP/6rmh/app/index/controller/Cart.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [10501]SQLSTATE[HY000]: General error: 1364 Field 'parent_id' doesn't have a default value[/home/aptx/File/PHP/6rmh/thinkphp/library/think/db/Connection.php:438]
+
+---------------------------------------------------------------
+[ 2017-10-11T15:41:59+08:00 ] 127.0.0.2 127.0.0.1 GET /index/cart/add/id/5/spec/1/num/2
+[ log ] www.sixer.com/index/cart/add/id/5/spec/1/num/2 [运行时间：0.044339s][吞吐率：22.55req/s] [内存消耗：3,274.09kb] [文件加载：53]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cart',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Version/10.0 Mobile/14D27 Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.sixer.com/index/goods/detail/id/5',
+  'cookie' => 'PHPSESSID=h3mlnoqcn77ofavc7a4q7gpr01sfukrms500a4ss4q0pdko57m00; keep_user=think%3A%7B%22id%22%3A%2256d9l2mxzGoqOExayDgWmCA3AcqlWqA9%252BvLifcGh%22%2C%22pid%22%3A%225fa97icG3rRsEdOHZDeJk%252BaX1FY9W1NuLLztq%252Bj4%22%2C%22name%22%3A%22e1b7S30mxDvbNNX%252B8whwOTeTALuTh8aEvUiNiidNjHg5Q5r%252Bm30z3Q%22%2C%22realname%22%3A%223bbaA22mxBXqfWW%252BrwL7WW6b3UY8qmNnz%252BCKut4%22%2C%22sex%22%3A%22072e02OtUnF%252B%252BGtItVtc7Gq8%252BG%252FS6ql1oXgtRnZ5%22%2C%22mobile%22%3A%226510Mmh5csmCxg08kR%252FVgLJQpScSaheajSiH5ztSELzabtljCBtmaw%22%2C%22bait%22%3A%22902djdoo2XS2vxXuYA2DCFan%252FcmOTgtO8pN71FLO%22%2C%22point%22%3A%22bfa4ZjU5CC1T9vI2XalHgXNNOUA6P8bEjJPDTIV%252F%22%2C%22qq%22%3A%22c5fbYCC0E1EqjK6Jyw2Bjk1HZ1dSXHAXCzzVQwE%22%2C%22email%22%3A%22b975xvxt1HkbLfmI%252B4hKtt4DdEnB2w3lM2Dq%252F%252BM%22%2C%22pay_code%22%3A%224009xOHpeK8Fsx95CPx52B6lh8rod0%252BO8cGjUIE%22%2C%22paycrypt%22%3A%2282f72ztYhN0Qhf1ma6voRug0BeZKZE%252FH%252B5GI4po%22%2C%22id_num%22%3A%22cbd3v34BjFDoBDXEJ4U78buAQIAETyYGowd3rFI%22%2C%22id_card%22%3A%22be9dmAS1ucDwwjmN2lmNFbR5d1CShTOyoz1%252Bu6I%22%2C%22headimg%22%3A%224497iXb3RxP90MSS4EuXcsoJyvRJEPVnyFTrIGM%22%2C%22id_list%22%3A%22973f2lmQvNSEOe%252FqK71aYtc5Q%252F7%252BKLtagNnvxl8%22%2C%22regtime%22%3A%22c9088wbM2c9f%252Fbnwcdijw6YOgwmVUHgnhCOzR6T%252B644FxLxF0zZz%22%2C%22logintime%22%3A%224b24biA%252BAm6aqBWpSAQ7bUCSuKHarjF1DCAwMpA%22%2C%22loginip%22%3A%229d02G0OizLweUzHoH56vi%252BTeYy6js5WhvP3tE70%22%2C%22status%22%3A%22276c0bxpBaeFeDQgRpaCJJvSAzNRf0em4DhfbPSc%22%2C%22remark%22%3A%22b799hdH6ZpxC1S4Qg5NmDdlmnhckzKkPP8xFA5U%22%7D',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/index/cart/add/id/5/spec/1/num/2' => '',
+  'id' => '5',
+  'spec' => '1',
+  'num' => '2',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Cart->add[ /home/aptx/File/PHP/6rmh/app/index/controller/Cart.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [10501]SQLSTATE[HY000]: General error: 1364 Field 'parent_id' doesn't have a default value[/home/aptx/File/PHP/6rmh/thinkphp/library/think/db/Connection.php:438]
+
+---------------------------------------------------------------
+[ 2017-10-11T15:43:41+08:00 ] 192.168.1.105 192.168.1.104 GET /index/goods/detail/id/5
+[ log ] 192.168.1.105:8090/index/goods/detail/id/5 [运行时间：0.072944s][吞吐率：13.71req/s] [内存消耗：3,405.22kb] [文件加载：53]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'goods',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.105:8090',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'x-wap-profile' => 'http://uaprofile.asus.com/uaprof/ASUS-ZE551ML.xml',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.0; ASUS_Z00ADB Build/LRX21V) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0  Mobile Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=sj4fdqek5hfeh22o4vop1lie76tt8o36et5m0dlrn0buc2rkn370; keep_user=think%3A%7B%22id%22%3A%22aa38L6PQq4EiEoU0jC%252FSa%252BTiXCTyWVF3kT0N9YT5%22%2C%22pid%22%3A%2240d4Fvg8hTaO9%252BqDgZhKyT8w8aAk2fXmn7xbI%252BQ8%22%2C%22name%22%3A%221173fQ8lqfkvN%252FqBzTSPyjrQYuaYtz5EVuzrAz9Kqzw%22%2C%22realname%22%3A%22bae0mMtMP1D%252Fq4LFn5VTfyWfgaRQN%252FqUkEUF9Jg%22%2C%22sex%22%3A%228671s%252FDLjnQzs8grwkc4Wnu719%252FHZp7Teh3ThDXe%22%2C%22mobile%22%3A%22c507jwz3mZ%252FtpVzP%252FwxKMvWdQq5od3MMSR9xnlK1Ghpe5DG5XghVkA%22%2C%22bait%22%3A%2263cfjUrp29gK2QrrcsFsi9K06zV1QjGVOZDeWHuQ%22%2C%22point%22%3A%22a080hZ%252BGjf9oVlr9TiAyEQJFJqwLrmU4dQ5nJYW%252F%22%2C%22qq%22%3A%220786Z9Hdm1pAoh3%252FfUzEPIr4HxV1ikbag3xL%252FAs%22%2C%22email%22%3A%22d8f5orFudvG7QwuFP4%252FcFxONkO2i2Nl%252F7GQXUUU%22%2C%22pay_code%22%3A%22162f%252B5tdV20xNknO3AFLSxmcEjs4XFf6KXc%252FIpY%22%2C%22paycrypt%22%3A%22e54bzNHITkTCD%252BNmf0DMPPt7AiWpe5iAYokHLZM%22%2C%22id_num%22%3A%227329vNQYif0v4jr2QT3G6x%252B%252BpWr21wFxFic5V4g%22%2C%22id_card%22%3A%22e79fOr2IbggHNWtBGYIttyp03FFocwEcDE3O%252FRI%22%2C%22headimg%22%3A%22613aBjgNe6UglSEwhR1IgQtaB%252FIf1SDKRRbb0hs%22%2C%22id_list%22%3A%224c88ADuo7Ne%252BxRaUpiN5%252Bx6Qip6vS0MuMNKGmYI%22%2C%22regtime%22%3A%2231f5Zx%252BRs7rqXrkWcMmufMQ3cB1v7mgiY1clLy2umTUXu8A4JTHG%22%2C%22logintime%22%3A%222dd9EejbBE%252FvQBwP4mEzADP0TliABA1VIxbW%252BRg%22%2C%22loginip%22%3A%223de9LOwdXAtEF%252FPaDu%252BKx1%252BlL7MBn3NleOdGTTM%22%2C%22status%22%3A%22b827wGeQG7XbF497Up0oE1XV8xVhacgfqAk1jGYJ%22%2C%22remark%22%3A%2246bbnGlRPQj4rBLGV3zmKzyT73yiAXa6R8RPYnc%22%7D',
+  'x-requested-with' => 'com.asus.browser',
+)
+[ info ] [ PARAM ] array (
+  '/index/goods/detail/id/5' => '',
+  'id' => '5',
+)
+[ info ] [ RUN ] app\index\controller\Goods->detail[ /home/aptx/File/PHP/6rmh/app/index/controller/Goods.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/goods/detail.html [ array (
+  0 => 'config',
+  1 => 'goods',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-11T15:45:35+08:00 ] 127.0.0.2 127.0.0.1 GET /index/goods/detail/id/5
+[ log ] www.sixer.com/index/goods/detail/id/5 [运行时间：0.070906s][吞吐率：14.10req/s] [内存消耗：3,405.43kb] [文件加载：53]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'goods',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Version/10.0 Mobile/14D27 Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=h3mlnoqcn77ofavc7a4q7gpr01sfukrms500a4ss4q0pdko57m00; keep_user=think%3A%7B%22id%22%3A%2256d9l2mxzGoqOExayDgWmCA3AcqlWqA9%252BvLifcGh%22%2C%22pid%22%3A%225fa97icG3rRsEdOHZDeJk%252BaX1FY9W1NuLLztq%252Bj4%22%2C%22name%22%3A%22e1b7S30mxDvbNNX%252B8whwOTeTALuTh8aEvUiNiidNjHg5Q5r%252Bm30z3Q%22%2C%22realname%22%3A%223bbaA22mxBXqfWW%252BrwL7WW6b3UY8qmNnz%252BCKut4%22%2C%22sex%22%3A%22072e02OtUnF%252B%252BGtItVtc7Gq8%252BG%252FS6ql1oXgtRnZ5%22%2C%22mobile%22%3A%226510Mmh5csmCxg08kR%252FVgLJQpScSaheajSiH5ztSELzabtljCBtmaw%22%2C%22bait%22%3A%22902djdoo2XS2vxXuYA2DCFan%252FcmOTgtO8pN71FLO%22%2C%22point%22%3A%22bfa4ZjU5CC1T9vI2XalHgXNNOUA6P8bEjJPDTIV%252F%22%2C%22qq%22%3A%22c5fbYCC0E1EqjK6Jyw2Bjk1HZ1dSXHAXCzzVQwE%22%2C%22email%22%3A%22b975xvxt1HkbLfmI%252B4hKtt4DdEnB2w3lM2Dq%252F%252BM%22%2C%22pay_code%22%3A%224009xOHpeK8Fsx95CPx52B6lh8rod0%252BO8cGjUIE%22%2C%22paycrypt%22%3A%2282f72ztYhN0Qhf1ma6voRug0BeZKZE%252FH%252B5GI4po%22%2C%22id_num%22%3A%22cbd3v34BjFDoBDXEJ4U78buAQIAETyYGowd3rFI%22%2C%22id_card%22%3A%22be9dmAS1ucDwwjmN2lmNFbR5d1CShTOyoz1%252Bu6I%22%2C%22headimg%22%3A%224497iXb3RxP90MSS4EuXcsoJyvRJEPVnyFTrIGM%22%2C%22id_list%22%3A%22973f2lmQvNSEOe%252FqK71aYtc5Q%252F7%252BKLtagNnvxl8%22%2C%22regtime%22%3A%22c9088wbM2c9f%252Fbnwcdijw6YOgwmVUHgnhCOzR6T%252B644FxLxF0zZz%22%2C%22logintime%22%3A%224b24biA%252BAm6aqBWpSAQ7bUCSuKHarjF1DCAwMpA%22%2C%22loginip%22%3A%229d02G0OizLweUzHoH56vi%252BTeYy6js5WhvP3tE70%22%2C%22status%22%3A%22276c0bxpBaeFeDQgRpaCJJvSAzNRf0em4DhfbPSc%22%2C%22remark%22%3A%22b799hdH6ZpxC1S4Qg5NmDdlmnhckzKkPP8xFA5U%22%7D',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/index/goods/detail/id/5' => '',
+  'id' => '5',
+)
+[ info ] [ RUN ] app\index\controller\Goods->detail[ /home/aptx/File/PHP/6rmh/app/index/controller/Goods.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/goods/detail.html [ array (
+  0 => 'config',
+  1 => 'goods',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-11T15:46:51+08:00 ] 127.0.0.2 127.0.0.1 GET /index/goods/detail/id/5
+[ log ] www.sixer.com/index/goods/detail/id/5 [运行时间：0.071246s][吞吐率：14.04req/s] [内存消耗：3,615.19kb] [文件加载：55]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'goods',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Version/10.0 Mobile/14D27 Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=h3mlnoqcn77ofavc7a4q7gpr01sfukrms500a4ss4q0pdko57m00; keep_user=think%3A%7B%22id%22%3A%2256d9l2mxzGoqOExayDgWmCA3AcqlWqA9%252BvLifcGh%22%2C%22pid%22%3A%225fa97icG3rRsEdOHZDeJk%252BaX1FY9W1NuLLztq%252Bj4%22%2C%22name%22%3A%22e1b7S30mxDvbNNX%252B8whwOTeTALuTh8aEvUiNiidNjHg5Q5r%252Bm30z3Q%22%2C%22realname%22%3A%223bbaA22mxBXqfWW%252BrwL7WW6b3UY8qmNnz%252BCKut4%22%2C%22sex%22%3A%22072e02OtUnF%252B%252BGtItVtc7Gq8%252BG%252FS6ql1oXgtRnZ5%22%2C%22mobile%22%3A%226510Mmh5csmCxg08kR%252FVgLJQpScSaheajSiH5ztSELzabtljCBtmaw%22%2C%22bait%22%3A%22902djdoo2XS2vxXuYA2DCFan%252FcmOTgtO8pN71FLO%22%2C%22point%22%3A%22bfa4ZjU5CC1T9vI2XalHgXNNOUA6P8bEjJPDTIV%252F%22%2C%22qq%22%3A%22c5fbYCC0E1EqjK6Jyw2Bjk1HZ1dSXHAXCzzVQwE%22%2C%22email%22%3A%22b975xvxt1HkbLfmI%252B4hKtt4DdEnB2w3lM2Dq%252F%252BM%22%2C%22pay_code%22%3A%224009xOHpeK8Fsx95CPx52B6lh8rod0%252BO8cGjUIE%22%2C%22paycrypt%22%3A%2282f72ztYhN0Qhf1ma6voRug0BeZKZE%252FH%252B5GI4po%22%2C%22id_num%22%3A%22cbd3v34BjFDoBDXEJ4U78buAQIAETyYGowd3rFI%22%2C%22id_card%22%3A%22be9dmAS1ucDwwjmN2lmNFbR5d1CShTOyoz1%252Bu6I%22%2C%22headimg%22%3A%224497iXb3RxP90MSS4EuXcsoJyvRJEPVnyFTrIGM%22%2C%22id_list%22%3A%22973f2lmQvNSEOe%252FqK71aYtc5Q%252F7%252BKLtagNnvxl8%22%2C%22regtime%22%3A%22c9088wbM2c9f%252Fbnwcdijw6YOgwmVUHgnhCOzR6T%252B644FxLxF0zZz%22%2C%22logintime%22%3A%224b24biA%252BAm6aqBWpSAQ7bUCSuKHarjF1DCAwMpA%22%2C%22loginip%22%3A%229d02G0OizLweUzHoH56vi%252BTeYy6js5WhvP3tE70%22%2C%22status%22%3A%22276c0bxpBaeFeDQgRpaCJJvSAzNRf0em4DhfbPSc%22%2C%22remark%22%3A%22b799hdH6ZpxC1S4Qg5NmDdlmnhckzKkPP8xFA5U%22%7D',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/index/goods/detail/id/5' => '',
+  'id' => '5',
+)
+[ info ] [ RUN ] app\index\controller\Goods->detail[ /home/aptx/File/PHP/6rmh/app/index/controller/Goods.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/goods/detail.html [ array (
+  0 => 'config',
+  1 => 'goods',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-11T15:46:55+08:00 ] 127.0.0.2 127.0.0.1 GET /index/cart/add/id/5/spec//num/1
+[ log ] www.sixer.com/index/cart/add/id/5/spec//num/1 [运行时间：0.054839s][吞吐率：18.24req/s] [内存消耗：3,205.15kb] [文件加载：50]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cart',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Version/10.0 Mobile/14D27 Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.sixer.com/index/goods/detail/id/5',
+  'cookie' => 'PHPSESSID=h3mlnoqcn77ofavc7a4q7gpr01sfukrms500a4ss4q0pdko57m00; keep_user=think%3A%7B%22id%22%3A%2256d9l2mxzGoqOExayDgWmCA3AcqlWqA9%252BvLifcGh%22%2C%22pid%22%3A%225fa97icG3rRsEdOHZDeJk%252BaX1FY9W1NuLLztq%252Bj4%22%2C%22name%22%3A%22e1b7S30mxDvbNNX%252B8whwOTeTALuTh8aEvUiNiidNjHg5Q5r%252Bm30z3Q%22%2C%22realname%22%3A%223bbaA22mxBXqfWW%252BrwL7WW6b3UY8qmNnz%252BCKut4%22%2C%22sex%22%3A%22072e02OtUnF%252B%252BGtItVtc7Gq8%252BG%252FS6ql1oXgtRnZ5%22%2C%22mobile%22%3A%226510Mmh5csmCxg08kR%252FVgLJQpScSaheajSiH5ztSELzabtljCBtmaw%22%2C%22bait%22%3A%22902djdoo2XS2vxXuYA2DCFan%252FcmOTgtO8pN71FLO%22%2C%22point%22%3A%22bfa4ZjU5CC1T9vI2XalHgXNNOUA6P8bEjJPDTIV%252F%22%2C%22qq%22%3A%22c5fbYCC0E1EqjK6Jyw2Bjk1HZ1dSXHAXCzzVQwE%22%2C%22email%22%3A%22b975xvxt1HkbLfmI%252B4hKtt4DdEnB2w3lM2Dq%252F%252BM%22%2C%22pay_code%22%3A%224009xOHpeK8Fsx95CPx52B6lh8rod0%252BO8cGjUIE%22%2C%22paycrypt%22%3A%2282f72ztYhN0Qhf1ma6voRug0BeZKZE%252FH%252B5GI4po%22%2C%22id_num%22%3A%22cbd3v34BjFDoBDXEJ4U78buAQIAETyYGowd3rFI%22%2C%22id_card%22%3A%22be9dmAS1ucDwwjmN2lmNFbR5d1CShTOyoz1%252Bu6I%22%2C%22headimg%22%3A%224497iXb3RxP90MSS4EuXcsoJyvRJEPVnyFTrIGM%22%2C%22id_list%22%3A%22973f2lmQvNSEOe%252FqK71aYtc5Q%252F7%252BKLtagNnvxl8%22%2C%22regtime%22%3A%22c9088wbM2c9f%252Fbnwcdijw6YOgwmVUHgnhCOzR6T%252B644FxLxF0zZz%22%2C%22logintime%22%3A%224b24biA%252BAm6aqBWpSAQ7bUCSuKHarjF1DCAwMpA%22%2C%22loginip%22%3A%229d02G0OizLweUzHoH56vi%252BTeYy6js5WhvP3tE70%22%2C%22status%22%3A%22276c0bxpBaeFeDQgRpaCJJvSAzNRf0em4DhfbPSc%22%2C%22remark%22%3A%22b799hdH6ZpxC1S4Qg5NmDdlmnhckzKkPP8xFA5U%22%7D',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/index/cart/add/id/5/spec/num/1' => '',
+  'id' => '5',
+  'num' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Cart->add[ /home/aptx/File/PHP/6rmh/app/index/controller/Cart.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/thinkphp/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-11T15:46:59+08:00 ] 127.0.0.2 127.0.0.1 GET /index/goods/detail/id/5
+[ log ] www.sixer.com/index/goods/detail/id/5 [运行时间：0.056636s][吞吐率：17.66req/s] [内存消耗：3,405.43kb] [文件加载：53]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'goods',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Version/10.0 Mobile/14D27 Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=h3mlnoqcn77ofavc7a4q7gpr01sfukrms500a4ss4q0pdko57m00; keep_user=think%3A%7B%22id%22%3A%2256d9l2mxzGoqOExayDgWmCA3AcqlWqA9%252BvLifcGh%22%2C%22pid%22%3A%225fa97icG3rRsEdOHZDeJk%252BaX1FY9W1NuLLztq%252Bj4%22%2C%22name%22%3A%22e1b7S30mxDvbNNX%252B8whwOTeTALuTh8aEvUiNiidNjHg5Q5r%252Bm30z3Q%22%2C%22realname%22%3A%223bbaA22mxBXqfWW%252BrwL7WW6b3UY8qmNnz%252BCKut4%22%2C%22sex%22%3A%22072e02OtUnF%252B%252BGtItVtc7Gq8%252BG%252FS6ql1oXgtRnZ5%22%2C%22mobile%22%3A%226510Mmh5csmCxg08kR%252FVgLJQpScSaheajSiH5ztSELzabtljCBtmaw%22%2C%22bait%22%3A%22902djdoo2XS2vxXuYA2DCFan%252FcmOTgtO8pN71FLO%22%2C%22point%22%3A%22bfa4ZjU5CC1T9vI2XalHgXNNOUA6P8bEjJPDTIV%252F%22%2C%22qq%22%3A%22c5fbYCC0E1EqjK6Jyw2Bjk1HZ1dSXHAXCzzVQwE%22%2C%22email%22%3A%22b975xvxt1HkbLfmI%252B4hKtt4DdEnB2w3lM2Dq%252F%252BM%22%2C%22pay_code%22%3A%224009xOHpeK8Fsx95CPx52B6lh8rod0%252BO8cGjUIE%22%2C%22paycrypt%22%3A%2282f72ztYhN0Qhf1ma6voRug0BeZKZE%252FH%252B5GI4po%22%2C%22id_num%22%3A%22cbd3v34BjFDoBDXEJ4U78buAQIAETyYGowd3rFI%22%2C%22id_card%22%3A%22be9dmAS1ucDwwjmN2lmNFbR5d1CShTOyoz1%252Bu6I%22%2C%22headimg%22%3A%224497iXb3RxP90MSS4EuXcsoJyvRJEPVnyFTrIGM%22%2C%22id_list%22%3A%22973f2lmQvNSEOe%252FqK71aYtc5Q%252F7%252BKLtagNnvxl8%22%2C%22regtime%22%3A%22c9088wbM2c9f%252Fbnwcdijw6YOgwmVUHgnhCOzR6T%252B644FxLxF0zZz%22%2C%22logintime%22%3A%224b24biA%252BAm6aqBWpSAQ7bUCSuKHarjF1DCAwMpA%22%2C%22loginip%22%3A%229d02G0OizLweUzHoH56vi%252BTeYy6js5WhvP3tE70%22%2C%22status%22%3A%22276c0bxpBaeFeDQgRpaCJJvSAzNRf0em4DhfbPSc%22%2C%22remark%22%3A%22b799hdH6ZpxC1S4Qg5NmDdlmnhckzKkPP8xFA5U%22%7D',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/index/goods/detail/id/5' => '',
+  'id' => '5',
+)
+[ info ] [ RUN ] app\index\controller\Goods->detail[ /home/aptx/File/PHP/6rmh/app/index/controller/Goods.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/goods/detail.html [ array (
+  0 => 'config',
+  1 => 'goods',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-11T15:47:08+08:00 ] 127.0.0.2 127.0.0.1 GET /index/cart/add/id/5/spec/1/num/2
+[ log ] www.sixer.com/index/cart/add/id/5/spec/1/num/2 [运行时间：0.048798s][吞吐率：20.49req/s] [内存消耗：3,274.09kb] [文件加载：53]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cart',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Version/10.0 Mobile/14D27 Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.sixer.com/index/goods/detail/id/5',
+  'cookie' => 'PHPSESSID=h3mlnoqcn77ofavc7a4q7gpr01sfukrms500a4ss4q0pdko57m00; keep_user=think%3A%7B%22id%22%3A%2256d9l2mxzGoqOExayDgWmCA3AcqlWqA9%252BvLifcGh%22%2C%22pid%22%3A%225fa97icG3rRsEdOHZDeJk%252BaX1FY9W1NuLLztq%252Bj4%22%2C%22name%22%3A%22e1b7S30mxDvbNNX%252B8whwOTeTALuTh8aEvUiNiidNjHg5Q5r%252Bm30z3Q%22%2C%22realname%22%3A%223bbaA22mxBXqfWW%252BrwL7WW6b3UY8qmNnz%252BCKut4%22%2C%22sex%22%3A%22072e02OtUnF%252B%252BGtItVtc7Gq8%252BG%252FS6ql1oXgtRnZ5%22%2C%22mobile%22%3A%226510Mmh5csmCxg08kR%252FVgLJQpScSaheajSiH5ztSELzabtljCBtmaw%22%2C%22bait%22%3A%22902djdoo2XS2vxXuYA2DCFan%252FcmOTgtO8pN71FLO%22%2C%22point%22%3A%22bfa4ZjU5CC1T9vI2XalHgXNNOUA6P8bEjJPDTIV%252F%22%2C%22qq%22%3A%22c5fbYCC0E1EqjK6Jyw2Bjk1HZ1dSXHAXCzzVQwE%22%2C%22email%22%3A%22b975xvxt1HkbLfmI%252B4hKtt4DdEnB2w3lM2Dq%252F%252BM%22%2C%22pay_code%22%3A%224009xOHpeK8Fsx95CPx52B6lh8rod0%252BO8cGjUIE%22%2C%22paycrypt%22%3A%2282f72ztYhN0Qhf1ma6voRug0BeZKZE%252FH%252B5GI4po%22%2C%22id_num%22%3A%22cbd3v34BjFDoBDXEJ4U78buAQIAETyYGowd3rFI%22%2C%22id_card%22%3A%22be9dmAS1ucDwwjmN2lmNFbR5d1CShTOyoz1%252Bu6I%22%2C%22headimg%22%3A%224497iXb3RxP90MSS4EuXcsoJyvRJEPVnyFTrIGM%22%2C%22id_list%22%3A%22973f2lmQvNSEOe%252FqK71aYtc5Q%252F7%252BKLtagNnvxl8%22%2C%22regtime%22%3A%22c9088wbM2c9f%252Fbnwcdijw6YOgwmVUHgnhCOzR6T%252B644FxLxF0zZz%22%2C%22logintime%22%3A%224b24biA%252BAm6aqBWpSAQ7bUCSuKHarjF1DCAwMpA%22%2C%22loginip%22%3A%229d02G0OizLweUzHoH56vi%252BTeYy6js5WhvP3tE70%22%2C%22status%22%3A%22276c0bxpBaeFeDQgRpaCJJvSAzNRf0em4DhfbPSc%22%2C%22remark%22%3A%22b799hdH6ZpxC1S4Qg5NmDdlmnhckzKkPP8xFA5U%22%7D',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/index/cart/add/id/5/spec/1/num/2' => '',
+  'id' => '5',
+  'spec' => '1',
+  'num' => '2',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Cart->add[ /home/aptx/File/PHP/6rmh/app/index/controller/Cart.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [10501]SQLSTATE[HY000]: General error: 1364 Field 'parent_id' doesn't have a default value[/home/aptx/File/PHP/6rmh/thinkphp/library/think/db/Connection.php:438]
+
+---------------------------------------------------------------
+[ 2017-10-11T15:58:03+08:00 ] 127.0.0.2 127.0.0.1 GET /index/cart/add/id/5/spec/1/num/2
+[ log ] www.sixer.com/index/cart/add/id/5/spec/1/num/2 [运行时间：0.020370s][吞吐率：49.09req/s] [内存消耗：1,971.34kb] [文件加载：38]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cart',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.sixer.com/index/goods/detail/id/5',
+  'cookie' => 'PHPSESSID=h3mlnoqcn77ofavc7a4q7gpr01sfukrms500a4ss4q0pdko57m00; keep_user=think%3A%7B%22id%22%3A%2256d9l2mxzGoqOExayDgWmCA3AcqlWqA9%252BvLifcGh%22%2C%22pid%22%3A%225fa97icG3rRsEdOHZDeJk%252BaX1FY9W1NuLLztq%252Bj4%22%2C%22name%22%3A%22e1b7S30mxDvbNNX%252B8whwOTeTALuTh8aEvUiNiidNjHg5Q5r%252Bm30z3Q%22%2C%22realname%22%3A%223bbaA22mxBXqfWW%252BrwL7WW6b3UY8qmNnz%252BCKut4%22%2C%22sex%22%3A%22072e02OtUnF%252B%252BGtItVtc7Gq8%252BG%252FS6ql1oXgtRnZ5%22%2C%22mobile%22%3A%226510Mmh5csmCxg08kR%252FVgLJQpScSaheajSiH5ztSELzabtljCBtmaw%22%2C%22bait%22%3A%22902djdoo2XS2vxXuYA2DCFan%252FcmOTgtO8pN71FLO%22%2C%22point%22%3A%22bfa4ZjU5CC1T9vI2XalHgXNNOUA6P8bEjJPDTIV%252F%22%2C%22qq%22%3A%22c5fbYCC0E1EqjK6Jyw2Bjk1HZ1dSXHAXCzzVQwE%22%2C%22email%22%3A%22b975xvxt1HkbLfmI%252B4hKtt4DdEnB2w3lM2Dq%252F%252BM%22%2C%22pay_code%22%3A%224009xOHpeK8Fsx95CPx52B6lh8rod0%252BO8cGjUIE%22%2C%22paycrypt%22%3A%2282f72ztYhN0Qhf1ma6voRug0BeZKZE%252FH%252B5GI4po%22%2C%22id_num%22%3A%22cbd3v34BjFDoBDXEJ4U78buAQIAETyYGowd3rFI%22%2C%22id_card%22%3A%22be9dmAS1ucDwwjmN2lmNFbR5d1CShTOyoz1%252Bu6I%22%2C%22headimg%22%3A%224497iXb3RxP90MSS4EuXcsoJyvRJEPVnyFTrIGM%22%2C%22id_list%22%3A%22973f2lmQvNSEOe%252FqK71aYtc5Q%252F7%252BKLtagNnvxl8%22%2C%22regtime%22%3A%22c9088wbM2c9f%252Fbnwcdijw6YOgwmVUHgnhCOzR6T%252B644FxLxF0zZz%22%2C%22logintime%22%3A%224b24biA%252BAm6aqBWpSAQ7bUCSuKHarjF1DCAwMpA%22%2C%22loginip%22%3A%229d02G0OizLweUzHoH56vi%252BTeYy6js5WhvP3tE70%22%2C%22status%22%3A%22276c0bxpBaeFeDQgRpaCJJvSAzNRf0em4DhfbPSc%22%2C%22remark%22%3A%22b799hdH6ZpxC1S4Qg5NmDdlmnhckzKkPP8xFA5U%22%7D',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/index/cart/add/id/5/spec/1/num/2' => '',
+  'id' => '5',
+  'spec' => '1',
+  'num' => '2',
+)
+[ info ] [ LOG ] INIT File
+[ error ] [4]语法错误: unexpected '=>' (T_DOUBLE_ARROW)[/home/aptx/File/PHP/6rmh/app/index/controller/Cart.php:119]
+
+---------------------------------------------------------------
+[ 2017-10-11T15:58:10+08:00 ] 127.0.0.2 127.0.0.1 GET /index/cart/add/id/5/spec/1/num/2
+[ log ] www.sixer.com/index/cart/add/id/5/spec/1/num/2 [运行时间：0.024012s][吞吐率：41.65req/s] [内存消耗：1,971.55kb] [文件加载：38]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cart',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Version/10.0 Mobile/14D27 Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.sixer.com/index/goods/detail/id/5',
+  'cookie' => 'PHPSESSID=h3mlnoqcn77ofavc7a4q7gpr01sfukrms500a4ss4q0pdko57m00; keep_user=think%3A%7B%22id%22%3A%2256d9l2mxzGoqOExayDgWmCA3AcqlWqA9%252BvLifcGh%22%2C%22pid%22%3A%225fa97icG3rRsEdOHZDeJk%252BaX1FY9W1NuLLztq%252Bj4%22%2C%22name%22%3A%22e1b7S30mxDvbNNX%252B8whwOTeTALuTh8aEvUiNiidNjHg5Q5r%252Bm30z3Q%22%2C%22realname%22%3A%223bbaA22mxBXqfWW%252BrwL7WW6b3UY8qmNnz%252BCKut4%22%2C%22sex%22%3A%22072e02OtUnF%252B%252BGtItVtc7Gq8%252BG%252FS6ql1oXgtRnZ5%22%2C%22mobile%22%3A%226510Mmh5csmCxg08kR%252FVgLJQpScSaheajSiH5ztSELzabtljCBtmaw%22%2C%22bait%22%3A%22902djdoo2XS2vxXuYA2DCFan%252FcmOTgtO8pN71FLO%22%2C%22point%22%3A%22bfa4ZjU5CC1T9vI2XalHgXNNOUA6P8bEjJPDTIV%252F%22%2C%22qq%22%3A%22c5fbYCC0E1EqjK6Jyw2Bjk1HZ1dSXHAXCzzVQwE%22%2C%22email%22%3A%22b975xvxt1HkbLfmI%252B4hKtt4DdEnB2w3lM2Dq%252F%252BM%22%2C%22pay_code%22%3A%224009xOHpeK8Fsx95CPx52B6lh8rod0%252BO8cGjUIE%22%2C%22paycrypt%22%3A%2282f72ztYhN0Qhf1ma6voRug0BeZKZE%252FH%252B5GI4po%22%2C%22id_num%22%3A%22cbd3v34BjFDoBDXEJ4U78buAQIAETyYGowd3rFI%22%2C%22id_card%22%3A%22be9dmAS1ucDwwjmN2lmNFbR5d1CShTOyoz1%252Bu6I%22%2C%22headimg%22%3A%224497iXb3RxP90MSS4EuXcsoJyvRJEPVnyFTrIGM%22%2C%22id_list%22%3A%22973f2lmQvNSEOe%252FqK71aYtc5Q%252F7%252BKLtagNnvxl8%22%2C%22regtime%22%3A%22c9088wbM2c9f%252Fbnwcdijw6YOgwmVUHgnhCOzR6T%252B644FxLxF0zZz%22%2C%22logintime%22%3A%224b24biA%252BAm6aqBWpSAQ7bUCSuKHarjF1DCAwMpA%22%2C%22loginip%22%3A%229d02G0OizLweUzHoH56vi%252BTeYy6js5WhvP3tE70%22%2C%22status%22%3A%22276c0bxpBaeFeDQgRpaCJJvSAzNRf0em4DhfbPSc%22%2C%22remark%22%3A%22b799hdH6ZpxC1S4Qg5NmDdlmnhckzKkPP8xFA5U%22%7D',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/index/cart/add/id/5/spec/1/num/2' => '',
+  'id' => '5',
+  'spec' => '1',
+  'num' => '2',
+)
+[ info ] [ LOG ] INIT File
+[ error ] [4]语法错误: unexpected '=>' (T_DOUBLE_ARROW)[/home/aptx/File/PHP/6rmh/app/index/controller/Cart.php:119]
+
+---------------------------------------------------------------
+[ 2017-10-11T17:38:12+08:00 ] 127.0.0.2 127.0.0.1 GET /index/goods/detail/id/5
+[ log ] www.sixer.com/index/goods/detail/id/5 [运行时间：0.068100s][吞吐率：14.68req/s] [内存消耗：3,405.43kb] [文件加载：53]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'goods',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Version/10.0 Mobile/14D27 Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=h3mlnoqcn77ofavc7a4q7gpr01sfukrms500a4ss4q0pdko57m00; keep_user=think%3A%7B%22id%22%3A%2256d9l2mxzGoqOExayDgWmCA3AcqlWqA9%252BvLifcGh%22%2C%22pid%22%3A%225fa97icG3rRsEdOHZDeJk%252BaX1FY9W1NuLLztq%252Bj4%22%2C%22name%22%3A%22e1b7S30mxDvbNNX%252B8whwOTeTALuTh8aEvUiNiidNjHg5Q5r%252Bm30z3Q%22%2C%22realname%22%3A%223bbaA22mxBXqfWW%252BrwL7WW6b3UY8qmNnz%252BCKut4%22%2C%22sex%22%3A%22072e02OtUnF%252B%252BGtItVtc7Gq8%252BG%252FS6ql1oXgtRnZ5%22%2C%22mobile%22%3A%226510Mmh5csmCxg08kR%252FVgLJQpScSaheajSiH5ztSELzabtljCBtmaw%22%2C%22bait%22%3A%22902djdoo2XS2vxXuYA2DCFan%252FcmOTgtO8pN71FLO%22%2C%22point%22%3A%22bfa4ZjU5CC1T9vI2XalHgXNNOUA6P8bEjJPDTIV%252F%22%2C%22qq%22%3A%22c5fbYCC0E1EqjK6Jyw2Bjk1HZ1dSXHAXCzzVQwE%22%2C%22email%22%3A%22b975xvxt1HkbLfmI%252B4hKtt4DdEnB2w3lM2Dq%252F%252BM%22%2C%22pay_code%22%3A%224009xOHpeK8Fsx95CPx52B6lh8rod0%252BO8cGjUIE%22%2C%22paycrypt%22%3A%2282f72ztYhN0Qhf1ma6voRug0BeZKZE%252FH%252B5GI4po%22%2C%22id_num%22%3A%22cbd3v34BjFDoBDXEJ4U78buAQIAETyYGowd3rFI%22%2C%22id_card%22%3A%22be9dmAS1ucDwwjmN2lmNFbR5d1CShTOyoz1%252Bu6I%22%2C%22headimg%22%3A%224497iXb3RxP90MSS4EuXcsoJyvRJEPVnyFTrIGM%22%2C%22id_list%22%3A%22973f2lmQvNSEOe%252FqK71aYtc5Q%252F7%252BKLtagNnvxl8%22%2C%22regtime%22%3A%22c9088wbM2c9f%252Fbnwcdijw6YOgwmVUHgnhCOzR6T%252B644FxLxF0zZz%22%2C%22logintime%22%3A%224b24biA%252BAm6aqBWpSAQ7bUCSuKHarjF1DCAwMpA%22%2C%22loginip%22%3A%229d02G0OizLweUzHoH56vi%252BTeYy6js5WhvP3tE70%22%2C%22status%22%3A%22276c0bxpBaeFeDQgRpaCJJvSAzNRf0em4DhfbPSc%22%2C%22remark%22%3A%22b799hdH6ZpxC1S4Qg5NmDdlmnhckzKkPP8xFA5U%22%7D',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/index/goods/detail/id/5' => '',
+  'id' => '5',
+)
+[ info ] [ RUN ] app\index\controller\Goods->detail[ /home/aptx/File/PHP/6rmh/app/index/controller/Goods.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/goods/detail.html [ array (
+  0 => 'config',
+  1 => 'goods',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
