@@ -26,15 +26,21 @@
                 <!--banner区-->
                 <div class="swiper-container">
                     <div class="swiper-wrapper">
+                        <{volist name="goods.pic" id="vo"}>
                         <div class="swiper-slide">
-                            <img src="__STATIC__/images/01_mid.jpg" alt="美女" rel="__STATIC__/images/01_mid.jpg"/>
+                            <img src="<{$vo.pic}>" alt="商品图片" rel="<{$vo.pic}>"/>
                         </div>
-                        <div class="swiper-slide">
+                        <{/volist}>
+
+                        
+                        <!--<div class="swiper-slide">
                             <img src="__STATIC__/images/02_mid.jpg" alt="美女" rel="__STATIC__/images/02_mid.jpg">
                         </div>
                         <div class="swiper-slide">
                             <img src="__STATIC__/images/03_mid.jpg" alt="美女" rel="__STATIC__/images/03_mid.jpg"/>
-                        </div>
+                        </div>-->
+
+
                     </div>
                     <div class="swiper-pagination"></div>
                 </div>
@@ -74,7 +80,7 @@
                 <div class="size">
                     <div class="close"></div><!--黑色部分-->
                     <div class="size-content">
-                    <img src="__STATIC__/images/02_mid.jpg" alt="美女" rel="__STATIC__/images/02_mid.jpg">
+                    <img src="<{$goods.img}>" alt="商品图片" rel="<{$goods.img}>">
                     <span class="item-title">重量：</span>
                     <{$goods.weight}>kg
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;

@@ -40,20 +40,13 @@
             <div class=" f_l wp_10 t_c panel-title">订单状态</div>
             <div class=" f_l wp_10 t_c panel-title">操作</div>
         </div>
-        <div class=" wp_50">商品</div>
-        <div class=" wp_10">单价</div>
-        <div class=" wp_10">数量</div>
-        <div class=" wp_10">小计</div>
-        <div class=" wp_5">操作</div>
     </div>
     <{volist name="order" id="vo"}>
         <div class="panel panel-default ">
         <div class="panel-heading">
             <{$vo.order.addtime}>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             订单号：<{$vo.order.order_id}>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            六耳泥猴
-
-            
+            六耳猕猴
         </div>
         <div class="panel-body more-info-detail order-panel-body">
             <div class="order-item-div wp_60 f_l">
@@ -80,33 +73,51 @@
                     </div>
                 <{/volist}>
             </div>
-            <div class="order-item-div wp_10 hp_100 t_c f_l">
+
+            <div class="order-item-div order-item-sub wp_10  t_c f_l">
                 <span class="order-user" data-container="body" title="联系方式：<{$vo.order.user_mobile}>" data-toggle="popover" data-placement="left" 
                 data-content="收货地址：<{$vo.order.user_address}>  ">
                     <i class="fa fa-user-o"></i>&nbsp;<{$vo.order.user_name}>
                 </span>
                 
             </div>
-            <div class="order-item-div wp_10 hp_100 t_c f_l">
+            <div class="order-item-div order-item-sub wp_10  t_c f_l">
                  <i class="fa fa-rmb"></i>&nbsp;<{$vo.order.money}>
             </div>
-            <div class="order-item-div wp_10 hp_100 t_c f_l">
+            <!--订单状态-->
+            <div class="order-item-div order-item-sub wp_10  t_c f_l">
                 <{switch name="vo.order.status"}>
-                    <{case value=1}>待支付<{/case}>
-                    <{case value=2}>待发货<{/case}>
-                    <{case value=3}>待收货<{/case}>
-                    <{case value>=4}>已完成<{/case}>
-                    <{default}>其他
+                    <{case value="1"}>待支付<{/case}>
+                    <{case value="2"}>待发货<{/case}>
+                    <{case value="3"}>待收货<{/case}>
+                    <{case value="4"}>已完成<{/case}>
+                    <{default/}>其他
                 <{/switch}>
             </div>
-            <div class="order-item-div wp_10 hp_100 t_c f_l">
-                <{switch name="vo.order.status"}>
-                    <{case value=1}><{$vo.order.payment_name}><{/case}>
-                    <{case value=2}>提醒发货<{/case}>
-                    <{case value=3}>确认收货<{/case}>
-                    <{case value>=4}>评价<{/case}>
-                    <{default}>其他
-                <{/switch}>
+            <!--操作-->
+            
+            <div class="order-item-div order-item-sub wp_10  t_c f_l" >
+                
+                    <{switch name="vo.order.status"}>
+                        <{case value="1"}>
+                        <a href="/index/wxpay/index?type=order&id=<{$vo.order.order_id}> ">
+                            <div class="wp_100 hp_100  order-operation-btn">
+                            <{$vo.order.payment_name}>
+                            </div>
+                        </a>
+                            
+                        <{/case}>
+                        <{case value="2"}>
+                            提醒发货
+                        <{/case}>
+                        <{case value="3"}>
+                            确认收货
+                        <{/case}>
+                        <{case value="4"}>
+                            评价
+                        <{/case}>
+                        <{default/}>其他
+                    <{/switch}>
             </div>
         </div>
     </div>
@@ -115,16 +126,5 @@
 
 </div>
 
-<script>
-    app.controller('cartCtrl', function($scope) {
 
-        $scope.allChose = function(){
-            $scope.m = true;  
-        }
-
-    });
-
-
-
-</script>
 <{/block}>

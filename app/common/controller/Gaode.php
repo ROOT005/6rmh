@@ -29,7 +29,6 @@ class Gaode extends controller
 		if($ip == '127.0.0.1'){
 			$ip = CURRENT_IP;
 		}
-		$ip = CURRENT_IP;//测试完删掉
 		$url = IP_LOCATION.$ip.'&output=JSON&key='.API_KEY;
 		$output = httpsGet($url);
 		$output = json_decode($output, true);

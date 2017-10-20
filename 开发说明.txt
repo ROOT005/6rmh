@@ -1,56 +1,56 @@
-脧卯脛驴录貌陆茅拢潞
-	脡脤鲁脟脛拢脢陆拢卢路脰脝脷脧煤脢脹拢卢脙驴脝脷脰禄脥脝N录镁虏煤脝路
-	脫脙禄搂脳垄虏谩 +------------------隆陋隆陋
-			 |- 脥酶脪鲁脳垄虏谩潞贸掳贸露篓脦垄脨脜
-			 |- 脰卤陆脫脡篓脙猫鹿芦脰脷潞脜脳垄虏谩
+项目简介：
+	商城模式，分期销售，每期只推N件产品
+	用户注册 +------------------——
+			 |- 网页注册后绑定微信
+			 |- 直接扫描公众号注册
 			 +--------------------
-	脫脙禄搂鹿潞脗貌虏煤脝路潞贸拢卢禄帽碌脙虏脦录脫脫脦脧路碌脛脳脢赂帽拢卢脰卤陆脫脥篓鹿媒鹿芦脰脷潞脜路垄脣脥脧脰陆冒潞矛掳眉
+	用户购买产品后，获得参加游戏的资格，直接通过公众号发送现金红包
 	
-	脧卯脛驴掳眉脌篓 PC露脣 index拢卢脪脝露炉露脣mobile
-	潞贸脤篓鹿脺脌铆 admin
+	项目包括 PC端 index，移动端mobile
+	后台管理 admin
 	
-	脧卯脛驴陆谩鹿鹿拢潞
-		脠毛驴脷脦脛录镁拢潞/public 
-		脜盲脰脙脦脛录镁拢潞/conf
+	项目结构：
+		入口文件：/public 
+		配置文件：/conf
 		
-		脪脭潞贸脤篓admin脦陋脌媒拢潞
-			脦脛录镁录脤鲁脨 /app/common/Manage.php
+		以后台admin为例：
+			文件继承 /app/common/Manage.php
 	
-		common脛拢驴茅脢脟鹿芦鹿虏脛拢驴茅拢卢脤谩鹿漏录脤鲁脨潞脥碌梅脫脙碌脛路陆路篓
+		common模块是公共模块，提供继承和调用的方法
 		
-		/app/common.php 脢脟脧卯脛驴鹿芦鹿虏路陆路篓脦脛录镁拢卢驴脡脪脭脭脷脠脦潞脦驴脴脰脝脝梅脰卤陆脫碌梅脫脙脌茂卤脽碌脛路陆路篓隆拢
+		/app/common.php 是项目公共方法文件，可以在任何控制器直接调用里边的方法。
 		
-		潞贸脤篓脫碌脫脨脥锚脡脝碌脛鹿脺脌铆脭卤脠篓脧脼路脰脜盲鹿娄脛脺拢篓脛驴脟掳脰禄脳枚脥锚脕脣鹿脺脌铆脭卤脠篓脧脼拢卢虏驴脙脜脠篓脧脼禄鹿脙禄脨麓脥锚拢漏
-		1.潞贸脤篓驴脴脰脝脝梅拢潞
-			Branch 潞贸脤篓鹿脺脌铆脭卤碌脛虏驴脙脜鹿脺脌铆
-			Category 脟掳脤篓脡脤脝路碌脛路脰脌脿鹿脺脌铆
-			Goods 脟掳脤篓脡脤脝路鹿脺脌铆
+		后台拥有完善的管理员权限分配功能（目前只做完了管理员权限，部门权限还没写完）
+		1.后台控制器：
+			Branch 后台管理员的部门管理
+			Category 前台商品的分类管理
+			Goods 前台商品管理
 			Index 
-			Level 潞贸脤篓鹿脺脌铆脭卤录露卤冒鹿脺脌铆
-			Login 潞贸脤篓碌脟脗录
-			Member 潞贸脤篓脫脙禄搂
-			Menu 潞贸脤篓虏脣碌楼
-			Node 潞贸脤篓脫脙禄搂碌脛脠篓脧脼陆脷碌茫拢潞脜盲脰脙潞脙脠篓脧脼潞贸拢卢脫脙禄搂碌脟脗录脢卤禄谩虏茅脩炉陆脷碌茫拢卢虏脣碌楼脰脨脰禄脧脭脢戮脫碌脫脨脠篓脧脼碌脛陆脷碌茫
-			System 脮没脮戮脜盲脰脙
-			User 脟掳脤篓脫脙禄搂鹿脺脌铆
+			Level 后台管理员级别管理
+			Login 后台登录
+			Member 后台用户
+			Menu 后台菜单
+			Node 后台用户的权限节点：配置好权限后，用户登录时会查询节点，菜单中只显示拥有权限的节点
+			System 整站配置
+			User 前台用户管理
 			
-			拢篓禄鹿脫脨N露脿脙禄脨麓碌脛鹿娄脛脺拢卢脫脨脪禄脨漏驴脴脰脝脝梅脙禄脡露脫脙拢卢脧脠虏禄脫脙脕脣陆芒拢漏
+			（还有N多没写的功能，有一些控制器没啥用，先不用了解）
 			
-		2.潞贸脤篓view脦脛录镁
-			脙驴赂枚驴脴脰脝脝梅露脭脫娄脪禄赂枚驴脴脰脝脝梅脙没鲁脝碌脛脦脛录镁录脨拢卢脦脛录镁录脨脛脷碌脛*.html脙没鲁脝拢卢脢脟驴脴脰脝脝梅碌脛路陆路篓脙没
-			驴脴脰脝脝梅脛脷路陆路篓 return $this->fetch('脦脛录镁脙没'); 禄谩碌梅脫脙 脦脛录镁脙没.html
+		2.后台view文件
+			每个控制器对应一个控制器名称的文件夹，文件夹内的*.html名称，是控制器的方法名
+			控制器内方法 return $this->fetch('文件名'); 会调用 文件名.html
 			
-			view陆谩鹿鹿拢潞
-			/index/index.html 脠毛驴脷脦脛录镁
-					iframe.html iframe脠毛驴脷脦脛录镁
-					navbar.html 碌录潞陆脌赂脦脛录镁
-			/iframe/header.html iframe脛脷脠脻脥路
-					submit.html 脤谩陆禄
+			view结构：
+			/index/index.html 入口文件
+					iframe.html iframe入口文件
+					navbar.html 导航栏文件
+			/iframe/header.html iframe内容头
+					submit.html 提交
 					
-			驴脴脰脝脝梅脙没碌脛脦脛录镁录脨拢篓member脦陋脌媒拢漏
-			index.html 脧脭脢戮潞贸脤篓脫脙禄搂脕脨卤铆
-			member.html 脭枚录脫/脨脼赂脛潞贸脤篓脫脙禄搂
-			passcode.html 脨脼赂脛脙脺脗毛 拢篓鲁媒脕脣index.html 驴脴脰脝脝梅脙没.html拢卢脝盲脫脿碌脛露录露脭脫娄脧脿鹿脴碌脛路陆路篓拢漏
+			控制器名的文件夹（member为例）
+			index.html 显示后台用户列表
+			member.html 增加/修改后台用户
+			passcode.html 修改密码 （除了index.html 控制器名.html，其余的都对应相关的方法）
 			
 		
 		

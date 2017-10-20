@@ -1,0 +1,47 @@
+[ 2017-10-20T15:10:55+08:00 ] 127.0.0.2 127.0.0.1 GET /index/user/
+[ log ] www.sixer.com/index/user/ [运行时间：0.589782s][吞吐率：1.70req/s] [内存消耗：3,666.98kb] [文件加载：56]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Version/10.0 Mobile/14D27 Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=qbpmp7vgr8nqdk5u8586u75lke8379kb6fu1e51876na22fd4060; keep_user=think%3A%7B%22id%22%3A%2280aelHVABXY5Of%252Fo5SDp%252BqLnoMfU%252Bpfo%252Blru7axj%22%2C%22pid%22%3A%229762V%252F7uAQPthcxIppiGGxVEco0CFhJAx%252BajjXsG%22%2C%22name%22%3A%22a2b5ZgF8G5S4b7%252F5y0sUojiYAMR61FcPPOpLTcoyA28%22%2C%22realname%22%3A%222c548yZv%252FGe%252Fnb%252FvrBRXO%252FYMsYjElVXn1xdWQw188vgEcYKIzbE%22%2C%22sex%22%3A%22fa988T3KsU%252FcLJ1CR9z8wBVnkg%252B4jT5RCiJbmBEt%22%2C%22mobile%22%3A%2209b74K%252BBG%252B4c0Go15RHswPl16V2MNuMihBDPW18%252F480pNuNFgMO2hQ%22%2C%22qq%22%3A%220fdcVlgkevTW1eZ%252F0KiFIh4QFBsxmrCqYIRlZdmaAuiVnqcCbfo%22%2C%22email%22%3A%22d1a7a3Oe6se%252FfvDdt8bNj14LHcDHXp7kwdTkvC%252FvwC4yJhN8cIwN5mpmzvGtCiE%22%2C%22id_num%22%3A%2200d2%252BJmXZLE%252BI8g7s3%252Bl%252BVSSUlTig3yTyhDmuAo%22%2C%22id_card_path%22%3A%224228TkySZ5WzfWHS46fVkciQM8nqsPpQLiC2qio%22%2C%22headimgurl%22%3A%22a043VxQMtWF%252F0%252BHZ2URZGu5gtrSU4I5nE2mbtMqXOk3TA2lBpId7ahcYjKmvObA8yd9kLdndUk2x86KcSbUdzxCnMdv3cZXD3JhHjBMkLLEPpysUOQhEMFsssmlZW3DkEdpjsxr3fPe61DHj%252B%252BkdxtLeWxoQukGPA62YxJIHtRxEwtKH9hdHHX7CAYbTWiWou4ewqg%22%2C%22id_list%22%3A%22146crBV%252FU%252Br7ar7uAvHWuG7yt5jK4eSf%252BvmyucP8%22%2C%22regtime%22%3A%2281dbOcmCNwy%252BYe%252FsD6jjjHuqHGhFCwOx5oUu10YH%22%2C%22logintime%22%3A%2222bc9xQd28gBqQpGEy0Rh%252B2cnwxm3zksDir0TsP4%22%2C%22loginip%22%3A%226760hcmBnzMAmUh9jr7SbpXrysdqa9un2KV3tQY%22%2C%22status%22%3A%223be8KOJIU%252BT491OmctPIla9arqHfBC%252BiobFEbeQu%22%2C%22remark%22%3A%22a387ypU3HZk2lu00Zl1gutzdFZXjwq39c%252FaZcqU%22%2C%22subscribe%22%3A%22a3e8JgAwUBjQtBUUJeNrM8oLQe4iV1eYnSiLF5Nd%22%2C%22openid%22%3A%22fd6b3hMdQ2U%252FgGAa4PSAqHJE1lESfsEeZJIN7m2fDg1%252BESNCg9QWO6%252FA3mBa9JZP8mr%252FQGMfv2%252Ba%22%2C%22nickname%22%3A%22799bThgSpPxe7NmxQVDlG5DLymS9J8U0l25RWr4V%252Bfls9uI%22%2C%22language%22%3A%226a1e0NibB0Tq5k4Mdw5HAz2GPECDsuFLf6VnhFgmUVBIXA%22%2C%22city%22%3A%223063QS3bgQgW1rA3yRQc5ljoga0suCpKHZaTamX9pUI9ZOA%22%2C%22province%22%3A%227a47SFexipRcm2ZnPykvBOgGJU%252BI3BBRSu%252BPYeKghgjkETQ%22%2C%22country%22%3A%2261d5iy90sU7%252B%252FfIo9ymLVwWea4Ou56yE2cly4REepP2CpDY%22%2C%22subscribe_time%22%3A%22db33h0b9C3fWZmHP8dp81gNPqjkJYVxnPInzdhBsLVN2kL21CAX6%22%2C%22unionid%22%3A%22ca372Y32%252BowpdBf9la4TfgVAtzKEOwNUx9rFgOU%22%2C%22groupid%22%3A%2246a10nSEmTO55ShVwKjwmReEhtzztDXO1Ffb8HFf%22%2C%22tagid_list%22%3A%221fd5eoQC6oWbf204kUmTXWQ%252BqBgH50tSXobxjq4%22%2C%22qr_code%22%3A%22da9ardxcC1xISqtNz1onH8tArzvVo9LGXgo%252FDftOJYRKWy1Ub0PP%252BKQJvdDk5PsgbDJNnxdXYCjJ135F7NrEsy1oLsT9Xrw4uWYgGz8WXpCCCp8cpV2tYMHg2FFdbAxdXE0tgKuVEtLeey3n299UtTR%252BemUYcrdQhIic3D%252BtC4W0eJqx4b0chJbw%252FI58%252B9gQmkLOajliv6W5PKI9S4KlLpU0Z3tv2TIzfS%252FcJd%252BwG1k%22%2C%22qr_seconds%22%3A%22fa3dR5SBFCGCcWumBNq0cQxF7YhTni7R05pImYL6vj5ge2p6Zwr1%22%2C%22qr_ticket%22%3A%2231d8YUzCQgVBldum3hqY4ME7ryanSioZTHG7rV%252BC%252B4oXSGjkZfDRTguaEVxYRce%252FGjpujrQlLKP8hkhdEbhKitY0PlNi5PyLqz7FAq5f0TOk%252FZo%252B5jnWXyBTSEJmYLIDWQVJVzinFNkWYFwx4JZ09iAuB2X1pO1UoYibFfA%22%7D',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/index/user/' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->index[ /home/aptx/File/PHP/6rmh/app/index/controller/User.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/user/index.html [ array (
+  0 => 'cookie',
+  1 => 'config',
+  2 => 'header',
+  3 => 'users',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------

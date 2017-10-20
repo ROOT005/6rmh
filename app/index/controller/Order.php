@@ -61,7 +61,6 @@ class Order extends Common
                 return $this->error('请选择商品'); exit;
             }
         }
-
         $user = decodeCookie('user');
         $mallObj = new Mall();
         // 查出订单预览信息，包括
@@ -101,7 +100,6 @@ class Order extends Common
             }
 
             # 收货地址
-            // return dump($this->getAddress());
             $this->assign('address', $this->getAddress());
             # 支付方式
             $this->assign('pay_way', $this->getPayWay());
@@ -116,8 +114,14 @@ class Order extends Common
         $this->assign('count', $count);
         $config = mallConfig();
         $this->assign('config', ['page_title'=>'订单预览', 'template'=>$config['mall_template']['value'] ]);
+
+
+
         return $this->fetch();
     }
+
+
+
     #创建订单
     public function create(){
 
@@ -276,17 +280,12 @@ class Order extends Common
             ['id'=>1, 'name'=>'微信支付'],
             ['id'=>2, 'name'=>'支付宝支付'],
             ['id'=>3, 'name'=>'银联支付'],
-            ['id'=>4, 'name'=>'货到付款'],
-            ['id'=>5, 'name'=>'不给钱']
+            ['id'=>4, 'name'=>'货到付款']
         ];
 
         return getField($pay, 'id');
     }
-    #创建订单
-    public function add(){
-
-    }
 
 
-    
+
 }

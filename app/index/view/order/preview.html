@@ -1,7 +1,9 @@
 <{extend name="./public/index"/}>
 <{block name="content"}>
 <div  class=" content-panel order-preview-html " ng-controller="previewCtrl">
-    <form action="<{:url('order/create')}>" method="post">    
+    <form action="<{:url('order/create')}>" method="post">
+
+    
     <div class="panel panel-default">
         <div class="panel-heading">
             <h3 class="panel-title pull-left"> 收货人信息</h3>
@@ -104,7 +106,7 @@
                     <div class=" wp_10"> ¥ <{$vo.price}></div>
                     <div class=" wp_10"><{$vo.num}></div>
                     <div class=" wp_10">
-                        <span class="font-color-sub_main">¥<{$vo.price*$vo.num}></span>
+                        <span class="font-color-sub_main">¥ <{$vo.price*$vo.num}></span>
                     </div>
                 </div>
             <{/volist}>

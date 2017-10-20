@@ -93,12 +93,6 @@
                 </a>
             </div>
         </form>
-        <div class="clear"></div>
-        <div class="more-info-navbar wp_100">  
-            <a class="pull-right" href="javascript: void(0);" title="新增地址">
-                <button class="submit-btn-default ">新增地址</button>
-            </a>
-        </div>
     </div>
     <{/if}>
 </div>
@@ -112,20 +106,6 @@
             $('#city,#area').removeClass('kshow').addClass('khidden');
 
             $('select[name=city]').empty(); //清除原有的元素
-
-            $.ajax({
-                type: 'get',
-                url: '/index/address/city',
-                data: {id: $(this).val()},
-                success: function(response){
-                    $('select[name=city]').removeClass('khidden').addClass('kshow');
-                    var html = createHtml(JSON.parse(response));
-                    $('select[name=city]').append(html);
-                },
-                error: function(e){
-                    console.log(e);
-                }
-            });
             
             var ob = $(this).val();
             if(ob !=''){
@@ -166,7 +146,6 @@
             
         });
 
-        });  
     });
 
     
