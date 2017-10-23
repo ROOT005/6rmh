@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:67:"/home/aptx/File/PHP/6rmh/public/../app/index/mobile/cart/index.html";i:1506135061;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:67:"/home/aptx/File/PHP/6rmh/public/../app/index/mobile/cart/index.html";i:1508736166;s:70:"/home/aptx/File/PHP/6rmh/public/../app/index/mobile/public/footer.html";i:1508312858;}*/ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,8 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
     <link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="__STATIC__/css/plugin/mall_mobile_footer.css">
     <link rel="stylesheet" href="__STATIC__/css/mall_mobile_cart.css">
     <title>购物车</title>
+    <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="http://cdn.static.runoob.com/libs/angular.js/1.4.6/angular.min.js"></script>
+    <script src="http://cdn.static.runoob.com/libs/angular.js/1.4.6/angular-animate.min.js"></script>
 </head>
 <body data-ng-app="myApp">
     <div  class="content-panel" data-ng-controller="cartCtrl">
@@ -20,7 +24,7 @@
             <label for="chose_all"></label>
             全选
             <span class="pull-right">
-                <a href="javascript: void(0);" >删除选中商品</a>
+                <a href="/index/cart/delete/id_list/{{cart_list}}" >删除选中商品</a>
                 <a href="<?php echo url('cart/delate'); ?>" >清理下架商品</a>
             </span>
         </div>
@@ -77,9 +81,26 @@
             <a class="btn btn-block" href="/index/order/preview/id_list/{{cart_list}}" title="结算选中商品">去结算</a>
         </div>
     </div>
-    <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script src="http://cdn.static.runoob.com/libs/angular.js/1.4.6/angular.min.js"></script>
-    <script src="http://cdn.static.runoob.com/libs/angular.js/1.4.6/angular-animate.min.js"></script>
+    <!--底部-->
+<div class="footer">
+        <div class="top fa fa-bars" aria-hidden="true"></div>
+        <div class="footer_content">
+            <li><a href="/"><span class="fa fa-home" aria-hidden="true"></span>首页</a></li>
+            <li><a href=""><span class="fa fa-gamepad" aria-hidden="true"></span>游戏</a></li>
+            <li><a href="/index/cart/"><span class="fa fa-shopping-cart" aria-hidden="true"></span>购物车</a></li>
+            <li><a href="/index/user/"><span class="fa fa-user" aria-hidden="true"></span>个人中心</a></li>
+        </div>
+</div>
+<script>
+    $('.top').click(function(event) {
+      $('.footer_content').slideToggle(200);
+    });
+     $('.footer').siblings().click(function(event) {
+         /* Act on the event */
+         $('.footer_content').slideUp(200);
+     });
+</script>
+<!--底部结束-->
     <script>
         var app = angular.module('myApp', []);
         app.controller('cartCtrl', function($scope) {

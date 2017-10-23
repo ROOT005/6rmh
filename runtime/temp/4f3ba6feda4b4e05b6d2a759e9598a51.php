@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:5:{s:68:"/home/aptx/File/PHP/6rmh/public/../app/index/view/index/special.html";i:1506132488;s:69:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./public/index.html";i:1506132572;s:67:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./public/top.html";i:1504744427;s:70:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./public/header.html";i:1504744427;s:70:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./public/footer.html";i:1504744427;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:5:{s:68:"/home/aptx/File/PHP/6rmh/public/../app/index/view/index/special.html";i:1507856018;s:69:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./public/index.html";i:1507856018;s:67:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./public/top.html";i:1507856018;s:70:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./public/header.html";i:1507856018;s:70:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./public/footer.html";i:1507856018;}*/ ?>
 <!DOCTYPE html>
 <html lang="en" >
 <head>
@@ -19,12 +19,13 @@
 		<script src="http://libs.useso.com/js/html5shiv/3.7/html5shiv.min.js"></script>
 	<![endif]-->
     <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script src="__STATIC__/js/plugin/jquery.imagezoom.min.js"></script>
+
+    <!--<script src="__STATIC__/js/plugin/jquery.imagezoom.min.js"></script>-->
     <script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <!--加载angularjs-->
     <script src="http://cdn.static.runoob.com/libs/angular.js/1.4.6/angular.min.js"></script>
-    <script src="http://cdn.static.runoob.com/libs/angular.js/1.4.6/angular-animate.min.js"></script>
-    <script src="https://cdn.bootcss.com/angular.js/1.5.0-beta.0/angular-sanitize.min.js"></script>
+    <!--<script src="http://cdn.static.runoob.com/libs/angular.js/1.4.6/angular-animate.min.js"></script>
+    <script src="https://cdn.bootcss.com/angular.js/1.5.0-beta.0/angular-sanitize.min.js"></script>-->
     
     <!--<script src="__JS__/mall/mall_default_layout.js"></script>-->
    
@@ -172,55 +173,35 @@
         <!--直推产品-->
         <div class="htmleaf-container" >
 		<ul id="hexGrid" >
-	            <li class="hex">
-	                <a class="hexIn" href="javascript: void(0);">
-	                    <img src="__STATIC__/css/hexagon/img/1.jpg" alt="" />
-	                    <h1>商品名称</h1>
-	                    <p>商品详情：价格 促销等</p>
-	                </a>
-	            </li>
-	            <li class="hex">
-	                <a class="hexIn" href="javascript: void(0);">
-	                    <img src="__STATIC__/css/hexagon/img/2.jpg" alt="" />
-	                    <h1>商品名称</h1>
-	                    <p>商品详情：价格 促销等</p>
-	                </a>
-	            </li>
-	            <li class="hex">
-	                <a class="hexIn" href="javascript: void(0);">
-	                    <img src="__STATIC__/css/hexagon/img/3.jpg" alt="" />
-	                    <h1>商品名称</h1>
-	                    <p>商品详情：价格 促销等</p>
-	                </a>
-	            </li>
+				<?php if(is_array($goods) || $goods instanceof \think\Collection || $goods instanceof \think\Paginator): $i = 0;$__LIST__ = is_array($goods) ? array_slice($goods,0,3, true) : $goods->slice(0,3, true); if( count($__LIST__)==0 ) : echo "暂时没有数据" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?>
+					<li class="hex">
+						<!--<a class="hexIn" href="index/goods/detail/id/<?php echo $vo['id']; ?>">-->
+						<a class="hexIn" href="<?php echo url('goods/detail', ['id'=>$vo['id']]); ?>">
+							<img src="<?php echo $vo['img']; ?>" alt="" />
+							<h1><?php echo $vo['name']; ?></h1>
+							<p><?php echo $vo['description']; ?></p>
+						</a>
+					</li>
+				<?php endforeach; endif; else: echo "暂时没有数据" ;endif; ?>
+	            
 	            <li class="hex">
 	                <a class="hexIn" href="/index/fishing/index">
 	                    <img src="__STATIC__/css/hexagon/img/7.jpg" alt="" />
-	                    <h1>进入钓鱼游戏</h1>
-	                    <p>商品详情：价格 促销等</p>
+	                    <!--<h1>进入钓鱼游戏</h1>
+	                    <p>商品详情：价格 促销等</p>-->
 	                </a>
 	            </li>
-	            <li class="hex">
-	                <a class="hexIn" href="javascript: void(0);">
-	                    <img src="__STATIC__/css/hexagon/img/4.jpg" alt="" />
-	                    <h1>商品名称</h1>
-	                    <p>商品详情：价格 促销等</p>
-	                </a>
-	            </li>
-	            <li class="hex">
-	                <a class="hexIn" href="javascript: void(0);">
-	                    <img src="__STATIC__/css/hexagon/img/5.jpg" alt="" />
-	                    <h1>商品名称</h1>
-	                    <p>商品详情：价格 促销等</p>
-	                </a>
-	            </li>
-	            <li class="hex">
-	                <a class="hexIn" href="javascript: void(0);">
-	                    <img src="__STATIC__/css/hexagon/img/6.jpg" alt="" />
-	                    <h1>商品名称</h1>
-	                    <p>商品详情：价格 促销等</p>
-	                </a>
-	            </li>
+
+				<?php if(is_array($goods) || $goods instanceof \think\Collection || $goods instanceof \think\Paginator): $i = 0;$__LIST__ = is_array($goods) ? array_slice($goods,3,3, true) : $goods->slice(3,3, true); if( count($__LIST__)==0 ) : echo "暂时没有数据" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?>
+					<li class="hex">
+						<a class="hexIn" href="<?php echo url('goods/detail', ['id'=>$vo['id']]); ?>">
+							<img src="<?php echo $vo['img']; ?>" alt="" />
+							<h1><?php echo $vo['name']; ?></h1>
+							<p><?php echo $vo['description']; ?></p>
+						</a>
+					</li>
+				<?php endforeach; endif; else: echo "暂时没有数据" ;endif; ?>
+
 
 
 	</div>

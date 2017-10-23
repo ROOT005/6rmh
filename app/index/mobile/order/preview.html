@@ -6,8 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="__STATIC__/css/mall_mobile_preview.css">
+    <link rel="stylesheet" href="__STATIC__/css/plugin/mall_mobile_footer.css">
     <title>订单页</title>
-    <link rel="stylesheet" href="">
+    <script src="http://cdn.static.runoob.com/libs/angular.js/1.4.6/angular.min.js"></script>
+    <script src="http://cdn.static.runoob.com/libs/angular.js/1.4.6/angular-animate.min.js"></script>
+    <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
 </head>
 <body data-ng-app="myApp">
     <div ng-controller="previewCtrl">
@@ -23,8 +26,10 @@
                         <span>联系电话:<{$vo.mobile|substr=0,3}>****<{$vo.mobile|substr=7}></span>
                     </div>
                     <div class="address">
-                        <span class="fa fa-location-arrow"></span>
-                        <span>默认地址:</span>
+                        <{if $vo.type==1}>
+                            <span class="fa fa-location-arrow address-default"></span>
+                            <span class="address-default">默认地址:</span>
+                        <{/if}>
                         <span>
                             <{$vo.province}>&nbsp;
                             <{$vo.city}>&nbsp;
@@ -70,11 +75,11 @@
                     <li>规格：<{$vo.spec}></li>
                     <li>单价: ￥<{$vo.price}></li>
                     <li>数量：<{$vo.num}></li>
-                    <li class="promotion">
-                         <{if $vo.promotion != ''}>
-                         <{$vo.promotion}>
-                         <{/if}>
-                    </li>
+                     <{if $vo.promotion != ''}>
+                        <li class="promotion">
+                     <{$vo.promotion}>
+                        </li>
+                     <{/if}>
                     <li> 赠送鱼饵：<{$vo.bait*$vo.num}>个&nbsp;&nbsp;获得积分：<{$vo.point*$vo.num}></li>
                 </span>
                 <span class="goods_right">小计:¥<{$vo.price*$vo.num}></span>
@@ -85,8 +90,7 @@
             <div>支付</div>
         </div>
     </div>
-    <script src="http://cdn.static.runoob.com/libs/angular.js/1.4.6/angular.min.js"></script>
-    <script src="http://cdn.static.runoob.com/libs/angular.js/1.4.6/angular-animate.min.js"></script>
+    <{include file="public/footer"/}>
     <script>
         var app = angular.module('myApp', []);
         app.controller('previewCtrl', function($scope) {

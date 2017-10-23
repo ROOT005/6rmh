@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:70:"/home/aptx/File/PHP/6rmh/public/../app/index/mobile/order/preview.html";i:1506415340;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:70:"/home/aptx/File/PHP/6rmh/public/../app/index/mobile/order/preview.html";i:1508735380;s:70:"/home/aptx/File/PHP/6rmh/public/../app/index/mobile/public/footer.html";i:1508312858;}*/ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,8 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="__STATIC__/css/mall_mobile_preview.css">
+    <link rel="stylesheet" href="__STATIC__/css/plugin/mall_mobile_footer.css">
     <title>订单页</title>
-    <link rel="stylesheet" href="">
+    <script src="http://cdn.static.runoob.com/libs/angular.js/1.4.6/angular.min.js"></script>
+    <script src="http://cdn.static.runoob.com/libs/angular.js/1.4.6/angular-animate.min.js"></script>
+    <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
 </head>
 <body data-ng-app="myApp">
     <div ng-controller="previewCtrl">
@@ -23,8 +26,10 @@
                         <span>联系电话:<?php echo substr($vo['mobile'],0,3); ?>****<?php echo substr($vo['mobile'],7); ?></span>
                     </div>
                     <div class="address">
-                        <span class="fa fa-location-arrow"></span>
-                        <span>默认地址:</span>
+                        <?php if($vo['type']==1): ?>
+                            <span class="fa fa-location-arrow address-default"></span>
+                            <span class="address-default">默认地址:</span>
+                        <?php endif; ?>
                         <span>
                             <?php echo $vo['province']; ?>&nbsp;
                             <?php echo $vo['city']; ?>&nbsp;
@@ -69,10 +74,11 @@
                     <li>规格：<?php echo $vo['spec']; ?></li>
                     <li>单价: ￥<?php echo $vo['price']; ?></li>
                     <li>数量：<?php echo $vo['num']; ?></li>
-                    <li class="promotion">
-                         <?php if($vo['promotion'] != ''): ?>
-                         <?php echo $vo['promotion']; endif; ?>
-                    </li>
+                     <?php if($vo['promotion'] != ''): ?>
+                        <li class="promotion">
+                     <?php echo $vo['promotion']; ?>
+                        </li>
+                     <?php endif; ?>
                     <li> 赠送鱼饵：<?php echo $vo['bait']*$vo['num']; ?>个&nbsp;&nbsp;获得积分：<?php echo $vo['point']*$vo['num']; ?></li>
                 </span>
                 <span class="goods_right">小计:¥<?php echo $vo['price']*$vo['num']; ?></span>
@@ -83,8 +89,26 @@
             <div>支付</div>
         </div>
     </div>
-    <script src="http://cdn.static.runoob.com/libs/angular.js/1.4.6/angular.min.js"></script>
-    <script src="http://cdn.static.runoob.com/libs/angular.js/1.4.6/angular-animate.min.js"></script>
+    <!--底部-->
+<div class="footer">
+        <div class="top fa fa-bars" aria-hidden="true"></div>
+        <div class="footer_content">
+            <li><a href="/"><span class="fa fa-home" aria-hidden="true"></span>首页</a></li>
+            <li><a href=""><span class="fa fa-gamepad" aria-hidden="true"></span>游戏</a></li>
+            <li><a href="/index/cart/"><span class="fa fa-shopping-cart" aria-hidden="true"></span>购物车</a></li>
+            <li><a href="/index/user/"><span class="fa fa-user" aria-hidden="true"></span>个人中心</a></li>
+        </div>
+</div>
+<script>
+    $('.top').click(function(event) {
+      $('.footer_content').slideToggle(200);
+    });
+     $('.footer').siblings().click(function(event) {
+         /* Act on the event */
+         $('.footer_content').slideUp(200);
+     });
+</script>
+<!--底部结束-->
     <script>
         var app = angular.module('myApp', []);
         app.controller('previewCtrl', function($scope) {

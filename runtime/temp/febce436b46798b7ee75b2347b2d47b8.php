@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:67:"/home/aptx/File/PHP/6rmh/public/../app/index/mobile/user/index.html";i:1508394492;s:70:"/home/aptx/File/PHP/6rmh/public/../app/index/mobile/public/footer.html";i:1508312858;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:67:"/home/aptx/File/PHP/6rmh/public/../app/index/mobile/user/index.html";i:1508484876;s:70:"/home/aptx/File/PHP/6rmh/public/../app/index/mobile/public/footer.html";i:1508312858;}*/ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -140,14 +140,17 @@
 	$('.body li').css('height', $('.body li').width());
 	$('.setting-content').height($(document).height());
 	$('.setting').click(function(event) {
-		$('.setting-content').animate({'right':'0' }, 200);
+		/*$('.setting-content').animate({'right':'0' }, 200);*/
+		/*$('.setting-content').css('width','75%');*/
+		$('.setting-content').css('display','block');
 		event.stopPropagation();
 	});
 	$('.setting-content').siblings().click(function(event) {
-		$('.setting-content').animate({'right':'-75%' }, 500);
+		/*$('.setting-content').animate({'right':'-75%' }, 500);*/
+		/*$('.setting-content').css('width','0');*/
+		$('.setting-content').css('display','none');
 	});
 	$('.submit-button').click(function(event) {
-		/* Act on the event */
 		$('form').submit();
 	});
 </script>

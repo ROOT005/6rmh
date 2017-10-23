@@ -120,14 +120,17 @@
 	$('.body li').css('height', $('.body li').width());
 	$('.setting-content').height($(document).height());
 	$('.setting').click(function(event) {
-		$('.setting-content').animate({'right':'0' }, 200);
+		/*$('.setting-content').animate({'right':'0' }, 200);*/
+		/*$('.setting-content').css('width','75%');*/
+		$('.setting-content').css('display','block');
 		event.stopPropagation();
 	});
 	$('.setting-content').siblings().click(function(event) {
-		$('.setting-content').animate({'right':'-75%' }, 500);
+		/*$('.setting-content').animate({'right':'-75%' }, 500);*/
+		/*$('.setting-content').css('width','0');*/
+		$('.setting-content').css('display','none');
 	});
 	$('.submit-button').click(function(event) {
-		/* Act on the event */
 		$('form').submit();
 	});
 </script>

@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:6:{s:67:"/home/aptx/File/PHP/6rmh/public/../app/index/view/goods/detail.html";i:1505370625;s:69:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./public/index.html";i:1506132572;s:67:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./public/top.html";i:1504744427;s:70:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./public/header.html";i:1504744427;s:70:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./public/navbar.html";i:1504744427;s:70:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./public/footer.html";i:1504744427;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:6:{s:67:"/home/aptx/File/PHP/6rmh/public/../app/index/view/goods/detail.html";i:1507856018;s:69:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./public/index.html";i:1507856018;s:67:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./public/top.html";i:1507856018;s:70:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./public/header.html";i:1507856018;s:70:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./public/navbar.html";i:1507856018;s:70:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./public/footer.html";i:1507856018;}*/ ?>
 <!DOCTYPE html>
 <html lang="en" >
 <head>
@@ -19,12 +19,13 @@
 		<script src="http://libs.useso.com/js/html5shiv/3.7/html5shiv.min.js"></script>
 	<![endif]-->
     <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script src="__STATIC__/js/plugin/jquery.imagezoom.min.js"></script>
+
+    <!--<script src="__STATIC__/js/plugin/jquery.imagezoom.min.js"></script>-->
     <script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <!--加载angularjs-->
     <script src="http://cdn.static.runoob.com/libs/angular.js/1.4.6/angular.min.js"></script>
-    <script src="http://cdn.static.runoob.com/libs/angular.js/1.4.6/angular-animate.min.js"></script>
-    <script src="https://cdn.bootcss.com/angular.js/1.5.0-beta.0/angular-sanitize.min.js"></script>
+    <!--<script src="http://cdn.static.runoob.com/libs/angular.js/1.4.6/angular-animate.min.js"></script>
+    <script src="https://cdn.bootcss.com/angular.js/1.5.0-beta.0/angular-sanitize.min.js"></script>-->
     
     <!--<script src="__JS__/mall/mall_default_layout.js"></script>-->
    
@@ -188,44 +189,29 @@
         </li>
     </ul>
 </div>-->
-    
+    <link rel="stylesheet" href="__CSS__/plugin/magnifier.css" type="text/css"/>
     <div data-ng-controller="goodsCtrl" class="goods-detail-panel wp_100">
         <div class="goods-picture wp_40  pull-left">
-            <style>
-                .tb-thumb li{float: left;}
-
-                .tb-pic a{display:table-cell;text-align:center;vertical-align:middle;}
-                .tb-pic a img{vertical-align:middle;}
-                .tb-pic a{*display:block;*font-family:Arial;*line-height:1;}
-                .tb-thumb{margin:10px 0 0;overflow:hidden;}
-                .tb-thumb li{background:none repeat scroll 0 0 transparent;float:left;height:42px;margin:0 6px 0 0;overflow:hidden;padding:1px;}
-                .tb-s310, .tb-s310 a{height:310px;width:310px;}
-                .tb-s310, .tb-s310 img{max-height:310px;max-width:310px;}
-                .tb-s310 a{*font-size:271px;}
-                .tb-s40 a{*font-size:35px;}
-                .tb-s40, .tb-s40 a{height:40px;width:40px;}
-                .tb-booth{border:1px solid #CDCDCD;position:relative;z-index:1;}
-                .tb-thumb .tb-selected{background:none repeat scroll 0 0 #C30008;height:40px;padding:2px;}
-                .tb-thumb .tb-selected div{background-color:#FFFFFF;border:medium none;}
-                .tb-thumb li div{border:1px solid #CDCDCD;}
-                div.zoomDiv{z-index:999; position:absolute; top:0px; left:0px; width:303.75px; height:303.75px;
-                    background:#ffffff; border:1px solid #CCCCCC; display:none; text-align:center; overflow:hidden;}
-                div.zoomMask{position:absolute; background:url("images/mask.png") repeat scroll 0 0 transparent;cursor:move;z-index:1;}
-            </style>
-            <div class="main-pic wp_100">
-                <a href="__STATIC__/images/01.jpg">
-                    <img src="__STATIC__/images/01_mid.jpg" alt="美女" rel="__STATIC__/images/01_mid.jpg" id="jqzoom" class="jqzoom" />
-                </a>
+            <!-- 大图begin -->
+            <div id="preview" class="main-pic wp_100">
+                 <span class="jqzoom"><img jqimg="<?php echo $goods['pic']['0']['pic']; ?>" src="<?php echo $goods['pic']['0']['pic']; ?>" /></span> 
             </div>
-            
-            <ul class="tb-thumb" id="thumblist">
-                <li class="tb-selected"><div class="tb-pic tb-s40"><a href="javascript: void(0);"><img src="__STATIC__/images/01_small.jpg" mid="__STATIC__/images/01_mid.jpg" big="__STATIC__/images/01.jpg"></a></div></li>
-                <li><div class="tb-pic tb-s40"><a href="javascript: void(0);"><img  src="__STATIC__/images/02_small.jpg" mid="__STATIC__/images/02_mid.jpg" big="__STATIC__/images/02.jpg"></a></div></li>
-                <li><div class="tb-pic tb-s40"><a href="javascript: void(0);"><img src="__STATIC__/images/03_small.jpg" mid="__STATIC__/images/03_mid.jpg" big="__STATIC__/images/03.jpg"></a></div></li>
-                <li><div class="tb-pic tb-s40"><a href="javascript: void(0);"><img src="__STATIC__/images/04_small.jpg" mid="__STATIC__/images/04_mid.jpg" big="__STATIC__/images/04.jpg"></a></div></li>
-                <li><div class="tb-pic tb-s40"><a href="javascript: void(0);"><img src="__STATIC__/images/05_small.jpg" mid="__STATIC__/images/05_mid.jpg" big="__STATIC__/images/05.jpg"></a></div></li>
-            </ul>
+            <!-- 大图end -->
+            <!-- 缩略图begin -->
+            <div class="spec-scroll"> <a class=" prev">&lt;</a> <a class=" next">&gt;</a>
+                <div class="items">
+                    <ul>
+                        <?php if(is_array($goods['pic']) || $goods['pic'] instanceof \think\Collection || $goods['pic'] instanceof \think\Paginator): $i = 0; $__LIST__ = $goods['pic'];if( count($__LIST__)==0 ) : echo "暂时没有数据" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?>
+                            <li><img bimg="<?php echo $vo['pic']; ?>" src="<?php echo $vo['pic']; ?>" onmousemove="preview(this);"></li>
+                        <?php endforeach; endif; else: echo "暂时没有数据" ;endif; ?>
+                    </ul>
+                </div>
+            </div>
+            <!-- 缩略图end -->
+
         </div>
+
+
         <div class="goods-detail wp_60 pull-left">
             <h4><?php echo $goods['name']; ?> </h4>
             <p class="goods-desc" title="<?php echo $goods['description']; ?>"><?php echo $goods['description']; ?></p>
@@ -247,12 +233,20 @@
                     <?php endif; ?>
                     
                 </p>
+                
                 <p>
-                    <span class="item-title">促 销：</span>
-                    <span class="goods-promotion " title="<?php echo $goods['promotion']['description']; ?>">
-                    <?php echo $goods['promotion']['title']; ?>
-                    </span>
+                    <?php if($goods['promotion'] > 0): ?>
+                        <span class="item-title">促 销：</span>
+                        <span class="goods-promotion " title="<?php echo $goods['promotion']['description']; ?>">
+                        <?php echo $goods['promotion']['title']; ?>
+                        </span>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <?php endif; ?>
+                    <span class="item-title">购买可获得：</span>
+                    购买可获得 <?php echo $goods['bait']; ?> 鱼饵 + <?php echo $goods['point']; ?> 积分
+                    
                 </p>
+                
                 <p>
                     <span class="item-title">来 源：</span>
                     <?php if($goods['userid'] == 0): ?>
@@ -275,9 +269,6 @@
             
             <ul>
                 <li><span class="item-title">选择规格：</span></li>
-                <style>
-                    
-                </style>
                 <?php if(is_array($goods['spec']) || $goods['spec'] instanceof \think\Collection || $goods['spec'] instanceof \think\Paginator): $i = 0; $__LIST__ = $goods['spec'];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?>
                     <li class=" default-spec-li" ng-class="{choseSpec: <?php echo $vo['id']; ?>==isChose}" ng-click="specSelect(<?php echo $vo['id']; ?>);"><?php echo $vo['spec']; ?></li>
                 <?php endforeach; endif; else: echo "" ;endif; ?>
@@ -308,11 +299,14 @@
                 </a>-->
                 
             </div>
-            <p class="goods-service">
-                <span class="item-title">尊享服务：</span>
-                <?php if(is_array($goods['service']) || $goods['service'] instanceof \think\Collection || $goods['service'] instanceof \think\Paginator): $i = 0; $__LIST__ = $goods['service'];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?>
-                <?php echo $vo['title']; endforeach; endif; else: echo "" ;endif; ?>
-            </p>
+            <?php if($goods['service']): ?>
+                <p class="goods-service">
+                    <span class="item-title">尊享服务：</span>
+                    <?php if(is_array($goods['service']) || $goods['service'] instanceof \think\Collection || $goods['service'] instanceof \think\Paginator): $i = 0; $__LIST__ = $goods['service'];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?>
+                    <?php echo $vo['title']; endforeach; endif; else: echo "" ;endif; ?>
+                </p>
+            <?php endif; ?>
+            
         </div>
 
 
@@ -354,8 +348,9 @@
         </div>
     </div>
 </div>
-<script>
 
+<script>
+    
     app.controller('goodsCtrl', function($scope) {
         $scope.price = <?php echo $goods['price']; ?>;
         <?php if($goods['promotion']['type']==1): ?>
@@ -376,22 +371,10 @@
         }
     });
 
-    //暂时用jquery，回头看看能不能改成angularjs
-    $(document).ready(function(){
-        $("#jqzoom").imagezoom();
-        var currImg = $('#thumblist li:first a');
-        $(currImg).parents("li").addClass("tb-selected").siblings().removeClass("tb-selected");
-        $(".jqzoom").attr('src',$(currImg).find("img").attr("mid"));
-        $(".jqzoom").attr('rel',$(currImg).find("img").attr("big"));
-
-        $("#thumblist li a").click(function(){
-            $(this).parents("li").addClass("tb-selected").siblings().removeClass("tb-selected");
-            $(".jqzoom").attr('src',$(this).find("img").attr("mid"));
-            $(".jqzoom").attr('rel',$(this).find("img").attr("big"));
-        });
-    });
 
 </script>
+<script src="__JS__/plugin/magnifier/jquery.jqzoom.js"></script>
+<script src="__JS__/plugin/magnifier/magnifier.js"></script>
 
     </div>
         

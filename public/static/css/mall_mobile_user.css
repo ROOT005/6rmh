@@ -1,5 +1,7 @@
 body{
 	margin: 0;
+	overflow:hidden;
+	overflow-y: auto;
 }
 .head{
 	width: 100%;
@@ -50,6 +52,9 @@ input{
 	border: none;
 	border-bottom:2px solid #6ad4c9;
 }
+input:focus{
+	outline: 0;
+}
 .body ul{
 	padding-left: 0px; 
 }
@@ -70,11 +75,13 @@ input{
 .setting-content{
 	position: absolute;
 	top: 0em;
-	right: -75%;
+	right: 0;
 	background-color: #fff;
 	color: #666;
 	box-shadow: -0.1em 0em 0.5em #ccc;
-	width: 70%;	
+	display: none;
+	overflow: hidden;
+	transition: all 0.5s;
 }
 .menu{
 	height: 3em;

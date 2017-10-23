@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:69:"/home/aptx/File/PHP/6rmh/public/../app/index/mobile/goods/detail.html";i:1507708001;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:69:"/home/aptx/File/PHP/6rmh/public/../app/index/mobile/goods/detail.html";i:1508294673;}*/ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -27,15 +27,21 @@
                 <!--banner区-->
                 <div class="swiper-container">
                     <div class="swiper-wrapper">
+                        <?php if(is_array($goods['pic']) || $goods['pic'] instanceof \think\Collection || $goods['pic'] instanceof \think\Paginator): $i = 0; $__LIST__ = $goods['pic'];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?>
                         <div class="swiper-slide">
-                            <img src="__STATIC__/images/01_mid.jpg" alt="美女" rel="__STATIC__/images/01_mid.jpg"/>
+                            <img src="<?php echo $vo['pic']; ?>" alt="商品图片" rel="<?php echo $vo['pic']; ?>"/>
                         </div>
-                        <div class="swiper-slide">
+                        <?php endforeach; endif; else: echo "" ;endif; ?>
+
+                        
+                        <!--<div class="swiper-slide">
                             <img src="__STATIC__/images/02_mid.jpg" alt="美女" rel="__STATIC__/images/02_mid.jpg">
                         </div>
                         <div class="swiper-slide">
                             <img src="__STATIC__/images/03_mid.jpg" alt="美女" rel="__STATIC__/images/03_mid.jpg"/>
-                        </div>
+                        </div>-->
+
+
                     </div>
                     <div class="swiper-pagination"></div>
                 </div>
@@ -75,7 +81,7 @@
                 <div class="size">
                     <div class="close"></div><!--黑色部分-->
                     <div class="size-content">
-                    <img src="__STATIC__/images/02_mid.jpg" alt="美女" rel="__STATIC__/images/02_mid.jpg">
+                    <img src="<?php echo $goods['img']; ?>" alt="商品图片" rel="<?php echo $goods['img']; ?>">
                     <span class="item-title">重量：</span>
                     <?php echo $goods['weight']; ?>kg
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;

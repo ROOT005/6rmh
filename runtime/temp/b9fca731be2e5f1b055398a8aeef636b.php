@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:70:"/home/aptx/File/PHP/6rmh/public/../app/index/mobile/index/special.html";i:1504744427;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:70:"/home/aptx/File/PHP/6rmh/public/../app/index/mobile/index/special.html";i:1508286073;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -24,6 +24,10 @@
     <!--<script src="__JS__/admin/admin_default_layout.js"></script>-->
 </head>
     <body>
-    移动端special模板
+        <a href="/index/order/index">进入我的订单</a>
+        <?php if(is_array($goods) || $goods instanceof \think\Collection || $goods instanceof \think\Paginator): $i = 0;$__LIST__ = is_array($goods) ? array_slice($goods,0,3, true) : $goods->slice(0,3, true); if( count($__LIST__)==0 ) : echo "暂时没有数据" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?>
+            <h1><?php echo $vo['name']; ?></h1>
+                    <p><?php echo $vo['description']; ?></p>
+        <?php endforeach; endif; else: echo "暂时没有数据" ;endif; ?>
     </body>
 </html>

@@ -1,7 +1,6 @@
-body,html{
+body{
 	margin: 0px;
 	background: #efefef;
-	overflow-x: hidden;
 }
 .order_info{
 	height: 11em;
