@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:67:"/home/aptx/File/PHP/6rmh/public/../app/index/mobile/user/index.html";i:1508484876;s:70:"/home/aptx/File/PHP/6rmh/public/../app/index/mobile/public/footer.html";i:1508312858;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:67:"/home/aptx/File/PHP/6rmh/public/../app/index/mobile/user/index.html";i:1508823646;s:70:"/home/aptx/File/PHP/6rmh/public/../app/index/mobile/public/footer.html";i:1508312858;}*/ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -114,6 +114,18 @@
 		</form>
 		<li class="menu"><span class="fa fa-map-marker" aria-hidden="true"></span><a href="/index/address/index" title="">收货地址</a></li>
 		<li class="menu"><span class="fa fa-pencil" aria-hidden="true"></span><a href="/index/user/passcode" title="">修改密码</a></li>
+		<li class="qr">
+			<a href="javascript: void(0);" title="点击更新二维码">
+           	<img class="f_r" style="height: 120px; width: 120px;" src="<?php echo $cookie['qr_code']; ?>"/>
+           </a>
+       </li>
+       <li class="qr">
+       		<?php if($cookie['subscribe']==2): ?>
+       		    请尽快绑定微信
+       		<?php else: ?>
+       		    我的推广二维码
+       		<?php endif; ?>
+       </li>
 	</div>
 	<!--底部-->
 <div class="footer">

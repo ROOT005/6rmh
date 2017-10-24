@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:5:{s:68:"/home/aptx/File/PHP/6rmh/public/../app/index/view/order/preview.html";i:1507856018;s:69:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./public/index.html";i:1507856018;s:67:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./public/top.html";i:1507856018;s:70:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./public/header.html";i:1507856018;s:70:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./public/footer.html";i:1507856018;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:5:{s:68:"/home/aptx/File/PHP/6rmh/public/../app/index/view/order/preview.html";i:1508807854;s:69:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./public/index.html";i:1507856018;s:67:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./public/top.html";i:1507856018;s:70:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./public/header.html";i:1507856018;s:70:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./public/footer.html";i:1507856018;}*/ ?>
 <!DOCTYPE html>
 <html lang="en" >
 <head>
@@ -158,7 +158,6 @@
         
 <div  class=" content-panel order-preview-html " ng-controller="previewCtrl">
     <form action="<?php echo url('order/create'); ?>" method="post">
-
     
     <div class="panel panel-default">
         <div class="panel-heading">

@@ -13172,3 +13172,1152 @@
 [ info ] [ LOG ] INIT File
 
 ---------------------------------------------------------------
+[ 2017-10-23T15:25:44+08:00 ] 127.0.0.2 127.0.0.1 GET /index/order
+[ log ] www.sixer.com/index/order [运行时间：0.366793s][吞吐率：2.73req/s] [内存消耗：3,403.96kb] [文件加载：53]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'order',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Version/10.0 Mobile/14D27 Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.sixer.com/index/user/',
+  'cookie' => 'PHPSESSID=ib87c70n6nfgng1ofq9pm9beq9e07vm391cddvhr9n6dnef2vig1; keep_user=think%3A%7B%22id%22%3A%225c9d059ceuYUAWfLZBvU%252FWR9W2f5N96xzAsZD2Y%252B%22%2C%22pid%22%3A%22ca0bPbHWVo%252FSCC9l4tsFNtvcSYEJ1cXcdWcT4189%22%2C%22name%22%3A%2298901U2EIfCf5emUQQXrlb8ZRpy2Y%252Fzs15mKUcwGXFw%22%2C%22realname%22%3A%2252b8ksFFH0EsiswZ4qkba4LObAL6XQWdKgKoRcHNYfBDKz2oQBk%22%2C%22sex%22%3A%22418dywKDpy%252FngJpMgrLxfXZuESWsX%252FNPZQ9qqQQb%22%2C%22mobile%22%3A%229fbfAZdNUyl41NMcAhk9n1B2h8rRXv2dOXw5bIB2WwtL2ocpRpS4Hw%22%2C%22qq%22%3A%22d130o0CYhjaAku2mbRuw270P0m0LX%252FXyF9EUYYV%252FV54fFDt%252Bp4s%22%2C%22email%22%3A%22fbc1YzkikHmwiJu8W5mB8X3krjH%252FxAevcK0eeB%252B5wc9h5dJL1Kq%252Becy6PbyNcNs%22%2C%22id_num%22%3A%22d96aTeOM%252Fq5pkwocMr3tW6z%252BTarOQ8oscJ4VP10%22%2C%22id_card_path%22%3A%22236aCU2MU2C%252BFgAS4k7%252B4dL1Q7%252FF1RhtwW7sy7Q%22%2C%22headimgurl%22%3A%226196YxG5rpxAgVzwFB8Fnds%252BdPeADIJtvm9A7CdgdpEr5dwM2rFvSAUVSSxdD6KnvfL4%252BBwBQZKLQaYJWXQlYYjd6vofWDQ3ljNAKfNX04AMPtEJXbgvV113bpR0bQp3K%252BS5sb%252BN3lGulmJxvviHZdAUc6BF9a2yAXCQ6Udq7J0tnCD9Y%252FRnMA6VqVqcJXOgYNsjIg%22%2C%22id_list%22%3A%22ba4aDaSEARA%252BjGjBfEnipGp0%252B2gVZtR3DIEtcQFu%22%2C%22regtime%22%3A%221372sHsSbwu3wVD66Y%252BIBSFrCC9CsGUinbKb1vQB%22%2C%22logintime%22%3A%2232269dBJ05xuEd8OjGTBZTpdrQsS%252B6%252BuNDf5F%252BH9%22%2C%22loginip%22%3A%22bbb7Mi5SkwclPc4jM55ocPhZFGHNfbHt8zY7QXA%22%2C%22status%22%3A%228612WTG0FSxJQuNgDsaJzLyTHr0rGBDi2UzJ3xqS%22%2C%22remark%22%3A%22bdabwqzpja1i6Dy%252FN%252Becs7YoksR%252FZiEWp0YuwG8%22%2C%22subscribe%22%3A%2266a1HFXch4yvIF0YwHkVCe2f6tfkHfY92NWkSXxa%22%2C%22openid%22%3A%22dd57PfhEQn0XdUbn0p2dRio7Na1h0AATluS7Ds%252Bqj5%252FjbOACSa8qvY3iGkLpXNCK8cxjDc3kDqIE%22%2C%22nickname%22%3A%22711ceWl9ctrMArIICxrRovOeatsaDuQmm6%252Fu1Gn7ANn1%252B7c%22%2C%22language%22%3A%220cd7Zeaigdeo6SvSb9coduZ5%252FAkAfW4touckExIWu6%252F7gA%22%2C%22city%22%3A%224e68%252FlVQfeqPGmIVMy2mj66YOjs7tf6lsRUOwssKGc3D0oY%22%2C%22province%22%3A%22cec6lvTvDpashH3bvv5S0vsK9390HG6%252FGi4k29fWCZ9OPio%22%2C%22country%22%3A%22431ecl2JnhIuqMuC5JzpdkCKFCfQuZBpuEpy4yBETRO6Tfw%22%2C%22subscribe_time%22%3A%225123XLpGtme0OtedtCvhFM0Heo8UC4AZlQjH3FbUFLb0oI%252F%252FVnNz%22%2C%22unionid%22%3A%225385blTZvPkXgN02Gkpmi0iaXXvJ1Rv%252BP61Cgks%22%2C%22groupid%22%3A%226aac80%252BF7g7t1IlnSuw%252Fmc2ADfNsTG%252FUFduKy0Fx%22%2C%22tagid_list%22%3A%22c50b8MPKooAyY4H8jOB645A8i%252BwRQfNcSK%252Bigjk%22%2C%22qr_code%22%3A%2252d95VqiZTGyjr%252B1gF2jQ8zgh70m%252Fj1vTPRc734vTqBEyXRly9rK7MXCGB94X64KDRDINvp%252FDCokqZphAmgqIwI8VEscYxMikhBxGhUps%252FZUGc%252FBpAzvUy%252FYmYU9%252BDaUEYeo2vt8YA3lC6riymkrqOhlbO6XOOU6PCIuaIEvO7CeP3sKa0k6YG6HoCGpoUBdUaRdbdRL52WgPfdHW9fEPkWjP7D%252BKmHt%252FjL5uX%252BgWgo%22%2C%22qr_seconds%22%3A%225964%252BcNiuKW%252Bsinmbvzeodw%252B90QBGyKUoHgjFSf5S4jomCrPioOr%22%2C%22qr_ticket%22%3A%228c31f5bWIAHUZmamRtbnbXxcJyJYqPcbq04WA82Q0mZ%252BAMevOS2izIrrYJhRcuzfCzSoaxXdAs2MA8q%252B4HUzowq%252FyyjoW%252FMCYEQ88teSxmYGaTvPLQQAzxI0DjG424O4FuqGOuw9HJdaueC0Gctc0yS7cUTkOByWvP1mpws%22%7D',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/index/order' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Order->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/order/index.html [ array (
+  0 => 'cookie',
+  1 => 'order',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-23T15:25:50+08:00 ] 127.0.0.2 127.0.0.1 GET /index/cart/
+[ log ] www.sixer.com/index/cart/ [运行时间：0.395490s][吞吐率：2.53req/s] [内存消耗：3,500.73kb] [文件加载：55]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cart',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Version/10.0 Mobile/14D27 Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.sixer.com/index/order',
+  'cookie' => 'PHPSESSID=ib87c70n6nfgng1ofq9pm9beq9e07vm391cddvhr9n6dnef2vig1; keep_user=think%3A%7B%22id%22%3A%225c9d059ceuYUAWfLZBvU%252FWR9W2f5N96xzAsZD2Y%252B%22%2C%22pid%22%3A%22ca0bPbHWVo%252FSCC9l4tsFNtvcSYEJ1cXcdWcT4189%22%2C%22name%22%3A%2298901U2EIfCf5emUQQXrlb8ZRpy2Y%252Fzs15mKUcwGXFw%22%2C%22realname%22%3A%2252b8ksFFH0EsiswZ4qkba4LObAL6XQWdKgKoRcHNYfBDKz2oQBk%22%2C%22sex%22%3A%22418dywKDpy%252FngJpMgrLxfXZuESWsX%252FNPZQ9qqQQb%22%2C%22mobile%22%3A%229fbfAZdNUyl41NMcAhk9n1B2h8rRXv2dOXw5bIB2WwtL2ocpRpS4Hw%22%2C%22qq%22%3A%22d130o0CYhjaAku2mbRuw270P0m0LX%252FXyF9EUYYV%252FV54fFDt%252Bp4s%22%2C%22email%22%3A%22fbc1YzkikHmwiJu8W5mB8X3krjH%252FxAevcK0eeB%252B5wc9h5dJL1Kq%252Becy6PbyNcNs%22%2C%22id_num%22%3A%22d96aTeOM%252Fq5pkwocMr3tW6z%252BTarOQ8oscJ4VP10%22%2C%22id_card_path%22%3A%22236aCU2MU2C%252BFgAS4k7%252B4dL1Q7%252FF1RhtwW7sy7Q%22%2C%22headimgurl%22%3A%226196YxG5rpxAgVzwFB8Fnds%252BdPeADIJtvm9A7CdgdpEr5dwM2rFvSAUVSSxdD6KnvfL4%252BBwBQZKLQaYJWXQlYYjd6vofWDQ3ljNAKfNX04AMPtEJXbgvV113bpR0bQp3K%252BS5sb%252BN3lGulmJxvviHZdAUc6BF9a2yAXCQ6Udq7J0tnCD9Y%252FRnMA6VqVqcJXOgYNsjIg%22%2C%22id_list%22%3A%22ba4aDaSEARA%252BjGjBfEnipGp0%252B2gVZtR3DIEtcQFu%22%2C%22regtime%22%3A%221372sHsSbwu3wVD66Y%252BIBSFrCC9CsGUinbKb1vQB%22%2C%22logintime%22%3A%2232269dBJ05xuEd8OjGTBZTpdrQsS%252B6%252BuNDf5F%252BH9%22%2C%22loginip%22%3A%22bbb7Mi5SkwclPc4jM55ocPhZFGHNfbHt8zY7QXA%22%2C%22status%22%3A%228612WTG0FSxJQuNgDsaJzLyTHr0rGBDi2UzJ3xqS%22%2C%22remark%22%3A%22bdabwqzpja1i6Dy%252FN%252Becs7YoksR%252FZiEWp0YuwG8%22%2C%22subscribe%22%3A%2266a1HFXch4yvIF0YwHkVCe2f6tfkHfY92NWkSXxa%22%2C%22openid%22%3A%22dd57PfhEQn0XdUbn0p2dRio7Na1h0AATluS7Ds%252Bqj5%252FjbOACSa8qvY3iGkLpXNCK8cxjDc3kDqIE%22%2C%22nickname%22%3A%22711ceWl9ctrMArIICxrRovOeatsaDuQmm6%252Fu1Gn7ANn1%252B7c%22%2C%22language%22%3A%220cd7Zeaigdeo6SvSb9coduZ5%252FAkAfW4touckExIWu6%252F7gA%22%2C%22city%22%3A%224e68%252FlVQfeqPGmIVMy2mj66YOjs7tf6lsRUOwssKGc3D0oY%22%2C%22province%22%3A%22cec6lvTvDpashH3bvv5S0vsK9390HG6%252FGi4k29fWCZ9OPio%22%2C%22country%22%3A%22431ecl2JnhIuqMuC5JzpdkCKFCfQuZBpuEpy4yBETRO6Tfw%22%2C%22subscribe_time%22%3A%225123XLpGtme0OtedtCvhFM0Heo8UC4AZlQjH3FbUFLb0oI%252F%252FVnNz%22%2C%22unionid%22%3A%225385blTZvPkXgN02Gkpmi0iaXXvJ1Rv%252BP61Cgks%22%2C%22groupid%22%3A%226aac80%252BF7g7t1IlnSuw%252Fmc2ADfNsTG%252FUFduKy0Fx%22%2C%22tagid_list%22%3A%22c50b8MPKooAyY4H8jOB645A8i%252BwRQfNcSK%252Bigjk%22%2C%22qr_code%22%3A%2252d95VqiZTGyjr%252B1gF2jQ8zgh70m%252Fj1vTPRc734vTqBEyXRly9rK7MXCGB94X64KDRDINvp%252FDCokqZphAmgqIwI8VEscYxMikhBxGhUps%252FZUGc%252FBpAzvUy%252FYmYU9%252BDaUEYeo2vt8YA3lC6riymkrqOhlbO6XOOU6PCIuaIEvO7CeP3sKa0k6YG6HoCGpoUBdUaRdbdRL52WgPfdHW9fEPkWjP7D%252BKmHt%252FjL5uX%252BgWgo%22%2C%22qr_seconds%22%3A%225964%252BcNiuKW%252Bsinmbvzeodw%252B90QBGyKUoHgjFSf5S4jomCrPioOr%22%2C%22qr_ticket%22%3A%228c31f5bWIAHUZmamRtbnbXxcJyJYqPcbq04WA82Q0mZ%252BAMevOS2izIrrYJhRcuzfCzSoaxXdAs2MA8q%252B4HUzowq%252FyyjoW%252FMCYEQ88teSxmYGaTvPLQQAzxI0DjG424O4FuqGOuw9HJdaueC0Gctc0yS7cUTkOByWvP1mpws%22%7D',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/index/cart/' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Cart->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Cart.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/cart/index.html [ array (
+  0 => 'cookie',
+  1 => 'all_cart',
+  2 => 'carts',
+  3 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-23T15:25:59+08:00 ] 127.0.0.2 127.0.0.1 GET /index/cart/setInc/id/269/num/3
+[ log ] www.sixer.com/index/cart/setInc/id/269/num/3 [运行时间：0.201073s][吞吐率：4.97req/s] [内存消耗：3,442.18kb] [文件加载：55]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cart',
+    2 => 'setInc',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Version/10.0 Mobile/14D27 Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.sixer.com/index/cart/',
+  'cookie' => 'PHPSESSID=ib87c70n6nfgng1ofq9pm9beq9e07vm391cddvhr9n6dnef2vig1; keep_user=think%3A%7B%22id%22%3A%225c9d059ceuYUAWfLZBvU%252FWR9W2f5N96xzAsZD2Y%252B%22%2C%22pid%22%3A%22ca0bPbHWVo%252FSCC9l4tsFNtvcSYEJ1cXcdWcT4189%22%2C%22name%22%3A%2298901U2EIfCf5emUQQXrlb8ZRpy2Y%252Fzs15mKUcwGXFw%22%2C%22realname%22%3A%2252b8ksFFH0EsiswZ4qkba4LObAL6XQWdKgKoRcHNYfBDKz2oQBk%22%2C%22sex%22%3A%22418dywKDpy%252FngJpMgrLxfXZuESWsX%252FNPZQ9qqQQb%22%2C%22mobile%22%3A%229fbfAZdNUyl41NMcAhk9n1B2h8rRXv2dOXw5bIB2WwtL2ocpRpS4Hw%22%2C%22qq%22%3A%22d130o0CYhjaAku2mbRuw270P0m0LX%252FXyF9EUYYV%252FV54fFDt%252Bp4s%22%2C%22email%22%3A%22fbc1YzkikHmwiJu8W5mB8X3krjH%252FxAevcK0eeB%252B5wc9h5dJL1Kq%252Becy6PbyNcNs%22%2C%22id_num%22%3A%22d96aTeOM%252Fq5pkwocMr3tW6z%252BTarOQ8oscJ4VP10%22%2C%22id_card_path%22%3A%22236aCU2MU2C%252BFgAS4k7%252B4dL1Q7%252FF1RhtwW7sy7Q%22%2C%22headimgurl%22%3A%226196YxG5rpxAgVzwFB8Fnds%252BdPeADIJtvm9A7CdgdpEr5dwM2rFvSAUVSSxdD6KnvfL4%252BBwBQZKLQaYJWXQlYYjd6vofWDQ3ljNAKfNX04AMPtEJXbgvV113bpR0bQp3K%252BS5sb%252BN3lGulmJxvviHZdAUc6BF9a2yAXCQ6Udq7J0tnCD9Y%252FRnMA6VqVqcJXOgYNsjIg%22%2C%22id_list%22%3A%22ba4aDaSEARA%252BjGjBfEnipGp0%252B2gVZtR3DIEtcQFu%22%2C%22regtime%22%3A%221372sHsSbwu3wVD66Y%252BIBSFrCC9CsGUinbKb1vQB%22%2C%22logintime%22%3A%2232269dBJ05xuEd8OjGTBZTpdrQsS%252B6%252BuNDf5F%252BH9%22%2C%22loginip%22%3A%22bbb7Mi5SkwclPc4jM55ocPhZFGHNfbHt8zY7QXA%22%2C%22status%22%3A%228612WTG0FSxJQuNgDsaJzLyTHr0rGBDi2UzJ3xqS%22%2C%22remark%22%3A%22bdabwqzpja1i6Dy%252FN%252Becs7YoksR%252FZiEWp0YuwG8%22%2C%22subscribe%22%3A%2266a1HFXch4yvIF0YwHkVCe2f6tfkHfY92NWkSXxa%22%2C%22openid%22%3A%22dd57PfhEQn0XdUbn0p2dRio7Na1h0AATluS7Ds%252Bqj5%252FjbOACSa8qvY3iGkLpXNCK8cxjDc3kDqIE%22%2C%22nickname%22%3A%22711ceWl9ctrMArIICxrRovOeatsaDuQmm6%252Fu1Gn7ANn1%252B7c%22%2C%22language%22%3A%220cd7Zeaigdeo6SvSb9coduZ5%252FAkAfW4touckExIWu6%252F7gA%22%2C%22city%22%3A%224e68%252FlVQfeqPGmIVMy2mj66YOjs7tf6lsRUOwssKGc3D0oY%22%2C%22province%22%3A%22cec6lvTvDpashH3bvv5S0vsK9390HG6%252FGi4k29fWCZ9OPio%22%2C%22country%22%3A%22431ecl2JnhIuqMuC5JzpdkCKFCfQuZBpuEpy4yBETRO6Tfw%22%2C%22subscribe_time%22%3A%225123XLpGtme0OtedtCvhFM0Heo8UC4AZlQjH3FbUFLb0oI%252F%252FVnNz%22%2C%22unionid%22%3A%225385blTZvPkXgN02Gkpmi0iaXXvJ1Rv%252BP61Cgks%22%2C%22groupid%22%3A%226aac80%252BF7g7t1IlnSuw%252Fmc2ADfNsTG%252FUFduKy0Fx%22%2C%22tagid_list%22%3A%22c50b8MPKooAyY4H8jOB645A8i%252BwRQfNcSK%252Bigjk%22%2C%22qr_code%22%3A%2252d95VqiZTGyjr%252B1gF2jQ8zgh70m%252Fj1vTPRc734vTqBEyXRly9rK7MXCGB94X64KDRDINvp%252FDCokqZphAmgqIwI8VEscYxMikhBxGhUps%252FZUGc%252FBpAzvUy%252FYmYU9%252BDaUEYeo2vt8YA3lC6riymkrqOhlbO6XOOU6PCIuaIEvO7CeP3sKa0k6YG6HoCGpoUBdUaRdbdRL52WgPfdHW9fEPkWjP7D%252BKmHt%252FjL5uX%252BgWgo%22%2C%22qr_seconds%22%3A%225964%252BcNiuKW%252Bsinmbvzeodw%252B90QBGyKUoHgjFSf5S4jomCrPioOr%22%2C%22qr_ticket%22%3A%228c31f5bWIAHUZmamRtbnbXxcJyJYqPcbq04WA82Q0mZ%252BAMevOS2izIrrYJhRcuzfCzSoaxXdAs2MA8q%252B4HUzowq%252FyyjoW%252FMCYEQ88teSxmYGaTvPLQQAzxI0DjG424O4FuqGOuw9HJdaueC0Gctc0yS7cUTkOByWvP1mpws%22%7D',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/index/cart/setInc/id/269/num/3' => '',
+  'id' => '269',
+  'num' => '3',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Cart->setInc[ /home/aptx/File/PHP/6rmh/app/index/controller/Cart.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-23T15:26:00+08:00 ] 127.0.0.2 127.0.0.1 GET /index/cart/index.html
+[ log ] www.sixer.com/index/cart/index.html [运行时间：0.598167s][吞吐率：1.67req/s] [内存消耗：3,500.91kb] [文件加载：55]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cart',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Version/10.0 Mobile/14D27 Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.sixer.com/index/cart/',
+  'cookie' => 'PHPSESSID=ib87c70n6nfgng1ofq9pm9beq9e07vm391cddvhr9n6dnef2vig1; keep_user=think%3A%7B%22id%22%3A%225c9d059ceuYUAWfLZBvU%252FWR9W2f5N96xzAsZD2Y%252B%22%2C%22pid%22%3A%22ca0bPbHWVo%252FSCC9l4tsFNtvcSYEJ1cXcdWcT4189%22%2C%22name%22%3A%2298901U2EIfCf5emUQQXrlb8ZRpy2Y%252Fzs15mKUcwGXFw%22%2C%22realname%22%3A%2252b8ksFFH0EsiswZ4qkba4LObAL6XQWdKgKoRcHNYfBDKz2oQBk%22%2C%22sex%22%3A%22418dywKDpy%252FngJpMgrLxfXZuESWsX%252FNPZQ9qqQQb%22%2C%22mobile%22%3A%229fbfAZdNUyl41NMcAhk9n1B2h8rRXv2dOXw5bIB2WwtL2ocpRpS4Hw%22%2C%22qq%22%3A%22d130o0CYhjaAku2mbRuw270P0m0LX%252FXyF9EUYYV%252FV54fFDt%252Bp4s%22%2C%22email%22%3A%22fbc1YzkikHmwiJu8W5mB8X3krjH%252FxAevcK0eeB%252B5wc9h5dJL1Kq%252Becy6PbyNcNs%22%2C%22id_num%22%3A%22d96aTeOM%252Fq5pkwocMr3tW6z%252BTarOQ8oscJ4VP10%22%2C%22id_card_path%22%3A%22236aCU2MU2C%252BFgAS4k7%252B4dL1Q7%252FF1RhtwW7sy7Q%22%2C%22headimgurl%22%3A%226196YxG5rpxAgVzwFB8Fnds%252BdPeADIJtvm9A7CdgdpEr5dwM2rFvSAUVSSxdD6KnvfL4%252BBwBQZKLQaYJWXQlYYjd6vofWDQ3ljNAKfNX04AMPtEJXbgvV113bpR0bQp3K%252BS5sb%252BN3lGulmJxvviHZdAUc6BF9a2yAXCQ6Udq7J0tnCD9Y%252FRnMA6VqVqcJXOgYNsjIg%22%2C%22id_list%22%3A%22ba4aDaSEARA%252BjGjBfEnipGp0%252B2gVZtR3DIEtcQFu%22%2C%22regtime%22%3A%221372sHsSbwu3wVD66Y%252BIBSFrCC9CsGUinbKb1vQB%22%2C%22logintime%22%3A%2232269dBJ05xuEd8OjGTBZTpdrQsS%252B6%252BuNDf5F%252BH9%22%2C%22loginip%22%3A%22bbb7Mi5SkwclPc4jM55ocPhZFGHNfbHt8zY7QXA%22%2C%22status%22%3A%228612WTG0FSxJQuNgDsaJzLyTHr0rGBDi2UzJ3xqS%22%2C%22remark%22%3A%22bdabwqzpja1i6Dy%252FN%252Becs7YoksR%252FZiEWp0YuwG8%22%2C%22subscribe%22%3A%2266a1HFXch4yvIF0YwHkVCe2f6tfkHfY92NWkSXxa%22%2C%22openid%22%3A%22dd57PfhEQn0XdUbn0p2dRio7Na1h0AATluS7Ds%252Bqj5%252FjbOACSa8qvY3iGkLpXNCK8cxjDc3kDqIE%22%2C%22nickname%22%3A%22711ceWl9ctrMArIICxrRovOeatsaDuQmm6%252Fu1Gn7ANn1%252B7c%22%2C%22language%22%3A%220cd7Zeaigdeo6SvSb9coduZ5%252FAkAfW4touckExIWu6%252F7gA%22%2C%22city%22%3A%224e68%252FlVQfeqPGmIVMy2mj66YOjs7tf6lsRUOwssKGc3D0oY%22%2C%22province%22%3A%22cec6lvTvDpashH3bvv5S0vsK9390HG6%252FGi4k29fWCZ9OPio%22%2C%22country%22%3A%22431ecl2JnhIuqMuC5JzpdkCKFCfQuZBpuEpy4yBETRO6Tfw%22%2C%22subscribe_time%22%3A%225123XLpGtme0OtedtCvhFM0Heo8UC4AZlQjH3FbUFLb0oI%252F%252FVnNz%22%2C%22unionid%22%3A%225385blTZvPkXgN02Gkpmi0iaXXvJ1Rv%252BP61Cgks%22%2C%22groupid%22%3A%226aac80%252BF7g7t1IlnSuw%252Fmc2ADfNsTG%252FUFduKy0Fx%22%2C%22tagid_list%22%3A%22c50b8MPKooAyY4H8jOB645A8i%252BwRQfNcSK%252Bigjk%22%2C%22qr_code%22%3A%2252d95VqiZTGyjr%252B1gF2jQ8zgh70m%252Fj1vTPRc734vTqBEyXRly9rK7MXCGB94X64KDRDINvp%252FDCokqZphAmgqIwI8VEscYxMikhBxGhUps%252FZUGc%252FBpAzvUy%252FYmYU9%252BDaUEYeo2vt8YA3lC6riymkrqOhlbO6XOOU6PCIuaIEvO7CeP3sKa0k6YG6HoCGpoUBdUaRdbdRL52WgPfdHW9fEPkWjP7D%252BKmHt%252FjL5uX%252BgWgo%22%2C%22qr_seconds%22%3A%225964%252BcNiuKW%252Bsinmbvzeodw%252B90QBGyKUoHgjFSf5S4jomCrPioOr%22%2C%22qr_ticket%22%3A%228c31f5bWIAHUZmamRtbnbXxcJyJYqPcbq04WA82Q0mZ%252BAMevOS2izIrrYJhRcuzfCzSoaxXdAs2MA8q%252B4HUzowq%252FyyjoW%252FMCYEQ88teSxmYGaTvPLQQAzxI0DjG424O4FuqGOuw9HJdaueC0Gctc0yS7cUTkOByWvP1mpws%22%7D',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/index/cart/index_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Cart->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Cart.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/cart/index.html [ array (
+  0 => 'cookie',
+  1 => 'all_cart',
+  2 => 'carts',
+  3 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-23T15:26:13+08:00 ] 127.0.0.2 127.0.0.1 GET /index/order/preview/id_list/269,1
+[ log ] www.sixer.com/index/order/preview/id_list/269,1 [运行时间：0.978705s][吞吐率：1.02req/s] [内存消耗：3,468.11kb] [文件加载：54]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'order',
+    2 => 'preview',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Version/10.0 Mobile/14D27 Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.sixer.com/index/cart/index.html',
+  'cookie' => 'PHPSESSID=ib87c70n6nfgng1ofq9pm9beq9e07vm391cddvhr9n6dnef2vig1; keep_user=think%3A%7B%22id%22%3A%225c9d059ceuYUAWfLZBvU%252FWR9W2f5N96xzAsZD2Y%252B%22%2C%22pid%22%3A%22ca0bPbHWVo%252FSCC9l4tsFNtvcSYEJ1cXcdWcT4189%22%2C%22name%22%3A%2298901U2EIfCf5emUQQXrlb8ZRpy2Y%252Fzs15mKUcwGXFw%22%2C%22realname%22%3A%2252b8ksFFH0EsiswZ4qkba4LObAL6XQWdKgKoRcHNYfBDKz2oQBk%22%2C%22sex%22%3A%22418dywKDpy%252FngJpMgrLxfXZuESWsX%252FNPZQ9qqQQb%22%2C%22mobile%22%3A%229fbfAZdNUyl41NMcAhk9n1B2h8rRXv2dOXw5bIB2WwtL2ocpRpS4Hw%22%2C%22qq%22%3A%22d130o0CYhjaAku2mbRuw270P0m0LX%252FXyF9EUYYV%252FV54fFDt%252Bp4s%22%2C%22email%22%3A%22fbc1YzkikHmwiJu8W5mB8X3krjH%252FxAevcK0eeB%252B5wc9h5dJL1Kq%252Becy6PbyNcNs%22%2C%22id_num%22%3A%22d96aTeOM%252Fq5pkwocMr3tW6z%252BTarOQ8oscJ4VP10%22%2C%22id_card_path%22%3A%22236aCU2MU2C%252BFgAS4k7%252B4dL1Q7%252FF1RhtwW7sy7Q%22%2C%22headimgurl%22%3A%226196YxG5rpxAgVzwFB8Fnds%252BdPeADIJtvm9A7CdgdpEr5dwM2rFvSAUVSSxdD6KnvfL4%252BBwBQZKLQaYJWXQlYYjd6vofWDQ3ljNAKfNX04AMPtEJXbgvV113bpR0bQp3K%252BS5sb%252BN3lGulmJxvviHZdAUc6BF9a2yAXCQ6Udq7J0tnCD9Y%252FRnMA6VqVqcJXOgYNsjIg%22%2C%22id_list%22%3A%22ba4aDaSEARA%252BjGjBfEnipGp0%252B2gVZtR3DIEtcQFu%22%2C%22regtime%22%3A%221372sHsSbwu3wVD66Y%252BIBSFrCC9CsGUinbKb1vQB%22%2C%22logintime%22%3A%2232269dBJ05xuEd8OjGTBZTpdrQsS%252B6%252BuNDf5F%252BH9%22%2C%22loginip%22%3A%22bbb7Mi5SkwclPc4jM55ocPhZFGHNfbHt8zY7QXA%22%2C%22status%22%3A%228612WTG0FSxJQuNgDsaJzLyTHr0rGBDi2UzJ3xqS%22%2C%22remark%22%3A%22bdabwqzpja1i6Dy%252FN%252Becs7YoksR%252FZiEWp0YuwG8%22%2C%22subscribe%22%3A%2266a1HFXch4yvIF0YwHkVCe2f6tfkHfY92NWkSXxa%22%2C%22openid%22%3A%22dd57PfhEQn0XdUbn0p2dRio7Na1h0AATluS7Ds%252Bqj5%252FjbOACSa8qvY3iGkLpXNCK8cxjDc3kDqIE%22%2C%22nickname%22%3A%22711ceWl9ctrMArIICxrRovOeatsaDuQmm6%252Fu1Gn7ANn1%252B7c%22%2C%22language%22%3A%220cd7Zeaigdeo6SvSb9coduZ5%252FAkAfW4touckExIWu6%252F7gA%22%2C%22city%22%3A%224e68%252FlVQfeqPGmIVMy2mj66YOjs7tf6lsRUOwssKGc3D0oY%22%2C%22province%22%3A%22cec6lvTvDpashH3bvv5S0vsK9390HG6%252FGi4k29fWCZ9OPio%22%2C%22country%22%3A%22431ecl2JnhIuqMuC5JzpdkCKFCfQuZBpuEpy4yBETRO6Tfw%22%2C%22subscribe_time%22%3A%225123XLpGtme0OtedtCvhFM0Heo8UC4AZlQjH3FbUFLb0oI%252F%252FVnNz%22%2C%22unionid%22%3A%225385blTZvPkXgN02Gkpmi0iaXXvJ1Rv%252BP61Cgks%22%2C%22groupid%22%3A%226aac80%252BF7g7t1IlnSuw%252Fmc2ADfNsTG%252FUFduKy0Fx%22%2C%22tagid_list%22%3A%22c50b8MPKooAyY4H8jOB645A8i%252BwRQfNcSK%252Bigjk%22%2C%22qr_code%22%3A%2252d95VqiZTGyjr%252B1gF2jQ8zgh70m%252Fj1vTPRc734vTqBEyXRly9rK7MXCGB94X64KDRDINvp%252FDCokqZphAmgqIwI8VEscYxMikhBxGhUps%252FZUGc%252FBpAzvUy%252FYmYU9%252BDaUEYeo2vt8YA3lC6riymkrqOhlbO6XOOU6PCIuaIEvO7CeP3sKa0k6YG6HoCGpoUBdUaRdbdRL52WgPfdHW9fEPkWjP7D%252BKmHt%252FjL5uX%252BgWgo%22%2C%22qr_seconds%22%3A%225964%252BcNiuKW%252Bsinmbvzeodw%252B90QBGyKUoHgjFSf5S4jomCrPioOr%22%2C%22qr_ticket%22%3A%228c31f5bWIAHUZmamRtbnbXxcJyJYqPcbq04WA82Q0mZ%252BAMevOS2izIrrYJhRcuzfCzSoaxXdAs2MA8q%252B4HUzowq%252FyyjoW%252FMCYEQ88teSxmYGaTvPLQQAzxI0DjG424O4FuqGOuw9HJdaueC0Gctc0yS7cUTkOByWvP1mpws%22%7D',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/index/order/preview/id_list/269,1' => '',
+  'id_list' => '269,1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Order->preview[ /home/aptx/File/PHP/6rmh/app/index/controller/Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/order/preview.html [ array (
+  0 => 'cookie',
+  1 => 'address',
+  2 => 'pay_way',
+  3 => 'delivery',
+  4 => 'id_list',
+  5 => 'carts',
+  6 => 'count',
+  7 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-23T15:45:06+08:00 ] 127.0.0.2 127.0.0.1 GET /index/user/index
+[ log ] www.sixer.com/index/user/index [运行时间：0.646228s][吞吐率：1.55req/s] [内存消耗：3,465.94kb] [文件加载：54]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Version/10.0 Mobile/14D27 Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.sixer.com/index/address/index',
+  'cookie' => 'PHPSESSID=ib87c70n6nfgng1ofq9pm9beq9e07vm391cddvhr9n6dnef2vig1; keep_user=think%3A%7B%22id%22%3A%225c9d059ceuYUAWfLZBvU%252FWR9W2f5N96xzAsZD2Y%252B%22%2C%22pid%22%3A%22ca0bPbHWVo%252FSCC9l4tsFNtvcSYEJ1cXcdWcT4189%22%2C%22name%22%3A%2298901U2EIfCf5emUQQXrlb8ZRpy2Y%252Fzs15mKUcwGXFw%22%2C%22realname%22%3A%2252b8ksFFH0EsiswZ4qkba4LObAL6XQWdKgKoRcHNYfBDKz2oQBk%22%2C%22sex%22%3A%22418dywKDpy%252FngJpMgrLxfXZuESWsX%252FNPZQ9qqQQb%22%2C%22mobile%22%3A%229fbfAZdNUyl41NMcAhk9n1B2h8rRXv2dOXw5bIB2WwtL2ocpRpS4Hw%22%2C%22qq%22%3A%22d130o0CYhjaAku2mbRuw270P0m0LX%252FXyF9EUYYV%252FV54fFDt%252Bp4s%22%2C%22email%22%3A%22fbc1YzkikHmwiJu8W5mB8X3krjH%252FxAevcK0eeB%252B5wc9h5dJL1Kq%252Becy6PbyNcNs%22%2C%22id_num%22%3A%22d96aTeOM%252Fq5pkwocMr3tW6z%252BTarOQ8oscJ4VP10%22%2C%22id_card_path%22%3A%22236aCU2MU2C%252BFgAS4k7%252B4dL1Q7%252FF1RhtwW7sy7Q%22%2C%22headimgurl%22%3A%226196YxG5rpxAgVzwFB8Fnds%252BdPeADIJtvm9A7CdgdpEr5dwM2rFvSAUVSSxdD6KnvfL4%252BBwBQZKLQaYJWXQlYYjd6vofWDQ3ljNAKfNX04AMPtEJXbgvV113bpR0bQp3K%252BS5sb%252BN3lGulmJxvviHZdAUc6BF9a2yAXCQ6Udq7J0tnCD9Y%252FRnMA6VqVqcJXOgYNsjIg%22%2C%22id_list%22%3A%22ba4aDaSEARA%252BjGjBfEnipGp0%252B2gVZtR3DIEtcQFu%22%2C%22regtime%22%3A%221372sHsSbwu3wVD66Y%252BIBSFrCC9CsGUinbKb1vQB%22%2C%22logintime%22%3A%2232269dBJ05xuEd8OjGTBZTpdrQsS%252B6%252BuNDf5F%252BH9%22%2C%22loginip%22%3A%22bbb7Mi5SkwclPc4jM55ocPhZFGHNfbHt8zY7QXA%22%2C%22status%22%3A%228612WTG0FSxJQuNgDsaJzLyTHr0rGBDi2UzJ3xqS%22%2C%22remark%22%3A%22bdabwqzpja1i6Dy%252FN%252Becs7YoksR%252FZiEWp0YuwG8%22%2C%22subscribe%22%3A%2266a1HFXch4yvIF0YwHkVCe2f6tfkHfY92NWkSXxa%22%2C%22openid%22%3A%22dd57PfhEQn0XdUbn0p2dRio7Na1h0AATluS7Ds%252Bqj5%252FjbOACSa8qvY3iGkLpXNCK8cxjDc3kDqIE%22%2C%22nickname%22%3A%22711ceWl9ctrMArIICxrRovOeatsaDuQmm6%252Fu1Gn7ANn1%252B7c%22%2C%22language%22%3A%220cd7Zeaigdeo6SvSb9coduZ5%252FAkAfW4touckExIWu6%252F7gA%22%2C%22city%22%3A%224e68%252FlVQfeqPGmIVMy2mj66YOjs7tf6lsRUOwssKGc3D0oY%22%2C%22province%22%3A%22cec6lvTvDpashH3bvv5S0vsK9390HG6%252FGi4k29fWCZ9OPio%22%2C%22country%22%3A%22431ecl2JnhIuqMuC5JzpdkCKFCfQuZBpuEpy4yBETRO6Tfw%22%2C%22subscribe_time%22%3A%225123XLpGtme0OtedtCvhFM0Heo8UC4AZlQjH3FbUFLb0oI%252F%252FVnNz%22%2C%22unionid%22%3A%225385blTZvPkXgN02Gkpmi0iaXXvJ1Rv%252BP61Cgks%22%2C%22groupid%22%3A%226aac80%252BF7g7t1IlnSuw%252Fmc2ADfNsTG%252FUFduKy0Fx%22%2C%22tagid_list%22%3A%22c50b8MPKooAyY4H8jOB645A8i%252BwRQfNcSK%252Bigjk%22%2C%22qr_code%22%3A%2252d95VqiZTGyjr%252B1gF2jQ8zgh70m%252Fj1vTPRc734vTqBEyXRly9rK7MXCGB94X64KDRDINvp%252FDCokqZphAmgqIwI8VEscYxMikhBxGhUps%252FZUGc%252FBpAzvUy%252FYmYU9%252BDaUEYeo2vt8YA3lC6riymkrqOhlbO6XOOU6PCIuaIEvO7CeP3sKa0k6YG6HoCGpoUBdUaRdbdRL52WgPfdHW9fEPkWjP7D%252BKmHt%252FjL5uX%252BgWgo%22%2C%22qr_seconds%22%3A%225964%252BcNiuKW%252Bsinmbvzeodw%252B90QBGyKUoHgjFSf5S4jomCrPioOr%22%2C%22qr_ticket%22%3A%228c31f5bWIAHUZmamRtbnbXxcJyJYqPcbq04WA82Q0mZ%252BAMevOS2izIrrYJhRcuzfCzSoaxXdAs2MA8q%252B4HUzowq%252FyyjoW%252FMCYEQ88teSxmYGaTvPLQQAzxI0DjG424O4FuqGOuw9HJdaueC0Gctc0yS7cUTkOByWvP1mpws%22%7D',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  '/index/user/index' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->index[ /home/aptx/File/PHP/6rmh/app/index/controller/User.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/user/index.html [ array (
+  0 => 'cookie',
+  1 => 'config',
+  2 => 'header',
+  3 => 'users',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-23T15:45:13+08:00 ] 127.0.0.2 127.0.0.1 GET /index/cart
+[ log ] www.sixer.com/index/cart [运行时间：0.786133s][吞吐率：1.27req/s] [内存消耗：3,500.44kb] [文件加载：55]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cart',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Version/10.0 Mobile/14D27 Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=ib87c70n6nfgng1ofq9pm9beq9e07vm391cddvhr9n6dnef2vig1; keep_user=think%3A%7B%22id%22%3A%225c9d059ceuYUAWfLZBvU%252FWR9W2f5N96xzAsZD2Y%252B%22%2C%22pid%22%3A%22ca0bPbHWVo%252FSCC9l4tsFNtvcSYEJ1cXcdWcT4189%22%2C%22name%22%3A%2298901U2EIfCf5emUQQXrlb8ZRpy2Y%252Fzs15mKUcwGXFw%22%2C%22realname%22%3A%2252b8ksFFH0EsiswZ4qkba4LObAL6XQWdKgKoRcHNYfBDKz2oQBk%22%2C%22sex%22%3A%22418dywKDpy%252FngJpMgrLxfXZuESWsX%252FNPZQ9qqQQb%22%2C%22mobile%22%3A%229fbfAZdNUyl41NMcAhk9n1B2h8rRXv2dOXw5bIB2WwtL2ocpRpS4Hw%22%2C%22qq%22%3A%22d130o0CYhjaAku2mbRuw270P0m0LX%252FXyF9EUYYV%252FV54fFDt%252Bp4s%22%2C%22email%22%3A%22fbc1YzkikHmwiJu8W5mB8X3krjH%252FxAevcK0eeB%252B5wc9h5dJL1Kq%252Becy6PbyNcNs%22%2C%22id_num%22%3A%22d96aTeOM%252Fq5pkwocMr3tW6z%252BTarOQ8oscJ4VP10%22%2C%22id_card_path%22%3A%22236aCU2MU2C%252BFgAS4k7%252B4dL1Q7%252FF1RhtwW7sy7Q%22%2C%22headimgurl%22%3A%226196YxG5rpxAgVzwFB8Fnds%252BdPeADIJtvm9A7CdgdpEr5dwM2rFvSAUVSSxdD6KnvfL4%252BBwBQZKLQaYJWXQlYYjd6vofWDQ3ljNAKfNX04AMPtEJXbgvV113bpR0bQp3K%252BS5sb%252BN3lGulmJxvviHZdAUc6BF9a2yAXCQ6Udq7J0tnCD9Y%252FRnMA6VqVqcJXOgYNsjIg%22%2C%22id_list%22%3A%22ba4aDaSEARA%252BjGjBfEnipGp0%252B2gVZtR3DIEtcQFu%22%2C%22regtime%22%3A%221372sHsSbwu3wVD66Y%252BIBSFrCC9CsGUinbKb1vQB%22%2C%22logintime%22%3A%2232269dBJ05xuEd8OjGTBZTpdrQsS%252B6%252BuNDf5F%252BH9%22%2C%22loginip%22%3A%22bbb7Mi5SkwclPc4jM55ocPhZFGHNfbHt8zY7QXA%22%2C%22status%22%3A%228612WTG0FSxJQuNgDsaJzLyTHr0rGBDi2UzJ3xqS%22%2C%22remark%22%3A%22bdabwqzpja1i6Dy%252FN%252Becs7YoksR%252FZiEWp0YuwG8%22%2C%22subscribe%22%3A%2266a1HFXch4yvIF0YwHkVCe2f6tfkHfY92NWkSXxa%22%2C%22openid%22%3A%22dd57PfhEQn0XdUbn0p2dRio7Na1h0AATluS7Ds%252Bqj5%252FjbOACSa8qvY3iGkLpXNCK8cxjDc3kDqIE%22%2C%22nickname%22%3A%22711ceWl9ctrMArIICxrRovOeatsaDuQmm6%252Fu1Gn7ANn1%252B7c%22%2C%22language%22%3A%220cd7Zeaigdeo6SvSb9coduZ5%252FAkAfW4touckExIWu6%252F7gA%22%2C%22city%22%3A%224e68%252FlVQfeqPGmIVMy2mj66YOjs7tf6lsRUOwssKGc3D0oY%22%2C%22province%22%3A%22cec6lvTvDpashH3bvv5S0vsK9390HG6%252FGi4k29fWCZ9OPio%22%2C%22country%22%3A%22431ecl2JnhIuqMuC5JzpdkCKFCfQuZBpuEpy4yBETRO6Tfw%22%2C%22subscribe_time%22%3A%225123XLpGtme0OtedtCvhFM0Heo8UC4AZlQjH3FbUFLb0oI%252F%252FVnNz%22%2C%22unionid%22%3A%225385blTZvPkXgN02Gkpmi0iaXXvJ1Rv%252BP61Cgks%22%2C%22groupid%22%3A%226aac80%252BF7g7t1IlnSuw%252Fmc2ADfNsTG%252FUFduKy0Fx%22%2C%22tagid_list%22%3A%22c50b8MPKooAyY4H8jOB645A8i%252BwRQfNcSK%252Bigjk%22%2C%22qr_code%22%3A%2252d95VqiZTGyjr%252B1gF2jQ8zgh70m%252Fj1vTPRc734vTqBEyXRly9rK7MXCGB94X64KDRDINvp%252FDCokqZphAmgqIwI8VEscYxMikhBxGhUps%252FZUGc%252FBpAzvUy%252FYmYU9%252BDaUEYeo2vt8YA3lC6riymkrqOhlbO6XOOU6PCIuaIEvO7CeP3sKa0k6YG6HoCGpoUBdUaRdbdRL52WgPfdHW9fEPkWjP7D%252BKmHt%252FjL5uX%252BgWgo%22%2C%22qr_seconds%22%3A%225964%252BcNiuKW%252Bsinmbvzeodw%252B90QBGyKUoHgjFSf5S4jomCrPioOr%22%2C%22qr_ticket%22%3A%228c31f5bWIAHUZmamRtbnbXxcJyJYqPcbq04WA82Q0mZ%252BAMevOS2izIrrYJhRcuzfCzSoaxXdAs2MA8q%252B4HUzowq%252FyyjoW%252FMCYEQ88teSxmYGaTvPLQQAzxI0DjG424O4FuqGOuw9HJdaueC0Gctc0yS7cUTkOByWvP1mpws%22%7D',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/index/cart' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Cart->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Cart.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/cart/index.html [ array (
+  0 => 'cookie',
+  1 => 'all_cart',
+  2 => 'carts',
+  3 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-23T15:45:19+08:00 ] 127.0.0.2 127.0.0.1 GET /index/order/preview/id_list/269,1
+[ log ] www.sixer.com/index/order/preview/id_list/269,1 [运行时间：1.082665s][吞吐率：0.92req/s] [内存消耗：3,467.82kb] [文件加载：54]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'order',
+    2 => 'preview',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Version/10.0 Mobile/14D27 Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.sixer.com/index/cart',
+  'cookie' => 'PHPSESSID=ib87c70n6nfgng1ofq9pm9beq9e07vm391cddvhr9n6dnef2vig1; keep_user=think%3A%7B%22id%22%3A%225c9d059ceuYUAWfLZBvU%252FWR9W2f5N96xzAsZD2Y%252B%22%2C%22pid%22%3A%22ca0bPbHWVo%252FSCC9l4tsFNtvcSYEJ1cXcdWcT4189%22%2C%22name%22%3A%2298901U2EIfCf5emUQQXrlb8ZRpy2Y%252Fzs15mKUcwGXFw%22%2C%22realname%22%3A%2252b8ksFFH0EsiswZ4qkba4LObAL6XQWdKgKoRcHNYfBDKz2oQBk%22%2C%22sex%22%3A%22418dywKDpy%252FngJpMgrLxfXZuESWsX%252FNPZQ9qqQQb%22%2C%22mobile%22%3A%229fbfAZdNUyl41NMcAhk9n1B2h8rRXv2dOXw5bIB2WwtL2ocpRpS4Hw%22%2C%22qq%22%3A%22d130o0CYhjaAku2mbRuw270P0m0LX%252FXyF9EUYYV%252FV54fFDt%252Bp4s%22%2C%22email%22%3A%22fbc1YzkikHmwiJu8W5mB8X3krjH%252FxAevcK0eeB%252B5wc9h5dJL1Kq%252Becy6PbyNcNs%22%2C%22id_num%22%3A%22d96aTeOM%252Fq5pkwocMr3tW6z%252BTarOQ8oscJ4VP10%22%2C%22id_card_path%22%3A%22236aCU2MU2C%252BFgAS4k7%252B4dL1Q7%252FF1RhtwW7sy7Q%22%2C%22headimgurl%22%3A%226196YxG5rpxAgVzwFB8Fnds%252BdPeADIJtvm9A7CdgdpEr5dwM2rFvSAUVSSxdD6KnvfL4%252BBwBQZKLQaYJWXQlYYjd6vofWDQ3ljNAKfNX04AMPtEJXbgvV113bpR0bQp3K%252BS5sb%252BN3lGulmJxvviHZdAUc6BF9a2yAXCQ6Udq7J0tnCD9Y%252FRnMA6VqVqcJXOgYNsjIg%22%2C%22id_list%22%3A%22ba4aDaSEARA%252BjGjBfEnipGp0%252B2gVZtR3DIEtcQFu%22%2C%22regtime%22%3A%221372sHsSbwu3wVD66Y%252BIBSFrCC9CsGUinbKb1vQB%22%2C%22logintime%22%3A%2232269dBJ05xuEd8OjGTBZTpdrQsS%252B6%252BuNDf5F%252BH9%22%2C%22loginip%22%3A%22bbb7Mi5SkwclPc4jM55ocPhZFGHNfbHt8zY7QXA%22%2C%22status%22%3A%228612WTG0FSxJQuNgDsaJzLyTHr0rGBDi2UzJ3xqS%22%2C%22remark%22%3A%22bdabwqzpja1i6Dy%252FN%252Becs7YoksR%252FZiEWp0YuwG8%22%2C%22subscribe%22%3A%2266a1HFXch4yvIF0YwHkVCe2f6tfkHfY92NWkSXxa%22%2C%22openid%22%3A%22dd57PfhEQn0XdUbn0p2dRio7Na1h0AATluS7Ds%252Bqj5%252FjbOACSa8qvY3iGkLpXNCK8cxjDc3kDqIE%22%2C%22nickname%22%3A%22711ceWl9ctrMArIICxrRovOeatsaDuQmm6%252Fu1Gn7ANn1%252B7c%22%2C%22language%22%3A%220cd7Zeaigdeo6SvSb9coduZ5%252FAkAfW4touckExIWu6%252F7gA%22%2C%22city%22%3A%224e68%252FlVQfeqPGmIVMy2mj66YOjs7tf6lsRUOwssKGc3D0oY%22%2C%22province%22%3A%22cec6lvTvDpashH3bvv5S0vsK9390HG6%252FGi4k29fWCZ9OPio%22%2C%22country%22%3A%22431ecl2JnhIuqMuC5JzpdkCKFCfQuZBpuEpy4yBETRO6Tfw%22%2C%22subscribe_time%22%3A%225123XLpGtme0OtedtCvhFM0Heo8UC4AZlQjH3FbUFLb0oI%252F%252FVnNz%22%2C%22unionid%22%3A%225385blTZvPkXgN02Gkpmi0iaXXvJ1Rv%252BP61Cgks%22%2C%22groupid%22%3A%226aac80%252BF7g7t1IlnSuw%252Fmc2ADfNsTG%252FUFduKy0Fx%22%2C%22tagid_list%22%3A%22c50b8MPKooAyY4H8jOB645A8i%252BwRQfNcSK%252Bigjk%22%2C%22qr_code%22%3A%2252d95VqiZTGyjr%252B1gF2jQ8zgh70m%252Fj1vTPRc734vTqBEyXRly9rK7MXCGB94X64KDRDINvp%252FDCokqZphAmgqIwI8VEscYxMikhBxGhUps%252FZUGc%252FBpAzvUy%252FYmYU9%252BDaUEYeo2vt8YA3lC6riymkrqOhlbO6XOOU6PCIuaIEvO7CeP3sKa0k6YG6HoCGpoUBdUaRdbdRL52WgPfdHW9fEPkWjP7D%252BKmHt%252FjL5uX%252BgWgo%22%2C%22qr_seconds%22%3A%225964%252BcNiuKW%252Bsinmbvzeodw%252B90QBGyKUoHgjFSf5S4jomCrPioOr%22%2C%22qr_ticket%22%3A%228c31f5bWIAHUZmamRtbnbXxcJyJYqPcbq04WA82Q0mZ%252BAMevOS2izIrrYJhRcuzfCzSoaxXdAs2MA8q%252B4HUzowq%252FyyjoW%252FMCYEQ88teSxmYGaTvPLQQAzxI0DjG424O4FuqGOuw9HJdaueC0Gctc0yS7cUTkOByWvP1mpws%22%7D',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/index/order/preview/id_list/269,1' => '',
+  'id_list' => '269,1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Order->preview[ /home/aptx/File/PHP/6rmh/app/index/controller/Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/order/preview.html [ array (
+  0 => 'cookie',
+  1 => 'address',
+  2 => 'pay_way',
+  3 => 'delivery',
+  4 => 'id_list',
+  5 => 'carts',
+  6 => 'count',
+  7 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-23T15:48:11+08:00 ] 127.0.0.2 127.0.0.1 GET /index/order/preview/id_list/269,1
+[ log ] www.sixer.com/index/order/preview/id_list/269,1 [运行时间：1.066089s][吞吐率：0.94req/s] [内存消耗：3,673.67kb] [文件加载：56]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'order',
+    2 => 'preview',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Version/10.0 Mobile/14D27 Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.sixer.com/index/cart',
+  'cookie' => 'PHPSESSID=ib87c70n6nfgng1ofq9pm9beq9e07vm391cddvhr9n6dnef2vig1; keep_user=think%3A%7B%22id%22%3A%225c9d059ceuYUAWfLZBvU%252FWR9W2f5N96xzAsZD2Y%252B%22%2C%22pid%22%3A%22ca0bPbHWVo%252FSCC9l4tsFNtvcSYEJ1cXcdWcT4189%22%2C%22name%22%3A%2298901U2EIfCf5emUQQXrlb8ZRpy2Y%252Fzs15mKUcwGXFw%22%2C%22realname%22%3A%2252b8ksFFH0EsiswZ4qkba4LObAL6XQWdKgKoRcHNYfBDKz2oQBk%22%2C%22sex%22%3A%22418dywKDpy%252FngJpMgrLxfXZuESWsX%252FNPZQ9qqQQb%22%2C%22mobile%22%3A%229fbfAZdNUyl41NMcAhk9n1B2h8rRXv2dOXw5bIB2WwtL2ocpRpS4Hw%22%2C%22qq%22%3A%22d130o0CYhjaAku2mbRuw270P0m0LX%252FXyF9EUYYV%252FV54fFDt%252Bp4s%22%2C%22email%22%3A%22fbc1YzkikHmwiJu8W5mB8X3krjH%252FxAevcK0eeB%252B5wc9h5dJL1Kq%252Becy6PbyNcNs%22%2C%22id_num%22%3A%22d96aTeOM%252Fq5pkwocMr3tW6z%252BTarOQ8oscJ4VP10%22%2C%22id_card_path%22%3A%22236aCU2MU2C%252BFgAS4k7%252B4dL1Q7%252FF1RhtwW7sy7Q%22%2C%22headimgurl%22%3A%226196YxG5rpxAgVzwFB8Fnds%252BdPeADIJtvm9A7CdgdpEr5dwM2rFvSAUVSSxdD6KnvfL4%252BBwBQZKLQaYJWXQlYYjd6vofWDQ3ljNAKfNX04AMPtEJXbgvV113bpR0bQp3K%252BS5sb%252BN3lGulmJxvviHZdAUc6BF9a2yAXCQ6Udq7J0tnCD9Y%252FRnMA6VqVqcJXOgYNsjIg%22%2C%22id_list%22%3A%22ba4aDaSEARA%252BjGjBfEnipGp0%252B2gVZtR3DIEtcQFu%22%2C%22regtime%22%3A%221372sHsSbwu3wVD66Y%252BIBSFrCC9CsGUinbKb1vQB%22%2C%22logintime%22%3A%2232269dBJ05xuEd8OjGTBZTpdrQsS%252B6%252BuNDf5F%252BH9%22%2C%22loginip%22%3A%22bbb7Mi5SkwclPc4jM55ocPhZFGHNfbHt8zY7QXA%22%2C%22status%22%3A%228612WTG0FSxJQuNgDsaJzLyTHr0rGBDi2UzJ3xqS%22%2C%22remark%22%3A%22bdabwqzpja1i6Dy%252FN%252Becs7YoksR%252FZiEWp0YuwG8%22%2C%22subscribe%22%3A%2266a1HFXch4yvIF0YwHkVCe2f6tfkHfY92NWkSXxa%22%2C%22openid%22%3A%22dd57PfhEQn0XdUbn0p2dRio7Na1h0AATluS7Ds%252Bqj5%252FjbOACSa8qvY3iGkLpXNCK8cxjDc3kDqIE%22%2C%22nickname%22%3A%22711ceWl9ctrMArIICxrRovOeatsaDuQmm6%252Fu1Gn7ANn1%252B7c%22%2C%22language%22%3A%220cd7Zeaigdeo6SvSb9coduZ5%252FAkAfW4touckExIWu6%252F7gA%22%2C%22city%22%3A%224e68%252FlVQfeqPGmIVMy2mj66YOjs7tf6lsRUOwssKGc3D0oY%22%2C%22province%22%3A%22cec6lvTvDpashH3bvv5S0vsK9390HG6%252FGi4k29fWCZ9OPio%22%2C%22country%22%3A%22431ecl2JnhIuqMuC5JzpdkCKFCfQuZBpuEpy4yBETRO6Tfw%22%2C%22subscribe_time%22%3A%225123XLpGtme0OtedtCvhFM0Heo8UC4AZlQjH3FbUFLb0oI%252F%252FVnNz%22%2C%22unionid%22%3A%225385blTZvPkXgN02Gkpmi0iaXXvJ1Rv%252BP61Cgks%22%2C%22groupid%22%3A%226aac80%252BF7g7t1IlnSuw%252Fmc2ADfNsTG%252FUFduKy0Fx%22%2C%22tagid_list%22%3A%22c50b8MPKooAyY4H8jOB645A8i%252BwRQfNcSK%252Bigjk%22%2C%22qr_code%22%3A%2252d95VqiZTGyjr%252B1gF2jQ8zgh70m%252Fj1vTPRc734vTqBEyXRly9rK7MXCGB94X64KDRDINvp%252FDCokqZphAmgqIwI8VEscYxMikhBxGhUps%252FZUGc%252FBpAzvUy%252FYmYU9%252BDaUEYeo2vt8YA3lC6riymkrqOhlbO6XOOU6PCIuaIEvO7CeP3sKa0k6YG6HoCGpoUBdUaRdbdRL52WgPfdHW9fEPkWjP7D%252BKmHt%252FjL5uX%252BgWgo%22%2C%22qr_seconds%22%3A%225964%252BcNiuKW%252Bsinmbvzeodw%252B90QBGyKUoHgjFSf5S4jomCrPioOr%22%2C%22qr_ticket%22%3A%228c31f5bWIAHUZmamRtbnbXxcJyJYqPcbq04WA82Q0mZ%252BAMevOS2izIrrYJhRcuzfCzSoaxXdAs2MA8q%252B4HUzowq%252FyyjoW%252FMCYEQ88teSxmYGaTvPLQQAzxI0DjG424O4FuqGOuw9HJdaueC0Gctc0yS7cUTkOByWvP1mpws%22%7D',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  '/index/order/preview/id_list/269,1' => '',
+  'id_list' => '269,1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Order->preview[ /home/aptx/File/PHP/6rmh/app/index/controller/Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/order/preview.html [ array (
+  0 => 'cookie',
+  1 => 'address',
+  2 => 'pay_way',
+  3 => 'delivery',
+  4 => 'id_list',
+  5 => 'carts',
+  6 => 'count',
+  7 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-23T15:48:59+08:00 ] 127.0.0.2 127.0.0.1 GET /index/order/preview/id_list/269,1
+[ log ] www.sixer.com/index/order/preview/id_list/269,1 [运行时间：0.694259s][吞吐率：1.44req/s] [内存消耗：3,468.55kb] [文件加载：54]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'order',
+    2 => 'preview',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Version/10.0 Mobile/14D27 Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.sixer.com/index/cart',
+  'cookie' => 'PHPSESSID=ib87c70n6nfgng1ofq9pm9beq9e07vm391cddvhr9n6dnef2vig1; keep_user=think%3A%7B%22id%22%3A%225c9d059ceuYUAWfLZBvU%252FWR9W2f5N96xzAsZD2Y%252B%22%2C%22pid%22%3A%22ca0bPbHWVo%252FSCC9l4tsFNtvcSYEJ1cXcdWcT4189%22%2C%22name%22%3A%2298901U2EIfCf5emUQQXrlb8ZRpy2Y%252Fzs15mKUcwGXFw%22%2C%22realname%22%3A%2252b8ksFFH0EsiswZ4qkba4LObAL6XQWdKgKoRcHNYfBDKz2oQBk%22%2C%22sex%22%3A%22418dywKDpy%252FngJpMgrLxfXZuESWsX%252FNPZQ9qqQQb%22%2C%22mobile%22%3A%229fbfAZdNUyl41NMcAhk9n1B2h8rRXv2dOXw5bIB2WwtL2ocpRpS4Hw%22%2C%22qq%22%3A%22d130o0CYhjaAku2mbRuw270P0m0LX%252FXyF9EUYYV%252FV54fFDt%252Bp4s%22%2C%22email%22%3A%22fbc1YzkikHmwiJu8W5mB8X3krjH%252FxAevcK0eeB%252B5wc9h5dJL1Kq%252Becy6PbyNcNs%22%2C%22id_num%22%3A%22d96aTeOM%252Fq5pkwocMr3tW6z%252BTarOQ8oscJ4VP10%22%2C%22id_card_path%22%3A%22236aCU2MU2C%252BFgAS4k7%252B4dL1Q7%252FF1RhtwW7sy7Q%22%2C%22headimgurl%22%3A%226196YxG5rpxAgVzwFB8Fnds%252BdPeADIJtvm9A7CdgdpEr5dwM2rFvSAUVSSxdD6KnvfL4%252BBwBQZKLQaYJWXQlYYjd6vofWDQ3ljNAKfNX04AMPtEJXbgvV113bpR0bQp3K%252BS5sb%252BN3lGulmJxvviHZdAUc6BF9a2yAXCQ6Udq7J0tnCD9Y%252FRnMA6VqVqcJXOgYNsjIg%22%2C%22id_list%22%3A%22ba4aDaSEARA%252BjGjBfEnipGp0%252B2gVZtR3DIEtcQFu%22%2C%22regtime%22%3A%221372sHsSbwu3wVD66Y%252BIBSFrCC9CsGUinbKb1vQB%22%2C%22logintime%22%3A%2232269dBJ05xuEd8OjGTBZTpdrQsS%252B6%252BuNDf5F%252BH9%22%2C%22loginip%22%3A%22bbb7Mi5SkwclPc4jM55ocPhZFGHNfbHt8zY7QXA%22%2C%22status%22%3A%228612WTG0FSxJQuNgDsaJzLyTHr0rGBDi2UzJ3xqS%22%2C%22remark%22%3A%22bdabwqzpja1i6Dy%252FN%252Becs7YoksR%252FZiEWp0YuwG8%22%2C%22subscribe%22%3A%2266a1HFXch4yvIF0YwHkVCe2f6tfkHfY92NWkSXxa%22%2C%22openid%22%3A%22dd57PfhEQn0XdUbn0p2dRio7Na1h0AATluS7Ds%252Bqj5%252FjbOACSa8qvY3iGkLpXNCK8cxjDc3kDqIE%22%2C%22nickname%22%3A%22711ceWl9ctrMArIICxrRovOeatsaDuQmm6%252Fu1Gn7ANn1%252B7c%22%2C%22language%22%3A%220cd7Zeaigdeo6SvSb9coduZ5%252FAkAfW4touckExIWu6%252F7gA%22%2C%22city%22%3A%224e68%252FlVQfeqPGmIVMy2mj66YOjs7tf6lsRUOwssKGc3D0oY%22%2C%22province%22%3A%22cec6lvTvDpashH3bvv5S0vsK9390HG6%252FGi4k29fWCZ9OPio%22%2C%22country%22%3A%22431ecl2JnhIuqMuC5JzpdkCKFCfQuZBpuEpy4yBETRO6Tfw%22%2C%22subscribe_time%22%3A%225123XLpGtme0OtedtCvhFM0Heo8UC4AZlQjH3FbUFLb0oI%252F%252FVnNz%22%2C%22unionid%22%3A%225385blTZvPkXgN02Gkpmi0iaXXvJ1Rv%252BP61Cgks%22%2C%22groupid%22%3A%226aac80%252BF7g7t1IlnSuw%252Fmc2ADfNsTG%252FUFduKy0Fx%22%2C%22tagid_list%22%3A%22c50b8MPKooAyY4H8jOB645A8i%252BwRQfNcSK%252Bigjk%22%2C%22qr_code%22%3A%2252d95VqiZTGyjr%252B1gF2jQ8zgh70m%252Fj1vTPRc734vTqBEyXRly9rK7MXCGB94X64KDRDINvp%252FDCokqZphAmgqIwI8VEscYxMikhBxGhUps%252FZUGc%252FBpAzvUy%252FYmYU9%252BDaUEYeo2vt8YA3lC6riymkrqOhlbO6XOOU6PCIuaIEvO7CeP3sKa0k6YG6HoCGpoUBdUaRdbdRL52WgPfdHW9fEPkWjP7D%252BKmHt%252FjL5uX%252BgWgo%22%2C%22qr_seconds%22%3A%225964%252BcNiuKW%252Bsinmbvzeodw%252B90QBGyKUoHgjFSf5S4jomCrPioOr%22%2C%22qr_ticket%22%3A%228c31f5bWIAHUZmamRtbnbXxcJyJYqPcbq04WA82Q0mZ%252BAMevOS2izIrrYJhRcuzfCzSoaxXdAs2MA8q%252B4HUzowq%252FyyjoW%252FMCYEQ88teSxmYGaTvPLQQAzxI0DjG424O4FuqGOuw9HJdaueC0Gctc0yS7cUTkOByWvP1mpws%22%7D',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  '/index/order/preview/id_list/269,1' => '',
+  'id_list' => '269,1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Order->preview[ /home/aptx/File/PHP/6rmh/app/index/controller/Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/order/preview.html [ array (
+  0 => 'cookie',
+  1 => 'address',
+  2 => 'pay_way',
+  3 => 'delivery',
+  4 => 'id_list',
+  5 => 'carts',
+  6 => 'count',
+  7 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-23T15:49:22+08:00 ] 127.0.0.2 127.0.0.1 GET /index/order/preview/id_list/269,1
+[ log ] www.sixer.com/index/order/preview/id_list/269,1 [运行时间：0.829253s][吞吐率：1.21req/s] [内存消耗：3,468.55kb] [文件加载：54]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'order',
+    2 => 'preview',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Version/10.0 Mobile/14D27 Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.sixer.com/index/cart',
+  'cookie' => 'PHPSESSID=ib87c70n6nfgng1ofq9pm9beq9e07vm391cddvhr9n6dnef2vig1; keep_user=think%3A%7B%22id%22%3A%225c9d059ceuYUAWfLZBvU%252FWR9W2f5N96xzAsZD2Y%252B%22%2C%22pid%22%3A%22ca0bPbHWVo%252FSCC9l4tsFNtvcSYEJ1cXcdWcT4189%22%2C%22name%22%3A%2298901U2EIfCf5emUQQXrlb8ZRpy2Y%252Fzs15mKUcwGXFw%22%2C%22realname%22%3A%2252b8ksFFH0EsiswZ4qkba4LObAL6XQWdKgKoRcHNYfBDKz2oQBk%22%2C%22sex%22%3A%22418dywKDpy%252FngJpMgrLxfXZuESWsX%252FNPZQ9qqQQb%22%2C%22mobile%22%3A%229fbfAZdNUyl41NMcAhk9n1B2h8rRXv2dOXw5bIB2WwtL2ocpRpS4Hw%22%2C%22qq%22%3A%22d130o0CYhjaAku2mbRuw270P0m0LX%252FXyF9EUYYV%252FV54fFDt%252Bp4s%22%2C%22email%22%3A%22fbc1YzkikHmwiJu8W5mB8X3krjH%252FxAevcK0eeB%252B5wc9h5dJL1Kq%252Becy6PbyNcNs%22%2C%22id_num%22%3A%22d96aTeOM%252Fq5pkwocMr3tW6z%252BTarOQ8oscJ4VP10%22%2C%22id_card_path%22%3A%22236aCU2MU2C%252BFgAS4k7%252B4dL1Q7%252FF1RhtwW7sy7Q%22%2C%22headimgurl%22%3A%226196YxG5rpxAgVzwFB8Fnds%252BdPeADIJtvm9A7CdgdpEr5dwM2rFvSAUVSSxdD6KnvfL4%252BBwBQZKLQaYJWXQlYYjd6vofWDQ3ljNAKfNX04AMPtEJXbgvV113bpR0bQp3K%252BS5sb%252BN3lGulmJxvviHZdAUc6BF9a2yAXCQ6Udq7J0tnCD9Y%252FRnMA6VqVqcJXOgYNsjIg%22%2C%22id_list%22%3A%22ba4aDaSEARA%252BjGjBfEnipGp0%252B2gVZtR3DIEtcQFu%22%2C%22regtime%22%3A%221372sHsSbwu3wVD66Y%252BIBSFrCC9CsGUinbKb1vQB%22%2C%22logintime%22%3A%2232269dBJ05xuEd8OjGTBZTpdrQsS%252B6%252BuNDf5F%252BH9%22%2C%22loginip%22%3A%22bbb7Mi5SkwclPc4jM55ocPhZFGHNfbHt8zY7QXA%22%2C%22status%22%3A%228612WTG0FSxJQuNgDsaJzLyTHr0rGBDi2UzJ3xqS%22%2C%22remark%22%3A%22bdabwqzpja1i6Dy%252FN%252Becs7YoksR%252FZiEWp0YuwG8%22%2C%22subscribe%22%3A%2266a1HFXch4yvIF0YwHkVCe2f6tfkHfY92NWkSXxa%22%2C%22openid%22%3A%22dd57PfhEQn0XdUbn0p2dRio7Na1h0AATluS7Ds%252Bqj5%252FjbOACSa8qvY3iGkLpXNCK8cxjDc3kDqIE%22%2C%22nickname%22%3A%22711ceWl9ctrMArIICxrRovOeatsaDuQmm6%252Fu1Gn7ANn1%252B7c%22%2C%22language%22%3A%220cd7Zeaigdeo6SvSb9coduZ5%252FAkAfW4touckExIWu6%252F7gA%22%2C%22city%22%3A%224e68%252FlVQfeqPGmIVMy2mj66YOjs7tf6lsRUOwssKGc3D0oY%22%2C%22province%22%3A%22cec6lvTvDpashH3bvv5S0vsK9390HG6%252FGi4k29fWCZ9OPio%22%2C%22country%22%3A%22431ecl2JnhIuqMuC5JzpdkCKFCfQuZBpuEpy4yBETRO6Tfw%22%2C%22subscribe_time%22%3A%225123XLpGtme0OtedtCvhFM0Heo8UC4AZlQjH3FbUFLb0oI%252F%252FVnNz%22%2C%22unionid%22%3A%225385blTZvPkXgN02Gkpmi0iaXXvJ1Rv%252BP61Cgks%22%2C%22groupid%22%3A%226aac80%252BF7g7t1IlnSuw%252Fmc2ADfNsTG%252FUFduKy0Fx%22%2C%22tagid_list%22%3A%22c50b8MPKooAyY4H8jOB645A8i%252BwRQfNcSK%252Bigjk%22%2C%22qr_code%22%3A%2252d95VqiZTGyjr%252B1gF2jQ8zgh70m%252Fj1vTPRc734vTqBEyXRly9rK7MXCGB94X64KDRDINvp%252FDCokqZphAmgqIwI8VEscYxMikhBxGhUps%252FZUGc%252FBpAzvUy%252FYmYU9%252BDaUEYeo2vt8YA3lC6riymkrqOhlbO6XOOU6PCIuaIEvO7CeP3sKa0k6YG6HoCGpoUBdUaRdbdRL52WgPfdHW9fEPkWjP7D%252BKmHt%252FjL5uX%252BgWgo%22%2C%22qr_seconds%22%3A%225964%252BcNiuKW%252Bsinmbvzeodw%252B90QBGyKUoHgjFSf5S4jomCrPioOr%22%2C%22qr_ticket%22%3A%228c31f5bWIAHUZmamRtbnbXxcJyJYqPcbq04WA82Q0mZ%252BAMevOS2izIrrYJhRcuzfCzSoaxXdAs2MA8q%252B4HUzowq%252FyyjoW%252FMCYEQ88teSxmYGaTvPLQQAzxI0DjG424O4FuqGOuw9HJdaueC0Gctc0yS7cUTkOByWvP1mpws%22%7D',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  '/index/order/preview/id_list/269,1' => '',
+  'id_list' => '269,1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Order->preview[ /home/aptx/File/PHP/6rmh/app/index/controller/Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/order/preview.html [ array (
+  0 => 'cookie',
+  1 => 'address',
+  2 => 'pay_way',
+  3 => 'delivery',
+  4 => 'id_list',
+  5 => 'carts',
+  6 => 'count',
+  7 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-23T15:49:49+08:00 ] 127.0.0.2 127.0.0.1 GET /index/order/preview/id_list/269,1
+[ log ] www.sixer.com/index/order/preview/id_list/269,1 [运行时间：1.061109s][吞吐率：0.94req/s] [内存消耗：3,468.55kb] [文件加载：54]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'order',
+    2 => 'preview',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Version/10.0 Mobile/14D27 Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.sixer.com/index/cart',
+  'cookie' => 'PHPSESSID=ib87c70n6nfgng1ofq9pm9beq9e07vm391cddvhr9n6dnef2vig1; keep_user=think%3A%7B%22id%22%3A%225c9d059ceuYUAWfLZBvU%252FWR9W2f5N96xzAsZD2Y%252B%22%2C%22pid%22%3A%22ca0bPbHWVo%252FSCC9l4tsFNtvcSYEJ1cXcdWcT4189%22%2C%22name%22%3A%2298901U2EIfCf5emUQQXrlb8ZRpy2Y%252Fzs15mKUcwGXFw%22%2C%22realname%22%3A%2252b8ksFFH0EsiswZ4qkba4LObAL6XQWdKgKoRcHNYfBDKz2oQBk%22%2C%22sex%22%3A%22418dywKDpy%252FngJpMgrLxfXZuESWsX%252FNPZQ9qqQQb%22%2C%22mobile%22%3A%229fbfAZdNUyl41NMcAhk9n1B2h8rRXv2dOXw5bIB2WwtL2ocpRpS4Hw%22%2C%22qq%22%3A%22d130o0CYhjaAku2mbRuw270P0m0LX%252FXyF9EUYYV%252FV54fFDt%252Bp4s%22%2C%22email%22%3A%22fbc1YzkikHmwiJu8W5mB8X3krjH%252FxAevcK0eeB%252B5wc9h5dJL1Kq%252Becy6PbyNcNs%22%2C%22id_num%22%3A%22d96aTeOM%252Fq5pkwocMr3tW6z%252BTarOQ8oscJ4VP10%22%2C%22id_card_path%22%3A%22236aCU2MU2C%252BFgAS4k7%252B4dL1Q7%252FF1RhtwW7sy7Q%22%2C%22headimgurl%22%3A%226196YxG5rpxAgVzwFB8Fnds%252BdPeADIJtvm9A7CdgdpEr5dwM2rFvSAUVSSxdD6KnvfL4%252BBwBQZKLQaYJWXQlYYjd6vofWDQ3ljNAKfNX04AMPtEJXbgvV113bpR0bQp3K%252BS5sb%252BN3lGulmJxvviHZdAUc6BF9a2yAXCQ6Udq7J0tnCD9Y%252FRnMA6VqVqcJXOgYNsjIg%22%2C%22id_list%22%3A%22ba4aDaSEARA%252BjGjBfEnipGp0%252B2gVZtR3DIEtcQFu%22%2C%22regtime%22%3A%221372sHsSbwu3wVD66Y%252BIBSFrCC9CsGUinbKb1vQB%22%2C%22logintime%22%3A%2232269dBJ05xuEd8OjGTBZTpdrQsS%252B6%252BuNDf5F%252BH9%22%2C%22loginip%22%3A%22bbb7Mi5SkwclPc4jM55ocPhZFGHNfbHt8zY7QXA%22%2C%22status%22%3A%228612WTG0FSxJQuNgDsaJzLyTHr0rGBDi2UzJ3xqS%22%2C%22remark%22%3A%22bdabwqzpja1i6Dy%252FN%252Becs7YoksR%252FZiEWp0YuwG8%22%2C%22subscribe%22%3A%2266a1HFXch4yvIF0YwHkVCe2f6tfkHfY92NWkSXxa%22%2C%22openid%22%3A%22dd57PfhEQn0XdUbn0p2dRio7Na1h0AATluS7Ds%252Bqj5%252FjbOACSa8qvY3iGkLpXNCK8cxjDc3kDqIE%22%2C%22nickname%22%3A%22711ceWl9ctrMArIICxrRovOeatsaDuQmm6%252Fu1Gn7ANn1%252B7c%22%2C%22language%22%3A%220cd7Zeaigdeo6SvSb9coduZ5%252FAkAfW4touckExIWu6%252F7gA%22%2C%22city%22%3A%224e68%252FlVQfeqPGmIVMy2mj66YOjs7tf6lsRUOwssKGc3D0oY%22%2C%22province%22%3A%22cec6lvTvDpashH3bvv5S0vsK9390HG6%252FGi4k29fWCZ9OPio%22%2C%22country%22%3A%22431ecl2JnhIuqMuC5JzpdkCKFCfQuZBpuEpy4yBETRO6Tfw%22%2C%22subscribe_time%22%3A%225123XLpGtme0OtedtCvhFM0Heo8UC4AZlQjH3FbUFLb0oI%252F%252FVnNz%22%2C%22unionid%22%3A%225385blTZvPkXgN02Gkpmi0iaXXvJ1Rv%252BP61Cgks%22%2C%22groupid%22%3A%226aac80%252BF7g7t1IlnSuw%252Fmc2ADfNsTG%252FUFduKy0Fx%22%2C%22tagid_list%22%3A%22c50b8MPKooAyY4H8jOB645A8i%252BwRQfNcSK%252Bigjk%22%2C%22qr_code%22%3A%2252d95VqiZTGyjr%252B1gF2jQ8zgh70m%252Fj1vTPRc734vTqBEyXRly9rK7MXCGB94X64KDRDINvp%252FDCokqZphAmgqIwI8VEscYxMikhBxGhUps%252FZUGc%252FBpAzvUy%252FYmYU9%252BDaUEYeo2vt8YA3lC6riymkrqOhlbO6XOOU6PCIuaIEvO7CeP3sKa0k6YG6HoCGpoUBdUaRdbdRL52WgPfdHW9fEPkWjP7D%252BKmHt%252FjL5uX%252BgWgo%22%2C%22qr_seconds%22%3A%225964%252BcNiuKW%252Bsinmbvzeodw%252B90QBGyKUoHgjFSf5S4jomCrPioOr%22%2C%22qr_ticket%22%3A%228c31f5bWIAHUZmamRtbnbXxcJyJYqPcbq04WA82Q0mZ%252BAMevOS2izIrrYJhRcuzfCzSoaxXdAs2MA8q%252B4HUzowq%252FyyjoW%252FMCYEQ88teSxmYGaTvPLQQAzxI0DjG424O4FuqGOuw9HJdaueC0Gctc0yS7cUTkOByWvP1mpws%22%7D',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  '/index/order/preview/id_list/269,1' => '',
+  'id_list' => '269,1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Order->preview[ /home/aptx/File/PHP/6rmh/app/index/controller/Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/order/preview.html [ array (
+  0 => 'cookie',
+  1 => 'address',
+  2 => 'pay_way',
+  3 => 'delivery',
+  4 => 'id_list',
+  5 => 'carts',
+  6 => 'count',
+  7 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-23T15:55:39+08:00 ] 127.0.0.2 127.0.0.1 GET /index/order/preview/id_list/269,1
+[ log ] www.sixer.com/index/order/preview/id_list/269,1 [运行时间：0.605765s][吞吐率：1.65req/s] [内存消耗：3,468.55kb] [文件加载：54]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'order',
+    2 => 'preview',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Version/10.0 Mobile/14D27 Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.sixer.com/index/cart',
+  'cookie' => 'PHPSESSID=ib87c70n6nfgng1ofq9pm9beq9e07vm391cddvhr9n6dnef2vig1; keep_user=think%3A%7B%22id%22%3A%225c9d059ceuYUAWfLZBvU%252FWR9W2f5N96xzAsZD2Y%252B%22%2C%22pid%22%3A%22ca0bPbHWVo%252FSCC9l4tsFNtvcSYEJ1cXcdWcT4189%22%2C%22name%22%3A%2298901U2EIfCf5emUQQXrlb8ZRpy2Y%252Fzs15mKUcwGXFw%22%2C%22realname%22%3A%2252b8ksFFH0EsiswZ4qkba4LObAL6XQWdKgKoRcHNYfBDKz2oQBk%22%2C%22sex%22%3A%22418dywKDpy%252FngJpMgrLxfXZuESWsX%252FNPZQ9qqQQb%22%2C%22mobile%22%3A%229fbfAZdNUyl41NMcAhk9n1B2h8rRXv2dOXw5bIB2WwtL2ocpRpS4Hw%22%2C%22qq%22%3A%22d130o0CYhjaAku2mbRuw270P0m0LX%252FXyF9EUYYV%252FV54fFDt%252Bp4s%22%2C%22email%22%3A%22fbc1YzkikHmwiJu8W5mB8X3krjH%252FxAevcK0eeB%252B5wc9h5dJL1Kq%252Becy6PbyNcNs%22%2C%22id_num%22%3A%22d96aTeOM%252Fq5pkwocMr3tW6z%252BTarOQ8oscJ4VP10%22%2C%22id_card_path%22%3A%22236aCU2MU2C%252BFgAS4k7%252B4dL1Q7%252FF1RhtwW7sy7Q%22%2C%22headimgurl%22%3A%226196YxG5rpxAgVzwFB8Fnds%252BdPeADIJtvm9A7CdgdpEr5dwM2rFvSAUVSSxdD6KnvfL4%252BBwBQZKLQaYJWXQlYYjd6vofWDQ3ljNAKfNX04AMPtEJXbgvV113bpR0bQp3K%252BS5sb%252BN3lGulmJxvviHZdAUc6BF9a2yAXCQ6Udq7J0tnCD9Y%252FRnMA6VqVqcJXOgYNsjIg%22%2C%22id_list%22%3A%22ba4aDaSEARA%252BjGjBfEnipGp0%252B2gVZtR3DIEtcQFu%22%2C%22regtime%22%3A%221372sHsSbwu3wVD66Y%252BIBSFrCC9CsGUinbKb1vQB%22%2C%22logintime%22%3A%2232269dBJ05xuEd8OjGTBZTpdrQsS%252B6%252BuNDf5F%252BH9%22%2C%22loginip%22%3A%22bbb7Mi5SkwclPc4jM55ocPhZFGHNfbHt8zY7QXA%22%2C%22status%22%3A%228612WTG0FSxJQuNgDsaJzLyTHr0rGBDi2UzJ3xqS%22%2C%22remark%22%3A%22bdabwqzpja1i6Dy%252FN%252Becs7YoksR%252FZiEWp0YuwG8%22%2C%22subscribe%22%3A%2266a1HFXch4yvIF0YwHkVCe2f6tfkHfY92NWkSXxa%22%2C%22openid%22%3A%22dd57PfhEQn0XdUbn0p2dRio7Na1h0AATluS7Ds%252Bqj5%252FjbOACSa8qvY3iGkLpXNCK8cxjDc3kDqIE%22%2C%22nickname%22%3A%22711ceWl9ctrMArIICxrRovOeatsaDuQmm6%252Fu1Gn7ANn1%252B7c%22%2C%22language%22%3A%220cd7Zeaigdeo6SvSb9coduZ5%252FAkAfW4touckExIWu6%252F7gA%22%2C%22city%22%3A%224e68%252FlVQfeqPGmIVMy2mj66YOjs7tf6lsRUOwssKGc3D0oY%22%2C%22province%22%3A%22cec6lvTvDpashH3bvv5S0vsK9390HG6%252FGi4k29fWCZ9OPio%22%2C%22country%22%3A%22431ecl2JnhIuqMuC5JzpdkCKFCfQuZBpuEpy4yBETRO6Tfw%22%2C%22subscribe_time%22%3A%225123XLpGtme0OtedtCvhFM0Heo8UC4AZlQjH3FbUFLb0oI%252F%252FVnNz%22%2C%22unionid%22%3A%225385blTZvPkXgN02Gkpmi0iaXXvJ1Rv%252BP61Cgks%22%2C%22groupid%22%3A%226aac80%252BF7g7t1IlnSuw%252Fmc2ADfNsTG%252FUFduKy0Fx%22%2C%22tagid_list%22%3A%22c50b8MPKooAyY4H8jOB645A8i%252BwRQfNcSK%252Bigjk%22%2C%22qr_code%22%3A%2252d95VqiZTGyjr%252B1gF2jQ8zgh70m%252Fj1vTPRc734vTqBEyXRly9rK7MXCGB94X64KDRDINvp%252FDCokqZphAmgqIwI8VEscYxMikhBxGhUps%252FZUGc%252FBpAzvUy%252FYmYU9%252BDaUEYeo2vt8YA3lC6riymkrqOhlbO6XOOU6PCIuaIEvO7CeP3sKa0k6YG6HoCGpoUBdUaRdbdRL52WgPfdHW9fEPkWjP7D%252BKmHt%252FjL5uX%252BgWgo%22%2C%22qr_seconds%22%3A%225964%252BcNiuKW%252Bsinmbvzeodw%252B90QBGyKUoHgjFSf5S4jomCrPioOr%22%2C%22qr_ticket%22%3A%228c31f5bWIAHUZmamRtbnbXxcJyJYqPcbq04WA82Q0mZ%252BAMevOS2izIrrYJhRcuzfCzSoaxXdAs2MA8q%252B4HUzowq%252FyyjoW%252FMCYEQ88teSxmYGaTvPLQQAzxI0DjG424O4FuqGOuw9HJdaueC0Gctc0yS7cUTkOByWvP1mpws%22%7D',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  '/index/order/preview/id_list/269,1' => '',
+  'id_list' => '269,1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Order->preview[ /home/aptx/File/PHP/6rmh/app/index/controller/Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/order/preview.html [ array (
+  0 => 'cookie',
+  1 => 'address',
+  2 => 'pay_way',
+  3 => 'delivery',
+  4 => 'id_list',
+  5 => 'carts',
+  6 => 'count',
+  7 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-23T16:38:08+08:00 ] 127.0.0.2 127.0.0.1 GET /index/cart
+[ log ] www.sixer.com/index/cart [运行时间：0.107191s][吞吐率：9.33req/s] [内存消耗：2,334.30kb] [文件加载：45]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cart',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/index/cart' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-23T16:38:08+08:00 ] 127.0.0.2 127.0.0.1 GET /index/login/index
+[ log ] www.sixer.com/index/login/index [运行时间：0.028020s][吞吐率：35.69req/s] [内存消耗：2,263.68kb] [文件加载：42]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/index/login/index' => '',
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/view/login/index.html [ array (
+  0 => 'header',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-23T16:38:09+08:00 ] 127.0.0.2 127.0.0.1 GET /index/login/index
+[ log ] www.sixer.com/index/login/index [运行时间：0.028585s][吞吐率：34.98req/s] [内存消耗：2,263.71kb] [文件加载：42]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.sixer.com/index/login/index',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/index/login/index' => '',
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/view/login/index.html [ array (
+  0 => 'header',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-23T16:38:09+08:00 ] 127.0.0.2 127.0.0.1 GET /index/index/footerinfo
+[ log ] www.sixer.com/index/index/footerinfo [运行时间：0.272388s][吞吐率：3.67req/s] [内存消耗：3,254.93kb] [文件加载：50]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'footerinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => 'application/json, text/plain, */*',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.sixer.com/index/login/index',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/footerinfo' => '',
+)
+[ info ] [ RUN ] app\index\controller\Index->footerInfo[ /home/aptx/File/PHP/6rmh/app/index/controller/Index.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-23T17:04:38+08:00 ] 127.0.0.2 127.0.0.1 GET /index/order/preview/id_list/269,1
+[ log ] www.sixer.com/index/order/preview/id_list/269,1 [运行时间：0.592117s][吞吐率：1.69req/s] [内存消耗：3,468.55kb] [文件加载：54]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'order',
+    2 => 'preview',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Version/10.0 Mobile/14D27 Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.sixer.com/index/cart',
+  'cookie' => 'PHPSESSID=ib87c70n6nfgng1ofq9pm9beq9e07vm391cddvhr9n6dnef2vig1; keep_user=think%3A%7B%22id%22%3A%225c9d059ceuYUAWfLZBvU%252FWR9W2f5N96xzAsZD2Y%252B%22%2C%22pid%22%3A%22ca0bPbHWVo%252FSCC9l4tsFNtvcSYEJ1cXcdWcT4189%22%2C%22name%22%3A%2298901U2EIfCf5emUQQXrlb8ZRpy2Y%252Fzs15mKUcwGXFw%22%2C%22realname%22%3A%2252b8ksFFH0EsiswZ4qkba4LObAL6XQWdKgKoRcHNYfBDKz2oQBk%22%2C%22sex%22%3A%22418dywKDpy%252FngJpMgrLxfXZuESWsX%252FNPZQ9qqQQb%22%2C%22mobile%22%3A%229fbfAZdNUyl41NMcAhk9n1B2h8rRXv2dOXw5bIB2WwtL2ocpRpS4Hw%22%2C%22qq%22%3A%22d130o0CYhjaAku2mbRuw270P0m0LX%252FXyF9EUYYV%252FV54fFDt%252Bp4s%22%2C%22email%22%3A%22fbc1YzkikHmwiJu8W5mB8X3krjH%252FxAevcK0eeB%252B5wc9h5dJL1Kq%252Becy6PbyNcNs%22%2C%22id_num%22%3A%22d96aTeOM%252Fq5pkwocMr3tW6z%252BTarOQ8oscJ4VP10%22%2C%22id_card_path%22%3A%22236aCU2MU2C%252BFgAS4k7%252B4dL1Q7%252FF1RhtwW7sy7Q%22%2C%22headimgurl%22%3A%226196YxG5rpxAgVzwFB8Fnds%252BdPeADIJtvm9A7CdgdpEr5dwM2rFvSAUVSSxdD6KnvfL4%252BBwBQZKLQaYJWXQlYYjd6vofWDQ3ljNAKfNX04AMPtEJXbgvV113bpR0bQp3K%252BS5sb%252BN3lGulmJxvviHZdAUc6BF9a2yAXCQ6Udq7J0tnCD9Y%252FRnMA6VqVqcJXOgYNsjIg%22%2C%22id_list%22%3A%22ba4aDaSEARA%252BjGjBfEnipGp0%252B2gVZtR3DIEtcQFu%22%2C%22regtime%22%3A%221372sHsSbwu3wVD66Y%252BIBSFrCC9CsGUinbKb1vQB%22%2C%22logintime%22%3A%2232269dBJ05xuEd8OjGTBZTpdrQsS%252B6%252BuNDf5F%252BH9%22%2C%22loginip%22%3A%22bbb7Mi5SkwclPc4jM55ocPhZFGHNfbHt8zY7QXA%22%2C%22status%22%3A%228612WTG0FSxJQuNgDsaJzLyTHr0rGBDi2UzJ3xqS%22%2C%22remark%22%3A%22bdabwqzpja1i6Dy%252FN%252Becs7YoksR%252FZiEWp0YuwG8%22%2C%22subscribe%22%3A%2266a1HFXch4yvIF0YwHkVCe2f6tfkHfY92NWkSXxa%22%2C%22openid%22%3A%22dd57PfhEQn0XdUbn0p2dRio7Na1h0AATluS7Ds%252Bqj5%252FjbOACSa8qvY3iGkLpXNCK8cxjDc3kDqIE%22%2C%22nickname%22%3A%22711ceWl9ctrMArIICxrRovOeatsaDuQmm6%252Fu1Gn7ANn1%252B7c%22%2C%22language%22%3A%220cd7Zeaigdeo6SvSb9coduZ5%252FAkAfW4touckExIWu6%252F7gA%22%2C%22city%22%3A%224e68%252FlVQfeqPGmIVMy2mj66YOjs7tf6lsRUOwssKGc3D0oY%22%2C%22province%22%3A%22cec6lvTvDpashH3bvv5S0vsK9390HG6%252FGi4k29fWCZ9OPio%22%2C%22country%22%3A%22431ecl2JnhIuqMuC5JzpdkCKFCfQuZBpuEpy4yBETRO6Tfw%22%2C%22subscribe_time%22%3A%225123XLpGtme0OtedtCvhFM0Heo8UC4AZlQjH3FbUFLb0oI%252F%252FVnNz%22%2C%22unionid%22%3A%225385blTZvPkXgN02Gkpmi0iaXXvJ1Rv%252BP61Cgks%22%2C%22groupid%22%3A%226aac80%252BF7g7t1IlnSuw%252Fmc2ADfNsTG%252FUFduKy0Fx%22%2C%22tagid_list%22%3A%22c50b8MPKooAyY4H8jOB645A8i%252BwRQfNcSK%252Bigjk%22%2C%22qr_code%22%3A%2252d95VqiZTGyjr%252B1gF2jQ8zgh70m%252Fj1vTPRc734vTqBEyXRly9rK7MXCGB94X64KDRDINvp%252FDCokqZphAmgqIwI8VEscYxMikhBxGhUps%252FZUGc%252FBpAzvUy%252FYmYU9%252BDaUEYeo2vt8YA3lC6riymkrqOhlbO6XOOU6PCIuaIEvO7CeP3sKa0k6YG6HoCGpoUBdUaRdbdRL52WgPfdHW9fEPkWjP7D%252BKmHt%252FjL5uX%252BgWgo%22%2C%22qr_seconds%22%3A%225964%252BcNiuKW%252Bsinmbvzeodw%252B90QBGyKUoHgjFSf5S4jomCrPioOr%22%2C%22qr_ticket%22%3A%228c31f5bWIAHUZmamRtbnbXxcJyJYqPcbq04WA82Q0mZ%252BAMevOS2izIrrYJhRcuzfCzSoaxXdAs2MA8q%252B4HUzowq%252FyyjoW%252FMCYEQ88teSxmYGaTvPLQQAzxI0DjG424O4FuqGOuw9HJdaueC0Gctc0yS7cUTkOByWvP1mpws%22%7D',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  '/index/order/preview/id_list/269,1' => '',
+  'id_list' => '269,1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Order->preview[ /home/aptx/File/PHP/6rmh/app/index/controller/Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/order/preview.html [ array (
+  0 => 'cookie',
+  1 => 'address',
+  2 => 'pay_way',
+  3 => 'delivery',
+  4 => 'id_list',
+  5 => 'carts',
+  6 => 'count',
+  7 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-23T17:04:54+08:00 ] 127.0.0.2 127.0.0.1 GET /index/order/preview/id_list/269,1
+[ log ] www.sixer.com/index/order/preview/id_list/269,1 [运行时间：1.127555s][吞吐率：0.89req/s] [内存消耗：3,468.55kb] [文件加载：54]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'order',
+    2 => 'preview',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Version/10.0 Mobile/14D27 Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.sixer.com/index/cart',
+  'cookie' => 'PHPSESSID=ib87c70n6nfgng1ofq9pm9beq9e07vm391cddvhr9n6dnef2vig1; keep_user=think%3A%7B%22id%22%3A%225c9d059ceuYUAWfLZBvU%252FWR9W2f5N96xzAsZD2Y%252B%22%2C%22pid%22%3A%22ca0bPbHWVo%252FSCC9l4tsFNtvcSYEJ1cXcdWcT4189%22%2C%22name%22%3A%2298901U2EIfCf5emUQQXrlb8ZRpy2Y%252Fzs15mKUcwGXFw%22%2C%22realname%22%3A%2252b8ksFFH0EsiswZ4qkba4LObAL6XQWdKgKoRcHNYfBDKz2oQBk%22%2C%22sex%22%3A%22418dywKDpy%252FngJpMgrLxfXZuESWsX%252FNPZQ9qqQQb%22%2C%22mobile%22%3A%229fbfAZdNUyl41NMcAhk9n1B2h8rRXv2dOXw5bIB2WwtL2ocpRpS4Hw%22%2C%22qq%22%3A%22d130o0CYhjaAku2mbRuw270P0m0LX%252FXyF9EUYYV%252FV54fFDt%252Bp4s%22%2C%22email%22%3A%22fbc1YzkikHmwiJu8W5mB8X3krjH%252FxAevcK0eeB%252B5wc9h5dJL1Kq%252Becy6PbyNcNs%22%2C%22id_num%22%3A%22d96aTeOM%252Fq5pkwocMr3tW6z%252BTarOQ8oscJ4VP10%22%2C%22id_card_path%22%3A%22236aCU2MU2C%252BFgAS4k7%252B4dL1Q7%252FF1RhtwW7sy7Q%22%2C%22headimgurl%22%3A%226196YxG5rpxAgVzwFB8Fnds%252BdPeADIJtvm9A7CdgdpEr5dwM2rFvSAUVSSxdD6KnvfL4%252BBwBQZKLQaYJWXQlYYjd6vofWDQ3ljNAKfNX04AMPtEJXbgvV113bpR0bQp3K%252BS5sb%252BN3lGulmJxvviHZdAUc6BF9a2yAXCQ6Udq7J0tnCD9Y%252FRnMA6VqVqcJXOgYNsjIg%22%2C%22id_list%22%3A%22ba4aDaSEARA%252BjGjBfEnipGp0%252B2gVZtR3DIEtcQFu%22%2C%22regtime%22%3A%221372sHsSbwu3wVD66Y%252BIBSFrCC9CsGUinbKb1vQB%22%2C%22logintime%22%3A%2232269dBJ05xuEd8OjGTBZTpdrQsS%252B6%252BuNDf5F%252BH9%22%2C%22loginip%22%3A%22bbb7Mi5SkwclPc4jM55ocPhZFGHNfbHt8zY7QXA%22%2C%22status%22%3A%228612WTG0FSxJQuNgDsaJzLyTHr0rGBDi2UzJ3xqS%22%2C%22remark%22%3A%22bdabwqzpja1i6Dy%252FN%252Becs7YoksR%252FZiEWp0YuwG8%22%2C%22subscribe%22%3A%2266a1HFXch4yvIF0YwHkVCe2f6tfkHfY92NWkSXxa%22%2C%22openid%22%3A%22dd57PfhEQn0XdUbn0p2dRio7Na1h0AATluS7Ds%252Bqj5%252FjbOACSa8qvY3iGkLpXNCK8cxjDc3kDqIE%22%2C%22nickname%22%3A%22711ceWl9ctrMArIICxrRovOeatsaDuQmm6%252Fu1Gn7ANn1%252B7c%22%2C%22language%22%3A%220cd7Zeaigdeo6SvSb9coduZ5%252FAkAfW4touckExIWu6%252F7gA%22%2C%22city%22%3A%224e68%252FlVQfeqPGmIVMy2mj66YOjs7tf6lsRUOwssKGc3D0oY%22%2C%22province%22%3A%22cec6lvTvDpashH3bvv5S0vsK9390HG6%252FGi4k29fWCZ9OPio%22%2C%22country%22%3A%22431ecl2JnhIuqMuC5JzpdkCKFCfQuZBpuEpy4yBETRO6Tfw%22%2C%22subscribe_time%22%3A%225123XLpGtme0OtedtCvhFM0Heo8UC4AZlQjH3FbUFLb0oI%252F%252FVnNz%22%2C%22unionid%22%3A%225385blTZvPkXgN02Gkpmi0iaXXvJ1Rv%252BP61Cgks%22%2C%22groupid%22%3A%226aac80%252BF7g7t1IlnSuw%252Fmc2ADfNsTG%252FUFduKy0Fx%22%2C%22tagid_list%22%3A%22c50b8MPKooAyY4H8jOB645A8i%252BwRQfNcSK%252Bigjk%22%2C%22qr_code%22%3A%2252d95VqiZTGyjr%252B1gF2jQ8zgh70m%252Fj1vTPRc734vTqBEyXRly9rK7MXCGB94X64KDRDINvp%252FDCokqZphAmgqIwI8VEscYxMikhBxGhUps%252FZUGc%252FBpAzvUy%252FYmYU9%252BDaUEYeo2vt8YA3lC6riymkrqOhlbO6XOOU6PCIuaIEvO7CeP3sKa0k6YG6HoCGpoUBdUaRdbdRL52WgPfdHW9fEPkWjP7D%252BKmHt%252FjL5uX%252BgWgo%22%2C%22qr_seconds%22%3A%225964%252BcNiuKW%252Bsinmbvzeodw%252B90QBGyKUoHgjFSf5S4jomCrPioOr%22%2C%22qr_ticket%22%3A%228c31f5bWIAHUZmamRtbnbXxcJyJYqPcbq04WA82Q0mZ%252BAMevOS2izIrrYJhRcuzfCzSoaxXdAs2MA8q%252B4HUzowq%252FyyjoW%252FMCYEQ88teSxmYGaTvPLQQAzxI0DjG424O4FuqGOuw9HJdaueC0Gctc0yS7cUTkOByWvP1mpws%22%7D',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  '/index/order/preview/id_list/269,1' => '',
+  'id_list' => '269,1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Order->preview[ /home/aptx/File/PHP/6rmh/app/index/controller/Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/order/preview.html [ array (
+  0 => 'cookie',
+  1 => 'address',
+  2 => 'pay_way',
+  3 => 'delivery',
+  4 => 'id_list',
+  5 => 'carts',
+  6 => 'count',
+  7 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-23T17:06:16+08:00 ] 127.0.0.2 127.0.0.1 GET /index/order/preview/id_list/269,1
+[ log ] www.sixer.com/index/order/preview/id_list/269,1 [运行时间：0.606117s][吞吐率：1.65req/s] [内存消耗：3,468.55kb] [文件加载：54]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'order',
+    2 => 'preview',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Version/10.0 Mobile/14D27 Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.sixer.com/index/cart',
+  'cookie' => 'PHPSESSID=ib87c70n6nfgng1ofq9pm9beq9e07vm391cddvhr9n6dnef2vig1; keep_user=think%3A%7B%22id%22%3A%225c9d059ceuYUAWfLZBvU%252FWR9W2f5N96xzAsZD2Y%252B%22%2C%22pid%22%3A%22ca0bPbHWVo%252FSCC9l4tsFNtvcSYEJ1cXcdWcT4189%22%2C%22name%22%3A%2298901U2EIfCf5emUQQXrlb8ZRpy2Y%252Fzs15mKUcwGXFw%22%2C%22realname%22%3A%2252b8ksFFH0EsiswZ4qkba4LObAL6XQWdKgKoRcHNYfBDKz2oQBk%22%2C%22sex%22%3A%22418dywKDpy%252FngJpMgrLxfXZuESWsX%252FNPZQ9qqQQb%22%2C%22mobile%22%3A%229fbfAZdNUyl41NMcAhk9n1B2h8rRXv2dOXw5bIB2WwtL2ocpRpS4Hw%22%2C%22qq%22%3A%22d130o0CYhjaAku2mbRuw270P0m0LX%252FXyF9EUYYV%252FV54fFDt%252Bp4s%22%2C%22email%22%3A%22fbc1YzkikHmwiJu8W5mB8X3krjH%252FxAevcK0eeB%252B5wc9h5dJL1Kq%252Becy6PbyNcNs%22%2C%22id_num%22%3A%22d96aTeOM%252Fq5pkwocMr3tW6z%252BTarOQ8oscJ4VP10%22%2C%22id_card_path%22%3A%22236aCU2MU2C%252BFgAS4k7%252B4dL1Q7%252FF1RhtwW7sy7Q%22%2C%22headimgurl%22%3A%226196YxG5rpxAgVzwFB8Fnds%252BdPeADIJtvm9A7CdgdpEr5dwM2rFvSAUVSSxdD6KnvfL4%252BBwBQZKLQaYJWXQlYYjd6vofWDQ3ljNAKfNX04AMPtEJXbgvV113bpR0bQp3K%252BS5sb%252BN3lGulmJxvviHZdAUc6BF9a2yAXCQ6Udq7J0tnCD9Y%252FRnMA6VqVqcJXOgYNsjIg%22%2C%22id_list%22%3A%22ba4aDaSEARA%252BjGjBfEnipGp0%252B2gVZtR3DIEtcQFu%22%2C%22regtime%22%3A%221372sHsSbwu3wVD66Y%252BIBSFrCC9CsGUinbKb1vQB%22%2C%22logintime%22%3A%2232269dBJ05xuEd8OjGTBZTpdrQsS%252B6%252BuNDf5F%252BH9%22%2C%22loginip%22%3A%22bbb7Mi5SkwclPc4jM55ocPhZFGHNfbHt8zY7QXA%22%2C%22status%22%3A%228612WTG0FSxJQuNgDsaJzLyTHr0rGBDi2UzJ3xqS%22%2C%22remark%22%3A%22bdabwqzpja1i6Dy%252FN%252Becs7YoksR%252FZiEWp0YuwG8%22%2C%22subscribe%22%3A%2266a1HFXch4yvIF0YwHkVCe2f6tfkHfY92NWkSXxa%22%2C%22openid%22%3A%22dd57PfhEQn0XdUbn0p2dRio7Na1h0AATluS7Ds%252Bqj5%252FjbOACSa8qvY3iGkLpXNCK8cxjDc3kDqIE%22%2C%22nickname%22%3A%22711ceWl9ctrMArIICxrRovOeatsaDuQmm6%252Fu1Gn7ANn1%252B7c%22%2C%22language%22%3A%220cd7Zeaigdeo6SvSb9coduZ5%252FAkAfW4touckExIWu6%252F7gA%22%2C%22city%22%3A%224e68%252FlVQfeqPGmIVMy2mj66YOjs7tf6lsRUOwssKGc3D0oY%22%2C%22province%22%3A%22cec6lvTvDpashH3bvv5S0vsK9390HG6%252FGi4k29fWCZ9OPio%22%2C%22country%22%3A%22431ecl2JnhIuqMuC5JzpdkCKFCfQuZBpuEpy4yBETRO6Tfw%22%2C%22subscribe_time%22%3A%225123XLpGtme0OtedtCvhFM0Heo8UC4AZlQjH3FbUFLb0oI%252F%252FVnNz%22%2C%22unionid%22%3A%225385blTZvPkXgN02Gkpmi0iaXXvJ1Rv%252BP61Cgks%22%2C%22groupid%22%3A%226aac80%252BF7g7t1IlnSuw%252Fmc2ADfNsTG%252FUFduKy0Fx%22%2C%22tagid_list%22%3A%22c50b8MPKooAyY4H8jOB645A8i%252BwRQfNcSK%252Bigjk%22%2C%22qr_code%22%3A%2252d95VqiZTGyjr%252B1gF2jQ8zgh70m%252Fj1vTPRc734vTqBEyXRly9rK7MXCGB94X64KDRDINvp%252FDCokqZphAmgqIwI8VEscYxMikhBxGhUps%252FZUGc%252FBpAzvUy%252FYmYU9%252BDaUEYeo2vt8YA3lC6riymkrqOhlbO6XOOU6PCIuaIEvO7CeP3sKa0k6YG6HoCGpoUBdUaRdbdRL52WgPfdHW9fEPkWjP7D%252BKmHt%252FjL5uX%252BgWgo%22%2C%22qr_seconds%22%3A%225964%252BcNiuKW%252Bsinmbvzeodw%252B90QBGyKUoHgjFSf5S4jomCrPioOr%22%2C%22qr_ticket%22%3A%228c31f5bWIAHUZmamRtbnbXxcJyJYqPcbq04WA82Q0mZ%252BAMevOS2izIrrYJhRcuzfCzSoaxXdAs2MA8q%252B4HUzowq%252FyyjoW%252FMCYEQ88teSxmYGaTvPLQQAzxI0DjG424O4FuqGOuw9HJdaueC0Gctc0yS7cUTkOByWvP1mpws%22%7D',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  '/index/order/preview/id_list/269,1' => '',
+  'id_list' => '269,1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Order->preview[ /home/aptx/File/PHP/6rmh/app/index/controller/Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/order/preview.html [ array (
+  0 => 'cookie',
+  1 => 'address',
+  2 => 'pay_way',
+  3 => 'delivery',
+  4 => 'id_list',
+  5 => 'carts',
+  6 => 'count',
+  7 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-23T17:09:16+08:00 ] 127.0.0.2 127.0.0.1 GET /index/order/preview/id_list/269,1
+[ log ] www.sixer.com/index/order/preview/id_list/269,1 [运行时间：0.770302s][吞吐率：1.30req/s] [内存消耗：3,468.55kb] [文件加载：54]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'order',
+    2 => 'preview',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Version/10.0 Mobile/14D27 Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.sixer.com/index/cart',
+  'cookie' => 'PHPSESSID=ib87c70n6nfgng1ofq9pm9beq9e07vm391cddvhr9n6dnef2vig1; keep_user=think%3A%7B%22id%22%3A%225c9d059ceuYUAWfLZBvU%252FWR9W2f5N96xzAsZD2Y%252B%22%2C%22pid%22%3A%22ca0bPbHWVo%252FSCC9l4tsFNtvcSYEJ1cXcdWcT4189%22%2C%22name%22%3A%2298901U2EIfCf5emUQQXrlb8ZRpy2Y%252Fzs15mKUcwGXFw%22%2C%22realname%22%3A%2252b8ksFFH0EsiswZ4qkba4LObAL6XQWdKgKoRcHNYfBDKz2oQBk%22%2C%22sex%22%3A%22418dywKDpy%252FngJpMgrLxfXZuESWsX%252FNPZQ9qqQQb%22%2C%22mobile%22%3A%229fbfAZdNUyl41NMcAhk9n1B2h8rRXv2dOXw5bIB2WwtL2ocpRpS4Hw%22%2C%22qq%22%3A%22d130o0CYhjaAku2mbRuw270P0m0LX%252FXyF9EUYYV%252FV54fFDt%252Bp4s%22%2C%22email%22%3A%22fbc1YzkikHmwiJu8W5mB8X3krjH%252FxAevcK0eeB%252B5wc9h5dJL1Kq%252Becy6PbyNcNs%22%2C%22id_num%22%3A%22d96aTeOM%252Fq5pkwocMr3tW6z%252BTarOQ8oscJ4VP10%22%2C%22id_card_path%22%3A%22236aCU2MU2C%252BFgAS4k7%252B4dL1Q7%252FF1RhtwW7sy7Q%22%2C%22headimgurl%22%3A%226196YxG5rpxAgVzwFB8Fnds%252BdPeADIJtvm9A7CdgdpEr5dwM2rFvSAUVSSxdD6KnvfL4%252BBwBQZKLQaYJWXQlYYjd6vofWDQ3ljNAKfNX04AMPtEJXbgvV113bpR0bQp3K%252BS5sb%252BN3lGulmJxvviHZdAUc6BF9a2yAXCQ6Udq7J0tnCD9Y%252FRnMA6VqVqcJXOgYNsjIg%22%2C%22id_list%22%3A%22ba4aDaSEARA%252BjGjBfEnipGp0%252B2gVZtR3DIEtcQFu%22%2C%22regtime%22%3A%221372sHsSbwu3wVD66Y%252BIBSFrCC9CsGUinbKb1vQB%22%2C%22logintime%22%3A%2232269dBJ05xuEd8OjGTBZTpdrQsS%252B6%252BuNDf5F%252BH9%22%2C%22loginip%22%3A%22bbb7Mi5SkwclPc4jM55ocPhZFGHNfbHt8zY7QXA%22%2C%22status%22%3A%228612WTG0FSxJQuNgDsaJzLyTHr0rGBDi2UzJ3xqS%22%2C%22remark%22%3A%22bdabwqzpja1i6Dy%252FN%252Becs7YoksR%252FZiEWp0YuwG8%22%2C%22subscribe%22%3A%2266a1HFXch4yvIF0YwHkVCe2f6tfkHfY92NWkSXxa%22%2C%22openid%22%3A%22dd57PfhEQn0XdUbn0p2dRio7Na1h0AATluS7Ds%252Bqj5%252FjbOACSa8qvY3iGkLpXNCK8cxjDc3kDqIE%22%2C%22nickname%22%3A%22711ceWl9ctrMArIICxrRovOeatsaDuQmm6%252Fu1Gn7ANn1%252B7c%22%2C%22language%22%3A%220cd7Zeaigdeo6SvSb9coduZ5%252FAkAfW4touckExIWu6%252F7gA%22%2C%22city%22%3A%224e68%252FlVQfeqPGmIVMy2mj66YOjs7tf6lsRUOwssKGc3D0oY%22%2C%22province%22%3A%22cec6lvTvDpashH3bvv5S0vsK9390HG6%252FGi4k29fWCZ9OPio%22%2C%22country%22%3A%22431ecl2JnhIuqMuC5JzpdkCKFCfQuZBpuEpy4yBETRO6Tfw%22%2C%22subscribe_time%22%3A%225123XLpGtme0OtedtCvhFM0Heo8UC4AZlQjH3FbUFLb0oI%252F%252FVnNz%22%2C%22unionid%22%3A%225385blTZvPkXgN02Gkpmi0iaXXvJ1Rv%252BP61Cgks%22%2C%22groupid%22%3A%226aac80%252BF7g7t1IlnSuw%252Fmc2ADfNsTG%252FUFduKy0Fx%22%2C%22tagid_list%22%3A%22c50b8MPKooAyY4H8jOB645A8i%252BwRQfNcSK%252Bigjk%22%2C%22qr_code%22%3A%2252d95VqiZTGyjr%252B1gF2jQ8zgh70m%252Fj1vTPRc734vTqBEyXRly9rK7MXCGB94X64KDRDINvp%252FDCokqZphAmgqIwI8VEscYxMikhBxGhUps%252FZUGc%252FBpAzvUy%252FYmYU9%252BDaUEYeo2vt8YA3lC6riymkrqOhlbO6XOOU6PCIuaIEvO7CeP3sKa0k6YG6HoCGpoUBdUaRdbdRL52WgPfdHW9fEPkWjP7D%252BKmHt%252FjL5uX%252BgWgo%22%2C%22qr_seconds%22%3A%225964%252BcNiuKW%252Bsinmbvzeodw%252B90QBGyKUoHgjFSf5S4jomCrPioOr%22%2C%22qr_ticket%22%3A%228c31f5bWIAHUZmamRtbnbXxcJyJYqPcbq04WA82Q0mZ%252BAMevOS2izIrrYJhRcuzfCzSoaxXdAs2MA8q%252B4HUzowq%252FyyjoW%252FMCYEQ88teSxmYGaTvPLQQAzxI0DjG424O4FuqGOuw9HJdaueC0Gctc0yS7cUTkOByWvP1mpws%22%7D',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  '/index/order/preview/id_list/269,1' => '',
+  'id_list' => '269,1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Order->preview[ /home/aptx/File/PHP/6rmh/app/index/controller/Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/order/preview.html [ array (
+  0 => 'cookie',
+  1 => 'address',
+  2 => 'pay_way',
+  3 => 'delivery',
+  4 => 'id_list',
+  5 => 'carts',
+  6 => 'count',
+  7 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-23T17:10:05+08:00 ] 127.0.0.2 127.0.0.1 GET /index/order/preview/id_list/269,1
+[ log ] www.sixer.com/index/order/preview/id_list/269,1 [运行时间：0.549479s][吞吐率：1.82req/s] [内存消耗：3,468.55kb] [文件加载：54]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'order',
+    2 => 'preview',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Version/10.0 Mobile/14D27 Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.sixer.com/index/cart',
+  'cookie' => 'PHPSESSID=ib87c70n6nfgng1ofq9pm9beq9e07vm391cddvhr9n6dnef2vig1; keep_user=think%3A%7B%22id%22%3A%225c9d059ceuYUAWfLZBvU%252FWR9W2f5N96xzAsZD2Y%252B%22%2C%22pid%22%3A%22ca0bPbHWVo%252FSCC9l4tsFNtvcSYEJ1cXcdWcT4189%22%2C%22name%22%3A%2298901U2EIfCf5emUQQXrlb8ZRpy2Y%252Fzs15mKUcwGXFw%22%2C%22realname%22%3A%2252b8ksFFH0EsiswZ4qkba4LObAL6XQWdKgKoRcHNYfBDKz2oQBk%22%2C%22sex%22%3A%22418dywKDpy%252FngJpMgrLxfXZuESWsX%252FNPZQ9qqQQb%22%2C%22mobile%22%3A%229fbfAZdNUyl41NMcAhk9n1B2h8rRXv2dOXw5bIB2WwtL2ocpRpS4Hw%22%2C%22qq%22%3A%22d130o0CYhjaAku2mbRuw270P0m0LX%252FXyF9EUYYV%252FV54fFDt%252Bp4s%22%2C%22email%22%3A%22fbc1YzkikHmwiJu8W5mB8X3krjH%252FxAevcK0eeB%252B5wc9h5dJL1Kq%252Becy6PbyNcNs%22%2C%22id_num%22%3A%22d96aTeOM%252Fq5pkwocMr3tW6z%252BTarOQ8oscJ4VP10%22%2C%22id_card_path%22%3A%22236aCU2MU2C%252BFgAS4k7%252B4dL1Q7%252FF1RhtwW7sy7Q%22%2C%22headimgurl%22%3A%226196YxG5rpxAgVzwFB8Fnds%252BdPeADIJtvm9A7CdgdpEr5dwM2rFvSAUVSSxdD6KnvfL4%252BBwBQZKLQaYJWXQlYYjd6vofWDQ3ljNAKfNX04AMPtEJXbgvV113bpR0bQp3K%252BS5sb%252BN3lGulmJxvviHZdAUc6BF9a2yAXCQ6Udq7J0tnCD9Y%252FRnMA6VqVqcJXOgYNsjIg%22%2C%22id_list%22%3A%22ba4aDaSEARA%252BjGjBfEnipGp0%252B2gVZtR3DIEtcQFu%22%2C%22regtime%22%3A%221372sHsSbwu3wVD66Y%252BIBSFrCC9CsGUinbKb1vQB%22%2C%22logintime%22%3A%2232269dBJ05xuEd8OjGTBZTpdrQsS%252B6%252BuNDf5F%252BH9%22%2C%22loginip%22%3A%22bbb7Mi5SkwclPc4jM55ocPhZFGHNfbHt8zY7QXA%22%2C%22status%22%3A%228612WTG0FSxJQuNgDsaJzLyTHr0rGBDi2UzJ3xqS%22%2C%22remark%22%3A%22bdabwqzpja1i6Dy%252FN%252Becs7YoksR%252FZiEWp0YuwG8%22%2C%22subscribe%22%3A%2266a1HFXch4yvIF0YwHkVCe2f6tfkHfY92NWkSXxa%22%2C%22openid%22%3A%22dd57PfhEQn0XdUbn0p2dRio7Na1h0AATluS7Ds%252Bqj5%252FjbOACSa8qvY3iGkLpXNCK8cxjDc3kDqIE%22%2C%22nickname%22%3A%22711ceWl9ctrMArIICxrRovOeatsaDuQmm6%252Fu1Gn7ANn1%252B7c%22%2C%22language%22%3A%220cd7Zeaigdeo6SvSb9coduZ5%252FAkAfW4touckExIWu6%252F7gA%22%2C%22city%22%3A%224e68%252FlVQfeqPGmIVMy2mj66YOjs7tf6lsRUOwssKGc3D0oY%22%2C%22province%22%3A%22cec6lvTvDpashH3bvv5S0vsK9390HG6%252FGi4k29fWCZ9OPio%22%2C%22country%22%3A%22431ecl2JnhIuqMuC5JzpdkCKFCfQuZBpuEpy4yBETRO6Tfw%22%2C%22subscribe_time%22%3A%225123XLpGtme0OtedtCvhFM0Heo8UC4AZlQjH3FbUFLb0oI%252F%252FVnNz%22%2C%22unionid%22%3A%225385blTZvPkXgN02Gkpmi0iaXXvJ1Rv%252BP61Cgks%22%2C%22groupid%22%3A%226aac80%252BF7g7t1IlnSuw%252Fmc2ADfNsTG%252FUFduKy0Fx%22%2C%22tagid_list%22%3A%22c50b8MPKooAyY4H8jOB645A8i%252BwRQfNcSK%252Bigjk%22%2C%22qr_code%22%3A%2252d95VqiZTGyjr%252B1gF2jQ8zgh70m%252Fj1vTPRc734vTqBEyXRly9rK7MXCGB94X64KDRDINvp%252FDCokqZphAmgqIwI8VEscYxMikhBxGhUps%252FZUGc%252FBpAzvUy%252FYmYU9%252BDaUEYeo2vt8YA3lC6riymkrqOhlbO6XOOU6PCIuaIEvO7CeP3sKa0k6YG6HoCGpoUBdUaRdbdRL52WgPfdHW9fEPkWjP7D%252BKmHt%252FjL5uX%252BgWgo%22%2C%22qr_seconds%22%3A%225964%252BcNiuKW%252Bsinmbvzeodw%252B90QBGyKUoHgjFSf5S4jomCrPioOr%22%2C%22qr_ticket%22%3A%228c31f5bWIAHUZmamRtbnbXxcJyJYqPcbq04WA82Q0mZ%252BAMevOS2izIrrYJhRcuzfCzSoaxXdAs2MA8q%252B4HUzowq%252FyyjoW%252FMCYEQ88teSxmYGaTvPLQQAzxI0DjG424O4FuqGOuw9HJdaueC0Gctc0yS7cUTkOByWvP1mpws%22%7D',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  '/index/order/preview/id_list/269,1' => '',
+  'id_list' => '269,1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Order->preview[ /home/aptx/File/PHP/6rmh/app/index/controller/Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/order/preview.html [ array (
+  0 => 'cookie',
+  1 => 'address',
+  2 => 'pay_way',
+  3 => 'delivery',
+  4 => 'id_list',
+  5 => 'carts',
+  6 => 'count',
+  7 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-23T17:10:19+08:00 ] 127.0.0.2 127.0.0.1 GET /index/order/preview/id_list/269,1
+[ log ] www.sixer.com/index/order/preview/id_list/269,1 [运行时间：0.603161s][吞吐率：1.66req/s] [内存消耗：3,468.55kb] [文件加载：54]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'order',
+    2 => 'preview',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Version/10.0 Mobile/14D27 Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.sixer.com/index/cart',
+  'cookie' => 'PHPSESSID=ib87c70n6nfgng1ofq9pm9beq9e07vm391cddvhr9n6dnef2vig1; keep_user=think%3A%7B%22id%22%3A%225c9d059ceuYUAWfLZBvU%252FWR9W2f5N96xzAsZD2Y%252B%22%2C%22pid%22%3A%22ca0bPbHWVo%252FSCC9l4tsFNtvcSYEJ1cXcdWcT4189%22%2C%22name%22%3A%2298901U2EIfCf5emUQQXrlb8ZRpy2Y%252Fzs15mKUcwGXFw%22%2C%22realname%22%3A%2252b8ksFFH0EsiswZ4qkba4LObAL6XQWdKgKoRcHNYfBDKz2oQBk%22%2C%22sex%22%3A%22418dywKDpy%252FngJpMgrLxfXZuESWsX%252FNPZQ9qqQQb%22%2C%22mobile%22%3A%229fbfAZdNUyl41NMcAhk9n1B2h8rRXv2dOXw5bIB2WwtL2ocpRpS4Hw%22%2C%22qq%22%3A%22d130o0CYhjaAku2mbRuw270P0m0LX%252FXyF9EUYYV%252FV54fFDt%252Bp4s%22%2C%22email%22%3A%22fbc1YzkikHmwiJu8W5mB8X3krjH%252FxAevcK0eeB%252B5wc9h5dJL1Kq%252Becy6PbyNcNs%22%2C%22id_num%22%3A%22d96aTeOM%252Fq5pkwocMr3tW6z%252BTarOQ8oscJ4VP10%22%2C%22id_card_path%22%3A%22236aCU2MU2C%252BFgAS4k7%252B4dL1Q7%252FF1RhtwW7sy7Q%22%2C%22headimgurl%22%3A%226196YxG5rpxAgVzwFB8Fnds%252BdPeADIJtvm9A7CdgdpEr5dwM2rFvSAUVSSxdD6KnvfL4%252BBwBQZKLQaYJWXQlYYjd6vofWDQ3ljNAKfNX04AMPtEJXbgvV113bpR0bQp3K%252BS5sb%252BN3lGulmJxvviHZdAUc6BF9a2yAXCQ6Udq7J0tnCD9Y%252FRnMA6VqVqcJXOgYNsjIg%22%2C%22id_list%22%3A%22ba4aDaSEARA%252BjGjBfEnipGp0%252B2gVZtR3DIEtcQFu%22%2C%22regtime%22%3A%221372sHsSbwu3wVD66Y%252BIBSFrCC9CsGUinbKb1vQB%22%2C%22logintime%22%3A%2232269dBJ05xuEd8OjGTBZTpdrQsS%252B6%252BuNDf5F%252BH9%22%2C%22loginip%22%3A%22bbb7Mi5SkwclPc4jM55ocPhZFGHNfbHt8zY7QXA%22%2C%22status%22%3A%228612WTG0FSxJQuNgDsaJzLyTHr0rGBDi2UzJ3xqS%22%2C%22remark%22%3A%22bdabwqzpja1i6Dy%252FN%252Becs7YoksR%252FZiEWp0YuwG8%22%2C%22subscribe%22%3A%2266a1HFXch4yvIF0YwHkVCe2f6tfkHfY92NWkSXxa%22%2C%22openid%22%3A%22dd57PfhEQn0XdUbn0p2dRio7Na1h0AATluS7Ds%252Bqj5%252FjbOACSa8qvY3iGkLpXNCK8cxjDc3kDqIE%22%2C%22nickname%22%3A%22711ceWl9ctrMArIICxrRovOeatsaDuQmm6%252Fu1Gn7ANn1%252B7c%22%2C%22language%22%3A%220cd7Zeaigdeo6SvSb9coduZ5%252FAkAfW4touckExIWu6%252F7gA%22%2C%22city%22%3A%224e68%252FlVQfeqPGmIVMy2mj66YOjs7tf6lsRUOwssKGc3D0oY%22%2C%22province%22%3A%22cec6lvTvDpashH3bvv5S0vsK9390HG6%252FGi4k29fWCZ9OPio%22%2C%22country%22%3A%22431ecl2JnhIuqMuC5JzpdkCKFCfQuZBpuEpy4yBETRO6Tfw%22%2C%22subscribe_time%22%3A%225123XLpGtme0OtedtCvhFM0Heo8UC4AZlQjH3FbUFLb0oI%252F%252FVnNz%22%2C%22unionid%22%3A%225385blTZvPkXgN02Gkpmi0iaXXvJ1Rv%252BP61Cgks%22%2C%22groupid%22%3A%226aac80%252BF7g7t1IlnSuw%252Fmc2ADfNsTG%252FUFduKy0Fx%22%2C%22tagid_list%22%3A%22c50b8MPKooAyY4H8jOB645A8i%252BwRQfNcSK%252Bigjk%22%2C%22qr_code%22%3A%2252d95VqiZTGyjr%252B1gF2jQ8zgh70m%252Fj1vTPRc734vTqBEyXRly9rK7MXCGB94X64KDRDINvp%252FDCokqZphAmgqIwI8VEscYxMikhBxGhUps%252FZUGc%252FBpAzvUy%252FYmYU9%252BDaUEYeo2vt8YA3lC6riymkrqOhlbO6XOOU6PCIuaIEvO7CeP3sKa0k6YG6HoCGpoUBdUaRdbdRL52WgPfdHW9fEPkWjP7D%252BKmHt%252FjL5uX%252BgWgo%22%2C%22qr_seconds%22%3A%225964%252BcNiuKW%252Bsinmbvzeodw%252B90QBGyKUoHgjFSf5S4jomCrPioOr%22%2C%22qr_ticket%22%3A%228c31f5bWIAHUZmamRtbnbXxcJyJYqPcbq04WA82Q0mZ%252BAMevOS2izIrrYJhRcuzfCzSoaxXdAs2MA8q%252B4HUzowq%252FyyjoW%252FMCYEQ88teSxmYGaTvPLQQAzxI0DjG424O4FuqGOuw9HJdaueC0Gctc0yS7cUTkOByWvP1mpws%22%7D',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  '/index/order/preview/id_list/269,1' => '',
+  'id_list' => '269,1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Order->preview[ /home/aptx/File/PHP/6rmh/app/index/controller/Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/order/preview.html [ array (
+  0 => 'cookie',
+  1 => 'address',
+  2 => 'pay_way',
+  3 => 'delivery',
+  4 => 'id_list',
+  5 => 'carts',
+  6 => 'count',
+  7 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-23T17:11:08+08:00 ] 127.0.0.2 127.0.0.1 GET /index/order/preview/id_list/269,1
+[ log ] www.sixer.com/index/order/preview/id_list/269,1 [运行时间：0.588532s][吞吐率：1.70req/s] [内存消耗：3,468.55kb] [文件加载：54]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'order',
+    2 => 'preview',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Version/10.0 Mobile/14D27 Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.sixer.com/index/cart',
+  'cookie' => 'PHPSESSID=ib87c70n6nfgng1ofq9pm9beq9e07vm391cddvhr9n6dnef2vig1; keep_user=think%3A%7B%22id%22%3A%225c9d059ceuYUAWfLZBvU%252FWR9W2f5N96xzAsZD2Y%252B%22%2C%22pid%22%3A%22ca0bPbHWVo%252FSCC9l4tsFNtvcSYEJ1cXcdWcT4189%22%2C%22name%22%3A%2298901U2EIfCf5emUQQXrlb8ZRpy2Y%252Fzs15mKUcwGXFw%22%2C%22realname%22%3A%2252b8ksFFH0EsiswZ4qkba4LObAL6XQWdKgKoRcHNYfBDKz2oQBk%22%2C%22sex%22%3A%22418dywKDpy%252FngJpMgrLxfXZuESWsX%252FNPZQ9qqQQb%22%2C%22mobile%22%3A%229fbfAZdNUyl41NMcAhk9n1B2h8rRXv2dOXw5bIB2WwtL2ocpRpS4Hw%22%2C%22qq%22%3A%22d130o0CYhjaAku2mbRuw270P0m0LX%252FXyF9EUYYV%252FV54fFDt%252Bp4s%22%2C%22email%22%3A%22fbc1YzkikHmwiJu8W5mB8X3krjH%252FxAevcK0eeB%252B5wc9h5dJL1Kq%252Becy6PbyNcNs%22%2C%22id_num%22%3A%22d96aTeOM%252Fq5pkwocMr3tW6z%252BTarOQ8oscJ4VP10%22%2C%22id_card_path%22%3A%22236aCU2MU2C%252BFgAS4k7%252B4dL1Q7%252FF1RhtwW7sy7Q%22%2C%22headimgurl%22%3A%226196YxG5rpxAgVzwFB8Fnds%252BdPeADIJtvm9A7CdgdpEr5dwM2rFvSAUVSSxdD6KnvfL4%252BBwBQZKLQaYJWXQlYYjd6vofWDQ3ljNAKfNX04AMPtEJXbgvV113bpR0bQp3K%252BS5sb%252BN3lGulmJxvviHZdAUc6BF9a2yAXCQ6Udq7J0tnCD9Y%252FRnMA6VqVqcJXOgYNsjIg%22%2C%22id_list%22%3A%22ba4aDaSEARA%252BjGjBfEnipGp0%252B2gVZtR3DIEtcQFu%22%2C%22regtime%22%3A%221372sHsSbwu3wVD66Y%252BIBSFrCC9CsGUinbKb1vQB%22%2C%22logintime%22%3A%2232269dBJ05xuEd8OjGTBZTpdrQsS%252B6%252BuNDf5F%252BH9%22%2C%22loginip%22%3A%22bbb7Mi5SkwclPc4jM55ocPhZFGHNfbHt8zY7QXA%22%2C%22status%22%3A%228612WTG0FSxJQuNgDsaJzLyTHr0rGBDi2UzJ3xqS%22%2C%22remark%22%3A%22bdabwqzpja1i6Dy%252FN%252Becs7YoksR%252FZiEWp0YuwG8%22%2C%22subscribe%22%3A%2266a1HFXch4yvIF0YwHkVCe2f6tfkHfY92NWkSXxa%22%2C%22openid%22%3A%22dd57PfhEQn0XdUbn0p2dRio7Na1h0AATluS7Ds%252Bqj5%252FjbOACSa8qvY3iGkLpXNCK8cxjDc3kDqIE%22%2C%22nickname%22%3A%22711ceWl9ctrMArIICxrRovOeatsaDuQmm6%252Fu1Gn7ANn1%252B7c%22%2C%22language%22%3A%220cd7Zeaigdeo6SvSb9coduZ5%252FAkAfW4touckExIWu6%252F7gA%22%2C%22city%22%3A%224e68%252FlVQfeqPGmIVMy2mj66YOjs7tf6lsRUOwssKGc3D0oY%22%2C%22province%22%3A%22cec6lvTvDpashH3bvv5S0vsK9390HG6%252FGi4k29fWCZ9OPio%22%2C%22country%22%3A%22431ecl2JnhIuqMuC5JzpdkCKFCfQuZBpuEpy4yBETRO6Tfw%22%2C%22subscribe_time%22%3A%225123XLpGtme0OtedtCvhFM0Heo8UC4AZlQjH3FbUFLb0oI%252F%252FVnNz%22%2C%22unionid%22%3A%225385blTZvPkXgN02Gkpmi0iaXXvJ1Rv%252BP61Cgks%22%2C%22groupid%22%3A%226aac80%252BF7g7t1IlnSuw%252Fmc2ADfNsTG%252FUFduKy0Fx%22%2C%22tagid_list%22%3A%22c50b8MPKooAyY4H8jOB645A8i%252BwRQfNcSK%252Bigjk%22%2C%22qr_code%22%3A%2252d95VqiZTGyjr%252B1gF2jQ8zgh70m%252Fj1vTPRc734vTqBEyXRly9rK7MXCGB94X64KDRDINvp%252FDCokqZphAmgqIwI8VEscYxMikhBxGhUps%252FZUGc%252FBpAzvUy%252FYmYU9%252BDaUEYeo2vt8YA3lC6riymkrqOhlbO6XOOU6PCIuaIEvO7CeP3sKa0k6YG6HoCGpoUBdUaRdbdRL52WgPfdHW9fEPkWjP7D%252BKmHt%252FjL5uX%252BgWgo%22%2C%22qr_seconds%22%3A%225964%252BcNiuKW%252Bsinmbvzeodw%252B90QBGyKUoHgjFSf5S4jomCrPioOr%22%2C%22qr_ticket%22%3A%228c31f5bWIAHUZmamRtbnbXxcJyJYqPcbq04WA82Q0mZ%252BAMevOS2izIrrYJhRcuzfCzSoaxXdAs2MA8q%252B4HUzowq%252FyyjoW%252FMCYEQ88teSxmYGaTvPLQQAzxI0DjG424O4FuqGOuw9HJdaueC0Gctc0yS7cUTkOByWvP1mpws%22%7D',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  '/index/order/preview/id_list/269,1' => '',
+  'id_list' => '269,1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Order->preview[ /home/aptx/File/PHP/6rmh/app/index/controller/Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/order/preview.html [ array (
+  0 => 'cookie',
+  1 => 'address',
+  2 => 'pay_way',
+  3 => 'delivery',
+  4 => 'id_list',
+  5 => 'carts',
+  6 => 'count',
+  7 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------

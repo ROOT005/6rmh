@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:70:"/home/aptx/File/PHP/6rmh/public/../app/index/mobile/order/preview.html";i:1508735380;s:70:"/home/aptx/File/PHP/6rmh/public/../app/index/mobile/public/footer.html";i:1508312858;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:70:"/home/aptx/File/PHP/6rmh/public/../app/index/mobile/order/preview.html";i:1508812514;s:70:"/home/aptx/File/PHP/6rmh/public/../app/index/mobile/public/footer.html";i:1508312858;}*/ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -20,31 +20,35 @@
         </div>
         <div class="info paper">
            <?php if($address != null): if(is_array($address) || $address instanceof \think\Collection || $address instanceof \think\Paginator): $i = 0; $__LIST__ = $address;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?>
-                    <div class="connect_info">
-                        <span>联系人：<?php echo $vo['name']; ?></span>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <span>联系电话:<?php echo substr($vo['mobile'],0,3); ?>****<?php echo substr($vo['mobile'],7); ?></span>
-                    </div>
-                    <div class="address">
-                        <?php if($vo['type']==1): ?>
-                            <span class="fa fa-location-arrow address-default"></span>
-                            <span class="address-default">默认地址:</span>
-                        <?php endif; ?>
-                        <span>
-                            <?php echo $vo['province']; ?>&nbsp;
-                            <?php echo $vo['city']; ?>&nbsp;
-                            <?php echo $vo['area']; ?>&nbsp;
-                            <?php echo $vo['address']; ?>
-                        </span>
-                    </div>
-                    <br>
-                    <div class="info_footer">
-                        <a class="footer_left" href="" title="">编辑</a>
-                        <a class="footer_right" href="" title="">新增</a>
-                    </div>
+                    <div class="address_info" ng-class="{choseAddr: <?php echo $vo['id']; ?>==addrID}" data-ng-click="selectAddr(<?php echo $vo['id']; ?>)">
+                        <div class="connect_info">
+                            <span>联系人：<?php echo $vo['name']; ?></span>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <span>联系电话:<?php echo substr($vo['mobile'],0,3); ?>****<?php echo substr($vo['mobile'],7); ?></span>
+                        </div>
+                        <div class="address">
+                            <?php if($vo['type']==1): ?>
+                                <span class="fa fa-location-arrow address-default"></span>
+                                <span class="address-default">默认地址:</span>
+                            <?php endif; ?>
+                            <span>
+                                <?php echo $vo['province']; ?>&nbsp;
+                                <?php echo $vo['city']; ?>&nbsp;
+                                <?php echo $vo['area']; ?>&nbsp;
+                                <?php echo $vo['address']; ?>
+                            </span>
+                        </div>
+                        <br>
+                        <div class="info_footer">
+                            <a class="footer_edit" href="" title="">编辑</a>
+                        </div>
+                    </div> 
                  <?php endforeach; endif; else: echo "" ;endif; else: ?>
                 <a href="" title="">+添加收货地址</a>
            <?php endif; ?> 
+           <div class="footer_right" >
+                <a href="" title="">新增</a>
+           </div>
         </div>
         <div class="paper pay_way">
             <div>
@@ -112,6 +116,7 @@
     <script>
         var app = angular.module('myApp', []);
         app.controller('previewCtrl', function($scope) {
+            $scope.isChose = 1;
             <?php if($address != null): ?>
                 $scope.addrID = <?php echo $address[0]['id']; ?>;                
             <?php endif; ?>
