@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:67:"/home/aptx/File/PHP/6rmh/public/../app/index/mobile/cart/index.html";i:1508736166;s:70:"/home/aptx/File/PHP/6rmh/public/../app/index/mobile/public/footer.html";i:1508312858;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:67:"/home/aptx/File/PHP/6rmh/public/../app/index/mobile/cart/index.html";i:1508900866;s:70:"/home/aptx/File/PHP/6rmh/public/../app/index/mobile/public/footer.html";i:1508832926;}*/ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -135,16 +135,23 @@
                 $scope.cart_list = check_list.join();
             }
         });
-        $('.edit').click(function(){
+        $('.edit').click(function(event){
             $(this).parent().parent().animate({
                 left: '-10em'
             },100);
             $(this).parent().nextAll('.good-option').fadeIn(100);
+            event.stopPropagation();
         });
-        $('.goods-detail').click(function(){
+       /* $('.goods-detail').click(function(){
             $(this).next().fadeOut(100);
             $(this).parent().animate({
                 left: '0em'
+            },100);
+        });*/
+        $('.edit').parent().siblings().click(function(){
+            $(this).nextAll('.good-option').fadeOut(100);
+            $(this).parents().animate({
+                left:'0em'
             },100);
         });
     </script>

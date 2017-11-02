@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:65:"/home/aptx/File/PHP/6rmh/public/../app/index/mobile/log/bait.html";i:1508315586;s:70:"/home/aptx/File/PHP/6rmh/public/../app/index/mobile/public/footer.html";i:1508312858;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:65:"/home/aptx/File/PHP/6rmh/public/../app/index/mobile/log/bait.html";i:1508832926;s:70:"/home/aptx/File/PHP/6rmh/public/../app/index/mobile/public/footer.html";i:1508832926;}*/ ?>
 <!DOCTYPE html>
 <html>
 <head>

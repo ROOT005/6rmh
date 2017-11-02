@@ -14,8 +14,7 @@
 </head>
 <body>
 	<div class="head">		
-		<span class="back_home fa fa-long-arrow-left fa-1x" onclick="location.assign('/')"></span>
-		<span class="setting fa fa-cog fa-1x"></span>
+		<span class="setting fa fa-cog"></span>
 		<img class="hp_100 wp_100 o_h" src="<{$users.headimgurl}>" alt="用户头像未显示">
 		<span class="user_name"><{$users.name}></span>
 	</div>
@@ -58,7 +57,7 @@
 	<div class="setting-content">
 		<form method="post" role="form" action="<{:url('editor')}>" enctype="multipart/form-data">
 		<div class="change_info">
-			<img class="hp_100 wp_100 o_h" src="<{$users.headimgurl}>" alt="用户头像未显示">
+			<!-- <img class="hp_100 wp_100 o_h" src="<{$users.headimgurl}>" alt="用户头像未显示"> -->
 			<div class="change_cont">
 				<span class="left">昵称：</span>
 				<span class="right"><input id="shows" class="" type="text" name="name" value="<{$users.name}>" required></span>
@@ -106,7 +105,7 @@
 			       </script> -->
 			    </span>
 			</div>
-			<div class="change_cont submit-button">
+			<div class="submit-button">
 				提交
 			</div>
 		</div>
@@ -132,14 +131,12 @@
 	$('.body li').css('height', $('.body li').width());
 	$('.setting-content').height($(document).height());
 	$('.setting').click(function(event) {
-		/*$('.setting-content').animate({'right':'0' }, 200);*/
-		/*$('.setting-content').css('width','75%');*/
+		
 		$('.setting-content').css('display','block');
 		event.stopPropagation();
 	});
 	$('.setting-content').siblings().click(function(event) {
-		/*$('.setting-content').animate({'right':'-75%' }, 500);*/
-		/*$('.setting-content').css('width','0');*/
+		
 		$('.setting-content').css('display','none');
 	});
 	$('.submit-button').click(function(event) {

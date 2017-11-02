@@ -1,0 +1,126 @@
+
+#hexGrid {
+    overflow: hidden;  margin: 0 auto;  padding:0.866% 0;  font-family: 'Raleway', sans-serif; font-size: 15px;
+}
+#hexGrid:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.hexIn {
+    display:block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: #fff;
+    overflow: hidden;
+    -webkit-transform: skewY(-30deg) rotate(60deg);
+        -ms-transform: skewY(-30deg) rotate(60deg);
+            transform: skewY(-30deg) rotate(60deg);
+}
+.hex * {
+    position: absolute;
+    visibility: visible;
+    outline:1px solid transparent; /* fix for jagged edges in FF on hover transition */
+}
+/*** HEX CONTENT **********************************************************************/
+.hex img {
+    left: -100%;
+    right: -100%;
+    width: auto;
+    height: 100%;
+    margin: 0 auto;
+}
+.hex {
+    position: relative;
+    overflow: hidden;
+    visibility: hidden;
+    outline:1px solid transparent; 
+    -webkit-transform: translateX(50%) rotate(-60deg) skewY(30deg);
+        -ms-transform: translateX(50%) rotate(-60deg) skewY(30deg);
+        transform: translateX(50%) rotate(-60deg) skewY(30deg);
+}
+.hex-info{
+    position: absolute;
+    overflow: hidden;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 7px;
+    margin:0 auto;
+    text-align: center;
+    height: 12em;
+    overflow-y: hidden;
+}
+
+.hex, .hex-info{
+    display: inline-block;
+}
+.product_name{
+    font-weight: bold;
+    font-size: 1em;
+}
+.product_des{
+    font-size: 0.8em;
+}
+.product_name, .product_des{
+    color: #999;
+}
+.hex-li{
+    margin:3em auto; 
+}
+/*** SPACING AND SIZING *****************************************************************/
+
+
+@media (max-width: 600px) { /* <- 2-1  hexagons per row */
+    #hexGrid {
+        width: 100%;
+    }
+    .hex {
+        width: 40.666%;  /* = (100-2) / 3 32.666%;*/
+        padding-bottom: 47.850%; /* =  width / sin(60) */
+        
+    }
+    .hex-li:nth-child(2n-1) .hex{
+        margin-left: -17%;
+    }
+    .hex-li:nth-child(2n-1) .hex-info{
+        left: 45%;
+    }
+    .hex-li:nth-child(2n) .hex{
+        left: 33%;
+    }
+    .hex-li:nth-child(2n) .hex-info{
+        margin-left: -38%;
+    }
+
+}
+
+@media (max-width: 400px) {
+    #hexGrid {
+        font-size: 13px;
+    }
+}
+@media  (min-width:601px) { /* <- 3-2  hexagons per row */
+    #hexGrid {
+        width: 100%;
+    }
+    .hex {
+        width: 40.666%;  /* = (100-2) / 3 32.666%;*/
+        padding-bottom: 47.850%; /* =  width / sin(60) */
+        
+    }
+    .hex-li:nth-child(2n-1) .hex{
+        margin-left: -15%;
+    }
+    .hex-li:nth-child(2n-1) .hex-info{
+        left: 48%;
+    }
+    .hex-li:nth-child(2n) .hex{
+        margin-left: 35%;
+    }
+    
+
+    
+    
+}
+/*首页更多产品*/

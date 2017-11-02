@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:68:"/home/aptx/File/PHP/6rmh/public/../app/index/mobile/order/index.html";i:1508481650;s:70:"/home/aptx/File/PHP/6rmh/public/../app/index/mobile/public/footer.html";i:1508312858;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:68:"/home/aptx/File/PHP/6rmh/public/../app/index/mobile/order/index.html";i:1508917051;s:70:"/home/aptx/File/PHP/6rmh/public/../app/index/mobile/public/footer.html";i:1508832926;}*/ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -15,6 +15,19 @@
 <body>
     <div class="head-title">
         我的订单
+    </div>
+    <div class="cate">
+        <a  class="all" href="<?php echo url('index'); ?>" >全部订单</a>
+        <span class="split">/</span>
+        <a  class="r_pay" href="<?php echo url('index', ['status'=>1]); ?>"  >待支付</a>
+        <span class="split">/</span>
+        <a  class="r_send" href="<?php echo url('index', ['status'=>2]); ?>" >待发货</a>
+        <span class="split">/</span>
+        <a  class="r_recive" href="<?php echo url('index', ['status'=>3]); ?>" >待收货</a>
+        <span class="split">/</span>
+        <a  class="finished" href="<?php echo url('index', ['status'=>4]); ?>" >已完成</a>
+        <span class="split">/</span>
+        <a class="cancel" href="javascript: void(0);" >已取消</a>
     </div>
 	<?php if(is_array($order) || $order instanceof \think\Collection || $order instanceof \think\Paginator): $i = 0; $__LIST__ = $order;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?>
        <div class="order_info">
@@ -88,15 +101,46 @@
         $('.order_detail').width(dewidth);
         $('.order_info').click(function(event){
              $('.order_detail').width(dewidth/2);
+              $('.order_detail').css('box-shadow','none');
         });
         $('.order_detail').click(function(event) {
             /* Act on the event */
             $(this).width('50%');
+            $(this).css('box-shadow', '0.25em 0em 1em #ccc');
+            $(this).css('z-index', '10');
+
             $(this).siblings().width(dewidth/2);
+            $(this).siblings().css('box-shadow', 'none');
+            $(this).siblings().css('z-index','0');
+
             $('.order_title').width('100%');
             $('.order_footer').width('100%');
+            $('.order_title').css('box-shadow','none');
+            $('.order_footer').css('box-shadow','none');
             event.stopPropagation();
         });
+        var url = window.location.href.split("/").pop().split('.');
+        url.pop();
+        switch (url[0]) {
+               case "1":
+                    $('.r_pay').attr('id', 'current');
+                   break;
+               case "2":
+                   $('.r_send').attr('id', 'current');
+                   console.log(url[0]);
+                   break;
+               case "3":
+                     $('.r_recive').attr('id','current');
+                     console.log(url[0]);
+                    break;
+              case "4":
+                     $('.finished').attr('id','current');
+                     console.log(url[0]);
+                    break;
+              default:
+                   $('.all').attr('id','current');
+                    console.log(url[0]);
+        }
     </script>
 </body>
 </html>

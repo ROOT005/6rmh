@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:69:"/home/aptx/File/PHP/6rmh/public/../app/index/mobile/goods/detail.html";i:1508294673;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:69:"/home/aptx/File/PHP/6rmh/public/../app/index/mobile/goods/detail.html";i:1509602056;}*/ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -21,6 +21,10 @@
     <!--购物车-->
     <div class="shop_car glyphicon glyphicon-shopping-cart" onclick="location='/index/cart'">
     </div>
+    <!--规格-->
+    <div class="choice_size btn btn-block">
+        选择规格
+    </div>
     <div class="swiper-container-contant" data-ng-controller="goodsCtrl">
         <div class="swiper-wrapper">
             <div class="product_info swiper-slide">
@@ -32,16 +36,6 @@
                             <img src="<?php echo $vo['pic']; ?>" alt="商品图片" rel="<?php echo $vo['pic']; ?>"/>
                         </div>
                         <?php endforeach; endif; else: echo "" ;endif; ?>
-
-                        
-                        <!--<div class="swiper-slide">
-                            <img src="__STATIC__/images/02_mid.jpg" alt="美女" rel="__STATIC__/images/02_mid.jpg">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="__STATIC__/images/03_mid.jpg" alt="美女" rel="__STATIC__/images/03_mid.jpg"/>
-                        </div>-->
-
-
                     </div>
                     <div class="swiper-pagination"></div>
                 </div>
@@ -73,10 +67,6 @@
                         <?php endif; ?>
                     </p>
                 </div>
-                <!--规格-->
-                <div class="choice_size btn btn-block">
-                    选择规格
-                </div>
               
                 <div class="size">
                     <div class="close"></div><!--黑色部分-->
@@ -105,12 +95,7 @@
             </div>
             <!--详情页-->
             <div class="details swiper-slide">
-                <li>hhhhhaaa</li>
-                <li>hhhhhaaa</li>
-                <li>hhhhhaaa</li>
-                <li>hhhhhaaa</li>
-                <li>hhhhhaaa</li>
-                <li>hhhhhaaa</li>
+                <?php echo htmlspecialchars_decode($goods['detail'] ); ?>
             </div>
             <!--评价-->
             <div class="comment swiper-slide">
@@ -165,6 +150,7 @@
         //外部切换
         var Swiper1 = new Swiper('.swiper-container-contant',{
             loop:true,
+            autoHeight: true,
             iOSEdgeSwipeDetection : true,
             onSlideChangeStart:function(swiper){
                 $("html,body").animate({scrollTop:0}, 1);
@@ -182,7 +168,7 @@
         });
 
         //判断滑动方向    
-        function scroll( fn ) {
+  /*      function scroll( fn ) {
             var beforeScrollTop = document.body.scrollTop,
                 fn = fn || function() {};
             window.addEventListener("scroll", function() {
@@ -196,24 +182,25 @@
         scroll(function(direction) {
             if(direction=="up"){
                 $(".tab").slideUp(100);
-                $(".shop_car").fadeOut(100);
             }else if(direction=="down"){
                 $(".tab").slideDown(100);
-                $(".shop_car").fadeIn(100);
             }
-         });
+         });*/
         //按钮点击切换显示
         $(".choice_size").click(function(){
             $(".choice_size").css("display","none");
             $(".size").slideToggle(100);
+            $('.shop_car').css('display','none');
         });
         $('.close').click(function(){
             $(".size").slideToggle(100);
+            $('.shop_car').css('display', 'block');
             $(".choice_size").css("display","block");
         });
         $('.add_car').click(function(){
             $(".size").slideToggle(100);
             $(".choice_size").css("display","block");
+            $('.shop_car').css('display','block');
         });
       </script>
 </body>

@@ -1,0 +1,3238 @@
+[ 2017-10-28T09:07:41+08:00 ] 127.0.0.2 127.0.0.1 GET /
+[ log ] www.sixer.com/ [运行时间：0.906839s][吞吐率：1.10req/s] [内存消耗：3,557.05kb] [文件加载：54]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Version/10.0 Mobile/14D27 Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=tm8vb48d13abbc0thju301clltrf869l1j13a3l6v3i0tlq6s290',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/index/special.html [ array (
+  0 => 'goods',
+  1 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-28T09:08:15+08:00 ] 127.0.0.2 127.0.0.1 GET /
+[ log ] www.sixer.com/ [运行时间：0.475461s][吞吐率：2.10req/s] [内存消耗：3,557.13kb] [文件加载：54]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Version/10.0 Mobile/14D27 Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=tm8vb48d13abbc0thju301clltrf869l1j13a3l6v3i0tlq6s290',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/index/special.html [ array (
+  0 => 'goods',
+  1 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-28T09:08:46+08:00 ] 127.0.0.2 127.0.0.1 GET /
+[ log ] www.sixer.com/ [运行时间：0.563507s][吞吐率：1.77req/s] [内存消耗：3,557.05kb] [文件加载：54]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Version/10.0 Mobile/14D27 Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=tm8vb48d13abbc0thju301clltrf869l1j13a3l6v3i0tlq6s290',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/index/special.html [ array (
+  0 => 'goods',
+  1 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-28T09:11:22+08:00 ] 127.0.0.2 127.0.0.1 GET /
+[ log ] www.sixer.com/ [运行时间：0.896902s][吞吐率：1.11req/s] [内存消耗：3,557.31kb] [文件加载：54]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Version/10.0 Mobile/14D27 Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=tm8vb48d13abbc0thju301clltrf869l1j13a3l6v3i0tlq6s290',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/index/special.html [ array (
+  0 => 'goods',
+  1 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-28T09:14:38+08:00 ] 192.168.1.110 192.168.1.108 GET /
+[ log ] 192.168.1.110:8090/ [运行时间：0.045303s][吞吐率：22.07req/s] [内存消耗：3,269.83kb] [文件加载：52]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.110:8090',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.0; ASUS_Z00ADB Build/LRX21V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/43.0.2357.121 Mobile Safari/537.36 MicroMessenger/6.5.16.1120 NetType/WIFI Language/zh_CN',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'pmaCookieVer=5; pma_lang=zh_CN; pma_collation_connection=utf8mb4_unicode_ci; phpMyAdmin=hv81u2vkbtvb2md0e3nujmlroo77vfv3; PHPSESSID=nqs69sov3s37ar7tqd2o6gibko9sp930cbn2f20dv628htjmkgv0',
+  'x-requested-with' => 'com.tencent.mm',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [2002]SQLSTATE[HY000] [2002] Network is unreachable[/home/aptx/File/PHP/6rmh/thinkphp/library/think/db/Connection.php:287]
+
+---------------------------------------------------------------
+[ 2017-10-28T09:14:49+08:00 ] 192.168.1.110 192.168.1.108 GET /
+[ log ] 192.168.1.110:8090/ [运行时间：0.654551s][吞吐率：1.53req/s] [内存消耗：3,556.49kb] [文件加载：54]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.110:8090',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.0; ASUS_Z00ADB Build/LRX21V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/43.0.2357.121 Mobile Safari/537.36 MicroMessenger/6.5.16.1120 NetType/WIFI Language/zh_CN',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'pmaCookieVer=5; pma_lang=zh_CN; pma_collation_connection=utf8mb4_unicode_ci; phpMyAdmin=hv81u2vkbtvb2md0e3nujmlroo77vfv3; PHPSESSID=nqs69sov3s37ar7tqd2o6gibko9sp930cbn2f20dv628htjmkgv0',
+  'x-requested-with' => 'com.tencent.mm',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/index/special.html [ array (
+  0 => 'goods',
+  1 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-28T09:19:21+08:00 ] 127.0.0.2 127.0.0.1 GET /
+[ log ] www.sixer.com/ [运行时间：0.584074s][吞吐率：1.71req/s] [内存消耗：3,557.25kb] [文件加载：54]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Version/10.0 Mobile/14D27 Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=tm8vb48d13abbc0thju301clltrf869l1j13a3l6v3i0tlq6s290',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/index/special.html [ array (
+  0 => 'goods',
+  1 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-28T09:19:31+08:00 ] 127.0.0.2 127.0.0.1 GET /
+[ log ] www.sixer.com/ [运行时间：0.595339s][吞吐率：1.68req/s] [内存消耗：3,557.20kb] [文件加载：54]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Version/10.0 Mobile/14D27 Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=tm8vb48d13abbc0thju301clltrf869l1j13a3l6v3i0tlq6s290',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/index/special.html [ array (
+  0 => 'goods',
+  1 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-28T09:19:46+08:00 ] 127.0.0.2 127.0.0.1 GET /index/goods/detail/id/1.html
+[ log ] www.sixer.com/index/goods/detail/id/1.html [运行时间：1.111408s][吞吐率：0.90req/s] [内存消耗：3,612.72kb] [文件加载：54]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'goods',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Version/10.0 Mobile/14D27 Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.sixer.com/',
+  'cookie' => 'PHPSESSID=tm8vb48d13abbc0thju301clltrf869l1j13a3l6v3i0tlq6s290',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/index/goods/detail/id/1_html' => '',
+  'id' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Goods->detail[ /home/aptx/File/PHP/6rmh/app/index/controller/Goods.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/goods/detail.html [ array (
+  0 => 'config',
+  1 => 'goods',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-28T09:19:48+08:00 ] 127.0.0.2 127.0.0.1 GET /
+[ log ] www.sixer.com/ [运行时间：0.598009s][吞吐率：1.67req/s] [内存消耗：3,360.15kb] [文件加载：52]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Version/10.0 Mobile/14D27 Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=tm8vb48d13abbc0thju301clltrf869l1j13a3l6v3i0tlq6s290',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/index/special.html [ array (
+  0 => 'goods',
+  1 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-28T09:20:29+08:00 ] 127.0.0.2 127.0.0.1 GET /
+[ log ] www.sixer.com/ [运行时间：0.616442s][吞吐率：1.62req/s] [内存消耗：3,360.15kb] [文件加载：52]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Version/10.0 Mobile/14D27 Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=tm8vb48d13abbc0thju301clltrf869l1j13a3l6v3i0tlq6s290',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/index/special.html [ array (
+  0 => 'goods',
+  1 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-28T09:20:48+08:00 ] 127.0.0.2 127.0.0.1 GET /
+[ log ] www.sixer.com/ [运行时间：0.386794s][吞吐率：2.59req/s] [内存消耗：3,360.15kb] [文件加载：52]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Version/10.0 Mobile/14D27 Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=tm8vb48d13abbc0thju301clltrf869l1j13a3l6v3i0tlq6s290',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/index/special.html [ array (
+  0 => 'goods',
+  1 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-28T09:21:07+08:00 ] 127.0.0.2 127.0.0.1 GET /
+[ log ] www.sixer.com/ [运行时间：0.407008s][吞吐率：2.46req/s] [内存消耗：3,360.15kb] [文件加载：52]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Version/10.0 Mobile/14D27 Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=tm8vb48d13abbc0thju301clltrf869l1j13a3l6v3i0tlq6s290',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/index/special.html [ array (
+  0 => 'goods',
+  1 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-28T09:23:39+08:00 ] 192.168.1.110 192.168.1.108 GET /
+[ log ] 192.168.1.110:8090/ [运行时间：0.665212s][吞吐率：1.50req/s] [内存消耗：3,359.31kb] [文件加载：52]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.110:8090',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.0; ASUS_Z00ADB Build/LRX21V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/43.0.2357.121 Mobile Safari/537.36 MicroMessenger/6.5.16.1120 NetType/WIFI Language/zh_CN',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'pmaCookieVer=5; pma_lang=zh_CN; pma_collation_connection=utf8mb4_unicode_ci; phpMyAdmin=hv81u2vkbtvb2md0e3nujmlroo77vfv3; PHPSESSID=nqs69sov3s37ar7tqd2o6gibko9sp930cbn2f20dv628htjmkgv0',
+  'x-requested-with' => 'com.tencent.mm',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/index/special.html [ array (
+  0 => 'goods',
+  1 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-28T09:23:39+08:00 ] 192.168.1.110 192.168.1.108 GET /
+[ log ] 192.168.1.110:8090/ [运行时间：0.652673s][吞吐率：1.53req/s] [内存消耗：3,359.31kb] [文件加载：52]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.110:8090',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.0; ASUS_Z00ADB Build/LRX21V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/43.0.2357.121 Mobile Safari/537.36 MicroMessenger/6.5.16.1120 NetType/WIFI Language/zh_CN',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'pmaCookieVer=5; pma_lang=zh_CN; pma_collation_connection=utf8mb4_unicode_ci; phpMyAdmin=hv81u2vkbtvb2md0e3nujmlroo77vfv3; PHPSESSID=nqs69sov3s37ar7tqd2o6gibko9sp930cbn2f20dv628htjmkgv0',
+  'x-requested-with' => 'com.tencent.mm',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/index/special.html [ array (
+  0 => 'goods',
+  1 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-28T09:25:32+08:00 ] 127.0.0.2 127.0.0.1 GET /
+[ log ] www.sixer.com/ [运行时间：0.462541s][吞吐率：2.16req/s] [内存消耗：3,557.20kb] [文件加载：54]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Version/10.0 Mobile/14D27 Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=tm8vb48d13abbc0thju301clltrf869l1j13a3l6v3i0tlq6s290',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/index/special.html [ array (
+  0 => 'goods',
+  1 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-28T09:26:52+08:00 ] 127.0.0.2 127.0.0.1 GET /
+[ log ] www.sixer.com/ [运行时间：0.511739s][吞吐率：1.95req/s] [内存消耗：3,557.40kb] [文件加载：54]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Version/10.0 Mobile/14D27 Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=tm8vb48d13abbc0thju301clltrf869l1j13a3l6v3i0tlq6s290',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/index/special.html [ array (
+  0 => 'goods',
+  1 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-28T09:27:06+08:00 ] 127.0.0.2 127.0.0.1 GET /
+[ log ] www.sixer.com/ [运行时间：0.446074s][吞吐率：2.24req/s] [内存消耗：3,557.40kb] [文件加载：54]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Version/10.0 Mobile/14D27 Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=tm8vb48d13abbc0thju301clltrf869l1j13a3l6v3i0tlq6s290',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/index/special.html [ array (
+  0 => 'goods',
+  1 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-28T09:27:28+08:00 ] 127.0.0.2 127.0.0.1 GET /
+[ log ] www.sixer.com/ [运行时间：0.441175s][吞吐率：2.27req/s] [内存消耗：3,557.41kb] [文件加载：54]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Version/10.0 Mobile/14D27 Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=tm8vb48d13abbc0thju301clltrf869l1j13a3l6v3i0tlq6s290',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/index/special.html [ array (
+  0 => 'goods',
+  1 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-28T09:27:55+08:00 ] 127.0.0.2 127.0.0.1 GET /
+[ log ] www.sixer.com/ [运行时间：0.420050s][吞吐率：2.38req/s] [内存消耗：3,557.35kb] [文件加载：54]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Version/10.0 Mobile/14D27 Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=tm8vb48d13abbc0thju301clltrf869l1j13a3l6v3i0tlq6s290',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/index/special.html [ array (
+  0 => 'goods',
+  1 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-28T09:29:46+08:00 ] 127.0.0.2 127.0.0.1 GET /
+[ log ] www.sixer.com/ [运行时间：0.668904s][吞吐率：1.49req/s] [内存消耗：3,557.35kb] [文件加载：54]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Version/10.0 Mobile/14D27 Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=tm8vb48d13abbc0thju301clltrf869l1j13a3l6v3i0tlq6s290',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/index/special.html [ array (
+  0 => 'goods',
+  1 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-28T09:30:01+08:00 ] 127.0.0.2 127.0.0.1 GET /
+[ log ] www.sixer.com/ [运行时间：0.676365s][吞吐率：1.48req/s] [内存消耗：3,557.40kb] [文件加载：54]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Version/10.0 Mobile/14D27 Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=tm8vb48d13abbc0thju301clltrf869l1j13a3l6v3i0tlq6s290',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/index/special.html [ array (
+  0 => 'goods',
+  1 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-28T09:33:36+08:00 ] 192.168.1.110 192.168.1.108 GET /
+[ log ] 192.168.1.110:8090/ [运行时间：0.568561s][吞吐率：1.76req/s] [内存消耗：3,360.05kb] [文件加载：52]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.110:8090',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.0; ASUS_Z00ADB Build/LRX21V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/43.0.2357.121 Mobile Safari/537.36 MicroMessenger/6.5.16.1120 NetType/WIFI Language/zh_CN',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'pmaCookieVer=5; pma_lang=zh_CN; pma_collation_connection=utf8mb4_unicode_ci; phpMyAdmin=hv81u2vkbtvb2md0e3nujmlroo77vfv3; PHPSESSID=nqs69sov3s37ar7tqd2o6gibko9sp930cbn2f20dv628htjmkgv0',
+  'x-requested-with' => 'com.tencent.mm',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/index/special.html [ array (
+  0 => 'goods',
+  1 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-28T09:40:43+08:00 ] 127.0.0.2 127.0.0.1 GET /
+[ log ] www.sixer.com/ [运行时间：0.437681s][吞吐率：2.28req/s] [内存消耗：3,360.13kb] [文件加载：52]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Version/10.0 Mobile/14D27 Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=tm8vb48d13abbc0thju301clltrf869l1j13a3l6v3i0tlq6s290',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/index/special.html [ array (
+  0 => 'goods',
+  1 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-28T09:51:13+08:00 ] 127.0.0.2 127.0.0.1 GET /
+[ log ] www.sixer.com/ [运行时间：0.775555s][吞吐率：1.29req/s] [内存消耗：3,577.45kb] [文件加载：55]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/view/index/special.html [ array (
+  0 => 'goods',
+  1 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-28T09:51:17+08:00 ] 127.0.0.2 127.0.0.1 GET /static/css/hexagon/img/7.jpg
+[ log ] www.sixer.com/static/css/hexagon/img/7.jpg [运行时间：0.050212s][吞吐率：19.92req/s] [内存消耗：1,914.98kb] [文件加载：37]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'css',
+    2 => 'hexagon',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.sixer.com/',
+  'cookie' => 'PHPSESSID=ro2s1toqav2om5kv19om3gij6oj372or7hnn80mvavviuf3o7bt0',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/static/css/hexagon/img/7_jpg' => '',
+  'img' => '7.jpg',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-28T09:51:18+08:00 ] 127.0.0.2 127.0.0.1 GET /index/index/footerinfo
+[ log ] www.sixer.com/index/index/footerinfo [运行时间：0.310853s][吞吐率：3.22req/s] [内存消耗：3,256.79kb] [文件加载：50]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'footerinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => 'application/json, text/plain, */*',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.sixer.com/',
+  'cookie' => 'PHPSESSID=ro2s1toqav2om5kv19om3gij6oj372or7hnn80mvavviuf3o7bt0',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/footerinfo' => '',
+)
+[ info ] [ RUN ] app\index\controller\Index->footerInfo[ /home/aptx/File/PHP/6rmh/app/index/controller/Index.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-28T09:51:18+08:00 ] 127.0.0.2 127.0.0.1 GET /index/index/topInfo
+[ log ] www.sixer.com/index/index/topInfo [运行时间：0.402255s][吞吐率：2.49req/s] [内存消耗：3,257.47kb] [文件加载：50]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'topInfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'accept' => 'application/json, text/plain, */*',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.sixer.com/',
+  'cookie' => 'PHPSESSID=ro2s1toqav2om5kv19om3gij6oj372or7hnn80mvavviuf3o7bt0',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/topInfo' => '',
+)
+[ info ] [ RUN ] app\index\controller\Index->topInfo[ /home/aptx/File/PHP/6rmh/app/index/controller/Index.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-28T09:51:28+08:00 ] 127.0.0.2 127.0.0.1 GET /
+[ log ] www.sixer.com/ [运行时间：0.549951s][吞吐率：1.82req/s] [内存消耗：3,359.81kb] [文件加载：52]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Version/10.0 Mobile/14D27 Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=ro2s1toqav2om5kv19om3gij6oj372or7hnn80mvavviuf3o7bt0',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/index/special.html [ array (
+  0 => 'goods',
+  1 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-28T09:52:03+08:00 ] 127.0.0.2 127.0.0.1 GET /
+[ log ] www.sixer.com/ [运行时间：0.558843s][吞吐率：1.79req/s] [内存消耗：3,557.34kb] [文件加载：54]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Version/10.0 Mobile/14D27 Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=ro2s1toqav2om5kv19om3gij6oj372or7hnn80mvavviuf3o7bt0',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/index/special.html [ array (
+  0 => 'goods',
+  1 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-28T09:52:16+08:00 ] 127.0.0.2 127.0.0.1 GET /
+[ log ] www.sixer.com/ [运行时间：0.710427s][吞吐率：1.41req/s] [内存消耗：3,557.42kb] [文件加载：54]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Version/10.0 Mobile/14D27 Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=ro2s1toqav2om5kv19om3gij6oj372or7hnn80mvavviuf3o7bt0',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/index/special.html [ array (
+  0 => 'goods',
+  1 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-28T09:52:40+08:00 ] 127.0.0.2 127.0.0.1 GET /
+[ log ] www.sixer.com/ [运行时间：0.442578s][吞吐率：2.26req/s] [内存消耗：3,557.34kb] [文件加载：54]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Version/10.0 Mobile/14D27 Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=ro2s1toqav2om5kv19om3gij6oj372or7hnn80mvavviuf3o7bt0',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/index/special.html [ array (
+  0 => 'goods',
+  1 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-28T09:53:53+08:00 ] 127.0.0.2 127.0.0.1 GET /
+[ log ] www.sixer.com/ [运行时间：0.646049s][吞吐率：1.55req/s] [内存消耗：3,557.34kb] [文件加载：54]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Version/10.0 Mobile/14D27 Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=ro2s1toqav2om5kv19om3gij6oj372or7hnn80mvavviuf3o7bt0',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/index/special.html [ array (
+  0 => 'goods',
+  1 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-28T09:56:17+08:00 ] 127.0.0.2 127.0.0.1 GET /
+[ log ] www.sixer.com/ [运行时间：0.750876s][吞吐率：1.33req/s] [内存消耗：3,557.41kb] [文件加载：54]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Version/10.0 Mobile/14D27 Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=ro2s1toqav2om5kv19om3gij6oj372or7hnn80mvavviuf3o7bt0',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/index/special.html [ array (
+  0 => 'goods',
+  1 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-28T09:57:09+08:00 ] 127.0.0.2 127.0.0.1 GET /
+[ log ] www.sixer.com/ [运行时间：0.595488s][吞吐率：1.68req/s] [内存消耗：3,557.45kb] [文件加载：54]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Version/10.0 Mobile/14D27 Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=ro2s1toqav2om5kv19om3gij6oj372or7hnn80mvavviuf3o7bt0',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/index/special.html [ array (
+  0 => 'goods',
+  1 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-28T09:58:39+08:00 ] 127.0.0.2 127.0.0.1 GET /
+[ log ] www.sixer.com/ [运行时间：0.577683s][吞吐率：1.73req/s] [内存消耗：3,557.31kb] [文件加载：54]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Version/10.0 Mobile/14D27 Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=ro2s1toqav2om5kv19om3gij6oj372or7hnn80mvavviuf3o7bt0',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/index/special.html [ array (
+  0 => 'goods',
+  1 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-28T10:00:46+08:00 ] 127.0.0.2 127.0.0.1 GET /
+[ log ] www.sixer.com/ [运行时间：0.550413s][吞吐率：1.82req/s] [内存消耗：3,557.31kb] [文件加载：54]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Version/10.0 Mobile/14D27 Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=ro2s1toqav2om5kv19om3gij6oj372or7hnn80mvavviuf3o7bt0',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/index/special.html [ array (
+  0 => 'goods',
+  1 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-28T10:01:47+08:00 ] 127.0.0.2 127.0.0.1 GET /
+[ log ] www.sixer.com/ [运行时间：0.367626s][吞吐率：2.72req/s] [内存消耗：3,557.35kb] [文件加载：54]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Version/10.0 Mobile/14D27 Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=ro2s1toqav2om5kv19om3gij6oj372or7hnn80mvavviuf3o7bt0',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/index/special.html [ array (
+  0 => 'goods',
+  1 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-28T10:04:18+08:00 ] 127.0.0.2 127.0.0.1 GET /
+[ log ] www.sixer.com/ [运行时间：0.467048s][吞吐率：2.14req/s] [内存消耗：3,557.43kb] [文件加载：54]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Version/10.0 Mobile/14D27 Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=ro2s1toqav2om5kv19om3gij6oj372or7hnn80mvavviuf3o7bt0',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/index/special.html [ array (
+  0 => 'goods',
+  1 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-28T10:04:43+08:00 ] 127.0.0.2 127.0.0.1 GET /
+[ log ] www.sixer.com/ [运行时间：0.766043s][吞吐率：1.31req/s] [内存消耗：3,556.70kb] [文件加载：54]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Version/10.0 Mobile/14D27 Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=ro2s1toqav2om5kv19om3gij6oj372or7hnn80mvavviuf3o7bt0',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/index/special.html [ array (
+  0 => 'goods',
+  1 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-28T10:04:47+08:00 ] 127.0.0.2 127.0.0.1 GET /
+[ log ] www.sixer.com/ [运行时间：0.425263s][吞吐率：2.35req/s] [内存消耗：3,359.78kb] [文件加载：52]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Version/10.0 Mobile/14D27 Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=ro2s1toqav2om5kv19om3gij6oj372or7hnn80mvavviuf3o7bt0',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/index/special.html [ array (
+  0 => 'goods',
+  1 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-28T10:05:00+08:00 ] 192.168.1.110 192.168.1.108 GET /
+[ log ] 192.168.1.110:8090/ [运行时间：0.408454s][吞吐率：2.45req/s] [内存消耗：3,359.30kb] [文件加载：52]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.110:8090',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.0; ASUS_Z00ADB Build/LRX21V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/43.0.2357.121 Mobile Safari/537.36 MicroMessenger/6.5.16.1120 NetType/WIFI Language/zh_CN',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'pmaCookieVer=5; pma_lang=zh_CN; pma_collation_connection=utf8mb4_unicode_ci; phpMyAdmin=hv81u2vkbtvb2md0e3nujmlroo77vfv3; PHPSESSID=nqs69sov3s37ar7tqd2o6gibko9sp930cbn2f20dv628htjmkgv0',
+  'x-requested-with' => 'com.tencent.mm',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/index/special.html [ array (
+  0 => 'goods',
+  1 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-28T10:05:07+08:00 ] 192.168.1.110 192.168.1.108 GET /index/goods/detail/id/6.html
+[ log ] 192.168.1.110:8090/index/goods/detail/id/6.html [运行时间：1.173301s][吞吐率：0.85req/s] [内存消耗：3,396.91kb] [文件加载：52]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'goods',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.110:8090',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.0; ASUS_Z00ADB Build/LRX21V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/43.0.2357.121 Mobile Safari/537.36 MicroMessenger/6.5.16.1120 NetType/WIFI Language/zh_CN',
+  'referer' => 'http://192.168.1.110:8090/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'pmaCookieVer=5; pma_lang=zh_CN; pma_collation_connection=utf8mb4_unicode_ci; phpMyAdmin=hv81u2vkbtvb2md0e3nujmlroo77vfv3; PHPSESSID=nqs69sov3s37ar7tqd2o6gibko9sp930cbn2f20dv628htjmkgv0',
+  'x-requested-with' => 'com.tencent.mm',
+)
+[ info ] [ PARAM ] array (
+  '/index/goods/detail/id/6_html' => '',
+  'id' => '6',
+)
+[ info ] [ RUN ] app\index\controller\Goods->detail[ /home/aptx/File/PHP/6rmh/app/index/controller/Goods.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/goods/detail.html [ array (
+  0 => 'config',
+  1 => 'goods',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-28T10:05:16+08:00 ] 192.168.1.110 192.168.1.108 GET /
+[ log ] 192.168.1.110:8090/ [运行时间：0.579079s][吞吐率：1.73req/s] [内存消耗：3,359.30kb] [文件加载：52]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.110:8090',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.0; ASUS_Z00ADB Build/LRX21V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/43.0.2357.121 Mobile Safari/537.36 MicroMessenger/6.5.16.1120 NetType/WIFI Language/zh_CN',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'pmaCookieVer=5; pma_lang=zh_CN; pma_collation_connection=utf8mb4_unicode_ci; phpMyAdmin=hv81u2vkbtvb2md0e3nujmlroo77vfv3; PHPSESSID=nqs69sov3s37ar7tqd2o6gibko9sp930cbn2f20dv628htjmkgv0',
+  'x-requested-with' => 'com.tencent.mm',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/index/special.html [ array (
+  0 => 'goods',
+  1 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-28T10:05:20+08:00 ] 192.168.1.110 192.168.1.108 GET /index/goods/detail/id/1.html
+[ log ] 192.168.1.110:8090/index/goods/detail/id/1.html [运行时间：0.932145s][吞吐率：1.07req/s] [内存消耗：3,401.21kb] [文件加载：52]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'goods',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.110:8090',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.0; ASUS_Z00ADB Build/LRX21V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/43.0.2357.121 Mobile Safari/537.36 MicroMessenger/6.5.16.1120 NetType/WIFI Language/zh_CN',
+  'referer' => 'http://192.168.1.110:8090/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'pmaCookieVer=5; pma_lang=zh_CN; pma_collation_connection=utf8mb4_unicode_ci; phpMyAdmin=hv81u2vkbtvb2md0e3nujmlroo77vfv3; PHPSESSID=nqs69sov3s37ar7tqd2o6gibko9sp930cbn2f20dv628htjmkgv0',
+  'x-requested-with' => 'com.tencent.mm',
+)
+[ info ] [ PARAM ] array (
+  '/index/goods/detail/id/1_html' => '',
+  'id' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Goods->detail[ /home/aptx/File/PHP/6rmh/app/index/controller/Goods.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/goods/detail.html [ array (
+  0 => 'config',
+  1 => 'goods',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-28T10:05:27+08:00 ] 192.168.1.110 192.168.1.108 GET /index/cart
+[ log ] 192.168.1.110:8090/index/cart [运行时间：0.063111s][吞吐率：15.85req/s] [内存消耗：2,323.91kb] [文件加载：44]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cart',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.110:8090',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.0; ASUS_Z00ADB Build/LRX21V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/43.0.2357.121 Mobile Safari/537.36 MicroMessenger/6.5.16.1120 NetType/WIFI Language/zh_CN',
+  'referer' => 'http://192.168.1.110:8090/index/goods/detail/id/1.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'pmaCookieVer=5; pma_lang=zh_CN; pma_collation_connection=utf8mb4_unicode_ci; phpMyAdmin=hv81u2vkbtvb2md0e3nujmlroo77vfv3; PHPSESSID=nqs69sov3s37ar7tqd2o6gibko9sp930cbn2f20dv628htjmkgv0',
+  'x-requested-with' => 'com.tencent.mm',
+)
+[ info ] [ PARAM ] array (
+  '/index/cart' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-28T10:05:27+08:00 ] 192.168.1.110 192.168.1.108 GET /index/login/index
+[ log ] 192.168.1.110:8090/index/login/index [运行时间：0.040737s][吞吐率：24.55req/s] [内存消耗：2,455.74kb] [文件加载：44]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.110:8090',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.0; ASUS_Z00ADB Build/LRX21V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/43.0.2357.121 Mobile Safari/537.36 MicroMessenger/6.5.16.1120 NetType/WIFI Language/zh_CN',
+  'referer' => 'http://192.168.1.110:8090/index/goods/detail/id/1.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'pmaCookieVer=5; pma_lang=zh_CN; pma_collation_connection=utf8mb4_unicode_ci; phpMyAdmin=hv81u2vkbtvb2md0e3nujmlroo77vfv3; PHPSESSID=nqs69sov3s37ar7tqd2o6gibko9sp930cbn2f20dv628htjmkgv0',
+  'x-requested-with' => 'com.tencent.mm',
+)
+[ info ] [ PARAM ] array (
+  '/index/login/index' => '',
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/login/index.html [ array (
+  0 => 'header',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-28T10:05:39+08:00 ] 192.168.1.110 192.168.1.108 GET /index/goods/detail/id/1.html
+[ log ] 192.168.1.110:8090/index/goods/detail/id/1.html [运行时间：1.343293s][吞吐率：0.74req/s] [内存消耗：3,399.63kb] [文件加载：52]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'goods',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.110:8090',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.0; ASUS_Z00ADB Build/LRX21V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/43.0.2357.121 Mobile Safari/537.36 MicroMessenger/6.5.16.1120 NetType/WIFI Language/zh_CN',
+  'referer' => 'http://192.168.1.110:8090/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'pmaCookieVer=5; pma_lang=zh_CN; pma_collation_connection=utf8mb4_unicode_ci; phpMyAdmin=hv81u2vkbtvb2md0e3nujmlroo77vfv3; PHPSESSID=nqs69sov3s37ar7tqd2o6gibko9sp930cbn2f20dv628htjmkgv0',
+  'x-requested-with' => 'com.tencent.mm',
+)
+[ info ] [ PARAM ] array (
+  '/index/goods/detail/id/1_html' => '',
+  'id' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Goods->detail[ /home/aptx/File/PHP/6rmh/app/index/controller/Goods.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/goods/detail.html [ array (
+  0 => 'config',
+  1 => 'goods',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-28T10:05:42+08:00 ] 192.168.1.110 192.168.1.108 GET /index/cart
+[ log ] 192.168.1.110:8090/index/cart [运行时间：0.110272s][吞吐率：9.07req/s] [内存消耗：2,337.05kb] [文件加载：45]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cart',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.110:8090',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.0; ASUS_Z00ADB Build/LRX21V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/43.0.2357.121 Mobile Safari/537.36 MicroMessenger/6.5.16.1120 NetType/WIFI Language/zh_CN',
+  'referer' => 'http://192.168.1.110:8090/index/goods/detail/id/1.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'pmaCookieVer=5; pma_lang=zh_CN; pma_collation_connection=utf8mb4_unicode_ci; phpMyAdmin=hv81u2vkbtvb2md0e3nujmlroo77vfv3; PHPSESSID=nqs69sov3s37ar7tqd2o6gibko9sp930cbn2f20dv628htjmkgv0',
+  'x-requested-with' => 'com.tencent.mm',
+)
+[ info ] [ PARAM ] array (
+  '/index/cart' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-28T10:05:42+08:00 ] 192.168.1.110 192.168.1.108 GET /index/login/index
+[ log ] 192.168.1.110:8090/index/login/index [运行时间：0.029234s][吞吐率：34.21req/s] [内存消耗：2,266.35kb] [文件加载：42]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.110:8090',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.0; ASUS_Z00ADB Build/LRX21V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/43.0.2357.121 Mobile Safari/537.36 MicroMessenger/6.5.16.1120 NetType/WIFI Language/zh_CN',
+  'referer' => 'http://192.168.1.110:8090/index/goods/detail/id/1.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'pmaCookieVer=5; pma_lang=zh_CN; pma_collation_connection=utf8mb4_unicode_ci; phpMyAdmin=hv81u2vkbtvb2md0e3nujmlroo77vfv3; PHPSESSID=nqs69sov3s37ar7tqd2o6gibko9sp930cbn2f20dv628htjmkgv0',
+  'x-requested-with' => 'com.tencent.mm',
+)
+[ info ] [ PARAM ] array (
+  '/index/login/index' => '',
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/login/index.html [ array (
+  0 => 'header',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-28T10:05:45+08:00 ] 192.168.1.110 192.168.1.108 GET /index/goods/detail/id/1.html
+[ log ] 192.168.1.110:8090/index/goods/detail/id/1.html [运行时间：1.236723s][吞吐率：0.81req/s] [内存消耗：3,399.63kb] [文件加载：52]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'goods',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.110:8090',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.0; ASUS_Z00ADB Build/LRX21V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/43.0.2357.121 Mobile Safari/537.36 MicroMessenger/6.5.16.1120 NetType/WIFI Language/zh_CN',
+  'referer' => 'http://192.168.1.110:8090/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'pmaCookieVer=5; pma_lang=zh_CN; pma_collation_connection=utf8mb4_unicode_ci; phpMyAdmin=hv81u2vkbtvb2md0e3nujmlroo77vfv3; PHPSESSID=nqs69sov3s37ar7tqd2o6gibko9sp930cbn2f20dv628htjmkgv0',
+  'x-requested-with' => 'com.tencent.mm',
+)
+[ info ] [ PARAM ] array (
+  '/index/goods/detail/id/1_html' => '',
+  'id' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Goods->detail[ /home/aptx/File/PHP/6rmh/app/index/controller/Goods.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/goods/detail.html [ array (
+  0 => 'config',
+  1 => 'goods',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-28T10:05:47+08:00 ] 192.168.1.110 192.168.1.108 GET /
+[ log ] 192.168.1.110:8090/ [运行时间：0.449196s][吞吐率：2.23req/s] [内存消耗：3,372.31kb] [文件加载：53]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.110:8090',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.0; ASUS_Z00ADB Build/LRX21V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/43.0.2357.121 Mobile Safari/537.36 MicroMessenger/6.5.16.1120 NetType/WIFI Language/zh_CN',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'pmaCookieVer=5; pma_lang=zh_CN; pma_collation_connection=utf8mb4_unicode_ci; phpMyAdmin=hv81u2vkbtvb2md0e3nujmlroo77vfv3; PHPSESSID=nqs69sov3s37ar7tqd2o6gibko9sp930cbn2f20dv628htjmkgv0',
+  'x-requested-with' => 'com.tencent.mm',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/index/special.html [ array (
+  0 => 'goods',
+  1 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-28T10:06:02+08:00 ] 192.168.1.110 192.168.1.108 GET /index/goods/detail/id/6.html
+[ log ] 192.168.1.110:8090/index/goods/detail/id/6.html [运行时间：1.075226s][吞吐率：0.93req/s] [内存消耗：3,396.91kb] [文件加载：52]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'goods',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.110:8090',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.0; ASUS_Z00ADB Build/LRX21V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/43.0.2357.121 Mobile Safari/537.36 MicroMessenger/6.5.16.1120 NetType/WIFI Language/zh_CN',
+  'referer' => 'http://192.168.1.110:8090/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'pmaCookieVer=5; pma_lang=zh_CN; pma_collation_connection=utf8mb4_unicode_ci; phpMyAdmin=hv81u2vkbtvb2md0e3nujmlroo77vfv3; PHPSESSID=nqs69sov3s37ar7tqd2o6gibko9sp930cbn2f20dv628htjmkgv0',
+  'x-requested-with' => 'com.tencent.mm',
+)
+[ info ] [ PARAM ] array (
+  '/index/goods/detail/id/6_html' => '',
+  'id' => '6',
+)
+[ info ] [ RUN ] app\index\controller\Goods->detail[ /home/aptx/File/PHP/6rmh/app/index/controller/Goods.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/goods/detail.html [ array (
+  0 => 'config',
+  1 => 'goods',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-28T10:06:04+08:00 ] 192.168.1.110 192.168.1.108 GET /
+[ log ] 192.168.1.110:8090/ [运行时间：0.542724s][吞吐率：1.84req/s] [内存消耗：3,359.30kb] [文件加载：52]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.110:8090',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.0; ASUS_Z00ADB Build/LRX21V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/43.0.2357.121 Mobile Safari/537.36 MicroMessenger/6.5.16.1120 NetType/WIFI Language/zh_CN',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'pmaCookieVer=5; pma_lang=zh_CN; pma_collation_connection=utf8mb4_unicode_ci; phpMyAdmin=hv81u2vkbtvb2md0e3nujmlroo77vfv3; PHPSESSID=nqs69sov3s37ar7tqd2o6gibko9sp930cbn2f20dv628htjmkgv0',
+  'x-requested-with' => 'com.tencent.mm',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/index/special.html [ array (
+  0 => 'goods',
+  1 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-28T10:06:07+08:00 ] 192.168.1.110 192.168.1.108 GET /index/goods/detail/id/1.html
+[ log ] 192.168.1.110:8090/index/goods/detail/id/1.html [运行时间：0.944931s][吞吐率：1.06req/s] [内存消耗：3,401.21kb] [文件加载：52]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'goods',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.110:8090',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.0; ASUS_Z00ADB Build/LRX21V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/43.0.2357.121 Mobile Safari/537.36 MicroMessenger/6.5.16.1120 NetType/WIFI Language/zh_CN',
+  'referer' => 'http://192.168.1.110:8090/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'pmaCookieVer=5; pma_lang=zh_CN; pma_collation_connection=utf8mb4_unicode_ci; phpMyAdmin=hv81u2vkbtvb2md0e3nujmlroo77vfv3; PHPSESSID=nqs69sov3s37ar7tqd2o6gibko9sp930cbn2f20dv628htjmkgv0',
+  'x-requested-with' => 'com.tencent.mm',
+)
+[ info ] [ PARAM ] array (
+  '/index/goods/detail/id/1_html' => '',
+  'id' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Goods->detail[ /home/aptx/File/PHP/6rmh/app/index/controller/Goods.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/goods/detail.html [ array (
+  0 => 'config',
+  1 => 'goods',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-28T10:06:24+08:00 ] 192.168.1.110 192.168.1.108 GET /index/cart/add/id/1/spec/10/num/1
+[ log ] 192.168.1.110:8090/index/cart/add/id/1/spec/10/num/1 [运行时间：0.039688s][吞吐率：25.20req/s] [内存消耗：2,324.66kb] [文件加载：44]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cart',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.110:8090',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.0; ASUS_Z00ADB Build/LRX21V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/43.0.2357.121 Mobile Safari/537.36 MicroMessenger/6.5.16.1120 NetType/WIFI Language/zh_CN',
+  'referer' => 'http://192.168.1.110:8090/index/goods/detail/id/1.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'pmaCookieVer=5; pma_lang=zh_CN; pma_collation_connection=utf8mb4_unicode_ci; phpMyAdmin=hv81u2vkbtvb2md0e3nujmlroo77vfv3; PHPSESSID=nqs69sov3s37ar7tqd2o6gibko9sp930cbn2f20dv628htjmkgv0',
+  'x-requested-with' => 'com.tencent.mm',
+)
+[ info ] [ PARAM ] array (
+  '/index/cart/add/id/1/spec/10/num/1' => '',
+  'id' => '1',
+  'spec' => '10',
+  'num' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-28T10:06:24+08:00 ] 192.168.1.110 192.168.1.108 GET /index/login/index
+[ log ] 192.168.1.110:8090/index/login/index [运行时间：0.023829s][吞吐率：41.97req/s] [内存消耗：2,266.35kb] [文件加载：42]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.110:8090',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.0; ASUS_Z00ADB Build/LRX21V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/43.0.2357.121 Mobile Safari/537.36 MicroMessenger/6.5.16.1120 NetType/WIFI Language/zh_CN',
+  'referer' => 'http://192.168.1.110:8090/index/goods/detail/id/1.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'pmaCookieVer=5; pma_lang=zh_CN; pma_collation_connection=utf8mb4_unicode_ci; phpMyAdmin=hv81u2vkbtvb2md0e3nujmlroo77vfv3; PHPSESSID=nqs69sov3s37ar7tqd2o6gibko9sp930cbn2f20dv628htjmkgv0',
+  'x-requested-with' => 'com.tencent.mm',
+)
+[ info ] [ PARAM ] array (
+  '/index/login/index' => '',
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/login/index.html [ array (
+  0 => 'header',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-28T10:06:43+08:00 ] 192.168.1.110 192.168.1.108 POST /index/login/login
+[ log ] 192.168.1.110:8090/index/login/login [运行时间：0.285028s][吞吐率：3.51req/s] [内存消耗：3,328.12kb] [文件加载：51]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.110:8090',
+  'connection' => 'keep-alive',
+  'content-length' => '43',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'origin' => 'http://192.168.1.110:8090',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.0; ASUS_Z00ADB Build/LRX21V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/43.0.2357.121 Mobile Safari/537.36 MicroMessenger/6.5.16.1120 NetType/WIFI Language/zh_CN',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://192.168.1.110:8090/index/login/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'pmaCookieVer=5; pma_lang=zh_CN; pma_collation_connection=utf8mb4_unicode_ci; phpMyAdmin=hv81u2vkbtvb2md0e3nujmlroo77vfv3; PHPSESSID=nqs69sov3s37ar7tqd2o6gibko9sp930cbn2f20dv628htjmkgv0',
+  'x-requested-with' => 'com.tencent.mm',
+)
+[ info ] [ PARAM ] array (
+  '/index/login/login' => '',
+  'login' => 
+  array (
+    'name' => 'fjw',
+    'password' => 'fjw',
+  ),
+)
+[ info ] [ RUN ] app\index\controller\Login->login[ /home/aptx/File/PHP/6rmh/app/index/controller/Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-28T10:06:44+08:00 ] 192.168.1.110 192.168.1.108 GET /index/index/index
+[ log ] 192.168.1.110:8090/index/index/index [运行时间：0.670939s][吞吐率：1.49req/s] [内存消耗：3,417.65kb] [文件加载：54]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.110:8090',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.0; ASUS_Z00ADB Build/LRX21V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/43.0.2357.121 Mobile Safari/537.36 MicroMessenger/6.5.16.1120 NetType/WIFI Language/zh_CN',
+  'referer' => 'http://192.168.1.110:8090/index/login/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'pmaCookieVer=5; pma_lang=zh_CN; pma_collation_connection=utf8mb4_unicode_ci; phpMyAdmin=hv81u2vkbtvb2md0e3nujmlroo77vfv3; PHPSESSID=nqs69sov3s37ar7tqd2o6gibko9sp930cbn2f20dv628htjmkgv0; keep_user=think%3A%7B%22id%22%3A%22f752w1cnt%252FPGKzeeKutU2wJrLOYrrmvnpW8rQCDj%22%2C%22pid%22%3A%22e078oIFAHGW8q13qzOK7N0CvQWscxsBA6b5XKfeO%22%2C%22name%22%3A%22ddf7mz2Hw2Pf5WFZFBf%252B3Vpc%252B6zC4TOvd7Kf%252B7UPD5o%22%2C%22realname%22%3A%2213ebgcxu5L8zaAP9IgjP%252BuHC6v3POc6MD2bXSK%252BnPFzOqtp%252B%252F9M%22%2C%22sex%22%3A%2250c4KhqijjUDXPNKfiJInYVIZvqfIb9uuyy%252BdU6L%22%2C%22mobile%22%3A%22b5c8KNu%252BTUG6xyX6dPOgnzncz0TYqbj9MoaOuvTHBA5bjAxnzAM9vg%22%2C%22qq%22%3A%2283edeVFfu6u%252B%252FsibJzCFx1dW%252FUa9npP7JVI7XNUaxMBRq%252BkZuKU%22%2C%22email%22%3A%2217d8tTBzT0QaRiqHvyIxsmc70cZE7%252BCg7SXClTePQKZsKwiFao%252FjVJniJ2XfDvk%22%2C%22id_num%22%3A%22e423k6AewRdJ6q5EkAir9ytoQM6CXGUKkIP9CM4%22%2C%22id_card_path%22%3A%224fe6N%252Fn3T2cQ5AIfkx%252BbWanwrlvRQJYXKdDxzL4%22%2C%22headimgurl%22%3A%22ee66BIfYID%252BgxZ8JwaK9HqIAt2cxh%252BQZlG2xCkaiQ3t59XukLcvygXqWDZUNGJGD68FLnBw2V%252BJm4oCZ%252F3fp%252BAloxicPWVlMLCJsruTjxbcPdEaNtzLb9wZBx6vkg8A173YUuSIbGHzAjf%252Fuf9j0Z1NC4I7TmgSpfohll4WcIEZtz813ciGVrp5x6%252FIgFU8uY3klSg%22%2C%22id_list%22%3A%220d439j%252FSWP7NkV%252F%252FOOg1GgBea8yjXupp0V5TCl%252Bx%22%2C%22regtime%22%3A%22a2f1E4boTaYjvVwjo7qYLlkNCyQDHPereZzS4ynf%22%2C%22logintime%22%3A%2278ceWZQ2YZJI5cpahtRVOE%252FO7QOSQ%252Fx3G1%252FaHoyw%22%2C%22loginip%22%3A%2266be1AFiOl9T9PD7HBwgA6jXiUh3QbygzLN%252F6ys%22%2C%22status%22%3A%227641zCUzXTVCocvRwX62hZ19YJs9%252F%252BMzWXYVruuZ%22%2C%22remark%22%3A%22f42bKYs3EitPEAcmzBAVXS%252FtD0D30PM6pOYhFeo%22%2C%22subscribe%22%3A%22cca4yryz0i%252FunYYaYW58ofyRRSK3W6aUrs5%252Fn9tI%22%2C%22openid%22%3A%22f98fJbce7yJcZcNb94fMEnLPCtMwucQjWn7%252Ftrhq5074RhoxYM1OgMZWjRlHYhRPheI8zCeW8BxC%22%2C%22nickname%22%3A%223556ID1hBrLmUWVm9W9DIA3WjKw56uyIl1OgaAuq0J0KYuA%22%2C%22language%22%3A%221296dZu9Kr%252FFQFzYlbJgxwaFTyPp8u0bATu%252BW%252Fbjx3l2jw%22%2C%22city%22%3A%221ffaJ2uxkNvYMhyDVtuOCfoo9R%252BCMwgOfluIxEujs3y%252Bhyo%22%2C%22province%22%3A%22ab9bcU3pyXgf%252FxXpaMlN%252F3DURQCBp079D%252BHWmnwXpTsm5e0%22%2C%22country%22%3A%22a081h0ZOyeuTVVIlJ%252F93P9x7hj7qxYoGkoQ2atzj9wgMxF4%22%2C%22subscribe_time%22%3A%22a63b8xc%252FwAUuX4Y2otClVK45Jnm1OidMZxXRLKM%252FRFj0cHD9iytv%22%2C%22unionid%22%3A%2283d2GBkEp7srYBiDYgkTyaJnfcbvMCdE5%252ByBVo0%22%2C%22groupid%22%3A%22e161qxBmL0GEoP2vU1zhFgQCbYKm%252FJuARQS5WkO9%22%2C%22tagid_list%22%3A%22f217Ki3gTn9q5EKdUgyvlhOdKh%252B%252B8LduLAcCmR0%22%2C%22qr_code%22%3A%22edafNk6og68qihF3nvqFkjvAGSqDkbrLIpi99w3dpiq%252FB7wpShZySnBa68DCbhSDLsAcL1pA0Xdlg4Dz7yEa9bpbly%252FcEfi6g2%252B1X0NYTrgtAKW8ahrJBTlmqnIhNjhxMQyH47jZckcWbGYJNDRw5Fd1ha9Tyxu0O69oRRVSms9AMLnUVLSkrvLhucS1JdG2FfyI3BvJSwibA8S1xdOolX4UPrdKDBItAkpDSPI7Btk%22%2C%22qr_seconds%22%3A%224b4935GYUqF0Z0zA8eI1%252FU3X%252Ffvj7WDQEvW8K86CJH7tUVTvV4k3%22%2C%22qr_ticket%22%3A%22eee0lQy3iD5gdLI8ch7Z8vAA%252BGxvhlI3B6L5T8m6HyJ9dOuH4DBl1IHZWylztb8n%252FxHCgdzVo0bFoL0twJbi%252FvaEUo2U%252F7fHcz8Dv2b0GMNlNQVerm%252FZGx3O%252BJ1%252BLYsEAzFZwdxcfkbMN1TAcR51GiwOJTSBvPzWMPmaN%252FA%22%7D',
+  'x-requested-with' => 'com.tencent.mm',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/index' => '',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/index/special.html [ array (
+  0 => 'goods',
+  1 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-28T10:06:52+08:00 ] 192.168.1.110 192.168.1.108 GET /index/goods/detail/id/1.html
+[ log ] 192.168.1.110:8090/index/goods/detail/id/1.html [运行时间：0.914260s][吞吐率：1.09req/s] [内存消耗：3,443.99kb] [文件加载：53]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'goods',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.110:8090',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.0; ASUS_Z00ADB Build/LRX21V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/43.0.2357.121 Mobile Safari/537.36 MicroMessenger/6.5.16.1120 NetType/WIFI Language/zh_CN',
+  'referer' => 'http://192.168.1.110:8090/index/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'pmaCookieVer=5; pma_lang=zh_CN; pma_collation_connection=utf8mb4_unicode_ci; phpMyAdmin=hv81u2vkbtvb2md0e3nujmlroo77vfv3; PHPSESSID=nqs69sov3s37ar7tqd2o6gibko9sp930cbn2f20dv628htjmkgv0; keep_user=think%3A%7B%22id%22%3A%22f752w1cnt%252FPGKzeeKutU2wJrLOYrrmvnpW8rQCDj%22%2C%22pid%22%3A%22e078oIFAHGW8q13qzOK7N0CvQWscxsBA6b5XKfeO%22%2C%22name%22%3A%22ddf7mz2Hw2Pf5WFZFBf%252B3Vpc%252B6zC4TOvd7Kf%252B7UPD5o%22%2C%22realname%22%3A%2213ebgcxu5L8zaAP9IgjP%252BuHC6v3POc6MD2bXSK%252BnPFzOqtp%252B%252F9M%22%2C%22sex%22%3A%2250c4KhqijjUDXPNKfiJInYVIZvqfIb9uuyy%252BdU6L%22%2C%22mobile%22%3A%22b5c8KNu%252BTUG6xyX6dPOgnzncz0TYqbj9MoaOuvTHBA5bjAxnzAM9vg%22%2C%22qq%22%3A%2283edeVFfu6u%252B%252FsibJzCFx1dW%252FUa9npP7JVI7XNUaxMBRq%252BkZuKU%22%2C%22email%22%3A%2217d8tTBzT0QaRiqHvyIxsmc70cZE7%252BCg7SXClTePQKZsKwiFao%252FjVJniJ2XfDvk%22%2C%22id_num%22%3A%22e423k6AewRdJ6q5EkAir9ytoQM6CXGUKkIP9CM4%22%2C%22id_card_path%22%3A%224fe6N%252Fn3T2cQ5AIfkx%252BbWanwrlvRQJYXKdDxzL4%22%2C%22headimgurl%22%3A%22ee66BIfYID%252BgxZ8JwaK9HqIAt2cxh%252BQZlG2xCkaiQ3t59XukLcvygXqWDZUNGJGD68FLnBw2V%252BJm4oCZ%252F3fp%252BAloxicPWVlMLCJsruTjxbcPdEaNtzLb9wZBx6vkg8A173YUuSIbGHzAjf%252Fuf9j0Z1NC4I7TmgSpfohll4WcIEZtz813ciGVrp5x6%252FIgFU8uY3klSg%22%2C%22id_list%22%3A%220d439j%252FSWP7NkV%252F%252FOOg1GgBea8yjXupp0V5TCl%252Bx%22%2C%22regtime%22%3A%22a2f1E4boTaYjvVwjo7qYLlkNCyQDHPereZzS4ynf%22%2C%22logintime%22%3A%2278ceWZQ2YZJI5cpahtRVOE%252FO7QOSQ%252Fx3G1%252FaHoyw%22%2C%22loginip%22%3A%2266be1AFiOl9T9PD7HBwgA6jXiUh3QbygzLN%252F6ys%22%2C%22status%22%3A%227641zCUzXTVCocvRwX62hZ19YJs9%252F%252BMzWXYVruuZ%22%2C%22remark%22%3A%22f42bKYs3EitPEAcmzBAVXS%252FtD0D30PM6pOYhFeo%22%2C%22subscribe%22%3A%22cca4yryz0i%252FunYYaYW58ofyRRSK3W6aUrs5%252Fn9tI%22%2C%22openid%22%3A%22f98fJbce7yJcZcNb94fMEnLPCtMwucQjWn7%252Ftrhq5074RhoxYM1OgMZWjRlHYhRPheI8zCeW8BxC%22%2C%22nickname%22%3A%223556ID1hBrLmUWVm9W9DIA3WjKw56uyIl1OgaAuq0J0KYuA%22%2C%22language%22%3A%221296dZu9Kr%252FFQFzYlbJgxwaFTyPp8u0bATu%252BW%252Fbjx3l2jw%22%2C%22city%22%3A%221ffaJ2uxkNvYMhyDVtuOCfoo9R%252BCMwgOfluIxEujs3y%252Bhyo%22%2C%22province%22%3A%22ab9bcU3pyXgf%252FxXpaMlN%252F3DURQCBp079D%252BHWmnwXpTsm5e0%22%2C%22country%22%3A%22a081h0ZOyeuTVVIlJ%252F93P9x7hj7qxYoGkoQ2atzj9wgMxF4%22%2C%22subscribe_time%22%3A%22a63b8xc%252FwAUuX4Y2otClVK45Jnm1OidMZxXRLKM%252FRFj0cHD9iytv%22%2C%22unionid%22%3A%2283d2GBkEp7srYBiDYgkTyaJnfcbvMCdE5%252ByBVo0%22%2C%22groupid%22%3A%22e161qxBmL0GEoP2vU1zhFgQCbYKm%252FJuARQS5WkO9%22%2C%22tagid_list%22%3A%22f217Ki3gTn9q5EKdUgyvlhOdKh%252B%252B8LduLAcCmR0%22%2C%22qr_code%22%3A%22edafNk6og68qihF3nvqFkjvAGSqDkbrLIpi99w3dpiq%252FB7wpShZySnBa68DCbhSDLsAcL1pA0Xdlg4Dz7yEa9bpbly%252FcEfi6g2%252B1X0NYTrgtAKW8ahrJBTlmqnIhNjhxMQyH47jZckcWbGYJNDRw5Fd1ha9Tyxu0O69oRRVSms9AMLnUVLSkrvLhucS1JdG2FfyI3BvJSwibA8S1xdOolX4UPrdKDBItAkpDSPI7Btk%22%2C%22qr_seconds%22%3A%224b4935GYUqF0Z0zA8eI1%252FU3X%252Ffvj7WDQEvW8K86CJH7tUVTvV4k3%22%2C%22qr_ticket%22%3A%22eee0lQy3iD5gdLI8ch7Z8vAA%252BGxvhlI3B6L5T8m6HyJ9dOuH4DBl1IHZWylztb8n%252FxHCgdzVo0bFoL0twJbi%252FvaEUo2U%252F7fHcz8Dv2b0GMNlNQVerm%252FZGx3O%252BJ1%252BLYsEAzFZwdxcfkbMN1TAcR51GiwOJTSBvPzWMPmaN%252FA%22%7D',
+  'x-requested-with' => 'com.tencent.mm',
+)
+[ info ] [ PARAM ] array (
+  '/index/goods/detail/id/1_html' => '',
+  'id' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Goods->detail[ /home/aptx/File/PHP/6rmh/app/index/controller/Goods.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/goods/detail.html [ array (
+  0 => 'config',
+  1 => 'goods',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-28T10:06:54+08:00 ] 192.168.1.110 192.168.1.108 GET /index/cart
+[ log ] 192.168.1.110:8090/index/cart [运行时间：0.494879s][吞吐率：2.02req/s] [内存消耗：3,711.27kb] [文件加载：57]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cart',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.110:8090',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.0; ASUS_Z00ADB Build/LRX21V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/43.0.2357.121 Mobile Safari/537.36 MicroMessenger/6.5.16.1120 NetType/WIFI Language/zh_CN',
+  'referer' => 'http://192.168.1.110:8090/index/goods/detail/id/1.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'pmaCookieVer=5; pma_lang=zh_CN; pma_collation_connection=utf8mb4_unicode_ci; phpMyAdmin=hv81u2vkbtvb2md0e3nujmlroo77vfv3; PHPSESSID=nqs69sov3s37ar7tqd2o6gibko9sp930cbn2f20dv628htjmkgv0; keep_user=think%3A%7B%22id%22%3A%22f752w1cnt%252FPGKzeeKutU2wJrLOYrrmvnpW8rQCDj%22%2C%22pid%22%3A%22e078oIFAHGW8q13qzOK7N0CvQWscxsBA6b5XKfeO%22%2C%22name%22%3A%22ddf7mz2Hw2Pf5WFZFBf%252B3Vpc%252B6zC4TOvd7Kf%252B7UPD5o%22%2C%22realname%22%3A%2213ebgcxu5L8zaAP9IgjP%252BuHC6v3POc6MD2bXSK%252BnPFzOqtp%252B%252F9M%22%2C%22sex%22%3A%2250c4KhqijjUDXPNKfiJInYVIZvqfIb9uuyy%252BdU6L%22%2C%22mobile%22%3A%22b5c8KNu%252BTUG6xyX6dPOgnzncz0TYqbj9MoaOuvTHBA5bjAxnzAM9vg%22%2C%22qq%22%3A%2283edeVFfu6u%252B%252FsibJzCFx1dW%252FUa9npP7JVI7XNUaxMBRq%252BkZuKU%22%2C%22email%22%3A%2217d8tTBzT0QaRiqHvyIxsmc70cZE7%252BCg7SXClTePQKZsKwiFao%252FjVJniJ2XfDvk%22%2C%22id_num%22%3A%22e423k6AewRdJ6q5EkAir9ytoQM6CXGUKkIP9CM4%22%2C%22id_card_path%22%3A%224fe6N%252Fn3T2cQ5AIfkx%252BbWanwrlvRQJYXKdDxzL4%22%2C%22headimgurl%22%3A%22ee66BIfYID%252BgxZ8JwaK9HqIAt2cxh%252BQZlG2xCkaiQ3t59XukLcvygXqWDZUNGJGD68FLnBw2V%252BJm4oCZ%252F3fp%252BAloxicPWVlMLCJsruTjxbcPdEaNtzLb9wZBx6vkg8A173YUuSIbGHzAjf%252Fuf9j0Z1NC4I7TmgSpfohll4WcIEZtz813ciGVrp5x6%252FIgFU8uY3klSg%22%2C%22id_list%22%3A%220d439j%252FSWP7NkV%252F%252FOOg1GgBea8yjXupp0V5TCl%252Bx%22%2C%22regtime%22%3A%22a2f1E4boTaYjvVwjo7qYLlkNCyQDHPereZzS4ynf%22%2C%22logintime%22%3A%2278ceWZQ2YZJI5cpahtRVOE%252FO7QOSQ%252Fx3G1%252FaHoyw%22%2C%22loginip%22%3A%2266be1AFiOl9T9PD7HBwgA6jXiUh3QbygzLN%252F6ys%22%2C%22status%22%3A%227641zCUzXTVCocvRwX62hZ19YJs9%252F%252BMzWXYVruuZ%22%2C%22remark%22%3A%22f42bKYs3EitPEAcmzBAVXS%252FtD0D30PM6pOYhFeo%22%2C%22subscribe%22%3A%22cca4yryz0i%252FunYYaYW58ofyRRSK3W6aUrs5%252Fn9tI%22%2C%22openid%22%3A%22f98fJbce7yJcZcNb94fMEnLPCtMwucQjWn7%252Ftrhq5074RhoxYM1OgMZWjRlHYhRPheI8zCeW8BxC%22%2C%22nickname%22%3A%223556ID1hBrLmUWVm9W9DIA3WjKw56uyIl1OgaAuq0J0KYuA%22%2C%22language%22%3A%221296dZu9Kr%252FFQFzYlbJgxwaFTyPp8u0bATu%252BW%252Fbjx3l2jw%22%2C%22city%22%3A%221ffaJ2uxkNvYMhyDVtuOCfoo9R%252BCMwgOfluIxEujs3y%252Bhyo%22%2C%22province%22%3A%22ab9bcU3pyXgf%252FxXpaMlN%252F3DURQCBp079D%252BHWmnwXpTsm5e0%22%2C%22country%22%3A%22a081h0ZOyeuTVVIlJ%252F93P9x7hj7qxYoGkoQ2atzj9wgMxF4%22%2C%22subscribe_time%22%3A%22a63b8xc%252FwAUuX4Y2otClVK45Jnm1OidMZxXRLKM%252FRFj0cHD9iytv%22%2C%22unionid%22%3A%2283d2GBkEp7srYBiDYgkTyaJnfcbvMCdE5%252ByBVo0%22%2C%22groupid%22%3A%22e161qxBmL0GEoP2vU1zhFgQCbYKm%252FJuARQS5WkO9%22%2C%22tagid_list%22%3A%22f217Ki3gTn9q5EKdUgyvlhOdKh%252B%252B8LduLAcCmR0%22%2C%22qr_code%22%3A%22edafNk6og68qihF3nvqFkjvAGSqDkbrLIpi99w3dpiq%252FB7wpShZySnBa68DCbhSDLsAcL1pA0Xdlg4Dz7yEa9bpbly%252FcEfi6g2%252B1X0NYTrgtAKW8ahrJBTlmqnIhNjhxMQyH47jZckcWbGYJNDRw5Fd1ha9Tyxu0O69oRRVSms9AMLnUVLSkrvLhucS1JdG2FfyI3BvJSwibA8S1xdOolX4UPrdKDBItAkpDSPI7Btk%22%2C%22qr_seconds%22%3A%224b4935GYUqF0Z0zA8eI1%252FU3X%252Ffvj7WDQEvW8K86CJH7tUVTvV4k3%22%2C%22qr_ticket%22%3A%22eee0lQy3iD5gdLI8ch7Z8vAA%252BGxvhlI3B6L5T8m6HyJ9dOuH4DBl1IHZWylztb8n%252FxHCgdzVo0bFoL0twJbi%252FvaEUo2U%252F7fHcz8Dv2b0GMNlNQVerm%252FZGx3O%252BJ1%252BLYsEAzFZwdxcfkbMN1TAcR51GiwOJTSBvPzWMPmaN%252FA%22%7D',
+  'x-requested-with' => 'com.tencent.mm',
+)
+[ info ] [ PARAM ] array (
+  '/index/cart' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Cart->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Cart.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/cart/index.html [ array (
+  0 => 'cookie',
+  1 => 'all_cart',
+  2 => 'carts',
+  3 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-28T10:06:58+08:00 ] 192.168.1.110 192.168.1.108 GET /index/goods/detail/id/1.html
+[ log ] 192.168.1.110:8090/index/goods/detail/id/1.html [运行时间：0.779264s][吞吐率：1.28req/s] [内存消耗：3,443.99kb] [文件加载：53]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'goods',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.110:8090',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.0; ASUS_Z00ADB Build/LRX21V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/43.0.2357.121 Mobile Safari/537.36 MicroMessenger/6.5.16.1120 NetType/WIFI Language/zh_CN',
+  'referer' => 'http://192.168.1.110:8090/index/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'pmaCookieVer=5; pma_lang=zh_CN; pma_collation_connection=utf8mb4_unicode_ci; phpMyAdmin=hv81u2vkbtvb2md0e3nujmlroo77vfv3; PHPSESSID=nqs69sov3s37ar7tqd2o6gibko9sp930cbn2f20dv628htjmkgv0; keep_user=think%3A%7B%22id%22%3A%22f752w1cnt%252FPGKzeeKutU2wJrLOYrrmvnpW8rQCDj%22%2C%22pid%22%3A%22e078oIFAHGW8q13qzOK7N0CvQWscxsBA6b5XKfeO%22%2C%22name%22%3A%22ddf7mz2Hw2Pf5WFZFBf%252B3Vpc%252B6zC4TOvd7Kf%252B7UPD5o%22%2C%22realname%22%3A%2213ebgcxu5L8zaAP9IgjP%252BuHC6v3POc6MD2bXSK%252BnPFzOqtp%252B%252F9M%22%2C%22sex%22%3A%2250c4KhqijjUDXPNKfiJInYVIZvqfIb9uuyy%252BdU6L%22%2C%22mobile%22%3A%22b5c8KNu%252BTUG6xyX6dPOgnzncz0TYqbj9MoaOuvTHBA5bjAxnzAM9vg%22%2C%22qq%22%3A%2283edeVFfu6u%252B%252FsibJzCFx1dW%252FUa9npP7JVI7XNUaxMBRq%252BkZuKU%22%2C%22email%22%3A%2217d8tTBzT0QaRiqHvyIxsmc70cZE7%252BCg7SXClTePQKZsKwiFao%252FjVJniJ2XfDvk%22%2C%22id_num%22%3A%22e423k6AewRdJ6q5EkAir9ytoQM6CXGUKkIP9CM4%22%2C%22id_card_path%22%3A%224fe6N%252Fn3T2cQ5AIfkx%252BbWanwrlvRQJYXKdDxzL4%22%2C%22headimgurl%22%3A%22ee66BIfYID%252BgxZ8JwaK9HqIAt2cxh%252BQZlG2xCkaiQ3t59XukLcvygXqWDZUNGJGD68FLnBw2V%252BJm4oCZ%252F3fp%252BAloxicPWVlMLCJsruTjxbcPdEaNtzLb9wZBx6vkg8A173YUuSIbGHzAjf%252Fuf9j0Z1NC4I7TmgSpfohll4WcIEZtz813ciGVrp5x6%252FIgFU8uY3klSg%22%2C%22id_list%22%3A%220d439j%252FSWP7NkV%252F%252FOOg1GgBea8yjXupp0V5TCl%252Bx%22%2C%22regtime%22%3A%22a2f1E4boTaYjvVwjo7qYLlkNCyQDHPereZzS4ynf%22%2C%22logintime%22%3A%2278ceWZQ2YZJI5cpahtRVOE%252FO7QOSQ%252Fx3G1%252FaHoyw%22%2C%22loginip%22%3A%2266be1AFiOl9T9PD7HBwgA6jXiUh3QbygzLN%252F6ys%22%2C%22status%22%3A%227641zCUzXTVCocvRwX62hZ19YJs9%252F%252BMzWXYVruuZ%22%2C%22remark%22%3A%22f42bKYs3EitPEAcmzBAVXS%252FtD0D30PM6pOYhFeo%22%2C%22subscribe%22%3A%22cca4yryz0i%252FunYYaYW58ofyRRSK3W6aUrs5%252Fn9tI%22%2C%22openid%22%3A%22f98fJbce7yJcZcNb94fMEnLPCtMwucQjWn7%252Ftrhq5074RhoxYM1OgMZWjRlHYhRPheI8zCeW8BxC%22%2C%22nickname%22%3A%223556ID1hBrLmUWVm9W9DIA3WjKw56uyIl1OgaAuq0J0KYuA%22%2C%22language%22%3A%221296dZu9Kr%252FFQFzYlbJgxwaFTyPp8u0bATu%252BW%252Fbjx3l2jw%22%2C%22city%22%3A%221ffaJ2uxkNvYMhyDVtuOCfoo9R%252BCMwgOfluIxEujs3y%252Bhyo%22%2C%22province%22%3A%22ab9bcU3pyXgf%252FxXpaMlN%252F3DURQCBp079D%252BHWmnwXpTsm5e0%22%2C%22country%22%3A%22a081h0ZOyeuTVVIlJ%252F93P9x7hj7qxYoGkoQ2atzj9wgMxF4%22%2C%22subscribe_time%22%3A%22a63b8xc%252FwAUuX4Y2otClVK45Jnm1OidMZxXRLKM%252FRFj0cHD9iytv%22%2C%22unionid%22%3A%2283d2GBkEp7srYBiDYgkTyaJnfcbvMCdE5%252ByBVo0%22%2C%22groupid%22%3A%22e161qxBmL0GEoP2vU1zhFgQCbYKm%252FJuARQS5WkO9%22%2C%22tagid_list%22%3A%22f217Ki3gTn9q5EKdUgyvlhOdKh%252B%252B8LduLAcCmR0%22%2C%22qr_code%22%3A%22edafNk6og68qihF3nvqFkjvAGSqDkbrLIpi99w3dpiq%252FB7wpShZySnBa68DCbhSDLsAcL1pA0Xdlg4Dz7yEa9bpbly%252FcEfi6g2%252B1X0NYTrgtAKW8ahrJBTlmqnIhNjhxMQyH47jZckcWbGYJNDRw5Fd1ha9Tyxu0O69oRRVSms9AMLnUVLSkrvLhucS1JdG2FfyI3BvJSwibA8S1xdOolX4UPrdKDBItAkpDSPI7Btk%22%2C%22qr_seconds%22%3A%224b4935GYUqF0Z0zA8eI1%252FU3X%252Ffvj7WDQEvW8K86CJH7tUVTvV4k3%22%2C%22qr_ticket%22%3A%22eee0lQy3iD5gdLI8ch7Z8vAA%252BGxvhlI3B6L5T8m6HyJ9dOuH4DBl1IHZWylztb8n%252FxHCgdzVo0bFoL0twJbi%252FvaEUo2U%252F7fHcz8Dv2b0GMNlNQVerm%252FZGx3O%252BJ1%252BLYsEAzFZwdxcfkbMN1TAcR51GiwOJTSBvPzWMPmaN%252FA%22%7D',
+  'x-requested-with' => 'com.tencent.mm',
+)
+[ info ] [ PARAM ] array (
+  '/index/goods/detail/id/1_html' => '',
+  'id' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Goods->detail[ /home/aptx/File/PHP/6rmh/app/index/controller/Goods.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/goods/detail.html [ array (
+  0 => 'config',
+  1 => 'goods',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-28T10:07:05+08:00 ] 192.168.1.110 192.168.1.108 GET /index/cart/add/id/1/spec/11/num/2
+[ log ] 192.168.1.110:8090/index/cart/add/id/1/spec/11/num/2 [运行时间：0.296758s][吞吐率：3.37req/s] [内存消耗：3,366.56kb] [文件加载：52]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cart',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.110:8090',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.0; ASUS_Z00ADB Build/LRX21V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/43.0.2357.121 Mobile Safari/537.36 MicroMessenger/6.5.16.1120 NetType/WIFI Language/zh_CN',
+  'referer' => 'http://192.168.1.110:8090/index/goods/detail/id/1.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'pmaCookieVer=5; pma_lang=zh_CN; pma_collation_connection=utf8mb4_unicode_ci; phpMyAdmin=hv81u2vkbtvb2md0e3nujmlroo77vfv3; PHPSESSID=nqs69sov3s37ar7tqd2o6gibko9sp930cbn2f20dv628htjmkgv0; keep_user=think%3A%7B%22id%22%3A%22f752w1cnt%252FPGKzeeKutU2wJrLOYrrmvnpW8rQCDj%22%2C%22pid%22%3A%22e078oIFAHGW8q13qzOK7N0CvQWscxsBA6b5XKfeO%22%2C%22name%22%3A%22ddf7mz2Hw2Pf5WFZFBf%252B3Vpc%252B6zC4TOvd7Kf%252B7UPD5o%22%2C%22realname%22%3A%2213ebgcxu5L8zaAP9IgjP%252BuHC6v3POc6MD2bXSK%252BnPFzOqtp%252B%252F9M%22%2C%22sex%22%3A%2250c4KhqijjUDXPNKfiJInYVIZvqfIb9uuyy%252BdU6L%22%2C%22mobile%22%3A%22b5c8KNu%252BTUG6xyX6dPOgnzncz0TYqbj9MoaOuvTHBA5bjAxnzAM9vg%22%2C%22qq%22%3A%2283edeVFfu6u%252B%252FsibJzCFx1dW%252FUa9npP7JVI7XNUaxMBRq%252BkZuKU%22%2C%22email%22%3A%2217d8tTBzT0QaRiqHvyIxsmc70cZE7%252BCg7SXClTePQKZsKwiFao%252FjVJniJ2XfDvk%22%2C%22id_num%22%3A%22e423k6AewRdJ6q5EkAir9ytoQM6CXGUKkIP9CM4%22%2C%22id_card_path%22%3A%224fe6N%252Fn3T2cQ5AIfkx%252BbWanwrlvRQJYXKdDxzL4%22%2C%22headimgurl%22%3A%22ee66BIfYID%252BgxZ8JwaK9HqIAt2cxh%252BQZlG2xCkaiQ3t59XukLcvygXqWDZUNGJGD68FLnBw2V%252BJm4oCZ%252F3fp%252BAloxicPWVlMLCJsruTjxbcPdEaNtzLb9wZBx6vkg8A173YUuSIbGHzAjf%252Fuf9j0Z1NC4I7TmgSpfohll4WcIEZtz813ciGVrp5x6%252FIgFU8uY3klSg%22%2C%22id_list%22%3A%220d439j%252FSWP7NkV%252F%252FOOg1GgBea8yjXupp0V5TCl%252Bx%22%2C%22regtime%22%3A%22a2f1E4boTaYjvVwjo7qYLlkNCyQDHPereZzS4ynf%22%2C%22logintime%22%3A%2278ceWZQ2YZJI5cpahtRVOE%252FO7QOSQ%252Fx3G1%252FaHoyw%22%2C%22loginip%22%3A%2266be1AFiOl9T9PD7HBwgA6jXiUh3QbygzLN%252F6ys%22%2C%22status%22%3A%227641zCUzXTVCocvRwX62hZ19YJs9%252F%252BMzWXYVruuZ%22%2C%22remark%22%3A%22f42bKYs3EitPEAcmzBAVXS%252FtD0D30PM6pOYhFeo%22%2C%22subscribe%22%3A%22cca4yryz0i%252FunYYaYW58ofyRRSK3W6aUrs5%252Fn9tI%22%2C%22openid%22%3A%22f98fJbce7yJcZcNb94fMEnLPCtMwucQjWn7%252Ftrhq5074RhoxYM1OgMZWjRlHYhRPheI8zCeW8BxC%22%2C%22nickname%22%3A%223556ID1hBrLmUWVm9W9DIA3WjKw56uyIl1OgaAuq0J0KYuA%22%2C%22language%22%3A%221296dZu9Kr%252FFQFzYlbJgxwaFTyPp8u0bATu%252BW%252Fbjx3l2jw%22%2C%22city%22%3A%221ffaJ2uxkNvYMhyDVtuOCfoo9R%252BCMwgOfluIxEujs3y%252Bhyo%22%2C%22province%22%3A%22ab9bcU3pyXgf%252FxXpaMlN%252F3DURQCBp079D%252BHWmnwXpTsm5e0%22%2C%22country%22%3A%22a081h0ZOyeuTVVIlJ%252F93P9x7hj7qxYoGkoQ2atzj9wgMxF4%22%2C%22subscribe_time%22%3A%22a63b8xc%252FwAUuX4Y2otClVK45Jnm1OidMZxXRLKM%252FRFj0cHD9iytv%22%2C%22unionid%22%3A%2283d2GBkEp7srYBiDYgkTyaJnfcbvMCdE5%252ByBVo0%22%2C%22groupid%22%3A%22e161qxBmL0GEoP2vU1zhFgQCbYKm%252FJuARQS5WkO9%22%2C%22tagid_list%22%3A%22f217Ki3gTn9q5EKdUgyvlhOdKh%252B%252B8LduLAcCmR0%22%2C%22qr_code%22%3A%22edafNk6og68qihF3nvqFkjvAGSqDkbrLIpi99w3dpiq%252FB7wpShZySnBa68DCbhSDLsAcL1pA0Xdlg4Dz7yEa9bpbly%252FcEfi6g2%252B1X0NYTrgtAKW8ahrJBTlmqnIhNjhxMQyH47jZckcWbGYJNDRw5Fd1ha9Tyxu0O69oRRVSms9AMLnUVLSkrvLhucS1JdG2FfyI3BvJSwibA8S1xdOolX4UPrdKDBItAkpDSPI7Btk%22%2C%22qr_seconds%22%3A%224b4935GYUqF0Z0zA8eI1%252FU3X%252Ffvj7WDQEvW8K86CJH7tUVTvV4k3%22%2C%22qr_ticket%22%3A%22eee0lQy3iD5gdLI8ch7Z8vAA%252BGxvhlI3B6L5T8m6HyJ9dOuH4DBl1IHZWylztb8n%252FxHCgdzVo0bFoL0twJbi%252FvaEUo2U%252F7fHcz8Dv2b0GMNlNQVerm%252FZGx3O%252BJ1%252BLYsEAzFZwdxcfkbMN1TAcR51GiwOJTSBvPzWMPmaN%252FA%22%7D',
+  'x-requested-with' => 'com.tencent.mm',
+)
+[ info ] [ PARAM ] array (
+  '/index/cart/add/id/1/spec/11/num/2' => '',
+  'id' => '1',
+  'spec' => '11',
+  'num' => '2',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Cart->add[ /home/aptx/File/PHP/6rmh/app/index/controller/Cart.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-28T10:07:05+08:00 ] 192.168.1.110 192.168.1.108 GET /index/cart/status/status/1/id/1/sid/11/num/2.html
+[ log ] 192.168.1.110:8090/index/cart/status/status/1/id/1/sid/11/num/2.html [运行时间：0.365286s][吞吐率：2.74req/s] [内存消耗：3,569.37kb] [文件加载：55]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cart',
+    2 => 'status',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.110:8090',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.0; ASUS_Z00ADB Build/LRX21V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/43.0.2357.121 Mobile Safari/537.36 MicroMessenger/6.5.16.1120 NetType/WIFI Language/zh_CN',
+  'referer' => 'http://192.168.1.110:8090/index/goods/detail/id/1.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'pmaCookieVer=5; pma_lang=zh_CN; pma_collation_connection=utf8mb4_unicode_ci; phpMyAdmin=hv81u2vkbtvb2md0e3nujmlroo77vfv3; PHPSESSID=nqs69sov3s37ar7tqd2o6gibko9sp930cbn2f20dv628htjmkgv0; keep_user=think%3A%7B%22id%22%3A%22f752w1cnt%252FPGKzeeKutU2wJrLOYrrmvnpW8rQCDj%22%2C%22pid%22%3A%22e078oIFAHGW8q13qzOK7N0CvQWscxsBA6b5XKfeO%22%2C%22name%22%3A%22ddf7mz2Hw2Pf5WFZFBf%252B3Vpc%252B6zC4TOvd7Kf%252B7UPD5o%22%2C%22realname%22%3A%2213ebgcxu5L8zaAP9IgjP%252BuHC6v3POc6MD2bXSK%252BnPFzOqtp%252B%252F9M%22%2C%22sex%22%3A%2250c4KhqijjUDXPNKfiJInYVIZvqfIb9uuyy%252BdU6L%22%2C%22mobile%22%3A%22b5c8KNu%252BTUG6xyX6dPOgnzncz0TYqbj9MoaOuvTHBA5bjAxnzAM9vg%22%2C%22qq%22%3A%2283edeVFfu6u%252B%252FsibJzCFx1dW%252FUa9npP7JVI7XNUaxMBRq%252BkZuKU%22%2C%22email%22%3A%2217d8tTBzT0QaRiqHvyIxsmc70cZE7%252BCg7SXClTePQKZsKwiFao%252FjVJniJ2XfDvk%22%2C%22id_num%22%3A%22e423k6AewRdJ6q5EkAir9ytoQM6CXGUKkIP9CM4%22%2C%22id_card_path%22%3A%224fe6N%252Fn3T2cQ5AIfkx%252BbWanwrlvRQJYXKdDxzL4%22%2C%22headimgurl%22%3A%22ee66BIfYID%252BgxZ8JwaK9HqIAt2cxh%252BQZlG2xCkaiQ3t59XukLcvygXqWDZUNGJGD68FLnBw2V%252BJm4oCZ%252F3fp%252BAloxicPWVlMLCJsruTjxbcPdEaNtzLb9wZBx6vkg8A173YUuSIbGHzAjf%252Fuf9j0Z1NC4I7TmgSpfohll4WcIEZtz813ciGVrp5x6%252FIgFU8uY3klSg%22%2C%22id_list%22%3A%220d439j%252FSWP7NkV%252F%252FOOg1GgBea8yjXupp0V5TCl%252Bx%22%2C%22regtime%22%3A%22a2f1E4boTaYjvVwjo7qYLlkNCyQDHPereZzS4ynf%22%2C%22logintime%22%3A%2278ceWZQ2YZJI5cpahtRVOE%252FO7QOSQ%252Fx3G1%252FaHoyw%22%2C%22loginip%22%3A%2266be1AFiOl9T9PD7HBwgA6jXiUh3QbygzLN%252F6ys%22%2C%22status%22%3A%227641zCUzXTVCocvRwX62hZ19YJs9%252F%252BMzWXYVruuZ%22%2C%22remark%22%3A%22f42bKYs3EitPEAcmzBAVXS%252FtD0D30PM6pOYhFeo%22%2C%22subscribe%22%3A%22cca4yryz0i%252FunYYaYW58ofyRRSK3W6aUrs5%252Fn9tI%22%2C%22openid%22%3A%22f98fJbce7yJcZcNb94fMEnLPCtMwucQjWn7%252Ftrhq5074RhoxYM1OgMZWjRlHYhRPheI8zCeW8BxC%22%2C%22nickname%22%3A%223556ID1hBrLmUWVm9W9DIA3WjKw56uyIl1OgaAuq0J0KYuA%22%2C%22language%22%3A%221296dZu9Kr%252FFQFzYlbJgxwaFTyPp8u0bATu%252BW%252Fbjx3l2jw%22%2C%22city%22%3A%221ffaJ2uxkNvYMhyDVtuOCfoo9R%252BCMwgOfluIxEujs3y%252Bhyo%22%2C%22province%22%3A%22ab9bcU3pyXgf%252FxXpaMlN%252F3DURQCBp079D%252BHWmnwXpTsm5e0%22%2C%22country%22%3A%22a081h0ZOyeuTVVIlJ%252F93P9x7hj7qxYoGkoQ2atzj9wgMxF4%22%2C%22subscribe_time%22%3A%22a63b8xc%252FwAUuX4Y2otClVK45Jnm1OidMZxXRLKM%252FRFj0cHD9iytv%22%2C%22unionid%22%3A%2283d2GBkEp7srYBiDYgkTyaJnfcbvMCdE5%252ByBVo0%22%2C%22groupid%22%3A%22e161qxBmL0GEoP2vU1zhFgQCbYKm%252FJuARQS5WkO9%22%2C%22tagid_list%22%3A%22f217Ki3gTn9q5EKdUgyvlhOdKh%252B%252B8LduLAcCmR0%22%2C%22qr_code%22%3A%22edafNk6og68qihF3nvqFkjvAGSqDkbrLIpi99w3dpiq%252FB7wpShZySnBa68DCbhSDLsAcL1pA0Xdlg4Dz7yEa9bpbly%252FcEfi6g2%252B1X0NYTrgtAKW8ahrJBTlmqnIhNjhxMQyH47jZckcWbGYJNDRw5Fd1ha9Tyxu0O69oRRVSms9AMLnUVLSkrvLhucS1JdG2FfyI3BvJSwibA8S1xdOolX4UPrdKDBItAkpDSPI7Btk%22%2C%22qr_seconds%22%3A%224b4935GYUqF0Z0zA8eI1%252FU3X%252Ffvj7WDQEvW8K86CJH7tUVTvV4k3%22%2C%22qr_ticket%22%3A%22eee0lQy3iD5gdLI8ch7Z8vAA%252BGxvhlI3B6L5T8m6HyJ9dOuH4DBl1IHZWylztb8n%252FxHCgdzVo0bFoL0twJbi%252FvaEUo2U%252F7fHcz8Dv2b0GMNlNQVerm%252FZGx3O%252BJ1%252BLYsEAzFZwdxcfkbMN1TAcR51GiwOJTSBvPzWMPmaN%252FA%22%7D',
+  'x-requested-with' => 'com.tencent.mm',
+)
+[ info ] [ PARAM ] array (
+  '/index/cart/status/status/1/id/1/sid/11/num/2_html' => '',
+  'status' => '1',
+  'id' => '1',
+  'sid' => '11',
+  'num' => '2',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Cart->status[ /home/aptx/File/PHP/6rmh/app/index/controller/Cart.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/cart/status.html [ array (
+  0 => 'cookie',
+  1 => 'result',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-28T10:07:08+08:00 ] 192.168.1.110 192.168.1.108 GET /index/cart/index
+[ log ] 192.168.1.110:8090/index/cart/index [运行时间：0.567464s][吞吐率：1.76req/s] [内存消耗：3,507.45kb] [文件加载：55]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cart',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.110:8090',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.0; ASUS_Z00ADB Build/LRX21V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/43.0.2357.121 Mobile Safari/537.36 MicroMessenger/6.5.16.1120 NetType/WIFI Language/zh_CN',
+  'referer' => 'http://192.168.1.110:8090/index/cart/status/status/1/id/1/sid/11/num/2.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'pmaCookieVer=5; pma_lang=zh_CN; pma_collation_connection=utf8mb4_unicode_ci; phpMyAdmin=hv81u2vkbtvb2md0e3nujmlroo77vfv3; PHPSESSID=nqs69sov3s37ar7tqd2o6gibko9sp930cbn2f20dv628htjmkgv0; keep_user=think%3A%7B%22id%22%3A%22f752w1cnt%252FPGKzeeKutU2wJrLOYrrmvnpW8rQCDj%22%2C%22pid%22%3A%22e078oIFAHGW8q13qzOK7N0CvQWscxsBA6b5XKfeO%22%2C%22name%22%3A%22ddf7mz2Hw2Pf5WFZFBf%252B3Vpc%252B6zC4TOvd7Kf%252B7UPD5o%22%2C%22realname%22%3A%2213ebgcxu5L8zaAP9IgjP%252BuHC6v3POc6MD2bXSK%252BnPFzOqtp%252B%252F9M%22%2C%22sex%22%3A%2250c4KhqijjUDXPNKfiJInYVIZvqfIb9uuyy%252BdU6L%22%2C%22mobile%22%3A%22b5c8KNu%252BTUG6xyX6dPOgnzncz0TYqbj9MoaOuvTHBA5bjAxnzAM9vg%22%2C%22qq%22%3A%2283edeVFfu6u%252B%252FsibJzCFx1dW%252FUa9npP7JVI7XNUaxMBRq%252BkZuKU%22%2C%22email%22%3A%2217d8tTBzT0QaRiqHvyIxsmc70cZE7%252BCg7SXClTePQKZsKwiFao%252FjVJniJ2XfDvk%22%2C%22id_num%22%3A%22e423k6AewRdJ6q5EkAir9ytoQM6CXGUKkIP9CM4%22%2C%22id_card_path%22%3A%224fe6N%252Fn3T2cQ5AIfkx%252BbWanwrlvRQJYXKdDxzL4%22%2C%22headimgurl%22%3A%22ee66BIfYID%252BgxZ8JwaK9HqIAt2cxh%252BQZlG2xCkaiQ3t59XukLcvygXqWDZUNGJGD68FLnBw2V%252BJm4oCZ%252F3fp%252BAloxicPWVlMLCJsruTjxbcPdEaNtzLb9wZBx6vkg8A173YUuSIbGHzAjf%252Fuf9j0Z1NC4I7TmgSpfohll4WcIEZtz813ciGVrp5x6%252FIgFU8uY3klSg%22%2C%22id_list%22%3A%220d439j%252FSWP7NkV%252F%252FOOg1GgBea8yjXupp0V5TCl%252Bx%22%2C%22regtime%22%3A%22a2f1E4boTaYjvVwjo7qYLlkNCyQDHPereZzS4ynf%22%2C%22logintime%22%3A%2278ceWZQ2YZJI5cpahtRVOE%252FO7QOSQ%252Fx3G1%252FaHoyw%22%2C%22loginip%22%3A%2266be1AFiOl9T9PD7HBwgA6jXiUh3QbygzLN%252F6ys%22%2C%22status%22%3A%227641zCUzXTVCocvRwX62hZ19YJs9%252F%252BMzWXYVruuZ%22%2C%22remark%22%3A%22f42bKYs3EitPEAcmzBAVXS%252FtD0D30PM6pOYhFeo%22%2C%22subscribe%22%3A%22cca4yryz0i%252FunYYaYW58ofyRRSK3W6aUrs5%252Fn9tI%22%2C%22openid%22%3A%22f98fJbce7yJcZcNb94fMEnLPCtMwucQjWn7%252Ftrhq5074RhoxYM1OgMZWjRlHYhRPheI8zCeW8BxC%22%2C%22nickname%22%3A%223556ID1hBrLmUWVm9W9DIA3WjKw56uyIl1OgaAuq0J0KYuA%22%2C%22language%22%3A%221296dZu9Kr%252FFQFzYlbJgxwaFTyPp8u0bATu%252BW%252Fbjx3l2jw%22%2C%22city%22%3A%221ffaJ2uxkNvYMhyDVtuOCfoo9R%252BCMwgOfluIxEujs3y%252Bhyo%22%2C%22province%22%3A%22ab9bcU3pyXgf%252FxXpaMlN%252F3DURQCBp079D%252BHWmnwXpTsm5e0%22%2C%22country%22%3A%22a081h0ZOyeuTVVIlJ%252F93P9x7hj7qxYoGkoQ2atzj9wgMxF4%22%2C%22subscribe_time%22%3A%22a63b8xc%252FwAUuX4Y2otClVK45Jnm1OidMZxXRLKM%252FRFj0cHD9iytv%22%2C%22unionid%22%3A%2283d2GBkEp7srYBiDYgkTyaJnfcbvMCdE5%252ByBVo0%22%2C%22groupid%22%3A%22e161qxBmL0GEoP2vU1zhFgQCbYKm%252FJuARQS5WkO9%22%2C%22tagid_list%22%3A%22f217Ki3gTn9q5EKdUgyvlhOdKh%252B%252B8LduLAcCmR0%22%2C%22qr_code%22%3A%22edafNk6og68qihF3nvqFkjvAGSqDkbrLIpi99w3dpiq%252FB7wpShZySnBa68DCbhSDLsAcL1pA0Xdlg4Dz7yEa9bpbly%252FcEfi6g2%252B1X0NYTrgtAKW8ahrJBTlmqnIhNjhxMQyH47jZckcWbGYJNDRw5Fd1ha9Tyxu0O69oRRVSms9AMLnUVLSkrvLhucS1JdG2FfyI3BvJSwibA8S1xdOolX4UPrdKDBItAkpDSPI7Btk%22%2C%22qr_seconds%22%3A%224b4935GYUqF0Z0zA8eI1%252FU3X%252Ffvj7WDQEvW8K86CJH7tUVTvV4k3%22%2C%22qr_ticket%22%3A%22eee0lQy3iD5gdLI8ch7Z8vAA%252BGxvhlI3B6L5T8m6HyJ9dOuH4DBl1IHZWylztb8n%252FxHCgdzVo0bFoL0twJbi%252FvaEUo2U%252F7fHcz8Dv2b0GMNlNQVerm%252FZGx3O%252BJ1%252BLYsEAzFZwdxcfkbMN1TAcR51GiwOJTSBvPzWMPmaN%252FA%22%7D',
+  'x-requested-with' => 'com.tencent.mm',
+)
+[ info ] [ PARAM ] array (
+  '/index/cart/index' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Cart->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Cart.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/cart/index.html [ array (
+  0 => 'cookie',
+  1 => 'all_cart',
+  2 => 'carts',
+  3 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-28T10:07:15+08:00 ] 192.168.1.110 192.168.1.108 GET /index/order/preview/id_list/270,269,1
+[ log ] 192.168.1.110:8090/index/order/preview/id_list/270,269,1 [运行时间：0.946109s][吞吐率：1.06req/s] [内存消耗：3,687.77kb] [文件加载：56]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'order',
+    2 => 'preview',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.110:8090',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.0; ASUS_Z00ADB Build/LRX21V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/43.0.2357.121 Mobile Safari/537.36 MicroMessenger/6.5.16.1120 NetType/WIFI Language/zh_CN',
+  'referer' => 'http://192.168.1.110:8090/index/cart/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'pmaCookieVer=5; pma_lang=zh_CN; pma_collation_connection=utf8mb4_unicode_ci; phpMyAdmin=hv81u2vkbtvb2md0e3nujmlroo77vfv3; PHPSESSID=nqs69sov3s37ar7tqd2o6gibko9sp930cbn2f20dv628htjmkgv0; keep_user=think%3A%7B%22id%22%3A%22f752w1cnt%252FPGKzeeKutU2wJrLOYrrmvnpW8rQCDj%22%2C%22pid%22%3A%22e078oIFAHGW8q13qzOK7N0CvQWscxsBA6b5XKfeO%22%2C%22name%22%3A%22ddf7mz2Hw2Pf5WFZFBf%252B3Vpc%252B6zC4TOvd7Kf%252B7UPD5o%22%2C%22realname%22%3A%2213ebgcxu5L8zaAP9IgjP%252BuHC6v3POc6MD2bXSK%252BnPFzOqtp%252B%252F9M%22%2C%22sex%22%3A%2250c4KhqijjUDXPNKfiJInYVIZvqfIb9uuyy%252BdU6L%22%2C%22mobile%22%3A%22b5c8KNu%252BTUG6xyX6dPOgnzncz0TYqbj9MoaOuvTHBA5bjAxnzAM9vg%22%2C%22qq%22%3A%2283edeVFfu6u%252B%252FsibJzCFx1dW%252FUa9npP7JVI7XNUaxMBRq%252BkZuKU%22%2C%22email%22%3A%2217d8tTBzT0QaRiqHvyIxsmc70cZE7%252BCg7SXClTePQKZsKwiFao%252FjVJniJ2XfDvk%22%2C%22id_num%22%3A%22e423k6AewRdJ6q5EkAir9ytoQM6CXGUKkIP9CM4%22%2C%22id_card_path%22%3A%224fe6N%252Fn3T2cQ5AIfkx%252BbWanwrlvRQJYXKdDxzL4%22%2C%22headimgurl%22%3A%22ee66BIfYID%252BgxZ8JwaK9HqIAt2cxh%252BQZlG2xCkaiQ3t59XukLcvygXqWDZUNGJGD68FLnBw2V%252BJm4oCZ%252F3fp%252BAloxicPWVlMLCJsruTjxbcPdEaNtzLb9wZBx6vkg8A173YUuSIbGHzAjf%252Fuf9j0Z1NC4I7TmgSpfohll4WcIEZtz813ciGVrp5x6%252FIgFU8uY3klSg%22%2C%22id_list%22%3A%220d439j%252FSWP7NkV%252F%252FOOg1GgBea8yjXupp0V5TCl%252Bx%22%2C%22regtime%22%3A%22a2f1E4boTaYjvVwjo7qYLlkNCyQDHPereZzS4ynf%22%2C%22logintime%22%3A%2278ceWZQ2YZJI5cpahtRVOE%252FO7QOSQ%252Fx3G1%252FaHoyw%22%2C%22loginip%22%3A%2266be1AFiOl9T9PD7HBwgA6jXiUh3QbygzLN%252F6ys%22%2C%22status%22%3A%227641zCUzXTVCocvRwX62hZ19YJs9%252F%252BMzWXYVruuZ%22%2C%22remark%22%3A%22f42bKYs3EitPEAcmzBAVXS%252FtD0D30PM6pOYhFeo%22%2C%22subscribe%22%3A%22cca4yryz0i%252FunYYaYW58ofyRRSK3W6aUrs5%252Fn9tI%22%2C%22openid%22%3A%22f98fJbce7yJcZcNb94fMEnLPCtMwucQjWn7%252Ftrhq5074RhoxYM1OgMZWjRlHYhRPheI8zCeW8BxC%22%2C%22nickname%22%3A%223556ID1hBrLmUWVm9W9DIA3WjKw56uyIl1OgaAuq0J0KYuA%22%2C%22language%22%3A%221296dZu9Kr%252FFQFzYlbJgxwaFTyPp8u0bATu%252BW%252Fbjx3l2jw%22%2C%22city%22%3A%221ffaJ2uxkNvYMhyDVtuOCfoo9R%252BCMwgOfluIxEujs3y%252Bhyo%22%2C%22province%22%3A%22ab9bcU3pyXgf%252FxXpaMlN%252F3DURQCBp079D%252BHWmnwXpTsm5e0%22%2C%22country%22%3A%22a081h0ZOyeuTVVIlJ%252F93P9x7hj7qxYoGkoQ2atzj9wgMxF4%22%2C%22subscribe_time%22%3A%22a63b8xc%252FwAUuX4Y2otClVK45Jnm1OidMZxXRLKM%252FRFj0cHD9iytv%22%2C%22unionid%22%3A%2283d2GBkEp7srYBiDYgkTyaJnfcbvMCdE5%252ByBVo0%22%2C%22groupid%22%3A%22e161qxBmL0GEoP2vU1zhFgQCbYKm%252FJuARQS5WkO9%22%2C%22tagid_list%22%3A%22f217Ki3gTn9q5EKdUgyvlhOdKh%252B%252B8LduLAcCmR0%22%2C%22qr_code%22%3A%22edafNk6og68qihF3nvqFkjvAGSqDkbrLIpi99w3dpiq%252FB7wpShZySnBa68DCbhSDLsAcL1pA0Xdlg4Dz7yEa9bpbly%252FcEfi6g2%252B1X0NYTrgtAKW8ahrJBTlmqnIhNjhxMQyH47jZckcWbGYJNDRw5Fd1ha9Tyxu0O69oRRVSms9AMLnUVLSkrvLhucS1JdG2FfyI3BvJSwibA8S1xdOolX4UPrdKDBItAkpDSPI7Btk%22%2C%22qr_seconds%22%3A%224b4935GYUqF0Z0zA8eI1%252FU3X%252Ffvj7WDQEvW8K86CJH7tUVTvV4k3%22%2C%22qr_ticket%22%3A%22eee0lQy3iD5gdLI8ch7Z8vAA%252BGxvhlI3B6L5T8m6HyJ9dOuH4DBl1IHZWylztb8n%252FxHCgdzVo0bFoL0twJbi%252FvaEUo2U%252F7fHcz8Dv2b0GMNlNQVerm%252FZGx3O%252BJ1%252BLYsEAzFZwdxcfkbMN1TAcR51GiwOJTSBvPzWMPmaN%252FA%22%7D',
+  'x-requested-with' => 'com.tencent.mm',
+)
+[ info ] [ PARAM ] array (
+  '/index/order/preview/id_list/270,269,1' => '',
+  'id_list' => '270,269,1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Order->preview[ /home/aptx/File/PHP/6rmh/app/index/controller/Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/order/preview.html [ array (
+  0 => 'cookie',
+  1 => 'address',
+  2 => 'pay_way',
+  3 => 'delivery',
+  4 => 'id_list',
+  5 => 'carts',
+  6 => 'count',
+  7 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-28T10:07:29+08:00 ] 192.168.1.110 192.168.1.108 GET /
+[ log ] 192.168.1.110:8090/ [运行时间：0.422581s][吞吐率：2.37req/s] [内存消耗：3,403.43kb] [文件加载：53]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.110:8090',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.0; ASUS_Z00ADB Build/LRX21V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/43.0.2357.121 Mobile Safari/537.36 MicroMessenger/6.5.16.1120 NetType/WIFI Language/zh_CN',
+  'referer' => 'http://192.168.1.110:8090/index/order/preview/id_list/270,269,1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'pmaCookieVer=5; pma_lang=zh_CN; pma_collation_connection=utf8mb4_unicode_ci; phpMyAdmin=hv81u2vkbtvb2md0e3nujmlroo77vfv3; PHPSESSID=nqs69sov3s37ar7tqd2o6gibko9sp930cbn2f20dv628htjmkgv0; keep_user=think%3A%7B%22id%22%3A%22f752w1cnt%252FPGKzeeKutU2wJrLOYrrmvnpW8rQCDj%22%2C%22pid%22%3A%22e078oIFAHGW8q13qzOK7N0CvQWscxsBA6b5XKfeO%22%2C%22name%22%3A%22ddf7mz2Hw2Pf5WFZFBf%252B3Vpc%252B6zC4TOvd7Kf%252B7UPD5o%22%2C%22realname%22%3A%2213ebgcxu5L8zaAP9IgjP%252BuHC6v3POc6MD2bXSK%252BnPFzOqtp%252B%252F9M%22%2C%22sex%22%3A%2250c4KhqijjUDXPNKfiJInYVIZvqfIb9uuyy%252BdU6L%22%2C%22mobile%22%3A%22b5c8KNu%252BTUG6xyX6dPOgnzncz0TYqbj9MoaOuvTHBA5bjAxnzAM9vg%22%2C%22qq%22%3A%2283edeVFfu6u%252B%252FsibJzCFx1dW%252FUa9npP7JVI7XNUaxMBRq%252BkZuKU%22%2C%22email%22%3A%2217d8tTBzT0QaRiqHvyIxsmc70cZE7%252BCg7SXClTePQKZsKwiFao%252FjVJniJ2XfDvk%22%2C%22id_num%22%3A%22e423k6AewRdJ6q5EkAir9ytoQM6CXGUKkIP9CM4%22%2C%22id_card_path%22%3A%224fe6N%252Fn3T2cQ5AIfkx%252BbWanwrlvRQJYXKdDxzL4%22%2C%22headimgurl%22%3A%22ee66BIfYID%252BgxZ8JwaK9HqIAt2cxh%252BQZlG2xCkaiQ3t59XukLcvygXqWDZUNGJGD68FLnBw2V%252BJm4oCZ%252F3fp%252BAloxicPWVlMLCJsruTjxbcPdEaNtzLb9wZBx6vkg8A173YUuSIbGHzAjf%252Fuf9j0Z1NC4I7TmgSpfohll4WcIEZtz813ciGVrp5x6%252FIgFU8uY3klSg%22%2C%22id_list%22%3A%220d439j%252FSWP7NkV%252F%252FOOg1GgBea8yjXupp0V5TCl%252Bx%22%2C%22regtime%22%3A%22a2f1E4boTaYjvVwjo7qYLlkNCyQDHPereZzS4ynf%22%2C%22logintime%22%3A%2278ceWZQ2YZJI5cpahtRVOE%252FO7QOSQ%252Fx3G1%252FaHoyw%22%2C%22loginip%22%3A%2266be1AFiOl9T9PD7HBwgA6jXiUh3QbygzLN%252F6ys%22%2C%22status%22%3A%227641zCUzXTVCocvRwX62hZ19YJs9%252F%252BMzWXYVruuZ%22%2C%22remark%22%3A%22f42bKYs3EitPEAcmzBAVXS%252FtD0D30PM6pOYhFeo%22%2C%22subscribe%22%3A%22cca4yryz0i%252FunYYaYW58ofyRRSK3W6aUrs5%252Fn9tI%22%2C%22openid%22%3A%22f98fJbce7yJcZcNb94fMEnLPCtMwucQjWn7%252Ftrhq5074RhoxYM1OgMZWjRlHYhRPheI8zCeW8BxC%22%2C%22nickname%22%3A%223556ID1hBrLmUWVm9W9DIA3WjKw56uyIl1OgaAuq0J0KYuA%22%2C%22language%22%3A%221296dZu9Kr%252FFQFzYlbJgxwaFTyPp8u0bATu%252BW%252Fbjx3l2jw%22%2C%22city%22%3A%221ffaJ2uxkNvYMhyDVtuOCfoo9R%252BCMwgOfluIxEujs3y%252Bhyo%22%2C%22province%22%3A%22ab9bcU3pyXgf%252FxXpaMlN%252F3DURQCBp079D%252BHWmnwXpTsm5e0%22%2C%22country%22%3A%22a081h0ZOyeuTVVIlJ%252F93P9x7hj7qxYoGkoQ2atzj9wgMxF4%22%2C%22subscribe_time%22%3A%22a63b8xc%252FwAUuX4Y2otClVK45Jnm1OidMZxXRLKM%252FRFj0cHD9iytv%22%2C%22unionid%22%3A%2283d2GBkEp7srYBiDYgkTyaJnfcbvMCdE5%252ByBVo0%22%2C%22groupid%22%3A%22e161qxBmL0GEoP2vU1zhFgQCbYKm%252FJuARQS5WkO9%22%2C%22tagid_list%22%3A%22f217Ki3gTn9q5EKdUgyvlhOdKh%252B%252B8LduLAcCmR0%22%2C%22qr_code%22%3A%22edafNk6og68qihF3nvqFkjvAGSqDkbrLIpi99w3dpiq%252FB7wpShZySnBa68DCbhSDLsAcL1pA0Xdlg4Dz7yEa9bpbly%252FcEfi6g2%252B1X0NYTrgtAKW8ahrJBTlmqnIhNjhxMQyH47jZckcWbGYJNDRw5Fd1ha9Tyxu0O69oRRVSms9AMLnUVLSkrvLhucS1JdG2FfyI3BvJSwibA8S1xdOolX4UPrdKDBItAkpDSPI7Btk%22%2C%22qr_seconds%22%3A%224b4935GYUqF0Z0zA8eI1%252FU3X%252Ffvj7WDQEvW8K86CJH7tUVTvV4k3%22%2C%22qr_ticket%22%3A%22eee0lQy3iD5gdLI8ch7Z8vAA%252BGxvhlI3B6L5T8m6HyJ9dOuH4DBl1IHZWylztb8n%252FxHCgdzVo0bFoL0twJbi%252FvaEUo2U%252F7fHcz8Dv2b0GMNlNQVerm%252FZGx3O%252BJ1%252BLYsEAzFZwdxcfkbMN1TAcR51GiwOJTSBvPzWMPmaN%252FA%22%7D',
+  'x-requested-with' => 'com.tencent.mm',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/index/special.html [ array (
+  0 => 'goods',
+  1 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-28T10:11:09+08:00 ] 192.168.1.110 192.168.1.108 GET /index/user/
+[ log ] 192.168.1.110:8090/index/user/ [运行时间：0.421664s][吞吐率：2.37req/s] [内存消耗：3,671.09kb] [文件加载：56]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.110:8090',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.0; ASUS_Z00ADB Build/LRX21V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/43.0.2357.121 Mobile Safari/537.36 MicroMessenger/6.5.16.1120 NetType/WIFI Language/zh_CN',
+  'referer' => 'http://192.168.1.110:8090/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'pmaCookieVer=5; pma_lang=zh_CN; pma_collation_connection=utf8mb4_unicode_ci; phpMyAdmin=hv81u2vkbtvb2md0e3nujmlroo77vfv3; PHPSESSID=nqs69sov3s37ar7tqd2o6gibko9sp930cbn2f20dv628htjmkgv0; keep_user=think%3A%7B%22id%22%3A%22f752w1cnt%252FPGKzeeKutU2wJrLOYrrmvnpW8rQCDj%22%2C%22pid%22%3A%22e078oIFAHGW8q13qzOK7N0CvQWscxsBA6b5XKfeO%22%2C%22name%22%3A%22ddf7mz2Hw2Pf5WFZFBf%252B3Vpc%252B6zC4TOvd7Kf%252B7UPD5o%22%2C%22realname%22%3A%2213ebgcxu5L8zaAP9IgjP%252BuHC6v3POc6MD2bXSK%252BnPFzOqtp%252B%252F9M%22%2C%22sex%22%3A%2250c4KhqijjUDXPNKfiJInYVIZvqfIb9uuyy%252BdU6L%22%2C%22mobile%22%3A%22b5c8KNu%252BTUG6xyX6dPOgnzncz0TYqbj9MoaOuvTHBA5bjAxnzAM9vg%22%2C%22qq%22%3A%2283edeVFfu6u%252B%252FsibJzCFx1dW%252FUa9npP7JVI7XNUaxMBRq%252BkZuKU%22%2C%22email%22%3A%2217d8tTBzT0QaRiqHvyIxsmc70cZE7%252BCg7SXClTePQKZsKwiFao%252FjVJniJ2XfDvk%22%2C%22id_num%22%3A%22e423k6AewRdJ6q5EkAir9ytoQM6CXGUKkIP9CM4%22%2C%22id_card_path%22%3A%224fe6N%252Fn3T2cQ5AIfkx%252BbWanwrlvRQJYXKdDxzL4%22%2C%22headimgurl%22%3A%22ee66BIfYID%252BgxZ8JwaK9HqIAt2cxh%252BQZlG2xCkaiQ3t59XukLcvygXqWDZUNGJGD68FLnBw2V%252BJm4oCZ%252F3fp%252BAloxicPWVlMLCJsruTjxbcPdEaNtzLb9wZBx6vkg8A173YUuSIbGHzAjf%252Fuf9j0Z1NC4I7TmgSpfohll4WcIEZtz813ciGVrp5x6%252FIgFU8uY3klSg%22%2C%22id_list%22%3A%220d439j%252FSWP7NkV%252F%252FOOg1GgBea8yjXupp0V5TCl%252Bx%22%2C%22regtime%22%3A%22a2f1E4boTaYjvVwjo7qYLlkNCyQDHPereZzS4ynf%22%2C%22logintime%22%3A%2278ceWZQ2YZJI5cpahtRVOE%252FO7QOSQ%252Fx3G1%252FaHoyw%22%2C%22loginip%22%3A%2266be1AFiOl9T9PD7HBwgA6jXiUh3QbygzLN%252F6ys%22%2C%22status%22%3A%227641zCUzXTVCocvRwX62hZ19YJs9%252F%252BMzWXYVruuZ%22%2C%22remark%22%3A%22f42bKYs3EitPEAcmzBAVXS%252FtD0D30PM6pOYhFeo%22%2C%22subscribe%22%3A%22cca4yryz0i%252FunYYaYW58ofyRRSK3W6aUrs5%252Fn9tI%22%2C%22openid%22%3A%22f98fJbce7yJcZcNb94fMEnLPCtMwucQjWn7%252Ftrhq5074RhoxYM1OgMZWjRlHYhRPheI8zCeW8BxC%22%2C%22nickname%22%3A%223556ID1hBrLmUWVm9W9DIA3WjKw56uyIl1OgaAuq0J0KYuA%22%2C%22language%22%3A%221296dZu9Kr%252FFQFzYlbJgxwaFTyPp8u0bATu%252BW%252Fbjx3l2jw%22%2C%22city%22%3A%221ffaJ2uxkNvYMhyDVtuOCfoo9R%252BCMwgOfluIxEujs3y%252Bhyo%22%2C%22province%22%3A%22ab9bcU3pyXgf%252FxXpaMlN%252F3DURQCBp079D%252BHWmnwXpTsm5e0%22%2C%22country%22%3A%22a081h0ZOyeuTVVIlJ%252F93P9x7hj7qxYoGkoQ2atzj9wgMxF4%22%2C%22subscribe_time%22%3A%22a63b8xc%252FwAUuX4Y2otClVK45Jnm1OidMZxXRLKM%252FRFj0cHD9iytv%22%2C%22unionid%22%3A%2283d2GBkEp7srYBiDYgkTyaJnfcbvMCdE5%252ByBVo0%22%2C%22groupid%22%3A%22e161qxBmL0GEoP2vU1zhFgQCbYKm%252FJuARQS5WkO9%22%2C%22tagid_list%22%3A%22f217Ki3gTn9q5EKdUgyvlhOdKh%252B%252B8LduLAcCmR0%22%2C%22qr_code%22%3A%22edafNk6og68qihF3nvqFkjvAGSqDkbrLIpi99w3dpiq%252FB7wpShZySnBa68DCbhSDLsAcL1pA0Xdlg4Dz7yEa9bpbly%252FcEfi6g2%252B1X0NYTrgtAKW8ahrJBTlmqnIhNjhxMQyH47jZckcWbGYJNDRw5Fd1ha9Tyxu0O69oRRVSms9AMLnUVLSkrvLhucS1JdG2FfyI3BvJSwibA8S1xdOolX4UPrdKDBItAkpDSPI7Btk%22%2C%22qr_seconds%22%3A%224b4935GYUqF0Z0zA8eI1%252FU3X%252Ffvj7WDQEvW8K86CJH7tUVTvV4k3%22%2C%22qr_ticket%22%3A%22eee0lQy3iD5gdLI8ch7Z8vAA%252BGxvhlI3B6L5T8m6HyJ9dOuH4DBl1IHZWylztb8n%252FxHCgdzVo0bFoL0twJbi%252FvaEUo2U%252F7fHcz8Dv2b0GMNlNQVerm%252FZGx3O%252BJ1%252BLYsEAzFZwdxcfkbMN1TAcR51GiwOJTSBvPzWMPmaN%252FA%22%7D',
+  'x-requested-with' => 'com.tencent.mm',
+)
+[ info ] [ PARAM ] array (
+  '/index/user/' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->index[ /home/aptx/File/PHP/6rmh/app/index/controller/User.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/user/index.html [ array (
+  0 => 'cookie',
+  1 => 'config',
+  2 => 'header',
+  3 => 'users',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-28T10:11:12+08:00 ] 192.168.1.110 192.168.1.108 GET /index/Log/index/type/bait
+[ log ] 192.168.1.110:8090/index/Log/index/type/bait [运行时间：0.434689s][吞吐率：2.30req/s] [内存消耗：3,744.52kb] [文件加载：59]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Log',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.110:8090',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.0; ASUS_Z00ADB Build/LRX21V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/43.0.2357.121 Mobile Safari/537.36 MicroMessenger/6.5.16.1120 NetType/WIFI Language/zh_CN',
+  'referer' => 'http://192.168.1.110:8090/index/user/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'pmaCookieVer=5; pma_lang=zh_CN; pma_collation_connection=utf8mb4_unicode_ci; phpMyAdmin=hv81u2vkbtvb2md0e3nujmlroo77vfv3; PHPSESSID=nqs69sov3s37ar7tqd2o6gibko9sp930cbn2f20dv628htjmkgv0; keep_user=think%3A%7B%22id%22%3A%22f752w1cnt%252FPGKzeeKutU2wJrLOYrrmvnpW8rQCDj%22%2C%22pid%22%3A%22e078oIFAHGW8q13qzOK7N0CvQWscxsBA6b5XKfeO%22%2C%22name%22%3A%22ddf7mz2Hw2Pf5WFZFBf%252B3Vpc%252B6zC4TOvd7Kf%252B7UPD5o%22%2C%22realname%22%3A%2213ebgcxu5L8zaAP9IgjP%252BuHC6v3POc6MD2bXSK%252BnPFzOqtp%252B%252F9M%22%2C%22sex%22%3A%2250c4KhqijjUDXPNKfiJInYVIZvqfIb9uuyy%252BdU6L%22%2C%22mobile%22%3A%22b5c8KNu%252BTUG6xyX6dPOgnzncz0TYqbj9MoaOuvTHBA5bjAxnzAM9vg%22%2C%22qq%22%3A%2283edeVFfu6u%252B%252FsibJzCFx1dW%252FUa9npP7JVI7XNUaxMBRq%252BkZuKU%22%2C%22email%22%3A%2217d8tTBzT0QaRiqHvyIxsmc70cZE7%252BCg7SXClTePQKZsKwiFao%252FjVJniJ2XfDvk%22%2C%22id_num%22%3A%22e423k6AewRdJ6q5EkAir9ytoQM6CXGUKkIP9CM4%22%2C%22id_card_path%22%3A%224fe6N%252Fn3T2cQ5AIfkx%252BbWanwrlvRQJYXKdDxzL4%22%2C%22headimgurl%22%3A%22ee66BIfYID%252BgxZ8JwaK9HqIAt2cxh%252BQZlG2xCkaiQ3t59XukLcvygXqWDZUNGJGD68FLnBw2V%252BJm4oCZ%252F3fp%252BAloxicPWVlMLCJsruTjxbcPdEaNtzLb9wZBx6vkg8A173YUuSIbGHzAjf%252Fuf9j0Z1NC4I7TmgSpfohll4WcIEZtz813ciGVrp5x6%252FIgFU8uY3klSg%22%2C%22id_list%22%3A%220d439j%252FSWP7NkV%252F%252FOOg1GgBea8yjXupp0V5TCl%252Bx%22%2C%22regtime%22%3A%22a2f1E4boTaYjvVwjo7qYLlkNCyQDHPereZzS4ynf%22%2C%22logintime%22%3A%2278ceWZQ2YZJI5cpahtRVOE%252FO7QOSQ%252Fx3G1%252FaHoyw%22%2C%22loginip%22%3A%2266be1AFiOl9T9PD7HBwgA6jXiUh3QbygzLN%252F6ys%22%2C%22status%22%3A%227641zCUzXTVCocvRwX62hZ19YJs9%252F%252BMzWXYVruuZ%22%2C%22remark%22%3A%22f42bKYs3EitPEAcmzBAVXS%252FtD0D30PM6pOYhFeo%22%2C%22subscribe%22%3A%22cca4yryz0i%252FunYYaYW58ofyRRSK3W6aUrs5%252Fn9tI%22%2C%22openid%22%3A%22f98fJbce7yJcZcNb94fMEnLPCtMwucQjWn7%252Ftrhq5074RhoxYM1OgMZWjRlHYhRPheI8zCeW8BxC%22%2C%22nickname%22%3A%223556ID1hBrLmUWVm9W9DIA3WjKw56uyIl1OgaAuq0J0KYuA%22%2C%22language%22%3A%221296dZu9Kr%252FFQFzYlbJgxwaFTyPp8u0bATu%252BW%252Fbjx3l2jw%22%2C%22city%22%3A%221ffaJ2uxkNvYMhyDVtuOCfoo9R%252BCMwgOfluIxEujs3y%252Bhyo%22%2C%22province%22%3A%22ab9bcU3pyXgf%252FxXpaMlN%252F3DURQCBp079D%252BHWmnwXpTsm5e0%22%2C%22country%22%3A%22a081h0ZOyeuTVVIlJ%252F93P9x7hj7qxYoGkoQ2atzj9wgMxF4%22%2C%22subscribe_time%22%3A%22a63b8xc%252FwAUuX4Y2otClVK45Jnm1OidMZxXRLKM%252FRFj0cHD9iytv%22%2C%22unionid%22%3A%2283d2GBkEp7srYBiDYgkTyaJnfcbvMCdE5%252ByBVo0%22%2C%22groupid%22%3A%22e161qxBmL0GEoP2vU1zhFgQCbYKm%252FJuARQS5WkO9%22%2C%22tagid_list%22%3A%22f217Ki3gTn9q5EKdUgyvlhOdKh%252B%252B8LduLAcCmR0%22%2C%22qr_code%22%3A%22edafNk6og68qihF3nvqFkjvAGSqDkbrLIpi99w3dpiq%252FB7wpShZySnBa68DCbhSDLsAcL1pA0Xdlg4Dz7yEa9bpbly%252FcEfi6g2%252B1X0NYTrgtAKW8ahrJBTlmqnIhNjhxMQyH47jZckcWbGYJNDRw5Fd1ha9Tyxu0O69oRRVSms9AMLnUVLSkrvLhucS1JdG2FfyI3BvJSwibA8S1xdOolX4UPrdKDBItAkpDSPI7Btk%22%2C%22qr_seconds%22%3A%224b4935GYUqF0Z0zA8eI1%252FU3X%252Ffvj7WDQEvW8K86CJH7tUVTvV4k3%22%2C%22qr_ticket%22%3A%22eee0lQy3iD5gdLI8ch7Z8vAA%252BGxvhlI3B6L5T8m6HyJ9dOuH4DBl1IHZWylztb8n%252FxHCgdzVo0bFoL0twJbi%252FvaEUo2U%252F7fHcz8Dv2b0GMNlNQVerm%252FZGx3O%252BJ1%252BLYsEAzFZwdxcfkbMN1TAcR51GiwOJTSBvPzWMPmaN%252FA%22%7D',
+  'x-requested-with' => 'com.tencent.mm',
+)
+[ info ] [ PARAM ] array (
+  '/index/Log/index/type/bait' => '',
+  'type' => 'bait',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Log->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Log.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/log/bait.html [ array (
+  0 => 'cookie',
+  1 => 'time',
+  2 => 'list',
+  3 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-28T10:11:14+08:00 ] 192.168.1.110 192.168.1.108 GET /index/user/
+[ log ] 192.168.1.110:8090/index/user/ [运行时间：0.504592s][吞吐率：1.98req/s] [内存消耗：3,469.08kb] [文件加载：54]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.110:8090',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.0; ASUS_Z00ADB Build/LRX21V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/43.0.2357.121 Mobile Safari/537.36 MicroMessenger/6.5.16.1120 NetType/WIFI Language/zh_CN',
+  'referer' => 'http://192.168.1.110:8090/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'pmaCookieVer=5; pma_lang=zh_CN; pma_collation_connection=utf8mb4_unicode_ci; phpMyAdmin=hv81u2vkbtvb2md0e3nujmlroo77vfv3; PHPSESSID=nqs69sov3s37ar7tqd2o6gibko9sp930cbn2f20dv628htjmkgv0; keep_user=think%3A%7B%22id%22%3A%22f752w1cnt%252FPGKzeeKutU2wJrLOYrrmvnpW8rQCDj%22%2C%22pid%22%3A%22e078oIFAHGW8q13qzOK7N0CvQWscxsBA6b5XKfeO%22%2C%22name%22%3A%22ddf7mz2Hw2Pf5WFZFBf%252B3Vpc%252B6zC4TOvd7Kf%252B7UPD5o%22%2C%22realname%22%3A%2213ebgcxu5L8zaAP9IgjP%252BuHC6v3POc6MD2bXSK%252BnPFzOqtp%252B%252F9M%22%2C%22sex%22%3A%2250c4KhqijjUDXPNKfiJInYVIZvqfIb9uuyy%252BdU6L%22%2C%22mobile%22%3A%22b5c8KNu%252BTUG6xyX6dPOgnzncz0TYqbj9MoaOuvTHBA5bjAxnzAM9vg%22%2C%22qq%22%3A%2283edeVFfu6u%252B%252FsibJzCFx1dW%252FUa9npP7JVI7XNUaxMBRq%252BkZuKU%22%2C%22email%22%3A%2217d8tTBzT0QaRiqHvyIxsmc70cZE7%252BCg7SXClTePQKZsKwiFao%252FjVJniJ2XfDvk%22%2C%22id_num%22%3A%22e423k6AewRdJ6q5EkAir9ytoQM6CXGUKkIP9CM4%22%2C%22id_card_path%22%3A%224fe6N%252Fn3T2cQ5AIfkx%252BbWanwrlvRQJYXKdDxzL4%22%2C%22headimgurl%22%3A%22ee66BIfYID%252BgxZ8JwaK9HqIAt2cxh%252BQZlG2xCkaiQ3t59XukLcvygXqWDZUNGJGD68FLnBw2V%252BJm4oCZ%252F3fp%252BAloxicPWVlMLCJsruTjxbcPdEaNtzLb9wZBx6vkg8A173YUuSIbGHzAjf%252Fuf9j0Z1NC4I7TmgSpfohll4WcIEZtz813ciGVrp5x6%252FIgFU8uY3klSg%22%2C%22id_list%22%3A%220d439j%252FSWP7NkV%252F%252FOOg1GgBea8yjXupp0V5TCl%252Bx%22%2C%22regtime%22%3A%22a2f1E4boTaYjvVwjo7qYLlkNCyQDHPereZzS4ynf%22%2C%22logintime%22%3A%2278ceWZQ2YZJI5cpahtRVOE%252FO7QOSQ%252Fx3G1%252FaHoyw%22%2C%22loginip%22%3A%2266be1AFiOl9T9PD7HBwgA6jXiUh3QbygzLN%252F6ys%22%2C%22status%22%3A%227641zCUzXTVCocvRwX62hZ19YJs9%252F%252BMzWXYVruuZ%22%2C%22remark%22%3A%22f42bKYs3EitPEAcmzBAVXS%252FtD0D30PM6pOYhFeo%22%2C%22subscribe%22%3A%22cca4yryz0i%252FunYYaYW58ofyRRSK3W6aUrs5%252Fn9tI%22%2C%22openid%22%3A%22f98fJbce7yJcZcNb94fMEnLPCtMwucQjWn7%252Ftrhq5074RhoxYM1OgMZWjRlHYhRPheI8zCeW8BxC%22%2C%22nickname%22%3A%223556ID1hBrLmUWVm9W9DIA3WjKw56uyIl1OgaAuq0J0KYuA%22%2C%22language%22%3A%221296dZu9Kr%252FFQFzYlbJgxwaFTyPp8u0bATu%252BW%252Fbjx3l2jw%22%2C%22city%22%3A%221ffaJ2uxkNvYMhyDVtuOCfoo9R%252BCMwgOfluIxEujs3y%252Bhyo%22%2C%22province%22%3A%22ab9bcU3pyXgf%252FxXpaMlN%252F3DURQCBp079D%252BHWmnwXpTsm5e0%22%2C%22country%22%3A%22a081h0ZOyeuTVVIlJ%252F93P9x7hj7qxYoGkoQ2atzj9wgMxF4%22%2C%22subscribe_time%22%3A%22a63b8xc%252FwAUuX4Y2otClVK45Jnm1OidMZxXRLKM%252FRFj0cHD9iytv%22%2C%22unionid%22%3A%2283d2GBkEp7srYBiDYgkTyaJnfcbvMCdE5%252ByBVo0%22%2C%22groupid%22%3A%22e161qxBmL0GEoP2vU1zhFgQCbYKm%252FJuARQS5WkO9%22%2C%22tagid_list%22%3A%22f217Ki3gTn9q5EKdUgyvlhOdKh%252B%252B8LduLAcCmR0%22%2C%22qr_code%22%3A%22edafNk6og68qihF3nvqFkjvAGSqDkbrLIpi99w3dpiq%252FB7wpShZySnBa68DCbhSDLsAcL1pA0Xdlg4Dz7yEa9bpbly%252FcEfi6g2%252B1X0NYTrgtAKW8ahrJBTlmqnIhNjhxMQyH47jZckcWbGYJNDRw5Fd1ha9Tyxu0O69oRRVSms9AMLnUVLSkrvLhucS1JdG2FfyI3BvJSwibA8S1xdOolX4UPrdKDBItAkpDSPI7Btk%22%2C%22qr_seconds%22%3A%224b4935GYUqF0Z0zA8eI1%252FU3X%252Ffvj7WDQEvW8K86CJH7tUVTvV4k3%22%2C%22qr_ticket%22%3A%22eee0lQy3iD5gdLI8ch7Z8vAA%252BGxvhlI3B6L5T8m6HyJ9dOuH4DBl1IHZWylztb8n%252FxHCgdzVo0bFoL0twJbi%252FvaEUo2U%252F7fHcz8Dv2b0GMNlNQVerm%252FZGx3O%252BJ1%252BLYsEAzFZwdxcfkbMN1TAcR51GiwOJTSBvPzWMPmaN%252FA%22%7D',
+  'x-requested-with' => 'com.tencent.mm',
+)
+[ info ] [ PARAM ] array (
+  '/index/user/' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->index[ /home/aptx/File/PHP/6rmh/app/index/controller/User.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/user/index.html [ array (
+  0 => 'cookie',
+  1 => 'config',
+  2 => 'header',
+  3 => 'users',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-28T10:44:39+08:00 ] 127.0.0.2 127.0.0.1 GET /
+[ log ] www.sixer.com/ [运行时间：0.446307s][吞吐率：2.24req/s] [内存消耗：3,359.78kb] [文件加载：52]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Version/10.0 Mobile/14D27 Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=ro2s1toqav2om5kv19om3gij6oj372or7hnn80mvavviuf3o7bt0',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/index/special.html [ array (
+  0 => 'goods',
+  1 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-28T10:45:05+08:00 ] 127.0.0.2 127.0.0.1 GET /index/goods/detail/id/1.html
+[ log ] www.sixer.com/index/goods/detail/id/1.html [运行时间：1.001071s][吞吐率：1.00req/s] [内存消耗：3,400.80kb] [文件加载：52]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'goods',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Version/10.0 Mobile/14D27 Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.sixer.com/',
+  'cookie' => 'PHPSESSID=ro2s1toqav2om5kv19om3gij6oj372or7hnn80mvavviuf3o7bt0',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/index/goods/detail/id/1_html' => '',
+  'id' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Goods->detail[ /home/aptx/File/PHP/6rmh/app/index/controller/Goods.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/goods/detail.html [ array (
+  0 => 'config',
+  1 => 'goods',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-28T10:45:07+08:00 ] 127.0.0.2 127.0.0.1 GET /
+[ log ] www.sixer.com/ [运行时间：0.588247s][吞吐率：1.70req/s] [内存消耗：3,359.30kb] [文件加载：52]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Version/10.0 Mobile/14D27 Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=ro2s1toqav2om5kv19om3gij6oj372or7hnn80mvavviuf3o7bt0',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/index/special.html [ array (
+  0 => 'goods',
+  1 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-28T15:00:20+08:00 ] 127.0.0.2 127.0.0.1 GET /index/goods/detail/id/1.html
+[ log ] www.sixer.com/index/goods/detail/id/1.html [运行时间：1.305893s][吞吐率：0.77req/s] [内存消耗：3,400.80kb] [文件加载：52]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'goods',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Version/10.0 Mobile/14D27 Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.sixer.com/',
+  'cookie' => 'PHPSESSID=ro2s1toqav2om5kv19om3gij6oj372or7hnn80mvavviuf3o7bt0',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/index/goods/detail/id/1_html' => '',
+  'id' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Goods->detail[ /home/aptx/File/PHP/6rmh/app/index/controller/Goods.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/goods/detail.html [ array (
+  0 => 'config',
+  1 => 'goods',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-28T15:00:23+08:00 ] 127.0.0.2 127.0.0.1 GET /
+[ log ] www.sixer.com/ [运行时间：0.613603s][吞吐率：1.63req/s] [内存消耗：3,359.30kb] [文件加载：52]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Version/10.0 Mobile/14D27 Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=ro2s1toqav2om5kv19om3gij6oj372or7hnn80mvavviuf3o7bt0',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/mobile/index/special.html [ array (
+  0 => 'goods',
+  1 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------

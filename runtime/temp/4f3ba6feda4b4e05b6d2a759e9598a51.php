@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:5:{s:68:"/home/aptx/File/PHP/6rmh/public/../app/index/view/index/special.html";i:1507856018;s:69:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./public/index.html";i:1507856018;s:67:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./public/top.html";i:1507856018;s:70:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./public/header.html";i:1507856018;s:70:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./public/footer.html";i:1507856018;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:5:{s:68:"/home/aptx/File/PHP/6rmh/public/../app/index/view/index/special.html";i:1508832926;s:69:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./public/index.html";i:1508832185;s:67:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./public/top.html";i:1508832185;s:70:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./public/header.html";i:1508832185;s:70:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./public/footer.html";i:1508832185;}*/ ?>
 <!DOCTYPE html>
 <html lang="en" >
 <head>
@@ -201,15 +201,8 @@
 						</a>
 					</li>
 				<?php endforeach; endif; else: echo "暂时没有数据" ;endif; ?>
-
-
-
-	</div>
-
-
-
-
-
+		</ul>
+		</div>
     </div>
 </div>
 

@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:67:"/home/aptx/File/PHP/6rmh/public/../app/index/mobile/user/index.html";i:1508823646;s:70:"/home/aptx/File/PHP/6rmh/public/../app/index/mobile/public/footer.html";i:1508312858;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:67:"/home/aptx/File/PHP/6rmh/public/../app/index/mobile/user/index.html";i:1509606332;s:70:"/home/aptx/File/PHP/6rmh/public/../app/index/mobile/public/footer.html";i:1508832926;}*/ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -15,8 +15,7 @@
 </head>
 <body>
 	<div class="head">		
-		<span class="back_home fa fa-long-arrow-left fa-1x" onclick="location.assign('/')"></span>
-		<span class="setting fa fa-cog fa-1x"></span>
+		<span class="setting fa fa-cog"></span>
 		<img class="hp_100 wp_100 o_h" src="<?php echo $users['headimgurl']; ?>" alt="用户头像未显示">
 		<span class="user_name"><?php echo $users['name']; ?></span>
 	</div>
@@ -59,7 +58,7 @@
 	<div class="setting-content">
 		<form method="post" role="form" action="<?php echo url('editor'); ?>" enctype="multipart/form-data">
 		<div class="change_info">
-			<img class="hp_100 wp_100 o_h" src="<?php echo $users['headimgurl']; ?>" alt="用户头像未显示">
+			<!-- <img class="hp_100 wp_100 o_h" src="<?php echo $users['headimgurl']; ?>" alt="用户头像未显示"> -->
 			<div class="change_cont">
 				<span class="left">昵称：</span>
 				<span class="right"><input id="shows" class="" type="text" name="name" value="<?php echo $users['name']; ?>" required></span>
@@ -107,7 +106,7 @@
 			       </script> -->
 			    </span>
 			</div>
-			<div class="change_cont submit-button">
+			<div class="submit-button">
 				提交
 			</div>
 		</div>
@@ -152,14 +151,12 @@
 	$('.body li').css('height', $('.body li').width());
 	$('.setting-content').height($(document).height());
 	$('.setting').click(function(event) {
-		/*$('.setting-content').animate({'right':'0' }, 200);*/
-		/*$('.setting-content').css('width','75%');*/
+		
 		$('.setting-content').css('display','block');
 		event.stopPropagation();
 	});
 	$('.setting-content').siblings().click(function(event) {
-		/*$('.setting-content').animate({'right':'-75%' }, 500);*/
-		/*$('.setting-content').css('width','0');*/
+		
 		$('.setting-content').css('display','none');
 	});
 	$('.submit-button').click(function(event) {
