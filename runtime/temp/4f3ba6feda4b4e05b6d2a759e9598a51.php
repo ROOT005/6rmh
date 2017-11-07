@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:5:{s:68:"/home/aptx/File/PHP/6rmh/public/../app/index/view/index/special.html";i:1508832926;s:69:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./public/index.html";i:1508832185;s:67:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./public/top.html";i:1508832185;s:70:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./public/header.html";i:1508832185;s:70:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./public/footer.html";i:1508832185;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:5:{s:68:"/home/aptx/File/PHP/6rmh/public/../app/index/view/index/special.html";i:1509949813;s:69:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./public/index.html";i:1509933601;s:67:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./public/top.html";i:1508832185;s:70:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./public/header.html";i:1508832185;s:70:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./public/footer.html";i:1508832185;}*/ ?>
 <!DOCTYPE html>
 <html lang="en" >
 <head>
@@ -28,7 +28,6 @@
     <script src="https://cdn.bootcss.com/angular.js/1.5.0-beta.0/angular-sanitize.min.js"></script>-->
     
     <!--<script src="__JS__/mall/mall_default_layout.js"></script>-->
-   
 </head>
 <body data-ng-app="myApp" class="web-body" >
     <header class=" web-top  wp_100 ">
@@ -166,10 +165,15 @@
     <a href="/index/order/index">订单</a>
 </p>-->
 
-<div class=" wp_100 t_c" style="height: 2000px;background: url(__STATIC__/images/mall/bg.jpg) no-repeat;">
+<div class="wp_100 t_c product_show">
     <!--欢迎字样-->
-    <img style="margin: 200px 0;" class="" src="__STATIC__/images/mall/index_font.png" />
-    <div  class=" content-panel" >
+    <img  class="title_img" src="__STATIC__/images/mall/index_font.png" />
+    <a class="up2pro">
+    	<span class="fa fa-caret-down"></span>
+    </a>
+</div>
+<div id="product_show">
+	<div  class=" content-panel" >
         <!--直推产品-->
         <div class="htmleaf-container" >
 		<ul id="hexGrid" >
@@ -205,7 +209,18 @@
 		</div>
     </div>
 </div>
-
+<script>
+	var height = $(window).height();
+	$('.product_show').css('height', height);
+	$('#hexGrid').css('height',height+200);
+	$('.up2pro').css('top','50%');
+	$('.up2pro').click(function (){
+		$('html,body').animate({scrollTop: height}, 400);
+	});
+	setInterval(function(){
+	$(".up2pro").fadeOut(500).fadeIn(500);
+	},1000);
+</script>
 
     </div>
         

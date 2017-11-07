@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:69:"/home/aptx/File/PHP/6rmh/public/../app/index/mobile/goods/detail.html";i:1509602056;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:69:"/home/aptx/File/PHP/6rmh/public/../app/index/mobile/goods/detail.html";i:1509954947;}*/ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -25,7 +25,31 @@
     <div class="choice_size btn btn-block">
         选择规格
     </div>
-    <div class="swiper-container-contant" data-ng-controller="goodsCtrl">
+    <div class="size" data-ng-controller="goodsCtrl">
+        <div class="close"></div><!--黑色部分-->
+        <div class="size-content">
+        <img src="<?php echo $goods['img']; ?>" alt="商品图片" rel="<?php echo $goods['img']; ?>">
+        <span class="item-title">重量：</span>
+        <?php echo $goods['weight']; ?>kg
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        
+        <?php if($goods['free_shipping'] ==1): ?>
+            免运费 
+        <?php endif; ?>
+        <li><span class="item-title">选择规格：</span></li>
+        <?php if(is_array($goods['spec']) || $goods['spec'] instanceof \think\Collection || $goods['spec'] instanceof \think\Paginator): $i = 0; $__LIST__ = $goods['spec'];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?>
+            <li class="default-spec-li" ng-class="{choseSpec: <?php echo $vo['id']; ?>==isChose}" ng-click="specSelect(<?php echo $vo['id']; ?>);"><?php echo $vo['spec']; ?></li>
+        <?php endforeach; endif; else: echo "" ;endif; ?>
+         <span class="end_count item-title">库存：<?php echo $goods['amount']; ?></span>
+        <div class="buy_count input-group">
+            <div class="input-group-addon" ng-click="redNum()">-</div>
+            <input id="buy-number"  ng-model="buy_number" title="填写购买数量"/>
+            <div class="input-group-addon" ng-click="addNum()">+</div>
+        </div>
+        <a class="btn add_car" href="/index/cart/add/id/<?php echo $goods['id']; ?>/spec/{{specValue}}/num/{{buy_number}}" title="加入购物车">加入购物车</a>
+        </div>
+    </div>
+    <div class="swiper-container-contant" >
         <div class="swiper-wrapper">
             <div class="product_info swiper-slide">
                 <!--banner区-->
@@ -66,31 +90,6 @@
                             来源不明
                         <?php endif; ?>
                     </p>
-                </div>
-              
-                <div class="size">
-                    <div class="close"></div><!--黑色部分-->
-                    <div class="size-content">
-                    <img src="<?php echo $goods['img']; ?>" alt="商品图片" rel="<?php echo $goods['img']; ?>">
-                    <span class="item-title">重量：</span>
-                    <?php echo $goods['weight']; ?>kg
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    
-                    <?php if($goods['free_shipping'] ==1): ?>
-                        免运费 
-                    <?php endif; ?>
-                    <li><span class="item-title">选择规格：</span></li>
-                    <?php if(is_array($goods['spec']) || $goods['spec'] instanceof \think\Collection || $goods['spec'] instanceof \think\Paginator): $i = 0; $__LIST__ = $goods['spec'];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?>
-                        <li class="default-spec-li" ng-class="{choseSpec: <?php echo $vo['id']; ?>==isChose}" ng-click="specSelect(<?php echo $vo['id']; ?>);"><?php echo $vo['spec']; ?></li>
-                    <?php endforeach; endif; else: echo "" ;endif; ?>
-                     <span class="end_count item-title">库存：<?php echo $goods['amount']; ?></span>
-                    <div class="buy_count input-group">
-                        <div class="input-group-addon" ng-click="redNum()">-</div>
-                        <input id="buy-number"  ng-model="buy_number" title="填写购买数量"/>
-                        <div class="input-group-addon" ng-click="addNum()">+</div>
-                    </div>
-                    <a class="btn add_car" href="/index/cart/add/id/<?php echo $goods['id']; ?>/spec/{{specValue}}/num/{{buy_number}}" title="加入购物车">加入购物车</a>
-                </div>
                 </div>
             </div>
             <!--详情页-->

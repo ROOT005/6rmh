@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:5:{s:66:"/home/aptx/File/PHP/6rmh/public/../app/index/view/order/index.html";i:1508832926;s:68:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./public/user.html";i:1508832926;s:67:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./public/top.html";i:1508832185;s:65:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./user/nav.html";i:1508832185;s:70:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./public/footer.html";i:1508832185;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:5:{s:67:"/home/aptx/File/PHP/6rmh/public/../app/index/view/address/edit.html";i:1508832185;s:68:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./public/user.html";i:1508832926;s:67:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./public/top.html";i:1508832185;s:65:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./user/nav.html";i:1508832185;s:70:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./public/footer.html";i:1508832185;}*/ ?>
 <!DOCTYPE html>
 <html lang="en" >
 <head>
@@ -213,128 +213,158 @@
     </div>
 
             
-<div  class=" user-panel order-preview-html " >
-    <div class="more-info wp_100 ">
-        <div class="more-info-navbar wp_100 ">
-            <ul  >
-                <li  >
-                    <a href="<?php echo url('index'); ?>" >全部订单</a>
-                </li>
-                <li class="li-split">/</li>
-                <li   >
-                    <a href="<?php echo url('index', ['status'=>1]); ?>"  >待支付</a>
-                </li>
-                <li class="li-split" >/</li>
-                <li  >
-                    <a href="<?php echo url('index', ['status'=>2]); ?>" >待发货</a>
-                </li>
-                <li class="li-split" >/</li>
-                <li  >
-                    <a href="<?php echo url('index', ['status'=>3]); ?>" >待收货</a>
-                </li>
-                <li class="li-split" >/</li>
-                <li  >
-                    <a href="<?php echo url('index', ['status'=>4]); ?>" >已完成</a>
-                </li>
-                <li class="li-split" >/</li>
-                <li  >
-                    <a href="javascript: void(0);" >已取消</a>
-                </li>
-            </ul>
-        </div>
+<div class="user-panel address">
+    
+    <div class="wp_100" >
 
+        <div class="addaddress">修改收货地址</div>
+        <form  method="post" name="form" action="<?php echo url('editor'); ?>">
+            <div class="user-address-add  wp_100">
+                <div class="wp_30 f_l t_r l_h_50">
+                    <input type="hidden" name="id" value="<?php echo $address['id']; ?>"/>
+                    <span class="right-label">收货人：</span><br>
+                    <span class="right-label">所在地区：</span><br> 
+                    <span class="right-label">地址：</span><br> 
+                    <span class="right-label">手机：</span><br>
+                    <span class="right-label">邮编：</span> 
+                </div>
+                <div class="wp_70 f_l l_h_50">
+                    <span class="middle-label"><input type="text" name="name" value="<?php echo $address['name']; ?>"></span><br>
+                    <span class="middle-lab f_l">
+                        <select id="province" class="pro kshow" name="province" >
+                            <?php if(is_array($province) || $province instanceof \think\Collection || $province instanceof \think\Paginator): $i = 0; $__LIST__ = $province;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;if($address['province'] == $vo['id']): ?>
+                                    <option value="<?php echo $vo['id']; ?>" selected><?php echo $vo['name']; ?></option>
+                                <?php else: ?>
+                                    <option value="<?php echo $vo['id']; ?>"><?php echo $vo['name']; ?></option>
+                                <?php endif; endforeach; endif; else: echo "" ;endif; ?>
+                        </select>
+                    </span>
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <span class="middle-lab f_l">
+                        <select id="city" class="pro kshow" name="city">
+                            <?php if(is_array($pro) || $pro instanceof \think\Collection || $pro instanceof \think\Paginator): $i = 0; $__LIST__ = $pro;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;if($address['city'] == $vo['id']): ?>
+                                    <option value="<?php echo $vo['id']; ?>" selected><?php echo $vo['name']; ?></option>
+                                <?php else: ?>
+                                    <option value="<?php echo $vo['id']; ?>"><?php echo $vo['name']; ?></option>
+                                <?php endif; endforeach; endif; else: echo "" ;endif; ?>
+                        </select>
+                    </span>
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <span class="middle-lab f_l">
+                        <select id="area" class="pro kshow" name="area">
+                            <?php if(is_array($prov) || $prov instanceof \think\Collection || $prov instanceof \think\Paginator): $i = 0; $__LIST__ = $prov;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;if($address['area'] == $vo['id']): ?>
+                                    <option value="<?php echo $vo['id']; ?>" selected><?php echo $vo['name']; ?></option>
+                                <?php else: ?>
+                                    <option value="<?php echo $vo['id']; ?>"><?php echo $vo['name']; ?></option>
+                                <?php endif; endforeach; endif; else: echo "" ;endif; ?>
+                        </select>
+                    </span>
+                    <br>
+                    <span class="middle-label"><input type="text" name="address"  value="<?php echo $address['address']; ?>"></span><br>
+                    <span class="middle-label"><input type="text" name="mobile"  value="<?php echo $address['mobile']; ?>" pattern='^\d{11}$'></span><br>
+                    <span class="middle-label"><input type="text" name="zipcode" value="<?php echo $address['zipcode']; ?>"></span>
+                    
+                </div>
+            </div>
+        
+            <div class="clear"></div>
+            <div class="more-info-navbar f_l wp_100">  
+                <a class="pull-right" href="javascript: void(0);" title="修改地址">
+                    <button class="submit-btn-default ">修改地址</button>
+                </a>
+            </div>
+        </form>
     </div>
+    
+</div>
+<script>
 
-    <div class="panel panel-default ">
-        <div class="panel-heading main-panel-heading">
-            <div class=" f_l wp_60 panel-title">商品详情</div>
-            <div class=" f_l wp_10 t_c panel-title">收货人</div>
-            <div class=" f_l wp_10 t_c panel-title">金额</div>
-            <div class=" f_l wp_10 t_c panel-title">订单状态</div>
-            <div class=" f_l wp_10 t_c panel-title">操作</div>
-        </div>
-    </div>
-    <?php if(is_array($order) || $order instanceof \think\Collection || $order instanceof \think\Paginator): $i = 0; $__LIST__ = $order;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?>
-        <div class="panel panel-default ">
-        <div class="panel-heading">
-            <?php echo $vo['order']['addtime']; ?>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            订单号：<?php echo $vo['order']['order_id']; ?>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            六耳猕猴
+    $(document).ready(function(){
+        //选择省份
+        $('select[name=province]').change(function(){
+            $('#city,#area').removeClass('kshow').addClass('khidden');
 
-            
-        </div>
-        <div class="panel-body more-info-detail order-panel-body">
-            <div class="order-item-div wp_60 f_l">
-                <?php if(is_array($vo['detail']) || $vo['detail'] instanceof \think\Collection || $vo['detail'] instanceof \think\Paginator): $i = 0; $__LIST__ = $vo['detail'];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$v): $mod = ($i % 2 );++$i;?>
-                    <div class="wp_100 order-goods-detail f_l">
-                        <div class="wp_20 f_l">
-                            <a href="/index/goods/detail/id/<?php echo $v['gid']; ?>">
-                                <img class="cart-goods-pic" src="<?php echo $v['pic']; ?>"/>
-                            </a>
-                        </div>
-                        <div class="wp_60 f_l ">
-                            <?php echo $v['goods_name']; ?>
-                            <br><br>
-                            <?php if($v['promotion'] != ''): ?>
-                                <span class="goods-promotion " > <?php echo $v['promotion']; ?> </span>
-                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            <?php endif; ?>
-                            <?php echo $v['spec']; ?>
-                            
-                        </div>
-                        <div class="wp_20 f_l t_c">
-                            x <?php echo $v['num']; ?>
-                        </div>
-                    </div>
-                <?php endforeach; endif; else: echo "" ;endif; ?>
-            </div>
+            $('select[name=city]').empty(); //清除原有的元素
 
-            <div class="order-item-div order-item-sub wp_10  t_c f_l">
-                <span class="order-user" data-container="body" title="联系方式：<?php echo $vo['order']['user_mobile']; ?>" data-toggle="popover" data-placement="left" 
-                data-content="收货地址：<?php echo $vo['order']['user_address']; ?>  ">
-                    <i class="fa fa-user-o"></i>&nbsp;<?php echo $vo['order']['user_name']; ?>
-                </span>
-                
-            </div>
-            <div class="order-item-div order-item-sub wp_10  t_c f_l">
-                 <i class="fa fa-rmb"></i>&nbsp;<?php echo $vo['order']['money']; ?>
-            </div>
-            <!--订单状态-->
-            <div class="order-item-div order-item-sub wp_10  t_c f_l">
-                <?php switch($vo['order']['status']): case "1": ?>待支付<?php break; case "2": ?>待发货<?php break; case "3": ?>待收货<?php break; case "4": ?>已完成<?php break; default: ?>其他
-                <?php endswitch; ?>
-            </div>
-            <!--操作-->
-            
-            <div class="order-item-div order-item-sub wp_10  t_c f_l" >
-                
-                    <?php switch($vo['order']['status']): case "1": ?>
-                        <a href="/index/wxpay/index?type=order&id=<?php echo $vo['order']['order_id']; ?> ">
-                            <div class="wp_100 hp_100  order-operation-btn">
-                            <?php echo $vo['order']['payment_name']; ?>
-                            </div>
-                        </a>
-                            
-                        <?php break; case "2": ?>
-                            提醒发货
-                        <?php break; case "3": ?>
-                            确认收货
-                        <?php break; case "4": ?>
-                            评价
-                        <?php break; default: ?>其他
-                    <?php endswitch; ?>
-                
-                
-            </div>
-        </div>
-    </div>
-    <?php endforeach; endif; else: echo "" ;endif; ?>
+            $.ajax({
+                type: 'get',
+                url: '/index/address/city',
+                data: {id: $(this).val()},
+                success: function(response){
+                    // console.log(response);
+                    $('select[name=city]').removeClass('khidden').addClass('kshow pro');
+                    var html = createHtml(JSON.parse(response));
+                    $('select[name=city]').append(html);
+                },
+                error: function(e){
+                    console.log(e);
+                }
+            });
+
+        });
+        //选择市
+        $('select[name=city]').click(function(){
+            $('select[name=area]').empty(); //清除原有的元素
+
+            $.ajax({
+                type: 'get',
+                url: '/index/address/area',
+                data: {id: $(this).val()},
+                success: function(response){
+                    // console.log(response);
+                    $('select[name=area]').removeClass('khidden').addClass('kshow pro');
+                    var html = createHtml(JSON.parse(response));
+                    $('select[name=area]').append(html);
+                },
+                error: function(e){
+                    console.log(e);
+                }
+            });
+
+        });
+
+    });
 
     
 
-</div>
+
+    function createHtml(data){
+        var html = '';
+        for(var i=0; i<data.length; i++){
+            html += '<option value="'+data[i]['id']+'">'+data[i]['name']+'</option>';
+        }
+        return html;
+    }
 
 
+
+
+
+
+    //angularjs 还没学会怎么动态操作option,先用jquery写吧 ToT
+    // app.controller('addrCtrl', function($scope, $http){ 
+        // $scope.changex = function(x){
+        //     $http.get('/index/address/city', {params: {"id": x}})
+        //     .then(function successCallback(response){
+        //         console.log(response);
+        //         $scope.citys = response;
+        //     }, function errorCallback(response){
+
+        //     });
+
+        // }
+
+        // $scope.changey = function(y){
+        //     $http.get('/index/address/area', {params: {"id": y}})
+        //     .then(function successCallback(response){
+        //         console.log(response);
+        //         $scope.areas = response;
+        //     }, function errorCallback(response){
+
+        //     });
+        // }
+    // });
+</script>
 
         </div>
         

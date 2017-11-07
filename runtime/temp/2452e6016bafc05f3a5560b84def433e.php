@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:5:{s:68:"/home/aptx/File/PHP/6rmh/public/../app/index/view/address/index.html";i:1507856018;s:68:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./public/user.html";i:1508145256;s:67:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./public/top.html";i:1507856018;s:65:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./user/nav.html";i:1507941230;s:70:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./public/footer.html";i:1507856018;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:5:{s:68:"/home/aptx/File/PHP/6rmh/public/../app/index/view/address/index.html";i:1508832185;s:68:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./public/user.html";i:1508832926;s:67:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./public/top.html";i:1508832185;s:65:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./user/nav.html";i:1508832185;s:70:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./public/footer.html";i:1508832185;}*/ ?>
 <!DOCTYPE html>
 <html lang="en" >
 <head>
@@ -82,7 +82,7 @@
     </header>
     
     <!--显示头像和二维码-->
-    <div class="content-panel" style="height: 120px;; padding: 0 2%;">
+    <div class="content-panel" style="height: 120px; margin-top: 20px; padding: 0 2%;">
         <a href="javascript: void(0);" title="点击更新二维码">
             <img class="f_r" style="height: 120px; width: 120px;" src="<?php echo $cookie['qr_code']; ?>"/>
         </a>

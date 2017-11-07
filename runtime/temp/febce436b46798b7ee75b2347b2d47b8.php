@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:67:"/home/aptx/File/PHP/6rmh/public/../app/index/mobile/user/index.html";i:1509606332;s:70:"/home/aptx/File/PHP/6rmh/public/../app/index/mobile/public/footer.html";i:1508832926;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:67:"/home/aptx/File/PHP/6rmh/public/../app/index/mobile/user/index.html";i:1509693075;s:70:"/home/aptx/File/PHP/6rmh/public/../app/index/mobile/public/footer.html";i:1509929910;}*/ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -10,6 +10,7 @@
 	<link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 	<link href="http://cdn.bootcss.com/bootstrap-fileinput/4.4.2/css/fileinput.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="__STATIC__/css/plugin/mall_mobile_footer.css">
+	<script src="http://cdn.bootcss.com/bootstrap-fileinput/4.3.9/js/locales/zh.min.js"></script>
 	<script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
 	<script src="http://cdn.bootcss.com/bootstrap-fileinput/4.4.2/js/fileinput.min.js"></script>
 </head>
@@ -59,6 +60,7 @@
 		<form method="post" role="form" action="<?php echo url('editor'); ?>" enctype="multipart/form-data">
 		<div class="change_info">
 			<!-- <img class="hp_100 wp_100 o_h" src="<?php echo $users['headimgurl']; ?>" alt="用户头像未显示"> -->
+			<div class="change_cont"></div>
 			<div class="change_cont">
 				<span class="left">昵称：</span>
 				<span class="right"><input id="shows" class="" type="text" name="name" value="<?php echo $users['name']; ?>" required></span>
@@ -99,13 +101,14 @@
 			    <span class="left">上传头像：</span>
 			    <span class="right">
 			        <div class="">
-			            <input id="headimg" type="file" accept="image/*" name="headimg" upurl=""/>
+			            <input id="headimg" type="file" accept="image/*" class="fileinput" name="headimg" upurl=""/>
 			        </div>
-			       <!--  <script>
-			           initFileInput('headimg', $('input#headimg').attr('upurl'));
-			       </script> -->
+			        <script>
+			            initFileInput('headimg', $('input#headimg').attr('upurl'));
+			        </script>
 			    </span>
 			</div>
+			
 			<div class="submit-button">
 				提交
 			</div>
@@ -127,6 +130,9 @@
        </li>
 	</div>
 	<!--底部-->
+<div class="overflow">
+    
+</div>
 <div class="footer">
         <div class="top fa fa-bars" aria-hidden="true"></div>
         <div class="footer_content">
@@ -139,9 +145,11 @@
 <script>
     $('.top').click(function(event) {
       $('.footer_content').slideToggle(200);
+      $('.overflow').slideToggle(200);
     });
      $('.footer').siblings().click(function(event) {
          /* Act on the event */
+          $('.overflow').slideUp(200);
          $('.footer_content').slideUp(200);
      });
 </script>
@@ -149,7 +157,7 @@
 </body>
 <script>
 	$('.body li').css('height', $('.body li').width());
-	$('.setting-content').height($(document).height());
+	$('.setting-content').height($(document).height()+48);
 	$('.setting').click(function(event) {
 		
 		$('.setting-content').css('display','block');

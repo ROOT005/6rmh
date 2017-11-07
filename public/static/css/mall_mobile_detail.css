@@ -189,3 +189,6 @@ s{
     color: #fff;
     background: #458b83;
 }
+.comment{
+    min-height: 30em;
+}

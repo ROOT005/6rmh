@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:70:"/home/aptx/File/PHP/6rmh/public/../app/index/mobile/order/preview.html";i:1508832926;s:70:"/home/aptx/File/PHP/6rmh/public/../app/index/mobile/public/footer.html";i:1508832926;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:70:"/home/aptx/File/PHP/6rmh/public/../app/index/mobile/order/preview.html";i:1510014167;s:70:"/home/aptx/File/PHP/6rmh/public/../app/index/mobile/public/footer.html";i:1509929910;}*/ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -14,6 +14,7 @@
     <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
 </head>
 <body data-ng-app="myApp">
+    <form action="<?php echo url('order/create'); ?>" method="post">
     <div ng-controller="previewCtrl">
         <div class="more-info-navbar">
             订单
@@ -40,14 +41,14 @@
                         </div>
                         <br>
                         <div class="info_footer">
-                            <a class="footer_edit" href="" title="">编辑</a>
+                            <a class="footer_edit" href="/index/address/edit/id/<?php echo $vo['id']; ?>" title="">编辑</a>
                         </div>
                     </div> 
                  <?php endforeach; endif; else: echo "" ;endif; else: ?>
-                <a href="" title="">+添加收货地址</a>
+                <a href="/index/address/index" title="">+添加收货地址</a>
            <?php endif; ?> 
            <div class="footer_right" >
-                <a href="" title="">新增</a>
+                <a href="/index/address/index" title="">新增</a>
            </div>
         </div>
         <div class="paper pay_way">
@@ -89,11 +90,20 @@
             </div>
             <?php endforeach; endif; else: echo "" ;endif; ?>
         </div>
+        <div>
+           <input type="hidden" name="id_list" value="<?php echo $id_list; ?>"/><!--商品列表ID-->
+           <input type="hidden" name="pay" value="{{isChose}}"/><!--支付方式-->
+           <input type="hidden" name="addr" value="{{addrID}}"/><!--收货地址-->
+           <input type="hidden" name="delivery" value="{{delivery}}"/><!--配送方式--> 
+        </div>
         <div class="pay">
             <div>支付</div>
         </div>
     </div>
     <!--底部-->
+<div class="overflow">
+    
+</div>
 <div class="footer">
         <div class="top fa fa-bars" aria-hidden="true"></div>
         <div class="footer_content">
@@ -106,13 +116,16 @@
 <script>
     $('.top').click(function(event) {
       $('.footer_content').slideToggle(200);
+      $('.overflow').slideToggle(200);
     });
      $('.footer').siblings().click(function(event) {
          /* Act on the event */
+          $('.overflow').slideUp(200);
          $('.footer_content').slideUp(200);
      });
 </script>
 <!--底部结束-->
+</form>
     <script>
         var app = angular.module('myApp', []);
         app.controller('previewCtrl', function($scope) {
@@ -131,6 +144,9 @@
             $scope.deliverySelect = function($id){
                 $scope.delivery = $id;
             }
+        });
+        $('.pay').click(function(){
+            $('form').submit();
         });
     </script>
 </body>

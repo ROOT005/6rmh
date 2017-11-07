@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:67:"/home/aptx/File/PHP/6rmh/public/../app/index/mobile/cart/index.html";i:1508900866;s:70:"/home/aptx/File/PHP/6rmh/public/../app/index/mobile/public/footer.html";i:1508832926;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:67:"/home/aptx/File/PHP/6rmh/public/../app/index/mobile/cart/index.html";i:1509957807;s:70:"/home/aptx/File/PHP/6rmh/public/../app/index/mobile/public/footer.html";i:1509929910;}*/ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -82,6 +82,9 @@
         </div>
     </div>
     <!--底部-->
+<div class="overflow">
+    
+</div>
 <div class="footer">
         <div class="top fa fa-bars" aria-hidden="true"></div>
         <div class="footer_content">
@@ -94,9 +97,11 @@
 <script>
     $('.top').click(function(event) {
       $('.footer_content').slideToggle(200);
+      $('.overflow').slideToggle(200);
     });
      $('.footer').siblings().click(function(event) {
          /* Act on the event */
+          $('.overflow').slideUp(200);
          $('.footer_content').slideUp(200);
      });
 </script>
@@ -142,14 +147,8 @@
             $(this).parent().nextAll('.good-option').fadeIn(100);
             event.stopPropagation();
         });
-       /* $('.goods-detail').click(function(){
-            $(this).next().fadeOut(100);
-            $(this).parent().animate({
-                left: '0em'
-            },100);
-        });*/
-        $('.edit').parent().siblings().click(function(){
-            $(this).nextAll('.good-option').fadeOut(100);
+        $('.edit').parent().parent().children().click(function(){
+            $('.good-option').fadeOut(100);
             $(this).parents().animate({
                 left:'0em'
             },100);

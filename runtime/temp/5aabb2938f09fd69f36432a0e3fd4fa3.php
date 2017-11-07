@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:68:"/home/aptx/File/PHP/6rmh/public/../app/index/mobile/cart/status.html";i:1508832185;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:68:"/home/aptx/File/PHP/6rmh/public/../app/index/mobile/cart/status.html";i:1509928958;}*/ ?>
 <!-- <h1 style="text-align: center;color: #6ad4c9;">添加成功!</h1><script>setTimeout(history.go(-1),5000);</script> -->
 <!DOCTYPE html>
 <html>
@@ -18,13 +18,20 @@
 		}
 
 		a{
-			text-align: center;
 			text-decoration: none;
 			display: inline-block;
+			color: #6ad4c9;
+			font-size: 1em;
 		}
 		.button{
 			position: relative;
-			bottom: 2em;
+			bottom: 4em;
+		}
+		.show_detail{
+			text-align: left;
+		}
+		.go-cart{
+			text-align: right;
 		}
 	</style>
 </head>

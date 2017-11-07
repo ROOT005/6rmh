@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:68:"/home/aptx/File/PHP/6rmh/public/../app/index/mobile/order/index.html";i:1508917051;s:70:"/home/aptx/File/PHP/6rmh/public/../app/index/mobile/public/footer.html";i:1508832926;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:68:"/home/aptx/File/PHP/6rmh/public/../app/index/mobile/order/index.html";i:1508917051;s:70:"/home/aptx/File/PHP/6rmh/public/../app/index/mobile/public/footer.html";i:1509929910;}*/ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -77,6 +77,9 @@
        </div>
 	<?php endforeach; endif; else: echo "" ;endif; ?>
     <!--底部-->
+<div class="overflow">
+    
+</div>
 <div class="footer">
         <div class="top fa fa-bars" aria-hidden="true"></div>
         <div class="footer_content">
@@ -89,9 +92,11 @@
 <script>
     $('.top').click(function(event) {
       $('.footer_content').slideToggle(200);
+      $('.overflow').slideToggle(200);
     });
      $('.footer').siblings().click(function(event) {
          /* Act on the event */
+          $('.overflow').slideUp(200);
          $('.footer_content').slideUp(200);
      });
 </script>

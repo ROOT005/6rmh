@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:5:{s:65:"/home/aptx/File/PHP/6rmh/public/../app/index/view/cart/index.html";i:1506132457;s:69:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./public/index.html";i:1507856018;s:67:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./public/top.html";i:1507856018;s:70:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./public/header.html";i:1507856018;s:70:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./public/footer.html";i:1507856018;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:5:{s:65:"/home/aptx/File/PHP/6rmh/public/../app/index/view/cart/index.html";i:1508832185;s:69:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./public/index.html";i:1509933601;s:67:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./public/top.html";i:1508832185;s:70:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./public/header.html";i:1508832185;s:70:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./public/footer.html";i:1508832185;}*/ ?>
 <!DOCTYPE html>
 <html lang="en" >
 <head>
@@ -28,7 +28,6 @@
     <script src="https://cdn.bootcss.com/angular.js/1.5.0-beta.0/angular-sanitize.min.js"></script>-->
     
     <!--<script src="__JS__/mall/mall_default_layout.js"></script>-->
-   
 </head>
 <body data-ng-app="myApp" class="web-body" >
     <header class=" web-top  wp_100 ">
