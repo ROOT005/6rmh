@@ -10,7 +10,7 @@ use think\Db;
 class Cart extends Common
 {
     public function index(){
-        
+        $flag = false;
         $user = decodeCookie('user');
         $mallObj = new Mall();
         // 查出购物车信息，包括
@@ -45,14 +45,16 @@ class Cart extends Common
             }
 
             // return dump($cart); //打印
-
-            $this->assign('all_cart', json_encode($cart_list)); //把全部购物车ID
-
+            $all_cart = json_encode($cart_list);
+            //$this->assign('all_cart', json_encode($cart_list)); //把全部购物车ID
+            $flag = true;
         }else{
-            return '没有商品'; die;
+            $flag = false;
         }
         
         $this->assign('carts', $cart);
+        $this->assign('flag', $flag);
+        $this->assign('all_cart', isset($all_cart)?$all_cart:'');
         $config = mallConfig();
         $this->assign('config', ['page_title'=>'购物车', 'template'=>$config['mall_template']['value'] ]);
 
@@ -118,6 +120,7 @@ class Cart extends Common
 
         $goods = $this->getCartGoods($id, $sid);
         
+        // return dump($goods);
         if($goods['status'] != 1 || empty($goods)){
             return $this->error('商品已下架'); exit;
         }
@@ -131,6 +134,7 @@ class Cart extends Common
         #有则数量相加、没有则新建一条
         $cart = Db::name('cart') -> where(['buyer_id'=>session(config('USER_ID')), 
             'goods_id'=>$id, 'spec'=>$sid]) -> find();
+
         if(empty($cart)){ //空的，新加
             $data = ['buyer_id'=>Session::get(Config::get('USER_ID')), 
                 'seller_id'=>$goods['userid'], 'goods_id'=>$id, 

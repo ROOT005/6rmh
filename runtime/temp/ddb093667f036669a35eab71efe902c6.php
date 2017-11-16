@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:5:{s:65:"/home/aptx/File/PHP/6rmh/public/../app/index/view/cart/index.html";i:1508832185;s:69:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./public/index.html";i:1509933601;s:67:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./public/top.html";i:1508832185;s:70:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./public/header.html";i:1508832185;s:70:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./public/footer.html";i:1508832185;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:5:{s:65:"/home/aptx/File/PHP/6rmh/public/../app/index/view/cart/index.html";i:1510619768;s:69:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./public/index.html";i:1510619768;s:67:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./public/top.html";i:1510619768;s:70:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./public/header.html";i:1508832185;s:70:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./public/footer.html";i:1508832185;}*/ ?>
 <!DOCTYPE html>
 <html lang="en" >
 <head>
@@ -28,6 +28,7 @@
     <script src="https://cdn.bootcss.com/angular.js/1.5.0-beta.0/angular-sanitize.min.js"></script>-->
     
     <!--<script src="__JS__/mall/mall_default_layout.js"></script>-->
+   
 </head>
 <body data-ng-app="myApp" class="web-body" >
     <header class=" web-top  wp_100 ">
@@ -41,8 +42,18 @@
     
     <ul class="fa-ul pull-right">
         <li>
+            <a href="{{logout}}">
+                <i class=" fa-li fa fa-user"></i>注销
+            </a>
+        </li>
+        <li>
             <a href="{{mobile}}" target="_blank">
                 <i class=" fa-li fa fa-qrcode"></i>手机商城
+            </a>
+        </li>
+        <li>
+            <a href="/index/help/index" target="_blank">
+                <i class=" fa-li fa fa-hand-paper-o"></i>帮助中心
             </a>
         </li>
         <li>
@@ -50,9 +61,10 @@
                 <i class=" fa-li fa fa-list-ul"></i>我的订单
             </a>
         </li>
+        
         <li>
-            <a href="{{collection}}" target="_blank">
-                <i class=" fa-li fa fa-heart"></i>收藏夹
+            <a href="{{cart}}" target="_blank">
+                <i class=" fa-li fa fa-heart"></i>购物车
             </a>
         </li>
         <li >
@@ -60,7 +72,11 @@
                 <i class=" fa-li fa fa-user"></i>会员中心
             </a>
         </li>
-
+        <li>
+            <a href="{{index}}" target="_blank">
+                <i class=" fa-li fa fa-qrcode"></i>进入商城
+            </a>
+        </li>
         
     </ul>
 
@@ -71,10 +87,13 @@
         $http.get('/index/index/topInfo')
         .then(function successCallback(response){
             $scope.top = response.data.left;
+            
+            $scope.logout = response.data.right.logout;
             $scope.mobile = response.data.right.mobile;
             $scope.order = response.data.right.order;
-            $scope.collection = response.data.right.collection;
+            $scope.cart = response.data.right.cart;
             $scope.user = response.data.right.user;
+            $scope.index = response.data.right.index;
 
         }, function errorCallback(response){
             console.log('失败');
@@ -177,6 +196,7 @@
         <div class=" wp_10">小计</div>
         <div class=" wp_5">操作</div>
     </div>
+    <?php if($flag == true): ?>
     <div class="more-info-detail wp_100" >
         <?php if(is_array($carts) || $carts instanceof \think\Collection || $carts instanceof \think\Paginator): $i = 0; $__LIST__ = $carts;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?>
             <div class="cart-goods-record  wp_100">
@@ -196,7 +216,6 @@
                             获得<?php echo $vo['point']; ?>积分
                         </a>
                     </p>
-                    <!--<a href="javascript: void(0);">促销活动：</a>-->
                     <?php if($vo['promotion'] != ''): ?>
                     <span class="goods-promotion " >
                         <?php echo $vo['promotion']; ?>
@@ -241,7 +260,19 @@
             <button class="submit-btn-default ">去结算</button>
         </a>
     </div>
-</div>
+    <?php else: ?>
+        <div style="width: 1200px; height: 100px; line-height: 100px; font-size: 26px;" class="t_c">
+            暂无商品，<a href="/index/index/index" style="font-size: 20px; color: #6ad4c9;">前往选购</a>
+        </div>
+        <div class="more-info-navbar wp_100">
+
+
+        <a class="pull-right" href="/index/index/index" title="前往购物">
+            <button class="submit-btn-default ">前往购物</button>
+        </a>
+    </div>
+    <?php endif; ?>
+
 
 <script>
     app.controller('cartCtrl', function($scope) {

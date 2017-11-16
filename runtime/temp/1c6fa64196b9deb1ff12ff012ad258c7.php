@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:5:{s:68:"/home/aptx/File/PHP/6rmh/public/../app/index/view/user/passcode.html";i:1506131567;s:68:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./public/user.html";i:1508145256;s:67:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./public/top.html";i:1507856018;s:65:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./user/nav.html";i:1507941230;s:70:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./public/footer.html";i:1507856018;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:5:{s:68:"/home/aptx/File/PHP/6rmh/public/../app/index/view/user/passcode.html";i:1510619768;s:68:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./public/user.html";i:1508832926;s:67:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./public/top.html";i:1510619768;s:65:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./user/nav.html";i:1508832185;s:70:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./public/footer.html";i:1508832185;}*/ ?>
 <!DOCTYPE html>
 <html lang="en" >
 <head>
@@ -38,8 +38,18 @@
     
     <ul class="fa-ul pull-right">
         <li>
+            <a href="{{logout}}">
+                <i class=" fa-li fa fa-user"></i>注销
+            </a>
+        </li>
+        <li>
             <a href="{{mobile}}" target="_blank">
                 <i class=" fa-li fa fa-qrcode"></i>手机商城
+            </a>
+        </li>
+        <li>
+            <a href="/index/help/index" target="_blank">
+                <i class=" fa-li fa fa-hand-paper-o"></i>帮助中心
             </a>
         </li>
         <li>
@@ -47,9 +57,10 @@
                 <i class=" fa-li fa fa-list-ul"></i>我的订单
             </a>
         </li>
+        
         <li>
-            <a href="{{collection}}" target="_blank">
-                <i class=" fa-li fa fa-heart"></i>收藏夹
+            <a href="{{cart}}" target="_blank">
+                <i class=" fa-li fa fa-heart"></i>购物车
             </a>
         </li>
         <li >
@@ -57,7 +68,11 @@
                 <i class=" fa-li fa fa-user"></i>会员中心
             </a>
         </li>
-
+        <li>
+            <a href="{{index}}" target="_blank">
+                <i class=" fa-li fa fa-qrcode"></i>进入商城
+            </a>
+        </li>
         
     </ul>
 
@@ -68,10 +83,13 @@
         $http.get('/index/index/topInfo')
         .then(function successCallback(response){
             $scope.top = response.data.left;
+            
+            $scope.logout = response.data.right.logout;
             $scope.mobile = response.data.right.mobile;
             $scope.order = response.data.right.order;
-            $scope.collection = response.data.right.collection;
+            $scope.cart = response.data.right.cart;
             $scope.user = response.data.right.user;
+            $scope.index = response.data.right.index;
 
         }, function errorCallback(response){
             console.log('失败');
@@ -82,7 +100,7 @@
     </header>
     
     <!--显示头像和二维码-->
-    <div class="content-panel" style="height: 120px;; padding: 0 2%;">
+    <div class="content-panel" style="height: 120px; margin-top: 20px; padding: 0 2%;">
         <a href="javascript: void(0);" title="点击更新二维码">
             <img class="f_r" style="height: 120px; width: 120px;" src="<?php echo $cookie['qr_code']; ?>"/>
         </a>
@@ -214,8 +232,8 @@
 
             
 <style>
-
-    .f_c{color: #666;}
+    .f_c{color: #999;}
+    .input_border{border: 1px solid #e0e0e0;padding: 0px 10px;color:#666}
 </style>
 <form class="form-horizontal" method="post" role="form" action="<?php echo url('password'); ?>" enctype="multipart/form-data">
 <div class="user-panel address">
@@ -231,15 +249,15 @@
         <div class="wp_50  f_l m_t50">
             <div class="wp_100 m_t l_h_50">
                 <span class="wp_20 f_l t_r f_c">原密码：</span>
-                <span class="wp_80 f_l t_l f_c"><input class="w280 h30 f_c" type="text" name="old-password" value=""></span>   
+                <span class="wp_80 f_l t_l f_c"><input class="w280 h30 input_border" type="text" name="oldpassword" value=""></span>   
             </div>
             <div class="wp_100 m_t l_h_50">
                 <span class="wp_20 f_l t_r f_c">新密码：</span>
-                <span class="wp_80 f_l t_l f_c"><input class="w280 h30 f_c" type="text" name="pass" value=""></span>   
+                <span class="wp_80 f_l t_l f_c"><input class="w280 h30 input_border" type="text" name="pass" value=""></span>   
             </div>
             <div class="wp_100 m_t l_h_50">
                 <span class="wp_20 f_l t_r f_c">重复密码：</span>
-                <span class="wp_80 f_l t_l f_c"><input class="w280 h30 f_c" type="text" name="repass" value=""></span>   
+                <span class="wp_80 f_l t_l f_c"><input class="w280 h30 input_border" type="text" name="repass" value=""></span>   
             </div>
         </div>
         <div class="wp_25  f_l"></div>
@@ -267,15 +285,15 @@
         <div class="wp_50  f_l m_t50">
             <div class="wp_100 m_t l_h_50">
                 <span class="wp_20 f_l t_r f_c">原密码：</span>
-                <span class="wp_80 f_l t_l f_c"><input class="w280 h30 f_c" type="text" name="old-password" value=""></span>   
+                <span class="wp_80 f_l t_l f_c"><input class="w280 h30 input_border" type="text" name="oldpassword" value=""></span>   
             </div>
             <div class="wp_100 m_t l_h_50">
                 <span class="wp_20 f_l t_r f_c">新密码：</span>
-                <span class="wp_80 f_l t_l f_c"><input class="w280 h30 f_c" type="text" name="pass" value=""></span>   
+                <span class="wp_80 f_l t_l f_c"><input class="w280 h30 input_border" type="text" name="pass" value=""></span>   
             </div>
             <div class="wp_100 m_t l_h_50">
                 <span class="wp_20 f_l t_r f_c">重复密码：</span>
-                <span class="wp_80 f_l t_l f_c"><input class="w280 h30 f_c" type="text" name="repass" value=""></span>   
+                <span class="wp_80 f_l t_l f_c"><input class="w280 h30 input_border" type="text" name="repass" value=""></span>   
             </div>
         </div>
         <div class="wp_25  f_l"></div>

@@ -1,0 +1,225 @@
+[ 2017-11-10T09:34:00+08:00 ] 127.0.0.2 127.0.0.1 GET /index/login/index
+[ log ] www.sixer.com/index/login/index [运行时间：0.173939s][吞吐率：5.75req/s] [内存消耗：2,265.70kb] [文件加载：42]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64; rv:58.0) Gecko/20100101 Firefox/58.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.sixer.com/index/user/',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/index/login/index' => '',
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/view/login/index.html [ array (
+  0 => 'header',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-11-10T09:34:02+08:00 ] 127.0.0.2 127.0.0.1 GET /index/index/footerinfo
+[ log ] www.sixer.com/index/index/footerinfo [运行时间：0.331197s][吞吐率：3.02req/s] [内存消耗：3,256.56kb] [文件加载：50]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'footerinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64; rv:58.0) Gecko/20100101 Firefox/58.0',
+  'accept' => 'application/json, text/plain, */*',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.sixer.com/index/login/index',
+  'cookie' => 'PHPSESSID=tea6edceiv87ou1ubvc1s07in6biveskm911buk0rak3vq8bp0o1',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/footerinfo' => '',
+)
+[ info ] [ RUN ] app\index\controller\Index->footerInfo[ /home/aptx/File/PHP/6rmh/app/index/controller/Index.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-11-10T09:34:02+08:00 ] 127.0.0.2 127.0.0.1 GET /index/index/index
+[ log ] www.sixer.com/index/index/index [运行时间：0.604951s][吞吐率：1.65req/s] [内存消耗：3,373.43kb] [文件加载：53]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64; rv:58.0) Gecko/20100101 Firefox/58.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.sixer.com/index/login/index',
+  'cookie' => 'PHPSESSID=tea6edceiv87ou1ubvc1s07in6biveskm911buk0rak3vq8bp0o1',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/index' => '',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/view/index/special.html [ array (
+  0 => 'goods',
+  1 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-11-10T09:34:02+08:00 ] 127.0.0.2 127.0.0.1 GET /index/login/index
+[ log ] www.sixer.com/index/login/index [运行时间：0.414130s][吞吐率：2.41req/s] [内存消耗：2,266.97kb] [文件加载：42]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64; rv:58.0) Gecko/20100101 Firefox/58.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.sixer.com/index/login/index',
+  'cookie' => 'PHPSESSID=tea6edceiv87ou1ubvc1s07in6biveskm911buk0rak3vq8bp0o1',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/index/login/index' => '',
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ /home/aptx/File/PHP/6rmh/app/index/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /home/aptx/File/PHP/6rmh/public/../app/index/view/login/index.html [ array (
+  0 => 'header',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-11-10T09:34:05+08:00 ] 127.0.0.2 127.0.0.1 GET /static/css/hexagon/img/7.jpg
+[ log ] www.sixer.com/static/css/hexagon/img/7.jpg [运行时间：0.068463s][吞吐率：14.61req/s] [内存消耗：1,915.22kb] [文件加载：37]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'css',
+    2 => 'hexagon',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64; rv:58.0) Gecko/20100101 Firefox/58.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.sixer.com/index/index/index',
+  'cookie' => 'PHPSESSID=tea6edceiv87ou1ubvc1s07in6biveskm911buk0rak3vq8bp0o1',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/static/css/hexagon/img/7_jpg' => '',
+  'img' => '7.jpg',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-11-10T09:34:06+08:00 ] 127.0.0.2 127.0.0.1 GET /index/index/topInfo
+[ log ] www.sixer.com/index/index/topInfo [运行时间：0.463173s][吞吐率：2.16req/s] [内存消耗：3,257.34kb] [文件加载：50]
+[ info ] [ LANG ] /home/aptx/File/PHP/6rmh/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'topInfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.sixer.com',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64; rv:58.0) Gecko/20100101 Firefox/58.0',
+  'accept' => 'application/json, text/plain, */*',
+  'accept-language' => 'zh-CN,en-US;q=0.7,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.sixer.com/index/index/index',
+  'cookie' => 'PHPSESSID=tea6edceiv87ou1ubvc1s07in6biveskm911buk0rak3vq8bp0o1',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/topInfo' => '',
+)
+[ info ] [ RUN ] app\index\controller\Index->topInfo[ /home/aptx/File/PHP/6rmh/app/index/controller/Index.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'keep_',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------

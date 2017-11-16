@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:5:{s:68:"/home/aptx/File/PHP/6rmh/public/../app/index/view/order/preview.html";i:1508832185;s:69:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./public/index.html";i:1509933601;s:67:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./public/top.html";i:1508832185;s:70:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./public/header.html";i:1508832185;s:70:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./public/footer.html";i:1508832185;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:5:{s:68:"/home/aptx/File/PHP/6rmh/public/../app/index/view/order/preview.html";i:1508832185;s:69:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./public/index.html";i:1510619768;s:67:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./public/top.html";i:1510619768;s:70:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./public/header.html";i:1508832185;s:70:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./public/footer.html";i:1508832185;}*/ ?>
 <!DOCTYPE html>
 <html lang="en" >
 <head>
@@ -28,6 +28,7 @@
     <script src="https://cdn.bootcss.com/angular.js/1.5.0-beta.0/angular-sanitize.min.js"></script>-->
     
     <!--<script src="__JS__/mall/mall_default_layout.js"></script>-->
+   
 </head>
 <body data-ng-app="myApp" class="web-body" >
     <header class=" web-top  wp_100 ">
@@ -41,8 +42,18 @@
     
     <ul class="fa-ul pull-right">
         <li>
+            <a href="{{logout}}">
+                <i class=" fa-li fa fa-user"></i>注销
+            </a>
+        </li>
+        <li>
             <a href="{{mobile}}" target="_blank">
                 <i class=" fa-li fa fa-qrcode"></i>手机商城
+            </a>
+        </li>
+        <li>
+            <a href="/index/help/index" target="_blank">
+                <i class=" fa-li fa fa-hand-paper-o"></i>帮助中心
             </a>
         </li>
         <li>
@@ -50,9 +61,10 @@
                 <i class=" fa-li fa fa-list-ul"></i>我的订单
             </a>
         </li>
+        
         <li>
-            <a href="{{collection}}" target="_blank">
-                <i class=" fa-li fa fa-heart"></i>收藏夹
+            <a href="{{cart}}" target="_blank">
+                <i class=" fa-li fa fa-heart"></i>购物车
             </a>
         </li>
         <li >
@@ -60,7 +72,11 @@
                 <i class=" fa-li fa fa-user"></i>会员中心
             </a>
         </li>
-
+        <li>
+            <a href="{{index}}" target="_blank">
+                <i class=" fa-li fa fa-qrcode"></i>进入商城
+            </a>
+        </li>
         
     </ul>
 
@@ -71,10 +87,13 @@
         $http.get('/index/index/topInfo')
         .then(function successCallback(response){
             $scope.top = response.data.left;
+            
+            $scope.logout = response.data.right.logout;
             $scope.mobile = response.data.right.mobile;
             $scope.order = response.data.right.order;
-            $scope.collection = response.data.right.collection;
+            $scope.cart = response.data.right.cart;
             $scope.user = response.data.right.user;
+            $scope.index = response.data.right.index;
 
         }, function errorCallback(response){
             console.log('失败');

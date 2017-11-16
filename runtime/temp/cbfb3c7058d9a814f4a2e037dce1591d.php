@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:5:{s:65:"/home/aptx/File/PHP/6rmh/public/../app/index/view/user/index.html";i:1508832185;s:68:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./public/user.html";i:1508832926;s:67:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./public/top.html";i:1508832185;s:65:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./user/nav.html";i:1508832185;s:70:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./public/footer.html";i:1508832185;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:5:{s:65:"/home/aptx/File/PHP/6rmh/public/../app/index/view/user/index.html";i:1510816681;s:68:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./public/user.html";i:1508832926;s:67:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./public/top.html";i:1510619768;s:65:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./user/nav.html";i:1508832185;s:70:"/home/aptx/File/PHP/6rmh/public/../app/index/view/./public/footer.html";i:1508832185;}*/ ?>
 <!DOCTYPE html>
 <html lang="en" >
 <head>
@@ -38,8 +38,18 @@
     
     <ul class="fa-ul pull-right">
         <li>
+            <a href="{{logout}}">
+                <i class=" fa-li fa fa-user"></i>注销
+            </a>
+        </li>
+        <li>
             <a href="{{mobile}}" target="_blank">
                 <i class=" fa-li fa fa-qrcode"></i>手机商城
+            </a>
+        </li>
+        <li>
+            <a href="/index/help/index" target="_blank">
+                <i class=" fa-li fa fa-hand-paper-o"></i>帮助中心
             </a>
         </li>
         <li>
@@ -47,9 +57,10 @@
                 <i class=" fa-li fa fa-list-ul"></i>我的订单
             </a>
         </li>
+        
         <li>
-            <a href="{{collection}}" target="_blank">
-                <i class=" fa-li fa fa-heart"></i>收藏夹
+            <a href="{{cart}}" target="_blank">
+                <i class=" fa-li fa fa-heart"></i>购物车
             </a>
         </li>
         <li >
@@ -57,7 +68,11 @@
                 <i class=" fa-li fa fa-user"></i>会员中心
             </a>
         </li>
-
+        <li>
+            <a href="{{index}}" target="_blank">
+                <i class=" fa-li fa fa-qrcode"></i>进入商城
+            </a>
+        </li>
         
     </ul>
 
@@ -68,10 +83,13 @@
         $http.get('/index/index/topInfo')
         .then(function successCallback(response){
             $scope.top = response.data.left;
+            
+            $scope.logout = response.data.right.logout;
             $scope.mobile = response.data.right.mobile;
             $scope.order = response.data.right.order;
-            $scope.collection = response.data.right.collection;
+            $scope.cart = response.data.right.cart;
             $scope.user = response.data.right.user;
+            $scope.index = response.data.right.index;
 
         }, function errorCallback(response){
             console.log('失败');
@@ -217,12 +235,10 @@
     .m_a{margin: 0 auto;}
     .user_headimg{margin-top: 15px;box-shadow: 0 3px 10px #949894;}
     
-    .f_c{color: #666;}
+    .f_c{color: #999;}
+    .f_color{color: #666;}
     .l_h_40{line-height: 40px;}
-    .file_btn{border:1px solid #666;border-radius: 5px;}
-    .file_btn:hover{background: #CDCDCD;}
-    .edits{color: #005EA7;}
-    .edits:hover{color: #E4393C;}
+    .input_border{border: 1px solid #e0e0e0;padding: 0px 10px;color:#666}W
 </style>
 <form class="form-horizontal" method="post" role="form" action="<?php echo url('editor'); ?>" enctype="multipart/form-data">
 <div class="user-panel address">
@@ -234,52 +250,59 @@
         </ul>
     </div>
     <div class="wp_100">
-        <div class="wp_25  f_l">&nbsp;</div>
-        <div class="wp_50  f_l">
+        <div class="wp_15  f_l">&nbsp;</div>
+        <div class="wp_70  f_l">
             <input type="hidden" name="id" value="<?php echo $users['id']; ?>"/>
             <div class="w100 h100 m_a user_headimg">
                 <img class="hp_100 wp_100 o_h" src="<?php echo $users['headimgurl']; ?>" alt="用户头像未显示">
             </div>
             <div class="wp_100 m_t20 l_h_40">
-                <span class="wp_40 f_l t_r f_c">昵称：</span>
-                <span class="wp_50 f_l t_l f_c"><input id="shows" class="w150 h30 f_c" type="text" name="name" value="<?php echo $users['name']; ?>" required></span>
+                <span class="wp_30 f_l t_r f_c">昵称：</span>
+                <span class="wp_5 f_l t_r f_c">&nbsp;</span>
+                <span class="wp_50 f_l t_l"><input id="shows" class="w250 h30 input_border" type="text" name="name" value="<?php echo $users['name']; ?>" required></span>
                 <!-- <span id="edits" class="wp_10 edits">修改</span> -->
             </div>
             <div class="wp_100 l_h_40">
-                <span class="wp_40 f_l t_r f_c">真实姓名：</span>
-                <span class="wp_60 f_l t_l f_c"><?php echo $users['realname']; ?></span>
+                <span class="wp_30 f_l t_r f_c">真实姓名：</span>
+                <span class="wp_5 f_l t_r f_c">&nbsp;</span>
+                <span class="wp_50 f_l t_l f_color"><?php echo $users['realname']; ?></span>
             </div>
             <div class="wp_100 m_t20 l_h_40">
-                <span class="wp_40 f_l t_r f_c">性别：</span>
-                <span class="wp_60 f_l t_l f_c">
+                <span class="wp_30 f_l t_r f_c">性别：</span>
+                <span class="wp_5 f_l t_r f_c">&nbsp;</span>
+                <span class="wp_50 f_l t_l f_c">
                     <?php if($users['sex']==1): ?>
-                    <input type="radio" name="sex" value="1" checked/>&nbsp;男&nbsp;&nbsp;
-                    <input type="radio" name="sex" value="0" />&nbsp;女
+                    <input type="radio" name="sex" value="1" checked/>&nbsp;<span class="f_color">男</span>&nbsp;&nbsp;
+                    <input type="radio" name="sex" value="0" />&nbsp;<span class="f_color">女</span>
                     <?php else: ?>
-                    <input type="radio" name="sex" value="1" />&nbsp;男&nbsp;&nbsp;
-                    <input type="radio" name="sex" value="0" checked/>&nbsp;女
+                    <input type="radio" name="sex" value="1" />&nbsp;<span class="f_color">男</span>&nbsp;&nbsp;
+                    <input type="radio" name="sex" value="0" checked/>&nbsp;<span class="f_color">女</span>
                     <?php endif; ?>
                 </span>
             </div>
             <div class="wp_100 m_t20 l_h_40">
-                <span class="wp_40 f_l t_r f_c">手机号：</span>
-                <span class="wp_60 f_l t_l f_c"><input id="mobile" class="w150 h30 f_c" type="text" name="mobile" value="<?php echo $users['mobile']; ?>" pattern='^\d{11}$'></span>
+                <span class="wp_30 f_l t_r f_c">手机号：</span>
+                <span class="wp_5 f_l t_r f_c">&nbsp;</span>
+                <span class="wp_50 f_l t_l"><input id="mobile" class="w250 h30 input_border" type="text" name="mobile" value="<?php echo $users['mobile']; ?>" pattern='^\d{11}$'></span>
                 
             </div>
             <div class="wp_100 m_t20 l_h_40">
-                <span class="wp_40 f_l t_r f_c">QQ：</span>
-                <span class="wp_60 f_l t_l f_c"><input id="qq" class="w150 h30 f_c" type="text" name="qq" value="<?php echo $users['qq']; ?>"></span>
+                <span class="wp_30 f_l t_r f_c">QQ：</span>
+                <span class="wp_5 f_l t_r f_c">&nbsp;</span>
+                <span class="wp_50 f_l t_l"><input id="qq" class="w250 h30 input_border" type="text" name="qq" value="<?php echo $users['qq']; ?>"></span>
                 
             </div>
             <div class="wp_100 m_t20 l_h_40">
-                <span class="wp_40 f_l t_r f_c">邮箱：</span>
+                <span class="wp_30 f_l t_r f_c">邮箱：</span>
+                <span class="wp_5 f_l t_r f_c">&nbsp;</span>
                 <!-- 正则邮箱验证 pattern='/^[_.0-9a-z-]+@([0-9a-z][0-9a-z-]+.)+[a-z]{2,3}$/' -->
-                <span class="wp_60 f_l t_l f_c"><input id="email" class="w150 h30 f_c" type="text" name="email" value="<?php echo $users['email']; ?>" ></span>
+                <span class="wp_50 f_l t_l"><input id="email" class="w250 h30 input_border" type="text" name="email" value="<?php echo $users['email']; ?>" ></span>
                 
             </div>
             <div class="wp_100 m_t20 l_h_40">
-                <span class="wp_40 f_l t_r f_c">上传头像：</span>
-                <span class="wp_60 f_l t_l f_c">
+                <span class="wp_30 f_l t_r f_c">上传头像：</span>
+                <span class="wp_5 f_l t_r f_c">&nbsp;</span>
+                <span class="wp_50 f_l t_l f_c">
                     <div class="w90 h40 t_c">
                         <input id="headimg" type="file" accept="image/*" class="form-control fileinput" name="headimg" upurl=""/>
                     </div>
@@ -289,7 +312,7 @@
                 </span>
             </div>
         </div>
-        <div class="wp_25  f_l"></div>
+        <div class="wp_15  f_l"></div>
     </div>
 </div>
 <div class="clear"></div>
@@ -299,6 +322,8 @@
     </a>
 </div>
 </form>
+<?php if(is_array($users) || $users instanceof \think\Collection || $users instanceof \think\Paginator): if( count($users)==0 ) : echo "" ;else: foreach($users as $key=>$vo): ?>
+    <?php echo $vo; endforeach; endif; else: echo "" ;endif; ?>
 
         </div>
         

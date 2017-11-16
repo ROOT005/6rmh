@@ -72,7 +72,7 @@ input:focus{
 	display: inline-block;
 	text-align: center;
 	box-shadow: 0em 0em 0.25em #ccc;
-	border-radius: 0.5em;
+	border-radius: 1em;
 	margin: 0.25em 0em;
 }
 

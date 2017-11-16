@@ -35,7 +35,7 @@ class Inner extends Common
         $sell['value'] = input('value', 0, 'intval');
         $sell['money'] = input('money', 0, 'intval');
         $sell['selltime'] = input('selltime', 0, 'intval');
-        $sell['orderid'] = time();
+        $sell['order_id'] = time();
         $sell['userid'] = $id;
         $sell['type'] = input('type', 0, 'intval');  //1积分  2 鱼饵
         $sell['username'] = $userinfo['realname'];
@@ -72,7 +72,7 @@ class Inner extends Common
     //出售列表
     public function purchase(){
         $id = session(config('USER_ID'));
-        
+        $title = input('title', '', 'htmlspecialchars,trim');
         if(!empty($_POST)){
             $title = input('title', '', 'htmlspecialchars,trim');
             $begintime = input('begintime', '', 'htmlspecialchars,trim');
@@ -125,59 +125,36 @@ class Inner extends Common
         return $this->fetch();
     }
 
-    //个人资产（购买）
-    public function buy(){
-        $id = input('id', 0, 'intval');//dump($id);
-        
-        $list = Db::name('inner_shop') ->alias('a')
-            ->join('inner_goods b', 'a.type=b.id', 'LEFT')
-            ->field('a.*, b.pic')
-            ->where(['type' =>$id])
-            ->order('money ASC')
-            ->paginate();
-        
-        // dump($list);die;
-        $title = Db::name('inner_goods') -> field('title') ->select();
-        $config = mallConfig();
-        $this->assign('config', ['page_title'=>'交易平台', 'template'=>$config['mall_template']['value'] ]);
-        $this->assign('sum', ['status'=>false]);
-        $this->assign('time', ['status'=>false]);
-        $this->assign('times', ['status'=>false]);
-        $this->assign('timer', ['status'=>false]);
-        $this->assign('title', $title);
-        $this->assign('list', $list);
-        return $this->fetch('purchase');
-    }
     //余额支付
     public function pay(){
         
         $id = session(config('USER_ID'));
         $user = decodeCookie('user');
         $pass = input('pass',0,'intval');
-        $orderid = input('orderid', 0, 'intval');
+        $order_id = input('order_id', 0, 'intval');
         // if($order['status'] == 1){
-        //     $upd = Db::name('inner_shop') ->where(array('orderid'=>$orderid)) ->update(['status'=>3]);
+        //     $upd = Db::name('inner_shop') ->where(array('order_id'=>$order_id)) ->update(['status'=>3]);
             //输入框被选中
             if(isset($_POST['checkbox'])){
                 //判断密码是否为空
                 if(empty($pass)){
                     return $this->error('支付密码不可为空');
                 }
-                $order = db('inner_shop', [], false) ->where(['orderid' => $orderid]) ->find(); //fjw修改
+                $order = db('inner_shop', [], false) ->where(['order_id' => $order_id]) ->find(); //fjw修改
+                //查询用户信息
+                $userinfo = db('users', [], false)  ->where(array('id'=>$id)) ->find(); //$userinfo
                 
                 $pay['value'] = $order['value'];
                 $pay['type'] = $order['type'];
                 $pay['addtime'] = date('Y-m-d H:i:s',time());
                 $pay['money'] = $order['money'];
                 $pay['sellername'] = $order['username'];
-                $pay['userid'] = $orderid;
-                $pay['username'] = $user['realname'];
+                $pay['userid'] = $order_id;
+                $pay['username'] = $userinfo['realname'];
                 
                 $old_pwd = cryptCode($pass, 'ENCODE', substr(md5($pass), 0, 4));
                 
-                if($old_pwd == $user['pay_code']){
-                    //查询用户信息
-                    $userinfo = db('users', [], false)  ->where(array('id'=>$id)) ->find(); //$userinfo
+                if($old_pwd == $userinfo['pay_code']){
                     
                     if($pay['money'] > $userinfo['money']){
                         // 余额不足
@@ -199,7 +176,7 @@ class Inner extends Common
                     $res = Db::name('inner_log') ->insert($pay);
                     //交易成功后修改订单状态
                     if($order['status'] == 1){
-                        $upd = Db::name('inner_shop') ->where(array('orderid'=>$orderid)) ->update(['status'=>2]);
+                        $upd = Db::name('inner_shop') ->where(array('order_id'=>$order_id)) ->update(['status'=>2]);
                     }
     
                     if($res){  
@@ -215,9 +192,9 @@ class Inner extends Common
             } 
             
         // }else{
-        //         $order = Db::name('inner_shop') ->where(array('orderid'=>$orderid)) ->find();
+        //         $order = Db::name('inner_shop') ->where(array('order_id'=>$order_id)) ->find();
         //         if($order['status'] == 3){
-        //             $upd = Db::name('inner_shop') ->where(array('orderid'=>$orderid)) ->update(['status'=>1]);
+        //             $upd = Db::name('inner_shop') ->where(array('order_id'=>$order_id)) ->update(['status'=>1]);
         //         }
         //     }
                

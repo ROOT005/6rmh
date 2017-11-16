@@ -13,6 +13,10 @@ class Index extends controller
 
     public function index(){
         
+        // $user = decodeCookie('user');
+        // $id_list = explode(',', $user['id_list']);
+        // return dump(array_reverse($id_list));
+
         if(empty(session('LOCATION'))){
             $gaode = new Gaode();
             $gaode->IPLocation();
@@ -21,7 +25,6 @@ class Index extends controller
         if(Session::get(Config::get('USER_ID'))){
             $user = decodeCookie('user');
         }
-        
         $term = getTerm();
 
         $goods = Db::name('term_goods') -> alias('a') 
@@ -42,6 +45,7 @@ class Index extends controller
     }
 
 
+    
     #======================================================angularjs的$http========================================================================
     public function topInfo(){
         $config = mallConfig();
@@ -66,10 +70,12 @@ class Index extends controller
             ];
         }
         $data['right'] = [
-            'mobile' => '/index/mobile/index', 
-            'order'=> '/index/order/index', 
-            'collection'=> '/index/collection/index', 
-            'user'=> '/index/order/index'
+            'logout' => '/index/login/logout', // 注销
+            'mobile' => '/index/login/mobilemall',  // 手机商城
+            'order'=> '/index/order/index',  // 我的订单
+            'cart'=> '/index/cart/index', // 购物车
+            'user'=> '/index/order/index', // 
+            'index' => '/index/index/index'
         ];
 
         echo json_encode($data, JSON_UNESCAPED_UNICODE);
@@ -83,7 +89,7 @@ class Index extends controller
             $data['footer'] = getField($footer);
             $data['company'] = $data['footer']['company_info']['value'];
             unset($data['footer']['company_info']);
-            // cache('FOOTER_INFO', $data); //缓存 注释
+            cache('FOOTER_INFO', $data); //缓存 注释
         }
         echo json_encode($data, JSON_UNESCAPED_UNICODE);
     }

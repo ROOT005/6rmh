@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:71:"/home/aptx/File/PHP/6rmh/public/../app/index/mobile/inner/purchase.html";i:1508832926;s:70:"/home/aptx/File/PHP/6rmh/public/../app/index/mobile/public/footer.html";i:1509929910;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:71:"/home/aptx/File/PHP/6rmh/public/../app/index/mobile/inner/purchase.html";i:1510642166;s:70:"/home/aptx/File/PHP/6rmh/public/../app/index/mobile/public/footer.html";i:1509929910;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,6 +9,7 @@
 	<link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="__STATIC__/layui/css/layui.css">
 	<link href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+	
 	<script type="text/javascript" src="__STATIC__/layui/layui.js"></script>
 	<link rel="stylesheet" type="text/css" href="__STATIC__/css/plugin/mall_balance.css">
 	<link rel="stylesheet" href="__STATIC__/css/plugin/mall_mobile_footer.css">
@@ -16,8 +17,9 @@
 </head>
 <body>
 	<div class="head">
-		<div class="head-title"><!-- <span class="back_home fa fa-long-arrow-left fa-1x"> --></span>交易平台</div>
+		<div class="head-title"><span class="back_home fa fa-long-arrow-left fa-1x" onclick="javascript:history(-1);"></span>交易平台</div>
 	</div>
+	<div>
 	<form class="layui-form" method="post"  action="<?php echo url('purchase'); ?>" style="display: none"> 
 		<div class="layui-row">
 			<div class="layui-margin-left layui-col-xs4 layui-col-sm4">
@@ -50,9 +52,9 @@
 	</form>
 		<span class="title inner-center"><i class="layui-icon">&#xe61a;</i>展开搜索</span>
 	 	<hr class="layui-bg-blue">
-
+</div>
 	<div class="body">
-		<?php if(is_array($list) || $list instanceof \think\Collection || $list instanceof \think\Paginator): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?>
+		<?php if(is_array($list) || $list instanceof \think\Collection || $list instanceof \think\Paginator): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;if($vo['status'] == 1): ?>
 		<div class="purchase-content">
 			<div class="purchase-img">
 				<?php if($vo['type'] == 1): ?>
@@ -75,21 +77,48 @@
 				<div class="price">出售时间段：<?php echo $vo['selltime']; ?></div>
 				<div class="time">上架时间：<?php echo $vo['addtime']; ?></div>
 			</div>
-			<div class="purchase-right-button"><button class="layui-btn layui-btn-mini" onclick="buy(<?php echo $vo['orderid']; ?>)">购买</button></div>
+			<div class="purchase-right-button"><button class="layui-btn layui-btn-mini" onclick="buy(<?php echo $vo['order_id']; ?>)">购买</button></div>
 		</div>
 		<hr>
-		<?php endforeach; endif; else: echo "" ;endif; ?>
+		<?php endif; endforeach; endif; else: echo "" ;endif; ?>
 		<span id="payform" style="display: none;">
 			<form class="form1" name="form1" method="post" role="form" action="<?php echo url('pay'); ?>">
-				<span class="paycheck"><input class="checked" type="checkbox" name="checkbox">&nbsp;&nbsp;余额支付</span>
-				<span class="payinput" style="display: none"><input class="w80 h30 main_font_color" type="password" name="pass" autofocus placeholder="支付密码" maxlength="6"/></span>
-				
-			</form>
+				<div class="paycheck"><input class="checked" type="checkbox" name="checkbox">&nbsp;&nbsp;余额支付</div>
+				<span class="payinput" style="display: none"><input class="w80 h30 main_font_color" type="password" name="pass" autofocus placeholder="支付密码" maxlength="6"/></span>	
+		</form>
 		</span>
 	</div>
 
-<?php echo $list->render(); ?>
+<div style="text-align: center;">
+	<?php echo $list->render(); ?>
+</div>
+<!--底部-->
+<div class="overflow">
+    
+</div>
+<div class="footer">
+        <div class="top fa fa-bars" aria-hidden="true"></div>
+        <div class="footer_content">
+            <li><a href="/"><span class="fa fa-home" aria-hidden="true"></span>首页</a></li>
+            <li><a href=""><span class="fa fa-gamepad" aria-hidden="true"></span>游戏</a></li>
+            <li><a href="/index/cart/"><span class="fa fa-shopping-cart" aria-hidden="true"></span>购物车</a></li>
+            <li><a href="/index/user/"><span class="fa fa-user" aria-hidden="true"></span>个人中心</a></li>
+        </div>
+</div>
+<script>
+    $('.top').click(function(event) {
+      $('.footer_content').slideToggle(200);
+      $('.overflow').slideToggle(200);
+    });
+     $('.footer').siblings().click(function(event) {
+         /* Act on the event */
+          $('.overflow').slideUp(200);
+         $('.footer_content').slideUp(200);
+     });
+</script>
+<!--底部结束-->
 <script type="text/javascript" src="__STATIC__/js/plugin/layer.js" ></script>
+
 	<script type="text/javascript">
 		layui.use(['form', 'upload','laydate'], function(){  //如果只加载一个模块，可以不填数组。如：layui.use('form')
 		  var form = layui.form //获取form模块
@@ -125,11 +154,18 @@
 			layer.open({
 			  title: [
 			    '购买',
-			    'background-color: #22ba7f; color:#fff;'
+			    'background-color: #22ba7f; color:#fff;',
+
 			  ]
+			   ,btn: ['确定', '取消']
+			   ,skin: 'footer'
+			   ,shadeClose: true
 			  ,content: payform,
 			  yes:function(){
 			  	$('.form1').submit();
+			  },
+			  no:function(index){
+			  	 layer.close(index);
 			  }
 			  
 			});
@@ -141,30 +177,7 @@
 		};
 		
 	</script>
-	<!--底部-->
-<div class="overflow">
-    
-</div>
-<div class="footer">
-        <div class="top fa fa-bars" aria-hidden="true"></div>
-        <div class="footer_content">
-            <li><a href="/"><span class="fa fa-home" aria-hidden="true"></span>首页</a></li>
-            <li><a href=""><span class="fa fa-gamepad" aria-hidden="true"></span>游戏</a></li>
-            <li><a href="/index/cart/"><span class="fa fa-shopping-cart" aria-hidden="true"></span>购物车</a></li>
-            <li><a href="/index/user/"><span class="fa fa-user" aria-hidden="true"></span>个人中心</a></li>
-        </div>
-</div>
-<script>
-    $('.top').click(function(event) {
-      $('.footer_content').slideToggle(200);
-      $('.overflow').slideToggle(200);
-    });
-     $('.footer').siblings().click(function(event) {
-         /* Act on the event */
-          $('.overflow').slideUp(200);
-         $('.footer_content').slideUp(200);
-     });
-</script>
-<!--底部结束-->
+
 </body>
+
 </html>

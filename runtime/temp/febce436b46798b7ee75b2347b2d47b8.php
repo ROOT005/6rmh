@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:67:"/home/aptx/File/PHP/6rmh/public/../app/index/mobile/user/index.html";i:1509693075;s:70:"/home/aptx/File/PHP/6rmh/public/../app/index/mobile/public/footer.html";i:1509929910;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:67:"/home/aptx/File/PHP/6rmh/public/../app/index/mobile/user/index.html";i:1510819376;s:70:"/home/aptx/File/PHP/6rmh/public/../app/index/mobile/public/footer.html";i:1509929910;}*/ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -24,40 +24,41 @@
 		<ul>
 			<li>
 				<a href="/index/order" class="fa fa-thumb-tack fa-3x" aria-hidden="true"></a>
-				<div>我的订单</div>
+				<div class="label_sign">我的订单</div>
 			</li>
 			<li>
 				<a href="/index/inner" class="fa fa-pie-chart fa-3x" aria-hidden="true"></a>
-				<div>我的资产</div>
+				<div class="label_sign">我的资产</div>
 			</li>
 			<li>
 				<a href="/index/Log/index/type/bait" class="fa fa-tags fa-3x" aria-hidden="true"></a>
-				<div>鱼饵明细</div>
+				<div class="label_sign">鱼饵明细</div>
 			</li>
 			<li>
 				<a href="/index/Log/index/type/point" class="fa fa-ticket fa-3x" aria-hidden="true"></a>
-				<div>积分明细</div>
+				<div class="label_sign">积分明细</div>
 			</li>
 			<li>
 				<a href="/index/Log/index/type/balance" class="fa fa-credit-card fa-3x" aria-hidden="true"></a>
-				<div>余额明细</div>
+				<div class="label_sign">余额明细</div>
 			</li>
 			<li>
 				<a href="/index/balance/recharge" class="fa fa-paper-plane fa-3x" aria-hidden="true"></a>
-				<div>余额充值</div>
+				<div class="label_sign">余额充值</div>
 			</li>
 			<li>
 				<a href="/index/balance/withdraw" class="fa fa-paper-plane fa-3x" aria-hidden="true"></a>
-				<div>余额提现</div>
+				<div class="label_sign">余额提现</div>
 			</li>
 			<li>
 				<a href="/index/inner/purchase" class="fa fa-random fa-3x" aria-hidden="true"></a>
-				<div>交易大厅</div>
+				<div class="label_sign">交易大厅</div>
 			</li>
 		</ul>
 	</div>
 	<div class="setting-content">
 		<form method="post" role="form" action="<?php echo url('editor'); ?>" enctype="multipart/form-data">
+		<input type="hidden" name="id" value="<?php echo $users['id']; ?>"/>
 		<div class="change_info">
 			<!-- <img class="hp_100 wp_100 o_h" src="<?php echo $users['headimgurl']; ?>" alt="用户头像未显示"> -->
 			<div class="change_cont"></div>
